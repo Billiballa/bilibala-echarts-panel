@@ -1,0 +1,22 @@
+<div class="editor-row">
+  <div class="section gf-form-group">
+    <h5 class="section-heading">Style</h5>
+    <div class="gf-form">
+      <label class="gf-form-label width-6">Font Size</label>
+      <input type="text" class="gf-form-input width-6" ng-model="ctrl.panel.fontSize" ng-change="ctrl.render()" ng-model-onblur>
+    </div>
+    <div class="gf-form">
+      <label class="gf-form-label width-9">Font Color</label>
+      <spectrum-picker class="gf-form-input" ng-model="ctrl.panel.fontColor" ng-change="ctrl.render()" ></spectrum-picker>
+    </div>
+  </div>
+  <div class="section gf-form-group">
+    <h5 class="section-heading">Settings</h5>
+    <div class="gf-form">
+      <label class="gf-form-label width-8">12 or 24 hour</label>
+      <div class="gf-form-select-wrapper max-width-9">
+        <select class="input-small gf-form-input" ng-model="ctrl.panel.clockType" ng-options="t for t in ['12 hour', '24 hour']" ng-change="ctrl.render()"></select>
+      </div>
+    </div>
+  </div>
+</div>

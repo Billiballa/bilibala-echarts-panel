@@ -38,9 +38,9 @@ export class EchartsCtrl extends MetricsPanelCtrl {
             // console.log(ctrl.panel.EchartsOption);
             myChart.resize();
 
-            // myChart.setOption(eval("(" + ctrl.panel.EchartsOption + ")"));
+            myChart.setOption(eval("(" + ctrl.panel.EchartsOption + ")"));
             
-            myChart.setOption(JSON.parse(ctrl.panel.EchartsOption));
+            // myChart.setOption(JSON.parse(ctrl.panel.EchartsOption));
         }
         setTimeout(myChart.resize, 100);
 

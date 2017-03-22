@@ -1,6 +1,5 @@
 # grafana-echarts-panel
 Echarts panel for grafana
--------------------------
 ## How Use
 1. Download [echarts.js](http://echarts.baidu.com/download.html) to **Grafana/public/vendor**
 2. `$ npm install`

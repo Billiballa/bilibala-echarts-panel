@@ -8,15 +8,7 @@ export class EchartsCtrl extends MetricsPanelCtrl {
         super($scope, $injector);
 
         const panelDefaults = {
-            EchartsOption: {
-                color: ['#85b6b2', '#6d4f8d','#cd5e7e', '#e38980','#f7db88'],
-                legend: {
-                    textStyle: {
-                        color: 'rgba(255, 255, 255, 1)'
-                    }
-                },
-                series: []
-            }
+            EchartsOption: '{}'
         };
 
         _.defaults(this.panel, panelDefaults);
@@ -45,9 +37,10 @@ export class EchartsCtrl extends MetricsPanelCtrl {
         let myChart = echarts.init($panelContainer);
 
         function render() {
-            // if (!ctrl.panel.EchartsOption) {
-            //     return; }
-            console.log(ctrl.panel.EchartsOption);
+            if (!ctrl.panel.EchartsOption||ctrl.panel.EchartsOption=="{}") {
+                return; 
+            }
+            // console.log(ctrl.panel.EchartsOption);
             myChart.resize();
             myChart.setOption(eval("(" + ctrl.panel.EchartsOption + ")"));
         }

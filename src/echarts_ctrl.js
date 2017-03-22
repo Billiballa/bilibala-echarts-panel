@@ -29,21 +29,18 @@ export class EchartsCtrl extends MetricsPanelCtrl {
     link(scope, elem, attrs, ctrl) {
         const $panelContainer = elem.find('.echarts_container')[0];
 
-        // console.log(elem.clientWidth);
-
-        $panelContainer.style.width = $panelContainer.parentNode.parentNode.clientWidth + 'px';
-        $panelContainer.style.height = $panelContainer.parentNode.parentNode.clientHeight + 'px';
-
         let myChart = echarts.init($panelContainer);
 
         function render() {
-            if (!ctrl.panel.EchartsOption||ctrl.panel.EchartsOption=="{}") {
-                return; 
+            if (!ctrl.panel.EchartsOption || ctrl.panel.EchartsOption == "{}") {
+                return;
             }
             // console.log(ctrl.panel.EchartsOption);
             myChart.resize();
+
             myChart.setOption(eval("(" + ctrl.panel.EchartsOption + ")"));
         }
+        setTimeout(myChart.resize, 100);
 
         this.events.on('render', function () {
             render();

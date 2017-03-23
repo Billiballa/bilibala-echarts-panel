@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import { MetricsPanelCtrl } from 'app/plugins/sdk';
 import echarts from 'vendor/echarts';
+import 'vendor/world';
 
 export class EchartsCtrl extends MetricsPanelCtrl {
 
@@ -42,7 +43,7 @@ export class EchartsCtrl extends MetricsPanelCtrl {
             
             // myChart.setOption(JSON.parse(ctrl.panel.EchartsOption));
         }
-        setTimeout(myChart.resize, 100);
+        setTimeout(myChart.resize, 300);
 
         this.events.on('render', function () {
             render();

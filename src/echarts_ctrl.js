@@ -52,7 +52,7 @@ export class EchartsCtrl extends MetricsPanelCtrl {
             // console.log(ctrl.panel.EchartsOption);
             myChart.resize();
 
-            eval( ctrl.panel.EchartsOption );
+            eval(ctrl.panel.EchartsOption);
 
             myChart.setOption(option);
             

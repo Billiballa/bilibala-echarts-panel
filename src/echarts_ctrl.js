@@ -2,6 +2,7 @@ import _ from 'lodash';
 import { MetricsPanelCtrl } from 'app/plugins/sdk';
 import echarts from 'vendor/echarts';
 import 'vendor/world';
+import 'vendor/china';
 
 export class EchartsCtrl extends MetricsPanelCtrl {
 
@@ -9,7 +10,7 @@ export class EchartsCtrl extends MetricsPanelCtrl {
         super($scope, $injector);
 
         const panelDefaults = {
-            EchartsOption: '{}'
+            EchartsOption: 'option = {}'
         };
 
         _.defaults(this.panel, panelDefaults);
@@ -30,20 +31,33 @@ export class EchartsCtrl extends MetricsPanelCtrl {
     link(scope, elem, attrs, ctrl) {
         const $panelContainer = elem.find('.echarts_container')[0];
 
-        let myChart = echarts.init($panelContainer);
+        let myChart;
+        let option = {};
+        
+        function initEchart(){
+            clearTimeout(Timer);
+            if($panelContainer.clientHeight){
+                myChart = echarts.init($panelContainer);
+            }else{
+                var Timer = setTimeout(initEchart, 100);
+            }
+        };
+
+        initEchart();
 
         function render() {
-            if (!ctrl.panel.EchartsOption || ctrl.panel.EchartsOption == "{}") {
+            if (!ctrl.panel.EchartsOption || ctrl.panel.EchartsOption == 'option = {}' ||!myChart) {
                 return;
             }
             // console.log(ctrl.panel.EchartsOption);
             myChart.resize();
 
-            myChart.setOption(eval("(" + ctrl.panel.EchartsOption + ")"));
+            eval( ctrl.panel.EchartsOption );
+
+            myChart.setOption(option);
             
             // myChart.setOption(JSON.parse(ctrl.panel.EchartsOption));
         }
-        setTimeout(myChart.resize, 300);
 
         this.events.on('render', function () {
             render();

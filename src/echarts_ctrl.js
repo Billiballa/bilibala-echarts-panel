@@ -3,6 +3,7 @@ import { MetricsPanelCtrl } from 'app/plugins/sdk';
 import echarts from 'vendor/echarts';
 import 'vendor/world';
 import 'vendor/china';
+import 'vendor/dark';
 
 export class EchartsCtrl extends MetricsPanelCtrl {
 
@@ -37,7 +38,7 @@ export class EchartsCtrl extends MetricsPanelCtrl {
         function initEchart(){
             clearTimeout(Timer);
             if($panelContainer.clientHeight){
-                myChart = echarts.init($panelContainer);
+                myChart = echarts.init($panelContainer,'dark');
             }else{
                 var Timer = setTimeout(initEchart, 100);
             }

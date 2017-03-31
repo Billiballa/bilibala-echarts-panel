@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import { MetricsPanelCtrl } from 'app/plugins/sdk';
 import echarts from 'vendor/echarts';
-import 'vendor/world';
+// import 'vendor/world';
 import 'vendor/china';
 import 'vendor/dark';
 

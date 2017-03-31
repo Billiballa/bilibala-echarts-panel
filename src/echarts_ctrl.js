@@ -31,20 +31,24 @@ export class EchartsCtrl extends MetricsPanelCtrl {
 
     link(scope, elem, attrs, ctrl) {
         const $panelContainer = elem.find('.echarts_container')[0];
-
-        let myChart;
         let option = {};
         
-        function initEchart(){
-            clearTimeout(Timer);
-            if($panelContainer.clientHeight){
-                myChart = echarts.init($panelContainer,'dark');
-            }else{
-                var Timer = setTimeout(initEchart, 100);
-            }
-        };
+        //init height
+        var height = ctrl.height || panel.height || ctrl.row.height;
+        if (_.isString(height)) {
+            height = parseInt(height.replace('px', ''), 10);
+        }
+        $panelContainer.style.height = height + 'px';
 
-        initEchart();
+        //init width
+        var width = document.body.clientWidth;
+        width = (width - 5.6 * 2) * ctrl.panel.span / 12 - 5.6 * 2 - 1 * 2 - 10 * 2;
+        $panelContainer.style.width = width + 'px';
+        console.log(ctrl.panel.span);
+        console.log(width);
+
+        //init echarts
+        var myChart = echarts.init($panelContainer, 'dark');
 
         function render() {
             if (!ctrl.panel.EchartsOption || ctrl.panel.EchartsOption == 'option = {}' ||!myChart) {
@@ -56,8 +60,6 @@ export class EchartsCtrl extends MetricsPanelCtrl {
             eval(ctrl.panel.EchartsOption);
 
             myChart.setOption(option);
-            
-            // myChart.setOption(JSON.parse(ctrl.panel.EchartsOption));
         }
 
         this.events.on('render', function () {

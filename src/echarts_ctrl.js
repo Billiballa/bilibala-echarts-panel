@@ -3,6 +3,7 @@ import { MetricsPanelCtrl } from 'app/plugins/sdk';
 import echarts from 'vendor/echarts';
 // import 'vendor/world';
 import 'vendor/china';
+import 'vendor/beijing';
 import 'vendor/dark';
 
 export class EchartsCtrl extends MetricsPanelCtrl {
@@ -22,7 +23,14 @@ export class EchartsCtrl extends MetricsPanelCtrl {
     }
 
     onDataReceived(dataList) {
-        // console.log(dataList);
+        this.data = dataList;
+        this.dataChanged();
+    }
+
+    dataChanged() {
+        this.IS_DATA_CHANGED = true;
+        this.render();
+        this.IS_DATA_CHANGED = false;
     }
 
     onInitEditMode() {
@@ -44,8 +52,6 @@ export class EchartsCtrl extends MetricsPanelCtrl {
         var width = document.body.clientWidth;
         width = (width - 5.6 * 2) * ctrl.panel.span / 12 - 5.6 * 2 - 1 * 2 - 10 * 2;
         $panelContainer.style.width = width + 'px';
-        console.log(ctrl.panel.span);
-        console.log(width);
 
         //init echarts
         var myChart = echarts.init($panelContainer, 'dark');
@@ -56,6 +62,10 @@ export class EchartsCtrl extends MetricsPanelCtrl {
             }
             // console.log(ctrl.panel.EchartsOption);
             myChart.resize();
+
+            if (ctrl.IS_DATA_CHANGED) {
+                myChart.clear();
+            }
 
             eval(ctrl.panel.EchartsOption);
 

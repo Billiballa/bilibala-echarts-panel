@@ -1,12 +1,12 @@
 import _ from 'lodash';
-import { MetricsPanelCtrl } from 'app/plugins/sdk';
+import { PanelCtrl } from 'app/plugins/sdk';
 import echarts from 'vendor/echarts';
 // import 'vendor/world';
 import 'vendor/china';
 import 'vendor/beijing';
 import 'vendor/dark';
 
-export class EchartsCtrl extends MetricsPanelCtrl {
+export class EchartsCtrl extends PanelCtrl {
 
     constructor($scope, $injector) {
         super($scope, $injector);
@@ -19,12 +19,6 @@ export class EchartsCtrl extends MetricsPanelCtrl {
 
         this.events.on('init-edit-mode', this.onInitEditMode.bind(this));
         this.events.on('panel-initialized', this.render.bind(this));
-        this.events.on('data-received', this.onDataReceived.bind(this));
-    }
-
-    onDataReceived(dataList) {
-        this.data = dataList;
-        this.dataChanged();
     }
 
     dataChanged() {

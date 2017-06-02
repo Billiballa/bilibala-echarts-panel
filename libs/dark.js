@@ -1,7 +1,7 @@
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
-        define(['exports', 'echarts'], factory);
+        define(['exports', 'vendor/echarts'], factory);
     } else if (typeof exports === 'object' && typeof exports.nodeName !== 'string') {
         // CommonJS
         factory(exports, require('echarts'));
@@ -49,12 +49,12 @@
                 }
             }
         };
-    };
+   };
 
-    var colorPalette = ['#dd6b66','#759aa0','#e69d87','#8dc1a9','#ea7e53','#eedd78','#73a373','#73b9bc','#7289ab', '#91ca8c','#f49f42'];
+    var colorPalette=['#fe8f02','#28292d','#d54429','#2d94d7','#1cafc7','#ea7e53','#eedd78','#73a373','#73b9bc','#7289ab', '#91ca8c','#f49f42'];
     var theme = {
         color: colorPalette,
-        backgroundColor: '#333',
+        
         tooltip: {
             axisPointer: {
                 lineStyle: {

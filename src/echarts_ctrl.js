@@ -1,9 +1,10 @@
 import { PanelCtrl } from 'app/plugins/sdk';
 import _ from 'lodash';
-import echarts from 'vendor/echarts';
-import 'vendor/dark';
-import 'vendor/china';
-import 'vendor/beijing';
+import echarts from './libs/echarts';
+import './libs/echarts-liquidfill';
+import './libs/dark';
+import './libs/china';
+import './libs/beijing';
 
 export class EchartsCtrl extends PanelCtrl {
 
@@ -41,15 +42,23 @@ export class EchartsCtrl extends PanelCtrl {
         if (_.isString(height)) {
             height = parseInt(height.replace('px', ''), 10);
         }
+	    height -= 5;
+	    height -= ctrl.panel.title ? 24 : 9;
         $panelContainer.style.height = height + 'px';
 
         //init width
-        // let width = document.body.clientWidth;
-        // width = (width - 5.6 * 2) * ctrl.panel.span / 12 - 5.6 * 2 - 1 * 2 - 10 * 2;
-        // $panelContainer.style.width = width + 'px';
+        let width = document.body.clientWidth;
+        width = (width - 5.6 * 2) * ctrl.panel.span / 12 - 5.6 * 2 - 1 * 2 - 10 * 2;
+        $panelContainer.style.width = width + 'px';
 
         //init echarts
         let myChart = echarts.init($panelContainer, 'dark');
+
+        //替代eval
+        function evil(fn) {
+            var Fn = Function; //一个变量指向Function，防止有些前端编译工具报错
+            return new Fn('return ' + fn)();
+        }
 
         function render() {
             if (!myChart) {
@@ -62,6 +71,7 @@ export class EchartsCtrl extends PanelCtrl {
             }
 
             eval(ctrl.panel.EchartsOption);
+            // evil(ctrl.panel.EchartsOption);
 
             myChart.setOption(option);
         }

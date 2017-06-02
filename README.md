@@ -1,8 +1,11 @@
 # grafana-echarts-panel
 Echarts panel for grafana
 ## How Use
-1. Merge **./vendor** folder and **Grafana/public/vendor** folder(You can also download [echarts.js](http://echarts.baidu.com/download.html), [world.js](http://echarts.baidu.com/download-map.html) and [China.js](http://echarts.baidu.com/download-map.html) to **Grafana/public/vendor/** and change `define(['exports', 'echarts'], factory);` to `define(['exports', 'vendor/echarts'], factory);` in dark.js, world.js and china.js.).
-2. `$ npm install`
-3. `$ grunt`
-4. Restart **Grafana-server**.
+1. `$ npm install`
+2. `$ grunt`
+3. Restart **Grafana-server**.
+4. Add a echarts panel.
 5. Add your echarts option to **EchartsOption** in edit page.
+## Tips
+1. You can import other map ,just copy it to **libs** folder and import it in **echarts_ctrl.js**.
+2. **dark.js** is the theme file ,If you want to customize theme.

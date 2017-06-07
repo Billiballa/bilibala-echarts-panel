@@ -1,6 +1,6 @@
 'use strict';
 
-System.register(['app/plugins/sdk', 'lodash', './libs/echarts', './libs/echarts-liquidfill', './libs/dark', './libs/china', './libs/beijing'], function (_export, _context) {
+System.register(['app/plugins/sdk', 'lodash', './libs/echarts', './libs/echarts-liquidfill', './libs/dark', './libs/china', './libs/beijing', './style.css!'], function (_export, _context) {
     "use strict";
 
     var PanelCtrl, _, echarts, _createClass, EchartsCtrl;
@@ -42,7 +42,7 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts', './libs/echarts-
             _ = _lodash.default;
         }, function (_libsEcharts) {
             echarts = _libsEcharts.default;
-        }, function (_libsEchartsLiquidfill) {}, function (_libsDark) {}, function (_libsChina) {}, function (_libsBeijing) {}],
+        }, function (_libsEchartsLiquidfill) {}, function (_libsDark) {}, function (_libsChina) {}, function (_libsBeijing) {}, function (_styleCss) {}],
         execute: function () {
             _createClass = function () {
                 function defineProperties(target, props) {
@@ -71,17 +71,59 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts', './libs/echarts-
                     var _this = _possibleConstructorReturn(this, (EchartsCtrl.__proto__ || Object.getPrototypeOf(EchartsCtrl)).call(this, $scope, $injector));
 
                     var panelDefaults = {
-                        EchartsOption: 'option = {}'
+                        EchartsOption: 'option = {}; \n console.log(JSON.stringify(echartsData));',
+                        valueMaps: [],
+                        sensors: [],
+                        url: '',
+                        request: '',
+                        updateInterval: 10000
                     };
 
                     _.defaults(_this.panel, panelDefaults);
+                    _.defaults(_this.panel.EchartsOption, panelDefaults.EchartsOption);
 
                     _this.events.on('init-edit-mode', _this.onInitEditMode.bind(_this));
                     _this.events.on('panel-initialized', _this.render.bind(_this));
+
+                    _this.updateClock();
                     return _this;
                 }
 
+                //post请求
+
+
                 _createClass(EchartsCtrl, [{
+                    key: 'updateClock',
+                    value: function updateClock() {
+                        var _this2 = this;
+
+                        var that = this,
+                            xmlhttp = void 0;
+
+                        if (window.XMLHttpRequest) {
+                            xmlhttp = new XMLHttpRequest();
+                        } else {
+                            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                        }
+
+                        xmlhttp.onreadystatechange = function () {
+                            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                                if (!JSON.parse(xmlhttp.responseText).success) return;
+                                that.data = JSON.parse(xmlhttp.responseText).data;
+                                that.dataChanged();
+                            }
+                        };
+
+                        if (that.panel.url && that.panel.request) {
+                            xmlhttp.open("POST", that.panel.url, true);
+                            xmlhttp.send(that.panel.request);
+                        }
+
+                        this.$timeout(function () {
+                            _this2.updateClock();
+                        }, that.panel.updateInterval);
+                    }
+                }, {
                     key: 'dataChanged',
                     value: function dataChanged() {
                         this.IS_DATA_CHANGED = true;
@@ -97,7 +139,8 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts', './libs/echarts-
                     key: 'link',
                     value: function link(scope, elem, attrs, ctrl) {
                         var $panelContainer = elem.find('.echarts_container')[0];
-                        var option = {};
+                        var option = {},
+                            echartsData = [];
 
                         ctrl.IS_DATA_CHANGED = true;
 
@@ -119,25 +162,24 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts', './libs/echarts-
                         var myChart = echarts.init($panelContainer, 'dark');
 
                         //替代eval
-                        function evil(fn) {
-                            var Fn = Function; //一个变量指向Function，防止有些前端编译工具报错
-                            return new Fn('return ' + fn)();
-                        }
+                        // function evil(fn) {
+                        //     var Fn = Function; //一个变量指向Function，防止有些前端编译工具报错
+                        //     return new Fn('return ' + fn)();
+                        // }
 
                         function render() {
-                            if (!myChart) {
+                            if (!myChart || !ctrl.data) {
                                 return;
                             }
-
                             myChart.resize();
+
                             if (ctrl.IS_DATA_CHANGED) {
                                 myChart.clear();
+                                echartsData = ctrl.data;
+                                eval(ctrl.panel.EchartsOption);
+                                // evil(ctrl.panel.EchartsOption);
+                                myChart.setOption(option);
                             }
-
-                            eval(ctrl.panel.EchartsOption);
-                            // evil(ctrl.panel.EchartsOption);
-
-                            myChart.setOption(option);
                         }
 
                         this.events.on('render', function () {

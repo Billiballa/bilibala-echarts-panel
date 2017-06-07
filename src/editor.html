@@ -1,3 +1,32 @@
-<h3 class="page-heading">Echarts Options</h3>
-<div style="margin: 16px 0;">You can edit JS like <strong><a target="_blank" href="http://gallery.echartsjs.com">this</a></strong>.</div>
-<textarea class="gf-form-input" ng-model="ctrl.panel.EchartsOption" rows="20" style="width:100%" ng-change="ctrl.dataChanged()" ng-model-onblur></textarea>
+<h3 class="page-heading">Options</h3>
+<div class="editor-row">
+    <div class="section gf-form-group">
+        <h5 class="section-heading">Data</h5>
+        <div class="gf-form-inline">
+            <div class="gf-form">
+                <label class="gf-form-label width-8">URL</label>
+                <input type="text" class="input-small gf-form-input width-30" ng-model="ctrl.panel.url" />
+            </div>
+        </div>
+        <div class="gf-form-inline">
+            <div class="gf-form">
+                <label class="gf-form-label width-8">Request</label>
+                <input type="text" class="input-small gf-form-input width-30" ng-model="ctrl.panel.request" />
+            </div>
+        </div>
+        <div class="gf-form-inline">
+            <div class="gf-form">
+                <label class="gf-form-label width-8">Interval</label>
+                <input type="number" class="input-small gf-form-input width-5" ng-model="ctrl.panel.updateInterval" placeholder="10000" />
+                <label class="gf-form-label width-3">ms</label>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="editor-row">
+    <h5 class="section-heading">
+        Edit Echarts Option
+        <tip>Response belongs to your url has been saved as 'echartsData'.</tip>
+    </h5>
+    <textarea class="gf-form-input" ng-model="ctrl.panel.EchartsOption" rows="20" style="width:100%" ng-change="ctrl.dataChanged()" ng-model-onblur></textarea>
+</div>

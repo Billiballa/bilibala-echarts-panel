@@ -5,6 +5,7 @@ import './libs/echarts-liquidfill';
 import './libs/dark';
 import './libs/china';
 import './libs/beijing';
+import './style.css!';
 
 export class EchartsCtrl extends PanelCtrl {
 
@@ -12,16 +13,50 @@ export class EchartsCtrl extends PanelCtrl {
         super($scope, $injector);
 
         const panelDefaults = {
-            EchartsOption: 'option = {}'
+            EchartsOption: 'option = {}; \n console.log(JSON.stringify(echartsData));',
+            valueMaps: [],
+            sensors: [],
+            url: '',
+            request: '',
+            updateInterval: 10000
         };
 
         _.defaults(this.panel, panelDefaults);
+        _.defaults(this.panel.EchartsOption, panelDefaults.EchartsOption);
 
         this.events.on('init-edit-mode', this.onInitEditMode.bind(this));
         this.events.on('panel-initialized', this.render.bind(this));
+
+        this.updateClock();
     }
 
-    dataChanged(){
+    //post请求
+    updateClock() {
+        let that = this, xmlhttp;
+
+        if (window.XMLHttpRequest) {
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                if (!JSON.parse(xmlhttp.responseText).success) return;
+                that.data = JSON.parse(xmlhttp.responseText).data;
+                that.dataChanged();
+            }
+        }
+
+        if (that.panel.url&&that.panel.request) {
+            xmlhttp.open("POST", that.panel.url, true);
+            xmlhttp.send(that.panel.request);
+        }
+
+        this.$timeout(() => { this.updateClock(); }, that.panel.updateInterval);
+    }
+
+    dataChanged() {
         this.IS_DATA_CHANGED = true;
         this.render();
         this.IS_DATA_CHANGED = false;
@@ -33,7 +68,8 @@ export class EchartsCtrl extends PanelCtrl {
 
     link(scope, elem, attrs, ctrl) {
         const $panelContainer = elem.find('.echarts_container')[0];
-        let option = {};
+        let option = {},
+            echartsData = [];
 
         ctrl.IS_DATA_CHANGED = true;
 
@@ -55,25 +91,24 @@ export class EchartsCtrl extends PanelCtrl {
         let myChart = echarts.init($panelContainer, 'dark');
 
         //替代eval
-        function evil(fn) {
-            var Fn = Function; //一个变量指向Function，防止有些前端编译工具报错
-            return new Fn('return ' + fn)();
-        }
+        // function evil(fn) {
+        //     var Fn = Function; //一个变量指向Function，防止有些前端编译工具报错
+        //     return new Fn('return ' + fn)();
+        // }
 
         function render() {
-            if (!myChart) {
+            if (!myChart||!ctrl.data) {
                 return;
             }
-
             myChart.resize();
+
             if (ctrl.IS_DATA_CHANGED) {
                 myChart.clear();
+                echartsData = ctrl.data;
+                eval(ctrl.panel.EchartsOption);
+                // evil(ctrl.panel.EchartsOption);
+                myChart.setOption(option);
             }
-
-            eval(ctrl.panel.EchartsOption);
-            // evil(ctrl.panel.EchartsOption);
-
-            myChart.setOption(option);
         }
 
         this.events.on('render', function () {

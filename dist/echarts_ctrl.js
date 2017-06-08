@@ -168,7 +168,7 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts', './libs/echarts-
                         // }
 
                         function render() {
-                            if (!myChart || !ctrl.data) {
+                            if (!myChart) {
                                 return;
                             }
                             myChart.resize();

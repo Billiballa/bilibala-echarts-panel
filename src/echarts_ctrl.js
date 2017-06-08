@@ -97,7 +97,7 @@ export class EchartsCtrl extends PanelCtrl {
         // }
 
         function render() {
-            if (!myChart||!ctrl.data) {
+            if (!myChart) {
                 return;
             }
             myChart.resize();

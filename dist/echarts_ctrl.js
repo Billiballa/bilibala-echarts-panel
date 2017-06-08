@@ -167,6 +167,59 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts', './libs/echarts-
                         //     return new Fn('return ' + fn)();
                         // }
 
+                        // function debounce(func, wait, immediate) {
+                        //     let timeout, result;
+
+                        //     let debounced = function () {
+                        //         let context = this;
+                        //         let args = arguments;
+
+                        //         if (timeout) clearTimeout(timeout);
+
+                        //         if (immediate) {
+                        //             let callNow = !timeout;
+
+                        //             timeout = setTimeout(function () {
+                        //                 timeout = null;
+                        //             }, wait);
+
+                        //             if (callNow) result = func.apply(context, args);
+                        //         } else {
+                        //             timeout = setTimeout(function () {
+                        //                 result = func.apply(context, args);
+                        //             }, wait);
+                        //         }
+                        //         return result;
+                        //     }
+
+                        //     debounced.cancel = function () {
+                        //         clearTimeout(timeout);
+                        //         timeout = null;
+                        //     }
+
+                        //     return debounced;
+                        // }
+
+                        // 计时器容器，防止重复触发计时事件
+                        var callInterval = function () {
+                            var timeout, result;
+
+                            function func(callBack, interval) {
+                                var context = this;
+                                var args = arguments;
+
+                                if (timeout) clearTimeout(timeout);
+
+                                timeout = setInterval(function () {
+                                    result = callBack.apply(context, args);
+                                }, interval);
+
+                                return result;
+                            }
+
+                            return func;
+                        }();
+
                         function render() {
                             if (!myChart) {
                                 return;

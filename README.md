@@ -9,3 +9,5 @@ Echarts panel for grafana
 ## Tips
 1. You can import other map ,just copy it to **libs** folder and import it in **echarts_ctrl.js**.
 2. **dark.js** is the theme file ,If you want to customize theme.
+3. Response belongs to your url has been saved as **echartsData**.
+4. Calling the timer function as the callback of **callInterval(callBack, interval)** function prevents it from being repeatedly triggered.

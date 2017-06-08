@@ -48,7 +48,7 @@ export class EchartsCtrl extends PanelCtrl {
             }
         }
 
-        if (that.panel.url&&that.panel.request) {
+        if (that.panel.url && that.panel.request) {
             xmlhttp.open("POST", that.panel.url, true);
             xmlhttp.send(that.panel.request);
         }
@@ -78,8 +78,8 @@ export class EchartsCtrl extends PanelCtrl {
         if (_.isString(height)) {
             height = parseInt(height.replace('px', ''), 10);
         }
-	    height -= 5;
-	    height -= ctrl.panel.title ? 24 : 9;
+        height -= 5;
+        height -= ctrl.panel.title ? 24 : 9;
         $panelContainer.style.height = height + 'px';
 
         //init width
@@ -95,6 +95,59 @@ export class EchartsCtrl extends PanelCtrl {
         //     var Fn = Function; //一个变量指向Function，防止有些前端编译工具报错
         //     return new Fn('return ' + fn)();
         // }
+
+        // function debounce(func, wait, immediate) {
+        //     let timeout, result;
+
+        //     let debounced = function () {
+        //         let context = this;
+        //         let args = arguments;
+
+        //         if (timeout) clearTimeout(timeout);
+
+        //         if (immediate) {
+        //             let callNow = !timeout;
+
+        //             timeout = setTimeout(function () {
+        //                 timeout = null;
+        //             }, wait);
+
+        //             if (callNow) result = func.apply(context, args);
+        //         } else {
+        //             timeout = setTimeout(function () {
+        //                 result = func.apply(context, args);
+        //             }, wait);
+        //         }
+        //         return result;
+        //     }
+
+        //     debounced.cancel = function () {
+        //         clearTimeout(timeout);
+        //         timeout = null;
+        //     }
+
+        //     return debounced;
+        // }
+
+        // 计时器容器，防止重复触发计时事件
+        var callInterval = function () {
+            var timeout, result;
+
+            function func(callBack, interval) {
+                var context = this;
+                var args = arguments;
+
+                if (timeout) clearTimeout(timeout);
+
+                timeout = setInterval(function () {
+                    result = callBack.apply(context, args);
+                }, interval);
+
+                return result;
+            }
+
+            return func;
+        }();
 
         function render() {
             if (!myChart) {

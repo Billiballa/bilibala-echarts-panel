@@ -1,4 +1,4 @@
-module.exports = function(grunt){
+module.exports = function (grunt) {
   require("load-grunt-tasks")(grunt);
 
   grunt.loadNpmTasks('grunt-execute');
@@ -8,12 +8,12 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-multi-dest');
   grunt.loadNpmTasks('grunt-babel');
   grunt.loadNpmTasks('grunt-force-task');
-  grunt.loadNpmTasks('grunt-contrib-jshint');	
+  grunt.loadNpmTasks('grunt-contrib-jshint');
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     clean: ["dist"],
-    
+
     jshint: {
       options: {
         jshintrc: '.jshintrc',
@@ -52,24 +52,35 @@ module.exports = function(grunt){
         dest: 'dist/libs/',
         options: {
           process: function (content, srcpath) {
-            return content.replace(/(\'|")echarts(\'|")/g, '$1./echarts$2');
+            return content.replace(/(\'|")echarts(\'|")/g, '$1./echarts.min$2');
           },
         },
       },
       echarts_libs: {
         cwd: 'node_modules/echarts/dist',
         expand: true,
-        src: ['echarts.js'],
+        src: ['echarts.min.js'],
         dest: 'dist/libs/',
       },
       liquidfill_libs: {
         cwd: 'node_modules/echarts-liquidfill/dist',
         expand: true,
-        src: ['echarts-liquidfill.js'],
+        src: ['echarts-liquidfill.min.js'],
         dest: 'dist/libs/',
         options: {
           process: function (content, srcpath) {
-            return content.replace(/(\'|")echarts(\'|")/g, '$1./echarts$2');
+            return content.replace(/(\'|")echarts(\'|")/g, '$1./echarts.min$2');
+          },
+        },
+      },
+      wordcloud_libs: {
+        cwd: 'node_modules/echarts-wordcloud/dist',
+        expand: true,
+        src: ['echarts-wordcloud.min.js'],
+        dest: 'dist/libs/',
+        options: {
+          process: function (content, srcpath) {
+            return content.replace(/(\'|")echarts(\'|")/g, '$1./echarts.min$2');
           },
         },
       },
@@ -81,27 +92,27 @@ module.exports = function(grunt){
       },
       pluginDef: {
         expand: true,
-        src: [ 'README.md'],
+        src: ['README.md'],
         dest: 'dist',
       }
     },
 
     multidest: {
-        copy_some_files: {
-            tasks: [
-                "copy:main",
-                "copy:externals",
-                "copy:pluginDef"
-            ],
-            dest: ["dist"]
-        },
+      copy_some_files: {
+        tasks: [
+          "copy:main",
+          "copy:externals",
+          "copy:pluginDef"
+        ],
+        dest: ["dist"]
+      },
     },
 
     packageModules: {
-        dist: {
-          src: 'package.json',
-          dest: 'dist/src'
-        },
+      dist: {
+        src: 'package.json',
+        dest: 'dist'
+      },
     },
 
     concat: {
@@ -115,15 +126,15 @@ module.exports = function(grunt){
       rebuild_all: {
         files: ['src/**/*', 'README.md', '!src/node_modules/**', '!src/bower_components/**'],
         tasks: ['default'],
-        options: {spawn: false}
+        options: { spawn: false }
       },
     },
 
     babel: {
       options: {
-        ignore: ['**/bower_components/*','**/external/*',"**/src/libs/*"],
+        ignore: ['**/bower_components/*', '**/external/*', "**/src/libs/*"],
         sourceMap: true,
-        presets:  ["es2015"],
+        presets: ["es2015"],
         plugins: ['transform-es2015-modules-systemjs', "transform-es2015-for-of"],
       },
       dist: {
@@ -132,20 +143,21 @@ module.exports = function(grunt){
           expand: true,
           src: ['**/*.js'],
           dest: 'dist',
-          ext:'.js'
+          ext: '.js'
         }]
       },
     },
   });
   grunt.registerTask('default', [
-          // 'jshint',
-          'clean',
-          'multidest',
-          'copy:libs',
-          'copy:echarts_libs',
-          'copy:liquidfill_libs',
-          'copy:bower_libs',
-          'copy:img_to_dist',
-          // 'packageModules',
-          'babel']);
+    'jshint',
+    'clean',
+    'multidest',
+    'copy:libs',
+    'copy:echarts_libs',
+    'copy:liquidfill_libs',
+    'copy:wordcloud_libs',
+    'copy:bower_libs',
+    'copy:img_to_dist',
+    // 'packageModules',
+    'babel']);
 };

@@ -1,7 +1,8 @@
 import { PanelCtrl } from 'app/plugins/sdk';
 import _ from 'lodash';
-import echarts from './libs/echarts';
-import './libs/echarts-liquidfill';
+import echarts from './libs/echarts.min';
+import './libs/echarts-liquidfill.min';
+import './libs/echarts-wordcloud.min';
 import './libs/dark';
 import './libs/china';
 import './libs/beijing';
@@ -13,7 +14,7 @@ export class EchartsCtrl extends PanelCtrl {
         super($scope, $injector);
 
         const panelDefaults = {
-            EchartsOption: 'option = {}; \n console.log(JSON.stringify(echartsData));',
+            EchartsOption: 'console.log(JSON.stringify(echartsData)); \n option = {};',
             valueMaps: [],
             sensors: [],
             url: '',
@@ -46,7 +47,7 @@ export class EchartsCtrl extends PanelCtrl {
                 that.data = JSON.parse(xmlhttp.responseText).data;
                 that.dataChanged();
             }
-        }
+        };
 
         if (that.panel.url && that.panel.request) {
             xmlhttp.open("POST", that.panel.url, true);
@@ -96,45 +97,12 @@ export class EchartsCtrl extends PanelCtrl {
         //     return new Fn('return ' + fn)();
         // }
 
-        // function debounce(func, wait, immediate) {
-        //     let timeout, result;
-
-        //     let debounced = function () {
-        //         let context = this;
-        //         let args = arguments;
-
-        //         if (timeout) clearTimeout(timeout);
-
-        //         if (immediate) {
-        //             let callNow = !timeout;
-
-        //             timeout = setTimeout(function () {
-        //                 timeout = null;
-        //             }, wait);
-
-        //             if (callNow) result = func.apply(context, args);
-        //         } else {
-        //             timeout = setTimeout(function () {
-        //                 result = func.apply(context, args);
-        //             }, wait);
-        //         }
-        //         return result;
-        //     }
-
-        //     debounced.cancel = function () {
-        //         clearTimeout(timeout);
-        //         timeout = null;
-        //     }
-
-        //     return debounced;
-        // }
-
         // 计时器容器，防止重复触发计时事件
         var callInterval = function () {
             var timeout, result;
 
             function func(callBack, interval) {
-                var context = this;
+                var context = this; // jshint ignore:line
                 var args = arguments;
 
                 if (timeout) clearTimeout(timeout);
@@ -158,8 +126,10 @@ export class EchartsCtrl extends PanelCtrl {
             if (ctrl.IS_DATA_CHANGED) {
                 myChart.clear();
                 echartsData = ctrl.data;
-                eval(ctrl.panel.EchartsOption);
+
+                eval(ctrl.panel.EchartsOption); // jshint ignore:line
                 // evil(ctrl.panel.EchartsOption);
+
                 myChart.setOption(option);
             }
         }

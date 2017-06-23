@@ -1,6 +1,6 @@
 'use strict';
 
-System.register(['app/plugins/sdk', 'lodash', './libs/echarts', './libs/echarts-liquidfill', './libs/dark', './libs/china', './libs/beijing', './style.css!'], function (_export, _context) {
+System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echarts-liquidfill.min', './libs/echarts-wordcloud.min', './libs/dark', './libs/china', './libs/beijing', './style.css!'], function (_export, _context) {
     "use strict";
 
     var PanelCtrl, _, echarts, _createClass, EchartsCtrl;
@@ -40,9 +40,9 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts', './libs/echarts-
             PanelCtrl = _appPluginsSdk.PanelCtrl;
         }, function (_lodash) {
             _ = _lodash.default;
-        }, function (_libsEcharts) {
-            echarts = _libsEcharts.default;
-        }, function (_libsEchartsLiquidfill) {}, function (_libsDark) {}, function (_libsChina) {}, function (_libsBeijing) {}, function (_styleCss) {}],
+        }, function (_libsEchartsMin) {
+            echarts = _libsEchartsMin.default;
+        }, function (_libsEchartsLiquidfillMin) {}, function (_libsEchartsWordcloudMin) {}, function (_libsDark) {}, function (_libsChina) {}, function (_libsBeijing) {}, function (_styleCss) {}],
         execute: function () {
             _createClass = function () {
                 function defineProperties(target, props) {
@@ -71,7 +71,7 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts', './libs/echarts-
                     var _this = _possibleConstructorReturn(this, (EchartsCtrl.__proto__ || Object.getPrototypeOf(EchartsCtrl)).call(this, $scope, $injector));
 
                     var panelDefaults = {
-                        EchartsOption: 'option = {}; \n console.log(JSON.stringify(echartsData));',
+                        EchartsOption: 'console.log(JSON.stringify(echartsData)); \n option = {};',
                         valueMaps: [],
                         sensors: [],
                         url: '',
@@ -167,45 +167,12 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts', './libs/echarts-
                         //     return new Fn('return ' + fn)();
                         // }
 
-                        // function debounce(func, wait, immediate) {
-                        //     let timeout, result;
-
-                        //     let debounced = function () {
-                        //         let context = this;
-                        //         let args = arguments;
-
-                        //         if (timeout) clearTimeout(timeout);
-
-                        //         if (immediate) {
-                        //             let callNow = !timeout;
-
-                        //             timeout = setTimeout(function () {
-                        //                 timeout = null;
-                        //             }, wait);
-
-                        //             if (callNow) result = func.apply(context, args);
-                        //         } else {
-                        //             timeout = setTimeout(function () {
-                        //                 result = func.apply(context, args);
-                        //             }, wait);
-                        //         }
-                        //         return result;
-                        //     }
-
-                        //     debounced.cancel = function () {
-                        //         clearTimeout(timeout);
-                        //         timeout = null;
-                        //     }
-
-                        //     return debounced;
-                        // }
-
                         // 计时器容器，防止重复触发计时事件
                         var callInterval = function () {
                             var timeout, result;
 
                             function func(callBack, interval) {
-                                var context = this;
+                                var context = this; // jshint ignore:line
                                 var args = arguments;
 
                                 if (timeout) clearTimeout(timeout);
@@ -229,8 +196,10 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts', './libs/echarts-
                             if (ctrl.IS_DATA_CHANGED) {
                                 myChart.clear();
                                 echartsData = ctrl.data;
-                                eval(ctrl.panel.EchartsOption);
+
+                                eval(ctrl.panel.EchartsOption); // jshint ignore:line
                                 // evil(ctrl.panel.EchartsOption);
+
                                 myChart.setOption(option);
                             }
                         }

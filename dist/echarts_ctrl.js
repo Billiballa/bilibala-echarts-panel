@@ -1,6 +1,6 @@
 'use strict';
 
-System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echarts-liquidfill.min', './libs/echarts-wordcloud.min', './libs/dark', './style.css!'], function (_export, _context) {
+System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echarts-liquidfill.min', './libs/echarts-wordcloud.min', './libs/dark', './style.css!', './libs/bmap.js', './libs/getBmap.js'], function (_export, _context) {
     "use strict";
 
     var MetricsPanelCtrl, _, echarts, _createClass, EchartsCtrl;
@@ -42,7 +42,7 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
             _ = _lodash.default;
         }, function (_libsEchartsMin) {
             echarts = _libsEchartsMin.default;
-        }, function (_libsEchartsLiquidfillMin) {}, function (_libsEchartsWordcloudMin) {}, function (_libsDark) {}, function (_styleCss) {}],
+        }, function (_libsEchartsLiquidfillMin) {}, function (_libsEchartsWordcloudMin) {}, function (_libsDark) {}, function (_styleCss) {}, function (_libsBmapJs) {}, function (_libsGetBmapJs) {}],
         execute: function () {
             _createClass = function () {
                 function defineProperties(target, props) {
@@ -80,7 +80,7 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                         updateInterval: 10000
                     };
 
-                    _this.maps = ['世界', '中国', '北京', '百度地图'];
+                    _this.maps = ['世界', '中国', '北京'];
 
                     _.defaults(_this.panel, panelDefaults);
 
@@ -160,10 +160,10 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                             case '北京':
                                 System.import(this.getPanelPath() + 'libs/beijing.js');
                                 break;
-                            case '百度地图':
-                                System.import(this.getPanelPath() + 'libs/bmap.js');
-                                System.import(this.getPanelPath() + 'libs/getBmap.js');
-                                break;
+                            // case '百度地图':
+                            //     System.import(this.getPanelPath() + 'libs/bmap.js');
+                            //     System.import(this.getPanelPath() + 'libs/getBmap.js');
+                            // break;
                             default:
                                 break;
                         }

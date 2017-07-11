@@ -5,6 +5,8 @@ import './libs/echarts-liquidfill.min';
 import './libs/echarts-wordcloud.min';
 import './libs/dark';
 import './style.css!';
+import './libs/bmap.js';
+import './libs/getBmap.js';
 
 export class EchartsCtrl extends MetricsPanelCtrl {
 
@@ -21,7 +23,7 @@ export class EchartsCtrl extends MetricsPanelCtrl {
             updateInterval: 10000
         };
 
-        this.maps = ['世界', '中国', '北京', '百度地图'];
+        this.maps = ['世界', '中国', '北京'];
 
         _.defaults(this.panel, panelDefaults);
 
@@ -87,10 +89,10 @@ export class EchartsCtrl extends MetricsPanelCtrl {
             case '北京':
                 System.import(this.getPanelPath() + 'libs/beijing.js');
                 break;
-            case '百度地图':
-                System.import(this.getPanelPath() + 'libs/bmap.js');
-                System.import(this.getPanelPath() + 'libs/getBmap.js');
-            break;
+            // case '百度地图':
+            //     System.import(this.getPanelPath() + 'libs/bmap.js');
+            //     System.import(this.getPanelPath() + 'libs/getBmap.js');
+            // break;
             default:
                 break;
         }

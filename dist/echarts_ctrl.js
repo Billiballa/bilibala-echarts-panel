@@ -149,7 +149,7 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                 }, {
                     key: 'importMap',
                     value: function importMap() {
-                        if (!this.IS_MAP) return;
+                        if (!this.panel.IS_MAP) return;
                         switch (this.panel.map) {
                             case '世界':
                                 System.import(this.getPanelPath() + 'libs/world.js');

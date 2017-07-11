@@ -17,7 +17,7 @@ module.exports = function (grunt) {
     jshint: {
       options: {
         jshintrc: '.jshintrc',
-        ignores: ['src/bower_components/**', 'src/**/external/**'],
+        ignores: ['src/bower_components/**'],
       },
       src: ['Gruntfile.js', 'src/**/*.js'],
     },
@@ -32,12 +32,6 @@ module.exports = function (grunt) {
             return content.replace(/"echarts"/g, '"./echarts"');
           },
         },
-      },
-      externals: {
-        cwd: 'src',
-        expand: true,
-        src: ['**/external/*'],
-        dest: 'dist'
       },
       bower_libs: {
         cwd: 'bower_components',
@@ -101,7 +95,6 @@ module.exports = function (grunt) {
       copy_some_files: {
         tasks: [
           "copy:main",
-          "copy:externals",
           "copy:pluginDef"
         ],
         dest: ["dist"]

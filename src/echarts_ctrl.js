@@ -21,7 +21,7 @@ export class EchartsCtrl extends MetricsPanelCtrl {
             updateInterval: 10000
         };
 
-        this.maps = ['世界', '中国', '北京'];
+        this.maps = ['世界', '中国', '北京', '百度地图'];
 
         _.defaults(this.panel, panelDefaults);
 
@@ -87,15 +87,10 @@ export class EchartsCtrl extends MetricsPanelCtrl {
             case '北京':
                 System.import(this.getPanelPath() + 'libs/beijing.js');
                 break;
-            // case '百度地图':
-            // System.import('http://gallery.echartsjs.com/dep/echarts/latest/extension/bmap.min.js');
-            // System.import('http://api.map.baidu.com/getscript?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM&services=&t=20170703123905');
-            // document.body.innerHTML+='<script src="http://gallery.echartsjs.com/dep/echarts/latest/extension/bmap.min.js"><script/>';
-            // (function(){
-            //     window.BMap_loadScriptTime = (new Date()).getTime();
-            //     document.body.innerHTML += '<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM&services=&t=20170705114645"></script>';
-            // })();
-            // break;
+            case '百度地图':
+                System.import(this.getPanelPath() + 'libs/bmap.js');
+                System.import(this.getPanelPath() + 'libs/getBmap.js');
+            break;
             default:
                 break;
         }

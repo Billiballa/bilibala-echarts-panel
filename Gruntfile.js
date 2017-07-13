@@ -11,34 +11,31 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
 
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
-    clean: ["dist"],
+    clean: ['dist'],
 
     jshint: {
       options: {
         jshintrc: '.jshintrc',
         ignores: ['src/bower_components/**'],
       },
-      src: ['Gruntfile.js', 'src/**/*.js'],
+      src: ['Gruntfile.js', 'src/*.js'],
     },
+
     copy: {
-      main: {
+      src_to_dist: {
         cwd: 'src',
         expand: true,
         src: ['**/*', '!**/*.js', '!**/*.ts', '!**/*.scss', '!img/**/*'],
-        dest: 'dist',
-        options: {
-          process: function (content, srcpath) {
-            return content.replace(/"echarts"/g, '"./echarts"');
-          },
-        },
+        dest: 'dist'
       },
+
       bower_libs: {
         cwd: 'bower_components',
         expand: true,
         src: [],
         dest: 'dist/libs/'
       },
+
       libs: {
         cwd: 'libs',
         expand: true,
@@ -50,12 +47,14 @@ module.exports = function (grunt) {
           },
         },
       },
+
       echarts_libs: {
         cwd: 'node_modules/echarts/dist',
         expand: true,
         src: ['echarts.min.js'],
         dest: 'dist/libs/',
       },
+
       liquidfill_libs: {
         cwd: 'node_modules/echarts-liquidfill/dist',
         expand: true,
@@ -67,6 +66,7 @@ module.exports = function (grunt) {
           },
         },
       },
+
       wordcloud_libs: {
         cwd: 'node_modules/echarts-wordcloud/dist',
         expand: true,
@@ -78,34 +78,19 @@ module.exports = function (grunt) {
           },
         },
       },
+
       img_to_dist: {
         cwd: 'src',
         expand: true,
         src: ['img/**/*'],
         dest: 'dist/img/'
       },
+
       pluginDef: {
         expand: true,
-        src: ['README.md'],
+        src: ['README.md','plugin.json'],
         dest: 'dist',
       }
-    },
-
-    multidest: {
-      copy_some_files: {
-        tasks: [
-          "copy:main",
-          "copy:pluginDef"
-        ],
-        dest: ["dist"]
-      },
-    },
-
-    packageModules: {
-      dist: {
-        src: 'package.json',
-        dest: 'dist'
-      },
     },
 
     concat: {
@@ -117,9 +102,9 @@ module.exports = function (grunt) {
 
     watch: {
       rebuild_all: {
-        files: ['src/**/*', 'README.md', '!src/node_modules/**', '!src/bower_components/**'],
+        files: ['src/**/*', 'plugin.json', 'README.md', '!src/node_modules/**', '!src/bower_components/**'],
         tasks: ['default'],
-        options: { spawn: false }
+        options: {spawn: false}
       },
     },
 
@@ -144,13 +129,14 @@ module.exports = function (grunt) {
   grunt.registerTask('default', [
     'jshint',
     'clean',
-    'multidest',
+    'copy:src_to_dist',
+    'copy:bower_libs',
     'copy:libs',
     'copy:echarts_libs',
     'copy:liquidfill_libs',
     'copy:wordcloud_libs',
-    'copy:bower_libs',
     'copy:img_to_dist',
-    // 'packageModules',
-    'babel']);
+    'copy:pluginDef',
+    'babel'
+  ]);
 };

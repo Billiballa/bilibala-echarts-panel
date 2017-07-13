@@ -1,7 +1,7 @@
 {
   "type": "panel",
   "name": "Echarts",
-  "id": "grafana-echarts-panel",
+  "id": "dxc-echarts-panel",
 
   "info": {
     "description": "Echarts panel for grafana",

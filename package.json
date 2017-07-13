@@ -1,5 +1,5 @@
 {
-  "name": "grafana-echarts-panel",
+  "name": "dxc-echarts-panel",
   "version": "1.0.0",
   "description": "Echarts panel for grafana",
   "main": "src/module.js",

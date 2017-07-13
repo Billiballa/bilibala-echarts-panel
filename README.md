@@ -1,4 +1,4 @@
-# grafana-echarts-panel
+# dxc-echarts-panel
 Echarts panel for grafana
 ## How Use
 1. `$ npm install`

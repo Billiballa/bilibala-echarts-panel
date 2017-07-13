@@ -1,15 +1,11 @@
 {
-  "name": "grafana-echarts-panel",
+  "name": "dxc-echarts-panel",
   "description": "Echarts panel for grafana",
   "main": "src/main.js",
-  "license": "",
-  "homepage": "https://github.com/Billiballa/grafana-echarts-panel",
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ],
   "dependencies": {
   }

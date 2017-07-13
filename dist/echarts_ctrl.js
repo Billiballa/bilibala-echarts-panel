@@ -75,6 +75,8 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                         IS_MAP: false,
                         map: '',
                         USE_URL: false,
+                        USE_FAKE_DATA: true,
+                        fakeData: '',
                         url: '',
                         request: '',
                         updateInterval: 10000
@@ -113,15 +115,16 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
 
                         xmlhttp.onreadystatechange = function () {
                             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                                if (!JSON.parse(xmlhttp.responseText).success) return;
-                                that.UrlData = JSON.parse(xmlhttp.responseText).data;
+                                that.UrlData = JSON.parse(xmlhttp.responseText);
                                 that.onDataReceived();
                             }
                         };
 
-                        if (that.panel.url && that.panel.request) {
+                        if (that.panel.USE_URL && !that.panel.USE_FAKE_DATA && that.panel.url && that.panel.request) {
                             xmlhttp.open("POST", that.panel.url, true);
                             xmlhttp.send(that.panel.request);
+                        } else {
+                            xmlhttp = null;
                         }
 
                         this.$timeout(function () {
@@ -132,6 +135,11 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                     key: 'onDataReceived',
                     value: function onDataReceived(dataList) {
                         this.data = this.panel.USE_URL ? this.UrlData : dataList;
+
+                        if (this.panel.USE_URL && this.panel.USE_FAKE_DATA && this.panel.fakeData) {
+                            this.data = eval(this.panel.fakeData); // jshint ignore:line
+                        }
+
                         this.IS_DATA_CHANGED = true;
                         this.render();
                         this.IS_DATA_CHANGED = false;
@@ -144,7 +152,8 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                 }, {
                     key: 'onInitEditMode',
                     value: function onInitEditMode() {
-                        this.addEditorTab('Ecahrts配置', 'public/plugins/grafana-echarts-panel/editor.html', 2);
+                        this.addEditorTab('数据', 'public/plugins/dxc-echarts-panel/editer-metric.html', 2);
+                        this.addEditorTab('Ecahrts配置', 'public/plugins/dxc-echarts-panel/editor-echarts.html', 3);
                     }
                 }, {
                     key: 'importMap',

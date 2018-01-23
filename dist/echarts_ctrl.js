@@ -78,10 +78,12 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                         USE_FAKE_DATA: true,
                         fakeData: '',
                         url: '',
+                        method: 'POST',
                         request: '',
                         updateInterval: 10000
                     };
 
+                    _this.methods = ['GET', 'POST'];
                     _this.maps = ['世界', '中国', '北京'];
 
                     _.defaults(_this.panel, panelDefaults);
@@ -120,9 +122,13 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                             }
                         };
 
-                        if (that.panel.USE_URL && !that.panel.USE_FAKE_DATA && that.panel.url && that.panel.request) {
-                            xmlhttp.open("POST", that.panel.url, true);
-                            xmlhttp.send(that.panel.request);
+                        if (that.panel.USE_URL && !that.panel.USE_FAKE_DATA && that.panel.url) {
+                            xmlhttp.open(this.panel.method, that.panel.url, true);
+                            if (that.panel.request) {
+                                xmlhttp.send(that.panel.request);
+                            } else {
+                                xmlhttp.send();
+                            }
                         } else {
                             xmlhttp = null;
                         }

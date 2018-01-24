@@ -1,5 +1,6 @@
 import { MetricsPanelCtrl } from 'app/plugins/sdk';
 import _ from 'lodash';
+import kbn from 'app/core/utils/kbn';
 import echarts from './libs/echarts.min';
 import './libs/echarts-liquidfill.min';
 import './libs/echarts-wordcloud.min';
@@ -35,9 +36,7 @@ export class EchartsCtrl extends MetricsPanelCtrl {
         this.events.on('data-error', this.onDataError.bind(this));
         this.events.on('data-snapshot-load', this.onDataReceived.bind(this));
         this.events.on('init-edit-mode', this.onInitEditMode.bind(this));
-        this.events.on('panel-initialized', this.render.bind(this));
 
-        this.updateData();
     }
 
     //post请求
@@ -53,7 +52,6 @@ export class EchartsCtrl extends MetricsPanelCtrl {
         xmlhttp.onreadystatechange = function () {
             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                 that.UrlData = JSON.parse(xmlhttp.responseText);
-                that.onDataReceived();
             }
         };
 
@@ -67,11 +65,11 @@ export class EchartsCtrl extends MetricsPanelCtrl {
         } else {
             xmlhttp = null;
         }
-
-        this.$timeout(() => { this.updateData(); }, that.panel.updateInterval);
     }
 
     onDataReceived(dataList) {
+        this.updateData();
+        
         this.data = this.panel.USE_URL ? this.UrlData : dataList;
 
         if (this.panel.USE_URL && this.panel.USE_FAKE_DATA && this.panel.fakeData) {
@@ -89,7 +87,8 @@ export class EchartsCtrl extends MetricsPanelCtrl {
 
     onInitEditMode() {
         this.addEditorTab('数据', 'public/plugins/dxc-echarts-panel/editer-metric.html', 2);
-        this.addEditorTab('Ecahrts配置', 'public/plugins/dxc-echarts-panel/editor-echarts.html', 3);
+        this.addEditorTab('Options', 'public/plugins/dxc-echarts-panel/editor-echarts.html', 3);
+        this.unitFormats = kbn.getUnitFormats();
     }
 
     importMap() {

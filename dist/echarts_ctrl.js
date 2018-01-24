@@ -1,9 +1,9 @@
 'use strict';
 
-System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echarts-liquidfill.min', './libs/echarts-wordcloud.min', './libs/dark', './style.css!', './libs/bmap.js', './libs/getBmap.js'], function (_export, _context) {
+System.register(['app/plugins/sdk', 'lodash', 'app/core/utils/kbn', './libs/echarts.min', './libs/echarts-liquidfill.min', './libs/echarts-wordcloud.min', './libs/dark', './style.css!', './libs/bmap.js', './libs/getBmap.js'], function (_export, _context) {
     "use strict";
 
-    var MetricsPanelCtrl, _, echarts, _createClass, EchartsCtrl;
+    var MetricsPanelCtrl, _, kbn, echarts, _createClass, EchartsCtrl;
 
     function _classCallCheck(instance, Constructor) {
         if (!(instance instanceof Constructor)) {
@@ -40,6 +40,8 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
             MetricsPanelCtrl = _appPluginsSdk.MetricsPanelCtrl;
         }, function (_lodash) {
             _ = _lodash.default;
+        }, function (_appCoreUtilsKbn) {
+            kbn = _appCoreUtilsKbn.default;
         }, function (_libsEchartsMin) {
             echarts = _libsEchartsMin.default;
         }, function (_libsEchartsLiquidfillMin) {}, function (_libsEchartsWordcloudMin) {}, function (_libsDark) {}, function (_styleCss) {}, function (_libsBmapJs) {}, function (_libsGetBmapJs) {}],
@@ -78,10 +80,12 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                         USE_FAKE_DATA: true,
                         fakeData: '',
                         url: '',
+                        method: 'POST',
                         request: '',
                         updateInterval: 10000
                     };
 
+                    _this.methods = ['GET', 'POST'];
                     _this.maps = ['世界', '中国', '北京'];
 
                     _.defaults(_this.panel, panelDefaults);
@@ -90,9 +94,7 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                     _this.events.on('data-error', _this.onDataError.bind(_this));
                     _this.events.on('data-snapshot-load', _this.onDataReceived.bind(_this));
                     _this.events.on('init-edit-mode', _this.onInitEditMode.bind(_this));
-                    _this.events.on('panel-initialized', _this.render.bind(_this));
 
-                    _this.updateData();
                     return _this;
                 }
 
@@ -102,8 +104,6 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                 _createClass(EchartsCtrl, [{
                     key: 'updateData',
                     value: function updateData() {
-                        var _this2 = this;
-
                         var that = this,
                             xmlhttp = void 0;
 
@@ -116,24 +116,25 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                         xmlhttp.onreadystatechange = function () {
                             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                                 that.UrlData = JSON.parse(xmlhttp.responseText);
-                                that.onDataReceived();
                             }
                         };
 
-                        if (that.panel.USE_URL && !that.panel.USE_FAKE_DATA && that.panel.url && that.panel.request) {
-                            xmlhttp.open("POST", that.panel.url, true);
-                            xmlhttp.send(that.panel.request);
+                        if (that.panel.USE_URL && !that.panel.USE_FAKE_DATA && that.panel.url) {
+                            xmlhttp.open(this.panel.method, that.panel.url, true);
+                            if (that.panel.request) {
+                                xmlhttp.send(that.panel.request);
+                            } else {
+                                xmlhttp.send();
+                            }
                         } else {
                             xmlhttp = null;
                         }
-
-                        this.$timeout(function () {
-                            _this2.updateData();
-                        }, that.panel.updateInterval);
                     }
                 }, {
                     key: 'onDataReceived',
                     value: function onDataReceived(dataList) {
+                        this.updateData();
+
                         this.data = this.panel.USE_URL ? this.UrlData : dataList;
 
                         if (this.panel.USE_URL && this.panel.USE_FAKE_DATA && this.panel.fakeData) {
@@ -153,7 +154,8 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                     key: 'onInitEditMode',
                     value: function onInitEditMode() {
                         this.addEditorTab('数据', 'public/plugins/dxc-echarts-panel/editer-metric.html', 2);
-                        this.addEditorTab('Ecahrts配置', 'public/plugins/dxc-echarts-panel/editor-echarts.html', 3);
+                        this.addEditorTab('Options', 'public/plugins/dxc-echarts-panel/editor-echarts.html', 3);
+                        this.unitFormats = kbn.getUnitFormats();
                     }
                 }, {
                     key: 'importMap',

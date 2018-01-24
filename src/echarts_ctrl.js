@@ -1,5 +1,6 @@
 import { MetricsPanelCtrl } from 'app/plugins/sdk';
 import _ from 'lodash';
+import kbn from 'app/core/utils/kbn';
 import echarts from './libs/echarts.min';
 import './libs/echarts-liquidfill.min';
 import './libs/echarts-wordcloud.min';
@@ -21,10 +22,12 @@ export class EchartsCtrl extends MetricsPanelCtrl {
             USE_FAKE_DATA: true,
             fakeData: '',
             url: '',
+            method: 'POST',
             request: '',
             updateInterval: 10000
         };
 
+        this.methods = ['GET', 'POST'];
         this.maps = ['世界', '中国', '北京'];
 
         _.defaults(this.panel, panelDefaults);
@@ -33,9 +36,7 @@ export class EchartsCtrl extends MetricsPanelCtrl {
         this.events.on('data-error', this.onDataError.bind(this));
         this.events.on('data-snapshot-load', this.onDataReceived.bind(this));
         this.events.on('init-edit-mode', this.onInitEditMode.bind(this));
-        this.events.on('panel-initialized', this.render.bind(this));
 
-        this.updateData();
     }
 
     //post请求
@@ -51,21 +52,24 @@ export class EchartsCtrl extends MetricsPanelCtrl {
         xmlhttp.onreadystatechange = function () {
             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                 that.UrlData = JSON.parse(xmlhttp.responseText);
-                that.onDataReceived();
             }
         };
 
-        if (that.panel.USE_URL && !that.panel.USE_FAKE_DATA && that.panel.url && that.panel.request) {
-            xmlhttp.open("POST", that.panel.url, true);
-            xmlhttp.send(that.panel.request);
+        if (that.panel.USE_URL && !that.panel.USE_FAKE_DATA && that.panel.url) {
+            xmlhttp.open(this.panel.method, that.panel.url, true);
+            if (that.panel.request) {
+                xmlhttp.send(that.panel.request);
+            } else {
+                xmlhttp.send();
+            }
         } else {
             xmlhttp = null;
         }
-
-        this.$timeout(() => { this.updateData(); }, that.panel.updateInterval);
     }
 
     onDataReceived(dataList) {
+        this.updateData();
+        
         this.data = this.panel.USE_URL ? this.UrlData : dataList;
 
         if (this.panel.USE_URL && this.panel.USE_FAKE_DATA && this.panel.fakeData) {
@@ -83,7 +87,8 @@ export class EchartsCtrl extends MetricsPanelCtrl {
 
     onInitEditMode() {
         this.addEditorTab('数据', 'public/plugins/dxc-echarts-panel/editer-metric.html', 2);
-        this.addEditorTab('Ecahrts配置', 'public/plugins/dxc-echarts-panel/editor-echarts.html', 3);
+        this.addEditorTab('Options', 'public/plugins/dxc-echarts-panel/editor-echarts.html', 3);
+        this.unitFormats = kbn.getUnitFormats();
     }
 
     importMap() {

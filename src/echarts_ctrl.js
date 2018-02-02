@@ -4,7 +4,7 @@ import echarts from './libs/echarts.min';
 import './libs/echarts-liquidfill.min';
 import './libs/echarts-wordcloud.min';
 import './libs/dark';
-import './style.css!';
+import './css/style.css!';
 import './libs/bmap.js';
 import './libs/getBmap.js';
 
@@ -14,7 +14,7 @@ export class EchartsCtrl extends MetricsPanelCtrl {
         super($scope, $injector);
 
         const panelDefaults = {
-            EchartsOption: 'console.log(JSON.stringify(echartsData));\n\n option = {};',
+            EchartsOption: 'console.log(JSON.stringify(echartsData));\n\noption = {};',
             IS_MAP: false,
             map: '',
             USE_URL: false,
@@ -82,8 +82,8 @@ export class EchartsCtrl extends MetricsPanelCtrl {
     }
 
     onInitEditMode() {
-        this.addEditorTab('数据', 'public/plugins/dxc-echarts-panel/editer-metric.html', 2);
-        this.addEditorTab('Ecahrts配置', 'public/plugins/dxc-echarts-panel/editor-echarts.html', 3);
+        this.addEditorTab('数据', 'public/plugins/dxc-echarts-panel/partials/editer-metric.html', 2);
+        this.addEditorTab('Ecahrts配置', 'public/plugins/dxc-echarts-panel/partials/editor-echarts.html', 3);
     }
 
     importMap() {

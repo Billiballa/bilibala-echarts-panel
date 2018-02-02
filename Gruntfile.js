@@ -1,41 +1,21 @@
-module.exports = function (grunt) {
-  require("load-grunt-tasks")(grunt);
+/* eslint import/no-extraneous-dependencies: 0 */
+
+module.exports = (grunt) => {
+  require('load-grunt-tasks')(grunt);
 
   grunt.loadNpmTasks('grunt-execute');
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-package-modules');
-  grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-multi-dest');
-  grunt.loadNpmTasks('grunt-babel');
-  grunt.loadNpmTasks('grunt-force-task');
-  grunt.loadNpmTasks('grunt-contrib-jshint');
 
   grunt.initConfig({
     clean: ['dist'],
-
-    jshint: {
-      options: {
-        jshintrc: '.jshintrc',
-        ignores: ['src/bower_components/**'],
-      },
-      src: ['Gruntfile.js', 'src/*.js'],
-    },
 
     copy: {
       src_to_dist: {
         cwd: 'src',
         expand: true,
-        src: ['**/*', '!**/*.js', '!**/*.ts', '!**/*.scss', '!img/**/*'],
+        src: ['**/*.css', '**/*.html', '**/*.json', '!**/*.js', '!**/*.scss'],
         dest: 'dist'
       },
-
-      bower_libs: {
-        cwd: 'bower_components',
-        expand: true,
-        src: [],
-        dest: 'dist/libs/'
-      },
-
       libs: {
         cwd: 'libs',
         expand: true,
@@ -47,14 +27,12 @@ module.exports = function (grunt) {
           },
         },
       },
-
       echarts_libs: {
         cwd: 'node_modules/echarts/dist',
         expand: true,
         src: ['echarts.min.js'],
         dest: 'dist/libs/',
       },
-
       liquidfill_libs: {
         cwd: 'node_modules/echarts-liquidfill/dist',
         expand: true,
@@ -66,7 +44,6 @@ module.exports = function (grunt) {
           },
         },
       },
-
       wordcloud_libs: {
         cwd: 'node_modules/echarts-wordcloud/dist',
         expand: true,
@@ -78,31 +55,23 @@ module.exports = function (grunt) {
           },
         },
       },
-
       img_to_dist: {
-        cwd: 'src',
+        cwd: 'src/images',
         expand: true,
-        src: ['img/**/*'],
-        dest: 'dist/img/'
+        flatten: true,
+        src: ['*.*'],
+        dest: 'dist/images/'
       },
-
       pluginDef: {
         expand: true,
-        src: ['README.md','plugin.json'],
+        src: ['README.md', 'plugin.json'],
         dest: 'dist',
-      }
-    },
-
-    concat: {
-      dist: {
-        src: ['src/node_modules/**/*.js'],
-        dest: 'dist/src/<%= pkg.namelower %>-<%= pkg.version %>.js'
       }
     },
 
     watch: {
       rebuild_all: {
-        files: ['src/**/*', 'plugin.json', 'README.md', '!src/node_modules/**', '!src/bower_components/**'],
+        files: ['src/**/*', 'src/plugin.json', 'README.md', '!src/node_modules/**', '!src/bower_components/**'],
         tasks: ['default'],
         options: {spawn: false}
       },
@@ -110,10 +79,10 @@ module.exports = function (grunt) {
 
     babel: {
       options: {
-        ignore: ['**/bower_components/*', '**/external/*', "**/src/libs/*"],
+        ignore: ["**/src/libs/*"],
         sourceMap: true,
-        presets: ["es2015"],
-        plugins: ['transform-es2015-modules-systemjs', "transform-es2015-for-of"],
+        presets: ['es2015'],
+        plugins: ['transform-es2015-modules-systemjs', 'transform-es2015-for-of'],
       },
       dist: {
         files: [{
@@ -123,14 +92,13 @@ module.exports = function (grunt) {
           dest: 'dist',
           ext: '.js'
         }]
-      },
-    },
+      }
+    }
+
   });
   grunt.registerTask('default', [
-    'jshint',
     'clean',
     'copy:src_to_dist',
-    'copy:bower_libs',
     'copy:libs',
     'copy:echarts_libs',
     'copy:liquidfill_libs',

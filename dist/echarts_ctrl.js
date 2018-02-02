@@ -1,6 +1,6 @@
 'use strict';
 
-System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echarts-liquidfill.min', './libs/echarts-wordcloud.min', './libs/dark', './style.css!', './libs/bmap.js', './libs/getBmap.js'], function (_export, _context) {
+System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echarts-liquidfill.min', './libs/echarts-wordcloud.min', './libs/dark', './css/style.css!', './libs/bmap.js', './libs/getBmap.js'], function (_export, _context) {
     "use strict";
 
     var MetricsPanelCtrl, _, echarts, _createClass, EchartsCtrl;
@@ -42,7 +42,7 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
             _ = _lodash.default;
         }, function (_libsEchartsMin) {
             echarts = _libsEchartsMin.default;
-        }, function (_libsEchartsLiquidfillMin) {}, function (_libsEchartsWordcloudMin) {}, function (_libsDark) {}, function (_styleCss) {}, function (_libsBmapJs) {}, function (_libsGetBmapJs) {}],
+        }, function (_libsEchartsLiquidfillMin) {}, function (_libsEchartsWordcloudMin) {}, function (_libsDark) {}, function (_cssStyleCss) {}, function (_libsBmapJs) {}, function (_libsGetBmapJs) {}],
         execute: function () {
             _createClass = function () {
                 function defineProperties(target, props) {
@@ -71,7 +71,7 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                     var _this = _possibleConstructorReturn(this, (EchartsCtrl.__proto__ || Object.getPrototypeOf(EchartsCtrl)).call(this, $scope, $injector));
 
                     var panelDefaults = {
-                        EchartsOption: 'console.log(JSON.stringify(echartsData));\n\n option = {};',
+                        EchartsOption: 'console.log(JSON.stringify(echartsData));\n\noption = {};',
                         IS_MAP: false,
                         map: '',
                         USE_URL: false,
@@ -152,8 +152,8 @@ System.register(['app/plugins/sdk', 'lodash', './libs/echarts.min', './libs/echa
                 }, {
                     key: 'onInitEditMode',
                     value: function onInitEditMode() {
-                        this.addEditorTab('数据', 'public/plugins/dxc-echarts-panel/editer-metric.html', 2);
-                        this.addEditorTab('Ecahrts配置', 'public/plugins/dxc-echarts-panel/editor-echarts.html', 3);
+                        this.addEditorTab('数据', 'public/plugins/dxc-echarts-panel/partials/editer-metric.html', 2);
+                        this.addEditorTab('Ecahrts配置', 'public/plugins/dxc-echarts-panel/partials/editor-echarts.html', 3);
                     }
                 }, {
                     key: 'importMap',

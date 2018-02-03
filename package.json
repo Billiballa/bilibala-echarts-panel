@@ -6,7 +6,7 @@
   "scripts": {
     "build": "grunt",
     "build:watch": "onchange './src/**/*.js' './src/**/*.css' './src/**/*.html' './src/plugin.json' -- npm run build",
-    "clean": "rm -r dist/*",
+    "clean": "grunt clean",
     "lint": "eslint --color .",
     "lint:watch": "onchange 'src/**/*.js' -- npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"

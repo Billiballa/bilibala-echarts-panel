@@ -1,7 +1,7 @@
 /* eslint import/no-extraneous-dependencies: 0 */
 
 module.exports = (grunt) => {
-  require('load-grunt-tasks')(grunt);
+  require('load-grunt-tasks')(grunt); // eslint-disable-line
 
   grunt.loadNpmTasks('grunt-execute');
   grunt.loadNpmTasks('grunt-contrib-clean');
@@ -14,17 +14,15 @@ module.exports = (grunt) => {
         cwd: 'src',
         expand: true,
         src: ['**/*.css', '**/*.html', '**/*.json', '!**/*.js', '!**/*.scss'],
-        dest: 'dist'
+        dest: 'dist',
       },
       libs: {
         cwd: 'libs',
         expand: true,
-        src: ['**/*'],
-        dest: 'dist/libs/',
+        src: ['**.*'],
+        dest: 'dist/libs',
         options: {
-          process: function (content, srcpath) {
-            return content.replace(/(\'|")echarts(\'|")/g, '$1./echarts.min$2');
-          },
+          process: content => content.replace(/(\'|")echarts(\'|")/g, '$1./echarts.min$2'), // eslint-disable-line
         },
       },
       echarts_libs: {
@@ -39,9 +37,7 @@ module.exports = (grunt) => {
         src: ['echarts-liquidfill.min.js'],
         dest: 'dist/libs/',
         options: {
-          process: function (content, srcpath) {
-            return content.replace(/(\'|")echarts(\'|")/g, '$1./echarts.min$2');
-          },
+          process: content => content.replace(/(\'|")echarts(\'|")/g, '$1./echarts.min$2'), // eslint-disable-line
         },
       },
       wordcloud_libs: {
@@ -50,9 +46,7 @@ module.exports = (grunt) => {
         src: ['echarts-wordcloud.min.js'],
         dest: 'dist/libs/',
         options: {
-          process: function (content, srcpath) {
-            return content.replace(/(\'|")echarts(\'|")/g, '$1./echarts.min$2');
-          },
+          process: content => content.replace(/(\'|")echarts(\'|")/g, '$1./echarts.min$2'), // eslint-disable-line
         },
       },
       img_to_dist: {
@@ -60,26 +54,28 @@ module.exports = (grunt) => {
         expand: true,
         flatten: true,
         src: ['*.*'],
-        dest: 'dist/images/'
+        dest: 'dist/images/',
       },
       pluginDef: {
         expand: true,
         src: ['README.md', 'plugin.json'],
         dest: 'dist',
-      }
+      },
     },
 
     watch: {
       rebuild_all: {
         files: ['src/**/*', 'src/plugin.json', 'README.md', '!src/node_modules/**', '!src/bower_components/**'],
         tasks: ['default'],
-        options: {spawn: false}
+        options: {
+          spawn: false,
+        },
       },
     },
 
     babel: {
       options: {
-        ignore: ["**/src/libs/*"],
+        ignore: ['libs/*'],
         sourceMap: true,
         presets: ['es2015'],
         plugins: ['transform-es2015-modules-systemjs', 'transform-es2015-for-of'],
@@ -90,12 +86,12 @@ module.exports = (grunt) => {
           expand: true,
           src: ['**/*.js'],
           dest: 'dist',
-          ext: '.js'
-        }]
-      }
-    }
-
+          ext: '.js',
+        }],
+      },
+    },
   });
+
   grunt.registerTask('default', [
     'clean',
     'copy:src_to_dist',
@@ -105,6 +101,6 @@ module.exports = (grunt) => {
     'copy:wordcloud_libs',
     'copy:img_to_dist',
     'copy:pluginDef',
-    'babel'
+    'babel',
   ]);
 };

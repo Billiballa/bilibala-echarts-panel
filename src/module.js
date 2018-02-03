@@ -1,5 +1,5 @@
-import {EchartsCtrl} from './echarts_ctrl';
+import { EchartsCtrl } from './echarts_ctrl';
 
 export {
-  EchartsCtrl as PanelCtrl
+  EchartsCtrl as PanelCtrl // eslint-disable-line
 };

@@ -4,29 +4,32 @@
             数据源
             <tip>数据源将被替换为自定义的接口</tip>
         </h5>
-        <div class="gf-form-inline">
+        <div class="gf-form-inline" ng-click="ctrl.updateData()" >
             <gf-form-switch class="gf-form" label-class="width-8" switch-class="max-width-6" label="Post请求" checked="ctrl.panel.USE_URL"></gf-form-switch>
             <gf-form-switch class="gf-form" label-class="width-8" switch-class="max-width-6" label="使用假数据" checked="ctrl.panel.USE_FAKE_DATA" ng-if="ctrl.panel.USE_URL"></gf-form-switch>
         </div>
-        <div class="gf-form-inline" ng-if="ctrl.panel.USE_URL&&!ctrl.panel.USE_FAKE_DATA">
-            <div class="gf-form">
-                <label class="gf-form-label width-8">URL</label>
-                <input type="text" class="input-small gf-form-input width-30" ng-model="ctrl.panel.url" />
+        <div ng-if="ctrl.panel.USE_URL&&!ctrl.panel.USE_FAKE_DATA">
+            <div class="gf-form-inline">
+                <div class="gf-form">
+                    <label class="gf-form-label width-8">URL</label>
+                    <input type="text" class="input-small gf-form-input width-30" ng-model="ctrl.panel.url"  ng-change="ctrl.updateData()" />
+                </div>
             </div>
-        </div>
-        <div class="gf-form-inline" ng-if="ctrl.panel.USE_URL&&!ctrl.panel.USE_FAKE_DATA">
-            <div class="gf-form">
-                <label class="gf-form-label width-8">请求</label>
-                <input type="text" class="input-small gf-form-input width-30" ng-model="ctrl.panel.request" />
+            <div class="gf-form-inline">
+                <div class="gf-form">
+                    <label class="gf-form-label width-8">请求</label>
+                    <input type="text" class="input-small gf-form-input width-30" ng-model="ctrl.panel.request"  ng-change="ctrl.updateData()" />
+                </div>
             </div>
-        </div>
-        <div class="gf-form-inline" ng-if="ctrl.panel.USE_URL&&!ctrl.panel.USE_FAKE_DATA">
-            <div class="gf-form">
-                <label class="gf-form-label width-8">间隔</label>
-                <input type="number" class="input-small gf-form-input width-5" ng-model="ctrl.panel.updateInterval" placeholder="10000" />
-                <label class="gf-form-label width-3">ms</label>
+            <div class="gf-form-inline">
+                <div class="gf-form">
+                    <label class="gf-form-label width-8">间隔</label>
+                    <input type="number" class="input-small gf-form-input width-5" ng-model="ctrl.panel.updateInterval" placeholder="10000"  ng-change="ctrl.updateData()" />
+                    <label class="gf-form-label width-3">ms</label>
+                </div>
             </div>
         </div>
     </div>
-    <textarea class="gf-form-input"  ng-if="ctrl.panel.USE_URL&&ctrl.panel.USE_FAKE_DATA" ng-model="ctrl.panel.fakeData" rows="10" style="width:100%" ng-change="ctrl.onDataReceived()" ng-model-onblur></textarea>
+    <h5 class="section-heading" ng-if="ctrl.panel.USE_FAKE_DATA">编辑假数据</h5>
+    <textarea class="gf-form-input gf-form-group" ng-if="ctrl.panel.USE_FAKE_DATA" ng-model="ctrl.panel.fakeData" rows="10" style="width:100%" ng-change="ctrl.updateData()" ng-model-onblur></textarea>
 </div>

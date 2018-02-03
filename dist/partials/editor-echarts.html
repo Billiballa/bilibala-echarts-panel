@@ -1,0 +1,20 @@
+<div class="editor-row">
+    <h5 class="section-heading">
+        图表配置项
+        <tip>数据被保存在'echartsData'变量中，可直接使用。</tip>
+    </h5>
+    <div class="editor-row">
+        <div class="section gf-form-group">
+            <div class="gf-form-inline">
+                <gf-form-switch class="gf-form" label-class="width-8" switch-class="max-width-6" label="引入地图" checked="ctrl.panel.IS_MAP"></gf-form-switch>
+                <div class="gf-form" ng-if="ctrl.panel.IS_MAP">
+                    <label class="gf-form-label width-8">选择地图</label>
+                    <div class="gf-form-select-wrapper max-width-15">
+                        <select class="gf-form-input width-8" ng-model="ctrl.panel.map" ng-options="map for map in ctrl.maps" ng-change="ctrl.onDataReceived()"></select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <textarea class="gf-form-input" ng-model="ctrl.panel.EchartsOption" rows="20" style="width:100%" ng-change="ctrl.onDataReceived()" ng-model-onblur></textarea>
+</div>

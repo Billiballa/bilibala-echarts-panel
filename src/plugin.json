@@ -1,25 +1,29 @@
 {
   "type": "panel",
   "name": "Echarts",
-  "id": "dxc-echarts-panel",
+  "id": "bilibala-echarts-panel",
 
   "info": {
     "description": "Echarts panel for grafana",
     "author": {
-      "name": "Billiballa",
-      "url": "https://github.com/Billiballa"
+      "name": "bilibala"
     },
-    "keywords": ["Echarts", "panel"],
+    "keywords": ["echarts"],
+    "logos": {
+      "small": "img/logo.png",
+      "large": "img/logo.png"
+    },
     "links": [
-      {"name": "Project site", "url": "https://github.com/Billiballa/dxc-echarts-panel.git"},
-      {"name": "MIT License", "url": "https://github.com/Billiballa/dxc-echarts-panel/blob/master/LICENSE"}
+      {"name": "Website", "url": "https://github.com/Billiballa/grafana-echarts"},
+      {"name": "License", "url": "https://github.com/Billiballa/grafana-echarts/LICENSE"}
     ],
-    "version": "1.0.1",
-    "updated": "2018-2-2"
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
   },
 
   "dependencies": {
-    "grafanaVersion": "4.x.x",
-    "plugins": [ ]
+    "grafanaVersion": "6.3.x",
+    "plugins": []
   }
 }

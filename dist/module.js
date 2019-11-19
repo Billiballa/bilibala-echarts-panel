@@ -11039,7 +11039,7 @@ module.exports = __webpack_require__(/*! ./src/liquidFill */ "../node_modules/_e
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var echarts = __webpack_require__(/*! echarts/lib/echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! echarts/lib/echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 __webpack_require__(/*! ./liquidFillSeries */ "../node_modules/_echarts-liquidfill@2.0.5@echarts-liquidfill/src/liquidFillSeries.js");
 __webpack_require__(/*! ./liquidFillView */ "../node_modules/_echarts-liquidfill@2.0.5@echarts-liquidfill/src/liquidFillView.js");
@@ -11047,7 +11047,7 @@ __webpack_require__(/*! ./liquidFillView */ "../node_modules/_echarts-liquidfill
 
 echarts.registerVisual(
     echarts.util.curry(
-        __webpack_require__(/*! echarts/lib/visual/dataColor */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/dataColor.js"), 'liquidFill'
+        __webpack_require__(/*! echarts/lib/visual/dataColor */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/dataColor.js"), 'liquidFill'
     )
 );
 
@@ -11061,7 +11061,7 @@ echarts.registerVisual(
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var echarts = __webpack_require__(/*! echarts/lib/echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! echarts/lib/echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 module.exports = echarts.graphic.extendShape({
     type: 'ec-liquid-fill',
@@ -11235,8 +11235,8 @@ function getWaterPositions(x, stage, waveLength, amplitude) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var completeDimensions = __webpack_require__(/*! echarts/lib/data/helper/completeDimensions */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/completeDimensions.js");
-var echarts = __webpack_require__(/*! echarts/lib/echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var completeDimensions = __webpack_require__(/*! echarts/lib/data/helper/completeDimensions */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/completeDimensions.js");
+var echarts = __webpack_require__(/*! echarts/lib/echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 echarts.extendSeriesModel({
 
@@ -11325,9 +11325,9 @@ echarts.extendSeriesModel({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var echarts = __webpack_require__(/*! echarts/lib/echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! echarts/lib/echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 var numberUtil = echarts.number;
-var symbolUtil = __webpack_require__(/*! echarts/lib/util/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js");
+var symbolUtil = __webpack_require__(/*! echarts/lib/util/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js");
 var parsePercent = numberUtil.parsePercent;
 
 var LiquidLayout = __webpack_require__(/*! ./liquidFillLayout */ "../node_modules/_echarts-liquidfill@2.0.5@echarts-liquidfill/src/liquidFillLayout.js");
@@ -11813,8 +11813,8 @@ module.exports = __webpack_require__(/*! ./src/wordCloud */ "../node_modules/_ec
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var completeDimensions = __webpack_require__(/*! echarts/lib/data/helper/completeDimensions */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/completeDimensions.js");
-var echarts = __webpack_require__(/*! echarts/lib/echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var completeDimensions = __webpack_require__(/*! echarts/lib/data/helper/completeDimensions */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/completeDimensions.js");
+var echarts = __webpack_require__(/*! echarts/lib/echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 echarts.extendSeriesModel({
 
@@ -11878,7 +11878,7 @@ echarts.extendSeriesModel({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var echarts = __webpack_require__(/*! echarts/lib/echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! echarts/lib/echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 function getShallow(model, path) {
     return model && model.getShallow(path);
@@ -13133,8 +13133,8 @@ if (!window.clearImmediate) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var echarts = __webpack_require__(/*! echarts/lib/echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
-var layoutUtil = __webpack_require__(/*! echarts/lib/util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var echarts = __webpack_require__(/*! echarts/lib/echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
+var layoutUtil = __webpack_require__(/*! echarts/lib/util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
 __webpack_require__(/*! ./WordCloudSeries */ "../node_modules/_echarts-wordcloud@1.1.3@echarts-wordcloud/src/WordCloudSeries.js");
 __webpack_require__(/*! ./WordCloudView */ "../node_modules/_echarts-wordcloud@1.1.3@echarts-wordcloud/src/WordCloudView.js");
@@ -13324,9 +13324,9 @@ echarts.registerPreprocessor(function (option) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/index.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/index.js":
 /*!*******************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/index.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/index.js ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -13351,7 +13351,7 @@ echarts.registerPreprocessor(function (option) {
 * under the License.
 */
 
-var _echarts = __webpack_require__(/*! ./lib/echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var _echarts = __webpack_require__(/*! ./lib/echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 (function () {
   for (var key in _echarts) {
@@ -13360,7 +13360,7 @@ var _echarts = __webpack_require__(/*! ./lib/echarts */ "../node_modules/_echart
   }
 })();
 
-var _export = __webpack_require__(/*! ./lib/export */ "../node_modules/_echarts@4.4.0@echarts/lib/export.js");
+var _export = __webpack_require__(/*! ./lib/export */ "../node_modules/_echarts@4.5.0@echarts/lib/export.js");
 
 (function () {
   for (var key in _export) {
@@ -13369,109 +13369,109 @@ var _export = __webpack_require__(/*! ./lib/export */ "../node_modules/_echarts@
   }
 })();
 
-__webpack_require__(/*! ./lib/component/dataset */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataset.js");
+__webpack_require__(/*! ./lib/component/dataset */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataset.js");
 
-__webpack_require__(/*! ./lib/chart/line */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/line.js");
+__webpack_require__(/*! ./lib/chart/line */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/line.js");
 
-__webpack_require__(/*! ./lib/chart/bar */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar.js");
+__webpack_require__(/*! ./lib/chart/bar */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar.js");
 
-__webpack_require__(/*! ./lib/chart/pie */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/pie.js");
+__webpack_require__(/*! ./lib/chart/pie */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/pie.js");
 
-__webpack_require__(/*! ./lib/chart/scatter */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/scatter.js");
+__webpack_require__(/*! ./lib/chart/scatter */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/scatter.js");
 
-__webpack_require__(/*! ./lib/chart/radar */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/radar.js");
+__webpack_require__(/*! ./lib/chart/radar */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/radar.js");
 
-__webpack_require__(/*! ./lib/chart/map */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/map.js");
+__webpack_require__(/*! ./lib/chart/map */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/map.js");
 
-__webpack_require__(/*! ./lib/chart/tree */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree.js");
+__webpack_require__(/*! ./lib/chart/tree */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree.js");
 
-__webpack_require__(/*! ./lib/chart/treemap */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap.js");
+__webpack_require__(/*! ./lib/chart/treemap */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap.js");
 
-__webpack_require__(/*! ./lib/chart/graph */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph.js");
+__webpack_require__(/*! ./lib/chart/graph */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph.js");
 
-__webpack_require__(/*! ./lib/chart/gauge */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/gauge.js");
+__webpack_require__(/*! ./lib/chart/gauge */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/gauge.js");
 
-__webpack_require__(/*! ./lib/chart/funnel */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/funnel.js");
+__webpack_require__(/*! ./lib/chart/funnel */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/funnel.js");
 
-__webpack_require__(/*! ./lib/chart/parallel */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/parallel.js");
+__webpack_require__(/*! ./lib/chart/parallel */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/parallel.js");
 
-__webpack_require__(/*! ./lib/chart/sankey */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey.js");
+__webpack_require__(/*! ./lib/chart/sankey */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey.js");
 
-__webpack_require__(/*! ./lib/chart/boxplot */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot.js");
+__webpack_require__(/*! ./lib/chart/boxplot */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot.js");
 
-__webpack_require__(/*! ./lib/chart/candlestick */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick.js");
+__webpack_require__(/*! ./lib/chart/candlestick */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick.js");
 
-__webpack_require__(/*! ./lib/chart/effectScatter */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/effectScatter.js");
+__webpack_require__(/*! ./lib/chart/effectScatter */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/effectScatter.js");
 
-__webpack_require__(/*! ./lib/chart/lines */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/lines.js");
+__webpack_require__(/*! ./lib/chart/lines */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/lines.js");
 
-__webpack_require__(/*! ./lib/chart/heatmap */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/heatmap.js");
+__webpack_require__(/*! ./lib/chart/heatmap */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/heatmap.js");
 
-__webpack_require__(/*! ./lib/chart/pictorialBar */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/pictorialBar.js");
+__webpack_require__(/*! ./lib/chart/pictorialBar */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/pictorialBar.js");
 
-__webpack_require__(/*! ./lib/chart/themeRiver */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver.js");
+__webpack_require__(/*! ./lib/chart/themeRiver */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver.js");
 
-__webpack_require__(/*! ./lib/chart/sunburst */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst.js");
+__webpack_require__(/*! ./lib/chart/sunburst */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst.js");
 
-__webpack_require__(/*! ./lib/chart/custom */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/custom.js");
+__webpack_require__(/*! ./lib/chart/custom */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/custom.js");
 
-__webpack_require__(/*! ./lib/component/grid */ "../node_modules/_echarts@4.4.0@echarts/lib/component/grid.js");
+__webpack_require__(/*! ./lib/component/grid */ "../node_modules/_echarts@4.5.0@echarts/lib/component/grid.js");
 
-__webpack_require__(/*! ./lib/component/polar */ "../node_modules/_echarts@4.4.0@echarts/lib/component/polar.js");
+__webpack_require__(/*! ./lib/component/polar */ "../node_modules/_echarts@4.5.0@echarts/lib/component/polar.js");
 
-__webpack_require__(/*! ./lib/component/geo */ "../node_modules/_echarts@4.4.0@echarts/lib/component/geo.js");
+__webpack_require__(/*! ./lib/component/geo */ "../node_modules/_echarts@4.5.0@echarts/lib/component/geo.js");
 
-__webpack_require__(/*! ./lib/component/singleAxis */ "../node_modules/_echarts@4.4.0@echarts/lib/component/singleAxis.js");
+__webpack_require__(/*! ./lib/component/singleAxis */ "../node_modules/_echarts@4.5.0@echarts/lib/component/singleAxis.js");
 
-__webpack_require__(/*! ./lib/component/parallel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/parallel.js");
+__webpack_require__(/*! ./lib/component/parallel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/parallel.js");
 
-__webpack_require__(/*! ./lib/component/calendar */ "../node_modules/_echarts@4.4.0@echarts/lib/component/calendar.js");
+__webpack_require__(/*! ./lib/component/calendar */ "../node_modules/_echarts@4.5.0@echarts/lib/component/calendar.js");
 
-__webpack_require__(/*! ./lib/component/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/component/graphic.js");
+__webpack_require__(/*! ./lib/component/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/component/graphic.js");
 
-__webpack_require__(/*! ./lib/component/toolbox */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox.js");
+__webpack_require__(/*! ./lib/component/toolbox */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox.js");
 
-__webpack_require__(/*! ./lib/component/tooltip */ "../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip.js");
+__webpack_require__(/*! ./lib/component/tooltip */ "../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip.js");
 
-__webpack_require__(/*! ./lib/component/axisPointer */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer.js");
+__webpack_require__(/*! ./lib/component/axisPointer */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer.js");
 
-__webpack_require__(/*! ./lib/component/brush */ "../node_modules/_echarts@4.4.0@echarts/lib/component/brush.js");
+__webpack_require__(/*! ./lib/component/brush */ "../node_modules/_echarts@4.5.0@echarts/lib/component/brush.js");
 
-__webpack_require__(/*! ./lib/component/title */ "../node_modules/_echarts@4.4.0@echarts/lib/component/title.js");
+__webpack_require__(/*! ./lib/component/title */ "../node_modules/_echarts@4.5.0@echarts/lib/component/title.js");
 
-__webpack_require__(/*! ./lib/component/timeline */ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline.js");
+__webpack_require__(/*! ./lib/component/timeline */ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline.js");
 
-__webpack_require__(/*! ./lib/component/markPoint */ "../node_modules/_echarts@4.4.0@echarts/lib/component/markPoint.js");
+__webpack_require__(/*! ./lib/component/markPoint */ "../node_modules/_echarts@4.5.0@echarts/lib/component/markPoint.js");
 
-__webpack_require__(/*! ./lib/component/markLine */ "../node_modules/_echarts@4.4.0@echarts/lib/component/markLine.js");
+__webpack_require__(/*! ./lib/component/markLine */ "../node_modules/_echarts@4.5.0@echarts/lib/component/markLine.js");
 
-__webpack_require__(/*! ./lib/component/markArea */ "../node_modules/_echarts@4.4.0@echarts/lib/component/markArea.js");
+__webpack_require__(/*! ./lib/component/markArea */ "../node_modules/_echarts@4.5.0@echarts/lib/component/markArea.js");
 
-__webpack_require__(/*! ./lib/component/legendScroll */ "../node_modules/_echarts@4.4.0@echarts/lib/component/legendScroll.js");
+__webpack_require__(/*! ./lib/component/legendScroll */ "../node_modules/_echarts@4.5.0@echarts/lib/component/legendScroll.js");
 
-__webpack_require__(/*! ./lib/component/legend */ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend.js");
+__webpack_require__(/*! ./lib/component/legend */ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend.js");
 
-__webpack_require__(/*! ./lib/component/dataZoom */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom.js");
+__webpack_require__(/*! ./lib/component/dataZoom */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom.js");
 
-__webpack_require__(/*! ./lib/component/dataZoomInside */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoomInside.js");
+__webpack_require__(/*! ./lib/component/dataZoomInside */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoomInside.js");
 
-__webpack_require__(/*! ./lib/component/dataZoomSlider */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoomSlider.js");
+__webpack_require__(/*! ./lib/component/dataZoomSlider */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoomSlider.js");
 
-__webpack_require__(/*! ./lib/component/visualMap */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap.js");
+__webpack_require__(/*! ./lib/component/visualMap */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap.js");
 
-__webpack_require__(/*! ./lib/component/visualMapContinuous */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMapContinuous.js");
+__webpack_require__(/*! ./lib/component/visualMapContinuous */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMapContinuous.js");
 
-__webpack_require__(/*! ./lib/component/visualMapPiecewise */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMapPiecewise.js");
+__webpack_require__(/*! ./lib/component/visualMapPiecewise */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMapPiecewise.js");
 
-__webpack_require__(/*! zrender/lib/vml/vml */ "../node_modules/_zrender@4.1.1@zrender/lib/vml/vml.js");
+__webpack_require__(/*! zrender/lib/vml/vml */ "../node_modules/_zrender@4.1.2@zrender/lib/vml/vml.js");
 
-__webpack_require__(/*! zrender/lib/svg/svg */ "../node_modules/_zrender@4.1.1@zrender/lib/svg/svg.js");
+__webpack_require__(/*! zrender/lib/svg/svg */ "../node_modules/_zrender@4.1.2@zrender/lib/svg/svg.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/CoordinateSystem.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/CoordinateSystem.js":
 /*!**********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/CoordinateSystem.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/CoordinateSystem.js ***!
   \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -13496,7 +13496,7 @@ __webpack_require__(/*! zrender/lib/svg/svg */ "../node_modules/_zrender@4.1.1@z
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -13555,9 +13555,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/ExtensionAPI.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/ExtensionAPI.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/ExtensionAPI.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/ExtensionAPI.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -13582,7 +13582,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -13615,9 +13615,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/action/createDataSelectAction.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/action/createDataSelectAction.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/action/createDataSelectAction.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/action/createDataSelectAction.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -13642,9 +13642,9 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -13704,9 +13704,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/action/geoRoam.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/action/geoRoam.js":
 /*!********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/action/geoRoam.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/action/geoRoam.js ***!
   \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -13731,11 +13731,11 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _roamHelper = __webpack_require__(/*! ./roamHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/action/roamHelper.js");
+var _roamHelper = __webpack_require__(/*! ./roamHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/action/roamHelper.js");
 
 var updateCenterAndZoom = _roamHelper.updateCenterAndZoom;
 
@@ -13799,9 +13799,9 @@ echarts.registerAction({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/action/roamHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/action/roamHelper.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/action/roamHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/action/roamHelper.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -13895,9 +13895,9 @@ exports.updateCenterAndZoom = updateCenterAndZoom;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar.js":
 /*!***************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/bar.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/bar.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -13922,22 +13922,22 @@ exports.updateCenterAndZoom = updateCenterAndZoom;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _barGrid = __webpack_require__(/*! ../layout/barGrid */ "../node_modules/_echarts@4.4.0@echarts/lib/layout/barGrid.js");
+var _barGrid = __webpack_require__(/*! ../layout/barGrid */ "../node_modules/_echarts@4.5.0@echarts/lib/layout/barGrid.js");
 
 var layout = _barGrid.layout;
 var largeLayout = _barGrid.largeLayout;
 
-__webpack_require__(/*! ../coord/cartesian/Grid */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/Grid.js");
+__webpack_require__(/*! ../coord/cartesian/Grid */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/Grid.js");
 
-__webpack_require__(/*! ./bar/BarSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/BarSeries.js");
+__webpack_require__(/*! ./bar/BarSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/BarSeries.js");
 
-__webpack_require__(/*! ./bar/BarView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/BarView.js");
+__webpack_require__(/*! ./bar/BarView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/BarView.js");
 
-__webpack_require__(/*! ../component/gridSimple */ "../node_modules/_echarts@4.4.0@echarts/lib/component/gridSimple.js");
+__webpack_require__(/*! ../component/gridSimple */ "../node_modules/_echarts@4.5.0@echarts/lib/component/gridSimple.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -13972,9 +13972,9 @@ echarts.registerVisual({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/BarSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/BarSeries.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/BarSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/BarSeries.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -13999,7 +13999,7 @@ echarts.registerVisual({
 * under the License.
 */
 
-var BaseBarSeries = __webpack_require__(/*! ./BaseBarSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/BaseBarSeries.js");
+var BaseBarSeries = __webpack_require__(/*! ./BaseBarSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/BaseBarSeries.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -14049,7 +14049,10 @@ var _default = BaseBarSeries.extend({
   defaultOption: {
     // If clipped
     // Only available on cartesian2d
-    clip: true
+    clip: true,
+    // If use caps on two sides of bars
+    // Only available on tangential polar bar
+    roundCap: false
   }
 });
 
@@ -14057,9 +14060,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/BarView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/BarView.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/BarView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/BarView.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -14084,33 +14087,35 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var _helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/helper.js");
+var _helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/helper.js");
 
 var setLabel = _helper.setLabel;
 
-var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var barItemStyle = __webpack_require__(/*! ./barItemStyle */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/barItemStyle.js");
+var barItemStyle = __webpack_require__(/*! ./barItemStyle */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/barItemStyle.js");
 
-var Path = __webpack_require__(/*! zrender/lib/graphic/Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! zrender/lib/graphic/Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
-var _throttle = __webpack_require__(/*! ../../util/throttle */ "../node_modules/_echarts@4.4.0@echarts/lib/util/throttle.js");
+var _throttle = __webpack_require__(/*! ../../util/throttle */ "../node_modules/_echarts@4.5.0@echarts/lib/util/throttle.js");
 
 var throttle = _throttle.throttle;
 
-var _createClipPathFromCoordSys = __webpack_require__(/*! ../helper/createClipPathFromCoordSys */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createClipPathFromCoordSys.js");
+var _createClipPathFromCoordSys = __webpack_require__(/*! ../helper/createClipPathFromCoordSys */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createClipPathFromCoordSys.js");
 
 var createClipPath = _createClipPathFromCoordSys.createClipPath;
+
+var Sausage = __webpack_require__(/*! ../../util/shape/sausage */ "../node_modules/_echarts@4.5.0@echarts/lib/util/shape/sausage.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -14212,6 +14217,7 @@ var _default = echarts.extendChartView({
     group.removeClipPath(); // We don't use clipPath in normal mode because we needs a perfect animation
     // And don't want the label are clipped.
 
+    var roundCap = seriesModel.get('roundCap', true);
     data.diff(oldData).add(function (dataIndex) {
       if (!data.hasValue(dataIndex)) {
         return;
@@ -14231,7 +14237,7 @@ var _default = echarts.extendChartView({
         }
       }
 
-      var el = elementCreator[coord.type](data, dataIndex, itemModel, layout, isHorizontalOrRadial, animationModel);
+      var el = elementCreator[coord.type](dataIndex, layout, isHorizontalOrRadial, animationModel, false, roundCap);
       data.setItemGraphicEl(dataIndex, el);
       group.add(el);
       updateStyle(el, data, dataIndex, itemModel, layout, seriesModel, isHorizontalOrRadial, coord.type === 'polar');
@@ -14260,7 +14266,7 @@ var _default = echarts.extendChartView({
           shape: layout
         }, animationModel, newIndex);
       } else {
-        el = elementCreator[coord.type](data, newIndex, itemModel, layout, isHorizontalOrRadial, animationModel, true);
+        el = elementCreator[coord.type](newIndex, layout, isHorizontalOrRadial, animationModel, true, roundCap);
       }
 
       data.setItemGraphicEl(newIndex, el); // Add back
@@ -14362,7 +14368,7 @@ var clip = {
   }
 };
 var elementCreator = {
-  cartesian2d: function (data, dataIndex, itemModel, layout, isHorizontal, animationModel, isUpdate) {
+  cartesian2d: function (dataIndex, layout, isHorizontal, animationModel, isUpdate) {
     var rect = new graphic.Rect({
       shape: zrUtil.extend({}, layout)
     }); // Animation
@@ -14380,13 +14386,14 @@ var elementCreator = {
 
     return rect;
   },
-  polar: function (data, dataIndex, itemModel, layout, isRadial, animationModel, isUpdate) {
+  polar: function (dataIndex, layout, isRadial, animationModel, isUpdate, roundCap) {
     // Keep the same logic with bar in catesion: use end value to control
     // direction. Notice that if clockwise is true (by default), the sector
     // will always draw clockwisely, no matter whether endAngle is greater
     // or less than startAngle.
     var clockwise = layout.startAngle < layout.endAngle;
-    var sector = new graphic.Sector({
+    var ShapeClass = !isRadial && roundCap ? Sausage : graphic.Sector;
+    var sector = new ShapeClass({
       shape: zrUtil.defaults({
         clockwise: clockwise
       }, layout)
@@ -14583,9 +14590,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/BaseBarSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/BaseBarSeries.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/BaseBarSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/BaseBarSeries.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -14610,9 +14617,9 @@ module.exports = _default;
 * under the License.
 */
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var createListFromArray = __webpack_require__(/*! ../helper/createListFromArray */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListFromArray.js");
+var createListFromArray = __webpack_require__(/*! ../helper/createListFromArray */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListFromArray.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -14674,6 +14681,8 @@ var _default = SeriesModel.extend({
     progressive: 3e3,
     progressiveChunkMode: 'mod',
     // barMaxWidth: null,
+    // In cartesian, the default value is 1. Otherwise null.
+    // barMinWidth: null,
     // 默认自适应
     // barWidth: null,
     // 柱间距离，默认为柱形宽度的30%，可设固定值
@@ -14692,9 +14701,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/PictorialBarSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/PictorialBarSeries.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/PictorialBarSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/PictorialBarSeries.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -14719,7 +14728,7 @@ module.exports = _default;
 * under the License.
 */
 
-var BaseBarSeries = __webpack_require__(/*! ./BaseBarSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/BaseBarSeries.js");
+var BaseBarSeries = __webpack_require__(/*! ./BaseBarSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/BaseBarSeries.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -14785,9 +14794,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/PictorialBarView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/PictorialBarView.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/PictorialBarView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/PictorialBarView.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -14812,22 +14821,22 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js");
+var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js");
 
 var createSymbol = _symbol.createSymbol;
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 var isNumeric = _number.isNumeric;
 
-var _helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/helper.js");
+var _helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/helper.js");
 
 var setLabel = _helper.setLabel;
 
@@ -15472,9 +15481,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/barItemStyle.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/barItemStyle.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/barItemStyle.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/barItemStyle.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15499,7 +15508,7 @@ module.exports = _default;
 * under the License.
 */
 
-var makeStyleMapper = __webpack_require__(/*! ../../model/mixin/makeStyleMapper */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/makeStyleMapper.js");
+var makeStyleMapper = __webpack_require__(/*! ../../model/mixin/makeStyleMapper */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/makeStyleMapper.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -15537,9 +15546,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/helper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/helper.js":
 /*!**********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/helper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/helper.js ***!
   \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15564,9 +15573,9 @@ module.exports = _default;
 * under the License.
 */
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var _labelHelper = __webpack_require__(/*! ../helper/labelHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/labelHelper.js");
+var _labelHelper = __webpack_require__(/*! ../helper/labelHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/labelHelper.js");
 
 var getDefaultLabel = _labelHelper.getDefaultLabel;
 
@@ -15612,9 +15621,9 @@ exports.setLabel = setLabel;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot.js":
 /*!*******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot.js ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15639,15 +15648,15 @@ exports.setLabel = setLabel;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./boxplot/BoxplotSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot/BoxplotSeries.js");
+__webpack_require__(/*! ./boxplot/BoxplotSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot/BoxplotSeries.js");
 
-__webpack_require__(/*! ./boxplot/BoxplotView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot/BoxplotView.js");
+__webpack_require__(/*! ./boxplot/BoxplotView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot/BoxplotView.js");
 
-var boxplotVisual = __webpack_require__(/*! ./boxplot/boxplotVisual */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot/boxplotVisual.js");
+var boxplotVisual = __webpack_require__(/*! ./boxplot/boxplotVisual */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot/boxplotVisual.js");
 
-var boxplotLayout = __webpack_require__(/*! ./boxplot/boxplotLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot/boxplotLayout.js");
+var boxplotLayout = __webpack_require__(/*! ./boxplot/boxplotLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot/boxplotLayout.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -15672,9 +15681,9 @@ echarts.registerLayout(boxplotLayout);
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot/BoxplotSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot/BoxplotSeries.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot/BoxplotSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot/BoxplotSeries.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15699,11 +15708,11 @@ echarts.registerLayout(boxplotLayout);
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var _whiskerBoxCommon = __webpack_require__(/*! ../helper/whiskerBoxCommon */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/whiskerBoxCommon.js");
+var _whiskerBoxCommon = __webpack_require__(/*! ../helper/whiskerBoxCommon */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/whiskerBoxCommon.js");
 
 var seriesModelMixin = _whiskerBoxCommon.seriesModelMixin;
 
@@ -15800,9 +15809,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot/BoxplotView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot/BoxplotView.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot/BoxplotView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot/BoxplotView.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15827,13 +15836,13 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.4.0@echarts/lib/view/Chart.js");
+var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.5.0@echarts/lib/view/Chart.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var Path = __webpack_require__(/*! zrender/lib/graphic/Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! zrender/lib/graphic/Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -15978,9 +15987,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot/boxplotLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot/boxplotLayout.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot/boxplotLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot/boxplotLayout.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16005,9 +16014,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 
@@ -16192,9 +16201,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot/boxplotVisual.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot/boxplotVisual.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/boxplot/boxplotVisual.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/boxplot/boxplotVisual.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -16266,9 +16275,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16293,17 +16302,17 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./candlestick/CandlestickSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/CandlestickSeries.js");
+__webpack_require__(/*! ./candlestick/CandlestickSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/CandlestickSeries.js");
 
-__webpack_require__(/*! ./candlestick/CandlestickView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/CandlestickView.js");
+__webpack_require__(/*! ./candlestick/CandlestickView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/CandlestickView.js");
 
-var preprocessor = __webpack_require__(/*! ./candlestick/preprocessor */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/preprocessor.js");
+var preprocessor = __webpack_require__(/*! ./candlestick/preprocessor */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/preprocessor.js");
 
-var candlestickVisual = __webpack_require__(/*! ./candlestick/candlestickVisual */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/candlestickVisual.js");
+var candlestickVisual = __webpack_require__(/*! ./candlestick/candlestickVisual */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/candlestickVisual.js");
 
-var candlestickLayout = __webpack_require__(/*! ./candlestick/candlestickLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/candlestickLayout.js");
+var candlestickLayout = __webpack_require__(/*! ./candlestick/candlestickLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/candlestickLayout.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -16329,9 +16338,9 @@ echarts.registerLayout(candlestickLayout);
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/CandlestickSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/CandlestickSeries.js":
 /*!*****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/CandlestickSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/CandlestickSeries.js ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16356,11 +16365,11 @@ echarts.registerLayout(candlestickLayout);
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var _whiskerBoxCommon = __webpack_require__(/*! ../helper/whiskerBoxCommon */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/whiskerBoxCommon.js");
+var _whiskerBoxCommon = __webpack_require__(/*! ../helper/whiskerBoxCommon */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/whiskerBoxCommon.js");
 
 var seriesModelMixin = _whiskerBoxCommon.seriesModelMixin;
 
@@ -16422,6 +16431,7 @@ var CandlestickSeries = SeriesModel.extend({
     // yAxisIndex: 0,
     layout: null,
     // 'horizontal' or 'vertical'
+    clip: true,
     itemStyle: {
       color: '#c23531',
       // 阳线 positive
@@ -16469,9 +16479,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/CandlestickView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/CandlestickView.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/CandlestickView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/CandlestickView.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16496,13 +16506,17 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.4.0@echarts/lib/view/Chart.js");
+var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.5.0@echarts/lib/view/Chart.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var Path = __webpack_require__(/*! zrender/lib/graphic/Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! zrender/lib/graphic/Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
+
+var _createClipPathFromCoordSys = __webpack_require__(/*! ../helper/createClipPathFromCoordSys */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createClipPathFromCoordSys.js");
+
+var createClipPath = _createClipPathFromCoordSys.createClipPath;
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -16528,6 +16542,9 @@ var SKIP_PROPS = ['color', 'color0', 'borderColor', 'borderColor0'];
 var CandlestickView = ChartView.extend({
   type: 'candlestick',
   render: function (seriesModel, ecModel, api) {
+    // If there is clipPath created in large mode. Remove it.
+    this.group.removeClipPath();
+
     this._updateDrawMode(seriesModel);
 
     this._isLargeDraw ? this._renderLarge(seriesModel) : this._renderNormal(seriesModel);
@@ -16553,7 +16570,10 @@ var CandlestickView = ChartView.extend({
     var data = seriesModel.getData();
     var oldData = this._data;
     var group = this.group;
-    var isSimpleBox = data.getLayout('isSimpleBox'); // There is no old data only when first rendering or switching from
+    var isSimpleBox = data.getLayout('isSimpleBox');
+    var needsClip = seriesModel.get('clip', true);
+    var coord = seriesModel.coordinateSystem;
+    var clipArea = coord.getArea && coord.getArea(); // There is no old data only when first rendering or switching from
     // stream mode to normal mode, where previous elements should be removed.
 
     if (!this._data) {
@@ -16564,6 +16584,11 @@ var CandlestickView = ChartView.extend({
       if (data.hasValue(newIdx)) {
         var el;
         var itemLayout = data.getItemLayout(newIdx);
+
+        if (needsClip && isNormalBoxClipped(clipArea, itemLayout)) {
+          return;
+        }
+
         el = createNormalBox(itemLayout, newIdx, true);
         graphic.initProps(el, {
           shape: {
@@ -16583,6 +16608,11 @@ var CandlestickView = ChartView.extend({
       }
 
       var itemLayout = data.getItemLayout(newIdx);
+
+      if (needsClip && isNormalBoxClipped(clipArea, itemLayout)) {
+        group.remove(el);
+        return;
+      }
 
       if (!el) {
         el = createNormalBox(itemLayout, newIdx);
@@ -16607,6 +16637,13 @@ var CandlestickView = ChartView.extend({
     this._clear();
 
     createLarge(seriesModel, this.group);
+    var clipPath = seriesModel.get('clip', true) ? createClipPath(seriesModel.coordinateSystem, false, seriesModel) : null;
+
+    if (clipPath) {
+      this.group.setClipPath(clipPath);
+    } else {
+      this.group.removeClipPath();
+    }
   },
   _incrementalRenderNormal: function (params, seriesModel) {
     var data = seriesModel.getData();
@@ -16665,6 +16702,20 @@ function createNormalBox(itemLayout, dataIndex, isInit) {
     },
     z2: 100
   });
+}
+
+function isNormalBoxClipped(clipArea, itemLayout) {
+  var clipped = true;
+
+  for (var i = 0; i < itemLayout.ends.length; i++) {
+    // If any point are in the region.
+    if (clipArea.contain(itemLayout.ends[i][0], itemLayout.ends[i][1])) {
+      clipped = false;
+      break;
+    }
+  }
+
+  return clipped;
 }
 
 function setBoxCommon(el, data, dataIndex, isSimpleBox) {
@@ -16755,9 +16806,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/candlestickLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/candlestickLayout.js":
 /*!*****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/candlestickLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/candlestickLayout.js ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16782,17 +16833,17 @@ module.exports = _default;
 * under the License.
 */
 
-var _graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var _graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
 var subPixelOptimize = _graphic.subPixelOptimize;
 
-var createRenderPlanner = __webpack_require__(/*! ../helper/createRenderPlanner */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createRenderPlanner.js");
+var createRenderPlanner = __webpack_require__(/*! ../helper/createRenderPlanner */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createRenderPlanner.js");
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var retrieve2 = _util.retrieve2;
 
@@ -16978,9 +17029,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/candlestickVisual.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/candlestickVisual.js":
 /*!*****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/candlestickVisual.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/candlestickVisual.js ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17005,7 +17056,7 @@ module.exports = _default;
 * under the License.
 */
 
-var createRenderPlanner = __webpack_require__(/*! ../helper/createRenderPlanner */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createRenderPlanner.js");
+var createRenderPlanner = __webpack_require__(/*! ../helper/createRenderPlanner */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createRenderPlanner.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -17079,9 +17130,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/preprocessor.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/preprocessor.js":
 /*!************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/candlestick/preprocessor.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/candlestick/preprocessor.js ***!
   \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17106,7 +17157,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -17143,9 +17194,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/custom.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/custom.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/custom.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/custom.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17170,45 +17221,45 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphicUtil = __webpack_require__(/*! ../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphicUtil = __webpack_require__(/*! ../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var _labelHelper = __webpack_require__(/*! ./helper/labelHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/labelHelper.js");
+var _labelHelper = __webpack_require__(/*! ./helper/labelHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/labelHelper.js");
 
 var getDefaultLabel = _labelHelper.getDefaultLabel;
 
-var createListFromArray = __webpack_require__(/*! ./helper/createListFromArray */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListFromArray.js");
+var createListFromArray = __webpack_require__(/*! ./helper/createListFromArray */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListFromArray.js");
 
-var _barGrid = __webpack_require__(/*! ../layout/barGrid */ "../node_modules/_echarts@4.4.0@echarts/lib/layout/barGrid.js");
+var _barGrid = __webpack_require__(/*! ../layout/barGrid */ "../node_modules/_echarts@4.5.0@echarts/lib/layout/barGrid.js");
 
 var getLayoutOnAxis = _barGrid.getLayoutOnAxis;
 
-var DataDiffer = __webpack_require__(/*! ../data/DataDiffer */ "../node_modules/_echarts@4.4.0@echarts/lib/data/DataDiffer.js");
+var DataDiffer = __webpack_require__(/*! ../data/DataDiffer */ "../node_modules/_echarts@4.5.0@echarts/lib/data/DataDiffer.js");
 
-var SeriesModel = __webpack_require__(/*! ../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var Model = __webpack_require__(/*! ../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var ChartView = __webpack_require__(/*! ../view/Chart */ "../node_modules/_echarts@4.4.0@echarts/lib/view/Chart.js");
+var ChartView = __webpack_require__(/*! ../view/Chart */ "../node_modules/_echarts@4.5.0@echarts/lib/view/Chart.js");
 
-var _createClipPathFromCoordSys = __webpack_require__(/*! ./helper/createClipPathFromCoordSys */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createClipPathFromCoordSys.js");
+var _createClipPathFromCoordSys = __webpack_require__(/*! ./helper/createClipPathFromCoordSys */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createClipPathFromCoordSys.js");
 
 var createClipPath = _createClipPathFromCoordSys.createClipPath;
 
-var prepareCartesian2d = __webpack_require__(/*! ../coord/cartesian/prepareCustom */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/prepareCustom.js");
+var prepareCartesian2d = __webpack_require__(/*! ../coord/cartesian/prepareCustom */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/prepareCustom.js");
 
-var prepareGeo = __webpack_require__(/*! ../coord/geo/prepareCustom */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/prepareCustom.js");
+var prepareGeo = __webpack_require__(/*! ../coord/geo/prepareCustom */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/prepareCustom.js");
 
-var prepareSingleAxis = __webpack_require__(/*! ../coord/single/prepareCustom */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/single/prepareCustom.js");
+var prepareSingleAxis = __webpack_require__(/*! ../coord/single/prepareCustom */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/single/prepareCustom.js");
 
-var preparePolar = __webpack_require__(/*! ../coord/polar/prepareCustom */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/prepareCustom.js");
+var preparePolar = __webpack_require__(/*! ../coord/polar/prepareCustom */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/prepareCustom.js");
 
-var prepareCalendar = __webpack_require__(/*! ../coord/calendar/prepareCustom */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/calendar/prepareCustom.js");
+var prepareCalendar = __webpack_require__(/*! ../coord/calendar/prepareCustom */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/calendar/prepareCustom.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -17645,6 +17696,7 @@ function makeRenderItem(customSeries, data, ecModel, api) {
    * @param {number} opt.count Positive interger.
    * @param {number} [opt.barWidth]
    * @param {number} [opt.barMaxWidth]
+   * @param {number} [opt.barMinWidth]
    * @param {number} [opt.barGap]
    * @param {number} [opt.barCategoryGap]
    * @return {Object} {width, offset, offsetCenter} is not support, return undefined.
@@ -17855,9 +17907,9 @@ function hasOwn(host, prop) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/effectScatter.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/effectScatter.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/effectScatter.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/effectScatter.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17882,15 +17934,15 @@ function hasOwn(host, prop) {
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./effectScatter/EffectScatterSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/effectScatter/EffectScatterSeries.js");
+__webpack_require__(/*! ./effectScatter/EffectScatterSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/effectScatter/EffectScatterSeries.js");
 
-__webpack_require__(/*! ./effectScatter/EffectScatterView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/effectScatter/EffectScatterView.js");
+__webpack_require__(/*! ./effectScatter/EffectScatterView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/effectScatter/EffectScatterView.js");
 
-var visualSymbol = __webpack_require__(/*! ../visual/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/symbol.js");
+var visualSymbol = __webpack_require__(/*! ../visual/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/symbol.js");
 
-var layoutPoints = __webpack_require__(/*! ../layout/points */ "../node_modules/_echarts@4.4.0@echarts/lib/layout/points.js");
+var layoutPoints = __webpack_require__(/*! ../layout/points */ "../node_modules/_echarts@4.5.0@echarts/lib/layout/points.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -17915,9 +17967,9 @@ echarts.registerLayout(layoutPoints('effectScatter'));
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/effectScatter/EffectScatterSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/effectScatter/EffectScatterSeries.js":
 /*!*********************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/effectScatter/EffectScatterSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/effectScatter/EffectScatterSeries.js ***!
   \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17942,9 +17994,9 @@ echarts.registerLayout(layoutPoints('effectScatter'));
 * under the License.
 */
 
-var createListFromArray = __webpack_require__(/*! ../helper/createListFromArray */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListFromArray.js");
+var createListFromArray = __webpack_require__(/*! ../helper/createListFromArray */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListFromArray.js");
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -18012,9 +18064,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/effectScatter/EffectScatterView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/effectScatter/EffectScatterView.js":
 /*!*******************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/effectScatter/EffectScatterView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/effectScatter/EffectScatterView.js ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18039,15 +18091,15 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var SymbolDraw = __webpack_require__(/*! ../helper/SymbolDraw */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/SymbolDraw.js");
+var SymbolDraw = __webpack_require__(/*! ../helper/SymbolDraw */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/SymbolDraw.js");
 
-var EffectSymbol = __webpack_require__(/*! ../helper/EffectSymbol */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/EffectSymbol.js");
+var EffectSymbol = __webpack_require__(/*! ../helper/EffectSymbol */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/EffectSymbol.js");
 
-var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
-var pointsLayout = __webpack_require__(/*! ../../layout/points */ "../node_modules/_echarts@4.4.0@echarts/lib/layout/points.js");
+var pointsLayout = __webpack_require__(/*! ../../layout/points */ "../node_modules/_echarts@4.5.0@echarts/lib/layout/points.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -18110,9 +18162,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/funnel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/funnel.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/funnel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/funnel.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18137,17 +18189,17 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./funnel/FunnelSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/funnel/FunnelSeries.js");
+__webpack_require__(/*! ./funnel/FunnelSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/funnel/FunnelSeries.js");
 
-__webpack_require__(/*! ./funnel/FunnelView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/funnel/FunnelView.js");
+__webpack_require__(/*! ./funnel/FunnelView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/funnel/FunnelView.js");
 
-var dataColor = __webpack_require__(/*! ../visual/dataColor */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/dataColor.js");
+var dataColor = __webpack_require__(/*! ../visual/dataColor */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/dataColor.js");
 
-var funnelLayout = __webpack_require__(/*! ./funnel/funnelLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/funnel/funnelLayout.js");
+var funnelLayout = __webpack_require__(/*! ./funnel/funnelLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/funnel/funnelLayout.js");
 
-var dataFilter = __webpack_require__(/*! ../processor/dataFilter */ "../node_modules/_echarts@4.4.0@echarts/lib/processor/dataFilter.js");
+var dataFilter = __webpack_require__(/*! ../processor/dataFilter */ "../node_modules/_echarts@4.5.0@echarts/lib/processor/dataFilter.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -18173,9 +18225,9 @@ echarts.registerProcessor(dataFilter('funnel'));
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/funnel/FunnelSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/funnel/FunnelSeries.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/funnel/FunnelSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/funnel/FunnelSeries.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18200,11 +18252,11 @@ echarts.registerProcessor(dataFilter('funnel'));
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var createListSimply = __webpack_require__(/*! ../helper/createListSimply */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListSimply.js");
+var createListSimply = __webpack_require__(/*! ../helper/createListSimply */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListSimply.js");
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var defaultEmphasis = _model.defaultEmphasis;
 
@@ -18314,9 +18366,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/funnel/FunnelView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/funnel/FunnelView.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/funnel/FunnelView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/funnel/FunnelView.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18341,11 +18393,11 @@ module.exports = _default;
 * under the License.
 */
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.4.0@echarts/lib/view/Chart.js");
+var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.5.0@echarts/lib/view/Chart.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -18527,9 +18579,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/funnel/funnelLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/funnel/funnelLayout.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/funnel/funnelLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/funnel/funnelLayout.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18554,9 +18606,9 @@ module.exports = _default;
 * under the License.
 */
 
-var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 var linearMap = _number.linearMap;
@@ -18801,9 +18853,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/gauge.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/gauge.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/gauge.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/gauge.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18828,15 +18880,15 @@ module.exports = _default;
 * under the License.
 */
 
-__webpack_require__(/*! ./gauge/GaugeSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/gauge/GaugeSeries.js");
+__webpack_require__(/*! ./gauge/GaugeSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/gauge/GaugeSeries.js");
 
-__webpack_require__(/*! ./gauge/GaugeView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/gauge/GaugeView.js");
+__webpack_require__(/*! ./gauge/GaugeView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/gauge/GaugeView.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/gauge/GaugeSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/gauge/GaugeSeries.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/gauge/GaugeSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/gauge/GaugeSeries.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18861,11 +18913,11 @@ __webpack_require__(/*! ./gauge/GaugeView */ "../node_modules/_echarts@4.4.0@ech
 * under the License.
 */
 
-var createListSimply = __webpack_require__(/*! ../helper/createListSimply */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListSimply.js");
+var createListSimply = __webpack_require__(/*! ../helper/createListSimply */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListSimply.js");
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -18888,13 +18940,6 @@ var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_
 var GaugeSeries = SeriesModel.extend({
   type: 'series.gauge',
   getInitialData: function (option, ecModel) {
-    var dataOpt = option.data || [];
-
-    if (!zrUtil.isArray(dataOpt)) {
-      dataOpt = [dataOpt];
-    }
-
-    option.data = dataOpt;
     return createListSimply(this, ['value']);
   },
   defaultOption: {
@@ -18996,9 +19041,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/gauge/GaugeView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/gauge/GaugeView.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/gauge/GaugeView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/gauge/GaugeView.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -19023,13 +19068,13 @@ module.exports = _default;
 * under the License.
 */
 
-var PointerPath = __webpack_require__(/*! ./PointerPath */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/gauge/PointerPath.js");
+var PointerPath = __webpack_require__(/*! ./PointerPath */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/gauge/PointerPath.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.4.0@echarts/lib/view/Chart.js");
+var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.5.0@echarts/lib/view/Chart.js");
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 var round = _number.round;
@@ -19383,9 +19428,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/gauge/PointerPath.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/gauge/PointerPath.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/gauge/PointerPath.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/gauge/PointerPath.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -19410,7 +19455,7 @@ module.exports = _default;
 * under the License.
 */
 
-var Path = __webpack_require__(/*! zrender/lib/graphic/Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! zrender/lib/graphic/Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -19461,9 +19506,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -19488,29 +19533,29 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./graph/GraphSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/GraphSeries.js");
+__webpack_require__(/*! ./graph/GraphSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/GraphSeries.js");
 
-__webpack_require__(/*! ./graph/GraphView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/GraphView.js");
+__webpack_require__(/*! ./graph/GraphView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/GraphView.js");
 
-__webpack_require__(/*! ./graph/graphAction */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/graphAction.js");
+__webpack_require__(/*! ./graph/graphAction */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/graphAction.js");
 
-var categoryFilter = __webpack_require__(/*! ./graph/categoryFilter */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/categoryFilter.js");
+var categoryFilter = __webpack_require__(/*! ./graph/categoryFilter */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/categoryFilter.js");
 
-var visualSymbol = __webpack_require__(/*! ../visual/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/symbol.js");
+var visualSymbol = __webpack_require__(/*! ../visual/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/symbol.js");
 
-var categoryVisual = __webpack_require__(/*! ./graph/categoryVisual */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/categoryVisual.js");
+var categoryVisual = __webpack_require__(/*! ./graph/categoryVisual */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/categoryVisual.js");
 
-var edgeVisual = __webpack_require__(/*! ./graph/edgeVisual */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/edgeVisual.js");
+var edgeVisual = __webpack_require__(/*! ./graph/edgeVisual */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/edgeVisual.js");
 
-var simpleLayout = __webpack_require__(/*! ./graph/simpleLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/simpleLayout.js");
+var simpleLayout = __webpack_require__(/*! ./graph/simpleLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/simpleLayout.js");
 
-var circularLayout = __webpack_require__(/*! ./graph/circularLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/circularLayout.js");
+var circularLayout = __webpack_require__(/*! ./graph/circularLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/circularLayout.js");
 
-var forceLayout = __webpack_require__(/*! ./graph/forceLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/forceLayout.js");
+var forceLayout = __webpack_require__(/*! ./graph/forceLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/forceLayout.js");
 
-var createView = __webpack_require__(/*! ./graph/createView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/createView.js");
+var createView = __webpack_require__(/*! ./graph/createView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/createView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -19544,9 +19589,9 @@ echarts.registerCoordinateSystem('graphView', {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/GraphSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/GraphSeries.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/GraphSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/GraphSeries.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -19571,23 +19616,23 @@ echarts.registerCoordinateSystem('graphView', {
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.4.0@echarts/lib/data/List.js");
+var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.5.0@echarts/lib/data/List.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var defaultEmphasis = _model.defaultEmphasis;
 
-var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 var encodeHTML = _format.encodeHTML;
 
-var createGraphFromNodeEdge = __webpack_require__(/*! ../helper/createGraphFromNodeEdge */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createGraphFromNodeEdge.js");
+var createGraphFromNodeEdge = __webpack_require__(/*! ../helper/createGraphFromNodeEdge */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createGraphFromNodeEdge.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -19769,6 +19814,8 @@ var GraphSeries = echarts.extendSeriesModel({
       // Node repulsion. Can be an array to represent range.
       repulsion: [0, 50],
       gravity: 0.1,
+      // Initial friction
+      friction: 0.6,
       // Edge length. Can be an array to represent range.
       edgeLength: 30,
       layoutAnimation: true
@@ -19825,9 +19872,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/GraphView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/GraphView.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/GraphView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/GraphView.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -19852,27 +19899,27 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var SymbolDraw = __webpack_require__(/*! ../helper/SymbolDraw */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/SymbolDraw.js");
+var SymbolDraw = __webpack_require__(/*! ../helper/SymbolDraw */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/SymbolDraw.js");
 
-var LineDraw = __webpack_require__(/*! ../helper/LineDraw */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/LineDraw.js");
+var LineDraw = __webpack_require__(/*! ../helper/LineDraw */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/LineDraw.js");
 
-var RoamController = __webpack_require__(/*! ../../component/helper/RoamController */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/RoamController.js");
+var RoamController = __webpack_require__(/*! ../../component/helper/RoamController */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/RoamController.js");
 
-var roamHelper = __webpack_require__(/*! ../../component/helper/roamHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/roamHelper.js");
+var roamHelper = __webpack_require__(/*! ../../component/helper/roamHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/roamHelper.js");
 
-var _cursorHelper = __webpack_require__(/*! ../../component/helper/cursorHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/cursorHelper.js");
+var _cursorHelper = __webpack_require__(/*! ../../component/helper/cursorHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/cursorHelper.js");
 
 var onIrrelevantElement = _cursorHelper.onIrrelevantElement;
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var adjustEdge = __webpack_require__(/*! ./adjustEdge */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/adjustEdge.js");
+var adjustEdge = __webpack_require__(/*! ./adjustEdge */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/adjustEdge.js");
 
-var _graphHelper = __webpack_require__(/*! ./graphHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/graphHelper.js");
+var _graphHelper = __webpack_require__(/*! ./graphHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/graphHelper.js");
 
 var getNodeGlobalScale = _graphHelper.getNodeGlobalScale;
 
@@ -20227,9 +20274,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/adjustEdge.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/adjustEdge.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/adjustEdge.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/adjustEdge.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -20254,11 +20301,11 @@ module.exports = _default;
 * under the License.
 */
 
-var curveTool = __webpack_require__(/*! zrender/lib/core/curve */ "../node_modules/_zrender@4.1.1@zrender/lib/core/curve.js");
+var curveTool = __webpack_require__(/*! zrender/lib/core/curve */ "../node_modules/_zrender@4.1.2@zrender/lib/core/curve.js");
 
-var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
-var _graphHelper = __webpack_require__(/*! ./graphHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/graphHelper.js");
+var _graphHelper = __webpack_require__(/*! ./graphHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/graphHelper.js");
 
 var getSymbolSize = _graphHelper.getSymbolSize;
 
@@ -20429,9 +20476,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/categoryFilter.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/categoryFilter.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/categoryFilter.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/categoryFilter.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -20514,9 +20561,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/categoryVisual.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/categoryVisual.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/categoryVisual.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/categoryVisual.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -20610,9 +20657,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/circularLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/circularLayout.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/circularLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/circularLayout.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -20637,7 +20684,7 @@ module.exports = _default;
 * under the License.
 */
 
-var _circularLayoutHelper = __webpack_require__(/*! ./circularLayoutHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/circularLayoutHelper.js");
+var _circularLayoutHelper = __webpack_require__(/*! ./circularLayoutHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/circularLayoutHelper.js");
 
 var circularLayout = _circularLayoutHelper.circularLayout;
 
@@ -20671,9 +20718,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/circularLayoutHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/circularLayoutHelper.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/circularLayoutHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/circularLayoutHelper.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -20698,9 +20745,9 @@ module.exports = _default;
 * under the License.
 */
 
-var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
-var _graphHelper = __webpack_require__(/*! ./graphHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/graphHelper.js");
+var _graphHelper = __webpack_require__(/*! ./graphHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/graphHelper.js");
 
 var getSymbolSize = _graphHelper.getSymbolSize;
 var getNodeGlobalScale = _graphHelper.getNodeGlobalScale;
@@ -20834,9 +20881,9 @@ exports.circularLayout = circularLayout;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/createView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/createView.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/createView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/createView.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -20861,13 +20908,13 @@ exports.circularLayout = circularLayout;
 * under the License.
 */
 
-var View = __webpack_require__(/*! ../../coord/View */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/View.js");
+var View = __webpack_require__(/*! ../../coord/View */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/View.js");
 
-var _layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var _layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
 var getLayoutRect = _layout.getLayoutRect;
 
-var bbox = __webpack_require__(/*! zrender/lib/core/bbox */ "../node_modules/_zrender@4.1.1@zrender/lib/core/bbox.js");
+var bbox = __webpack_require__(/*! zrender/lib/core/bbox */ "../node_modules/_zrender@4.1.2@zrender/lib/core/bbox.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -20952,9 +20999,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/edgeVisual.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/edgeVisual.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/edgeVisual.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/edgeVisual.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -21052,9 +21099,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/forceHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/forceHelper.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/forceHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/forceHelper.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -21079,7 +21126,7 @@ module.exports = _default;
 * under the License.
 */
 
-var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -21144,10 +21191,11 @@ function forceLayout(nodes, edges, opts) {
   // var k2 = k * k;
 
 
-  var friction = 0.6;
+  var initialFriction = opts.friction == null ? 0.6 : opts.friction;
+  var friction = initialFriction;
   return {
     warmUp: function () {
-      friction = 0.5;
+      friction = initialFriction * 0.8;
     },
     setFixed: function (idx) {
       nodes[idx].fixed = true;
@@ -21168,6 +21216,11 @@ function forceLayout(nodes, edges, opts) {
 
       for (var i = 0; i < edges.length; i++) {
         var e = edges[i];
+
+        if (e.ignoreForceLayout) {
+          continue;
+        }
+
         var n1 = e.n1;
         var n2 = e.n2;
         vec2.sub(v12, n2.p, n1.p);
@@ -21240,9 +21293,9 @@ exports.forceLayout = forceLayout;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/forceLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/forceLayout.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/forceLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/forceLayout.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -21267,25 +21320,25 @@ exports.forceLayout = forceLayout;
 * under the License.
 */
 
-var _forceHelper = __webpack_require__(/*! ./forceHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/forceHelper.js");
+var _forceHelper = __webpack_require__(/*! ./forceHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/forceHelper.js");
 
 var forceLayout = _forceHelper.forceLayout;
 
-var _simpleLayoutHelper = __webpack_require__(/*! ./simpleLayoutHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/simpleLayoutHelper.js");
+var _simpleLayoutHelper = __webpack_require__(/*! ./simpleLayoutHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/simpleLayoutHelper.js");
 
 var simpleLayout = _simpleLayoutHelper.simpleLayout;
 
-var _circularLayoutHelper = __webpack_require__(/*! ./circularLayoutHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/circularLayoutHelper.js");
+var _circularLayoutHelper = __webpack_require__(/*! ./circularLayoutHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/circularLayoutHelper.js");
 
 var circularLayout = _circularLayoutHelper.circularLayout;
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var linearMap = _number.linearMap;
 
-var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -21371,18 +21424,21 @@ function _default(ecModel) {
           d = (edgeLength[0] + edgeLength[1]) / 2;
         }
 
+        var edgeModel = edge.getModel();
         return {
           n1: nodes[edge.node1.dataIndex],
           n2: nodes[edge.node2.dataIndex],
           d: d,
-          curveness: edge.getModel().get('lineStyle.curveness') || 0
+          curveness: edgeModel.get('lineStyle.curveness') || 0,
+          ignoreForceLayout: edgeModel.get('ignoreForceLayout')
         };
       });
       var coordSys = graphSeries.coordinateSystem;
       var rect = coordSys.getBoundingRect();
       var forceInstance = forceLayout(nodes, edges, {
         rect: rect,
-        gravity: forceModel.get('gravity')
+        gravity: forceModel.get('gravity'),
+        friction: forceModel.get('friction')
       });
       var oldStep = forceInstance.step;
 
@@ -21442,9 +21498,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/graphAction.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/graphAction.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/graphAction.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/graphAction.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -21469,13 +21525,13 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var _roamHelper = __webpack_require__(/*! ../../action/roamHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/action/roamHelper.js");
+var _roamHelper = __webpack_require__(/*! ../../action/roamHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/action/roamHelper.js");
 
 var updateCenterAndZoom = _roamHelper.updateCenterAndZoom;
 
-__webpack_require__(/*! ../helper/focusNodeAdjacencyAction */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/focusNodeAdjacencyAction.js");
+__webpack_require__(/*! ../helper/focusNodeAdjacencyAction */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/focusNodeAdjacencyAction.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -21524,9 +21580,9 @@ echarts.registerAction(actionInfo, function (payload, ecModel) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/graphHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/graphHelper.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/graphHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/graphHelper.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -21600,9 +21656,9 @@ exports.getSymbolSize = getSymbolSize;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/simpleLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/simpleLayout.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/simpleLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/simpleLayout.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -21627,11 +21683,11 @@ exports.getSymbolSize = getSymbolSize;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var each = _util.each;
 
-var _simpleLayoutHelper = __webpack_require__(/*! ./simpleLayoutHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/simpleLayoutHelper.js");
+var _simpleLayoutHelper = __webpack_require__(/*! ./simpleLayoutHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/simpleLayoutHelper.js");
 
 var simpleLayout = _simpleLayoutHelper.simpleLayout;
 var simpleLayoutEdge = _simpleLayoutHelper.simpleLayoutEdge;
@@ -21699,9 +21755,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/simpleLayoutHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/simpleLayoutHelper.js":
 /*!************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/graph/simpleLayoutHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/graph/simpleLayoutHelper.js ***!
   \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -21726,7 +21782,7 @@ module.exports = _default;
 * under the License.
 */
 
-var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -21781,9 +21837,9 @@ exports.simpleLayoutEdge = simpleLayoutEdge;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/heatmap.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/heatmap.js":
 /*!*******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/heatmap.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/heatmap.js ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -21808,15 +21864,15 @@ exports.simpleLayoutEdge = simpleLayoutEdge;
 * under the License.
 */
 
-__webpack_require__(/*! ./heatmap/HeatmapSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/heatmap/HeatmapSeries.js");
+__webpack_require__(/*! ./heatmap/HeatmapSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/heatmap/HeatmapSeries.js");
 
-__webpack_require__(/*! ./heatmap/HeatmapView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/heatmap/HeatmapView.js");
+__webpack_require__(/*! ./heatmap/HeatmapView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/heatmap/HeatmapView.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/heatmap/HeatmapLayer.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/heatmap/HeatmapLayer.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/heatmap/HeatmapLayer.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/heatmap/HeatmapLayer.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -21841,7 +21897,7 @@ __webpack_require__(/*! ./heatmap/HeatmapView */ "../node_modules/_echarts@4.4.0
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -22005,9 +22061,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/heatmap/HeatmapSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/heatmap/HeatmapSeries.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/heatmap/HeatmapSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/heatmap/HeatmapSeries.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -22032,11 +22088,11 @@ module.exports = _default;
 * under the License.
 */
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var createListFromArray = __webpack_require__(/*! ../helper/createListFromArray */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListFromArray.js");
+var createListFromArray = __webpack_require__(/*! ../helper/createListFromArray */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListFromArray.js");
 
-var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.4.0@echarts/lib/CoordinateSystem.js");
+var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.5.0@echarts/lib/CoordinateSystem.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -22091,9 +22147,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/heatmap/HeatmapView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/heatmap/HeatmapView.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/heatmap/HeatmapView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/heatmap/HeatmapView.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -22118,17 +22174,17 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var HeatmapLayer = __webpack_require__(/*! ./HeatmapLayer */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/heatmap/HeatmapLayer.js");
+var HeatmapLayer = __webpack_require__(/*! ./HeatmapLayer */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/heatmap/HeatmapLayer.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -22382,9 +22438,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/EffectLine.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/EffectLine.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/EffectLine.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/EffectLine.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -22409,19 +22465,19 @@ module.exports = _default;
 * under the License.
 */
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var Line = __webpack_require__(/*! ./Line */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Line.js");
+var Line = __webpack_require__(/*! ./Line */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Line.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js");
+var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js");
 
 var createSymbol = _symbol.createSymbol;
 
-var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
-var curveUtil = __webpack_require__(/*! zrender/lib/core/curve */ "../node_modules/_zrender@4.1.1@zrender/lib/core/curve.js");
+var curveUtil = __webpack_require__(/*! zrender/lib/core/curve */ "../node_modules/_zrender@4.1.2@zrender/lib/core/curve.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -22606,9 +22662,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/EffectPolyline.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/EffectPolyline.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/EffectPolyline.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/EffectPolyline.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -22633,13 +22689,13 @@ module.exports = _default;
 * under the License.
 */
 
-var Polyline = __webpack_require__(/*! ./Polyline */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Polyline.js");
+var Polyline = __webpack_require__(/*! ./Polyline */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Polyline.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var EffectLine = __webpack_require__(/*! ./EffectLine */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/EffectLine.js");
+var EffectLine = __webpack_require__(/*! ./EffectLine */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/EffectLine.js");
 
-var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -22765,9 +22821,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/EffectSymbol.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/EffectSymbol.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/EffectSymbol.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/EffectSymbol.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -22792,21 +22848,21 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js");
+var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js");
 
 var createSymbol = _symbol.createSymbol;
 
-var _graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var _graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
 var Group = _graphic.Group;
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 
-var SymbolClz = __webpack_require__(/*! ./Symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Symbol.js");
+var SymbolClz = __webpack_require__(/*! ./Symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Symbol.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -23037,9 +23093,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/LargeLineDraw.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/LargeLineDraw.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/LargeLineDraw.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/LargeLineDraw.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23064,13 +23120,13 @@ module.exports = _default;
 * under the License.
 */
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var IncrementalDisplayable = __webpack_require__(/*! zrender/lib/graphic/IncrementalDisplayable */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/IncrementalDisplayable.js");
+var IncrementalDisplayable = __webpack_require__(/*! zrender/lib/graphic/IncrementalDisplayable */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/IncrementalDisplayable.js");
 
-var lineContain = __webpack_require__(/*! zrender/lib/contain/line */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/line.js");
+var lineContain = __webpack_require__(/*! zrender/lib/contain/line */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/line.js");
 
-var quadraticContain = __webpack_require__(/*! zrender/lib/contain/quadratic */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/quadratic.js");
+var quadraticContain = __webpack_require__(/*! zrender/lib/contain/quadratic */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/quadratic.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -23320,9 +23376,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/LargeSymbolDraw.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/LargeSymbolDraw.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/LargeSymbolDraw.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/LargeSymbolDraw.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23347,13 +23403,13 @@ module.exports = _default;
 * under the License.
 */
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js");
+var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js");
 
 var createSymbol = _symbol.createSymbol;
 
-var IncrementalDisplayable = __webpack_require__(/*! zrender/lib/graphic/IncrementalDisplayable */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/IncrementalDisplayable.js");
+var IncrementalDisplayable = __webpack_require__(/*! zrender/lib/graphic/IncrementalDisplayable */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/IncrementalDisplayable.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -23632,9 +23688,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Line.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Line.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Line.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Line.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23659,17 +23715,17 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var vector = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vector = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
-var symbolUtil = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js");
+var symbolUtil = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js");
 
-var LinePath = __webpack_require__(/*! ./LinePath */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/LinePath.js");
+var LinePath = __webpack_require__(/*! ./LinePath */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/LinePath.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var round = _number.round;
 
@@ -24036,9 +24092,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/LineDraw.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/LineDraw.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/LineDraw.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/LineDraw.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24063,9 +24119,9 @@ module.exports = _default;
 * under the License.
 */
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var LineGroup = __webpack_require__(/*! ./Line */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Line.js");
+var LineGroup = __webpack_require__(/*! ./Line */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Line.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -24236,9 +24292,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/LinePath.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/LinePath.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/LinePath.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/LinePath.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24263,9 +24319,9 @@ module.exports = _default;
 * under the License.
 */
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -24333,9 +24389,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Polyline.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Polyline.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Polyline.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Polyline.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24360,9 +24416,9 @@ module.exports = _default;
 * under the License.
 */
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -24458,9 +24514,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Symbol.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Symbol.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Symbol.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Symbol.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24485,19 +24541,19 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js");
+var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js");
 
 var createSymbol = _symbol.createSymbol;
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 
-var _labelHelper = __webpack_require__(/*! ./labelHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/labelHelper.js");
+var _labelHelper = __webpack_require__(/*! ./labelHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/labelHelper.js");
 
 var getDefaultLabel = _labelHelper.getDefaultLabel;
 
@@ -24722,6 +24778,14 @@ symbolProto._updateCommon = function (data, idx, symbolSize, seriesScope) {
     symbolPath.useStyle({
       strokeNoScale: true
     });
+  } else {
+    symbolPath.setStyle({
+      opacity: null,
+      shadowBlur: null,
+      shadowOffsetX: null,
+      shadowOffsetY: null,
+      shadowColor: null
+    });
   }
 
   var itemStyle = seriesScope && seriesScope.itemStyle;
@@ -24849,9 +24913,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/SymbolDraw.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/SymbolDraw.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/SymbolDraw.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/SymbolDraw.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24876,11 +24940,11 @@ module.exports = _default;
 * under the License.
 */
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var SymbolClz = __webpack_require__(/*! ./Symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Symbol.js");
+var SymbolClz = __webpack_require__(/*! ./Symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Symbol.js");
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var isObject = _util.isObject;
 
@@ -25083,9 +25147,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createClipPathFromCoordSys.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createClipPathFromCoordSys.js":
 /*!*********************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createClipPathFromCoordSys.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createClipPathFromCoordSys.js ***!
   \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25110,9 +25174,9 @@ module.exports = _default;
 * under the License.
 */
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var round = _number.round;
 
@@ -25214,9 +25278,9 @@ exports.createClipPath = createClipPath;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createGraphFromNodeEdge.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createGraphFromNodeEdge.js":
 /*!******************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createGraphFromNodeEdge.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createGraphFromNodeEdge.js ***!
   \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25241,19 +25305,19 @@ exports.createClipPath = createClipPath;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.4.0@echarts/lib/data/List.js");
+var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.5.0@echarts/lib/data/List.js");
 
-var Graph = __webpack_require__(/*! ../../data/Graph */ "../node_modules/_echarts@4.4.0@echarts/lib/data/Graph.js");
+var Graph = __webpack_require__(/*! ../../data/Graph */ "../node_modules/_echarts@4.5.0@echarts/lib/data/Graph.js");
 
-var linkList = __webpack_require__(/*! ../../data/helper/linkList */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/linkList.js");
+var linkList = __webpack_require__(/*! ../../data/helper/linkList */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/linkList.js");
 
-var createDimensions = __webpack_require__(/*! ../../data/helper/createDimensions */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/createDimensions.js");
+var createDimensions = __webpack_require__(/*! ../../data/helper/createDimensions */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/createDimensions.js");
 
-var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.4.0@echarts/lib/CoordinateSystem.js");
+var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.5.0@echarts/lib/CoordinateSystem.js");
 
-var createListFromArray = __webpack_require__(/*! ./createListFromArray */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListFromArray.js");
+var createListFromArray = __webpack_require__(/*! ./createListFromArray */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListFromArray.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -25346,9 +25410,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListFromArray.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListFromArray.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListFromArray.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListFromArray.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25373,33 +25437,33 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.4.0@echarts/lib/data/List.js");
+var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.5.0@echarts/lib/data/List.js");
 
-var createDimensions = __webpack_require__(/*! ../../data/helper/createDimensions */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/createDimensions.js");
+var createDimensions = __webpack_require__(/*! ../../data/helper/createDimensions */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/createDimensions.js");
 
-var _sourceType = __webpack_require__(/*! ../../data/helper/sourceType */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/sourceType.js");
+var _sourceType = __webpack_require__(/*! ../../data/helper/sourceType */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/sourceType.js");
 
 var SOURCE_FORMAT_ORIGINAL = _sourceType.SOURCE_FORMAT_ORIGINAL;
 
-var _dimensionHelper = __webpack_require__(/*! ../../data/helper/dimensionHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dimensionHelper.js");
+var _dimensionHelper = __webpack_require__(/*! ../../data/helper/dimensionHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dimensionHelper.js");
 
 var getDimensionTypeByAxis = _dimensionHelper.getDimensionTypeByAxis;
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var getDataItemValue = _model.getDataItemValue;
 
-var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.4.0@echarts/lib/CoordinateSystem.js");
+var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.5.0@echarts/lib/CoordinateSystem.js");
 
-var _referHelper = __webpack_require__(/*! ../../model/referHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/model/referHelper.js");
+var _referHelper = __webpack_require__(/*! ../../model/referHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/model/referHelper.js");
 
 var getCoordSysDefineBySeries = _referHelper.getCoordSysDefineBySeries;
 
-var Source = __webpack_require__(/*! ../../data/Source */ "../node_modules/_echarts@4.4.0@echarts/lib/data/Source.js");
+var Source = __webpack_require__(/*! ../../data/Source */ "../node_modules/_echarts@4.5.0@echarts/lib/data/Source.js");
 
-var _dataStackHelper = __webpack_require__(/*! ../../data/helper/dataStackHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataStackHelper.js");
+var _dataStackHelper = __webpack_require__(/*! ../../data/helper/dataStackHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataStackHelper.js");
 
 var enableDataStack = _dataStackHelper.enableDataStack;
 
@@ -25522,9 +25586,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListSimply.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListSimply.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListSimply.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListSimply.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25549,11 +25613,11 @@ module.exports = _default;
 * under the License.
 */
 
-var createDimensions = __webpack_require__(/*! ../../data/helper/createDimensions */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/createDimensions.js");
+var createDimensions = __webpack_require__(/*! ../../data/helper/createDimensions */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/createDimensions.js");
 
-var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.4.0@echarts/lib/data/List.js");
+var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.5.0@echarts/lib/data/List.js");
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var extend = _util.extend;
 var isArray = _util.isArray;
@@ -25608,9 +25672,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createRenderPlanner.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createRenderPlanner.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createRenderPlanner.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createRenderPlanner.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25635,7 +25699,7 @@ module.exports = _default;
 * under the License.
 */
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var makeInner = _model.makeInner;
 
@@ -25678,9 +25742,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/focusNodeAdjacencyAction.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/focusNodeAdjacencyAction.js":
 /*!*******************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/focusNodeAdjacencyAction.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/focusNodeAdjacencyAction.js ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25705,7 +25769,7 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -25753,9 +25817,9 @@ echarts.registerAction({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/labelHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/labelHelper.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/labelHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/labelHelper.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25780,7 +25844,7 @@ echarts.registerAction({
 * under the License.
 */
 
-var _dataProvider = __webpack_require__(/*! ../../data/helper/dataProvider */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataProvider.js");
+var _dataProvider = __webpack_require__(/*! ../../data/helper/dataProvider */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataProvider.js");
 
 var retrieveRawValue = _dataProvider.retrieveRawValue;
 
@@ -25830,9 +25894,9 @@ exports.getDefaultLabel = getDefaultLabel;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/treeHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/treeHelper.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/treeHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/treeHelper.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25857,7 +25921,7 @@ exports.getDefaultLabel = getDefaultLabel;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -25944,9 +26008,9 @@ exports.wrapTreePathInfo = wrapTreePathInfo;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/whiskerBoxCommon.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/whiskerBoxCommon.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/whiskerBoxCommon.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/whiskerBoxCommon.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25971,11 +26035,11 @@ exports.wrapTreePathInfo = wrapTreePathInfo;
 * under the License.
 */
 
-var createListSimply = __webpack_require__(/*! ../helper/createListSimply */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListSimply.js");
+var createListSimply = __webpack_require__(/*! ../helper/createListSimply */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListSimply.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _dimensionHelper = __webpack_require__(/*! ../../data/helper/dimensionHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dimensionHelper.js");
+var _dimensionHelper = __webpack_require__(/*! ../../data/helper/dimensionHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dimensionHelper.js");
 
 var getDimensionTypeByAxis = _dimensionHelper.getDimensionTypeByAxis;
 
@@ -26094,9 +26158,9 @@ exports.seriesModelMixin = seriesModelMixin;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/line.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/line.js":
 /*!****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/line.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/line.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26121,19 +26185,19 @@ exports.seriesModelMixin = seriesModelMixin;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./line/LineSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/line/LineSeries.js");
+__webpack_require__(/*! ./line/LineSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/line/LineSeries.js");
 
-__webpack_require__(/*! ./line/LineView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/line/LineView.js");
+__webpack_require__(/*! ./line/LineView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/line/LineView.js");
 
-var visualSymbol = __webpack_require__(/*! ../visual/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/symbol.js");
+var visualSymbol = __webpack_require__(/*! ../visual/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/symbol.js");
 
-var layoutPoints = __webpack_require__(/*! ../layout/points */ "../node_modules/_echarts@4.4.0@echarts/lib/layout/points.js");
+var layoutPoints = __webpack_require__(/*! ../layout/points */ "../node_modules/_echarts@4.5.0@echarts/lib/layout/points.js");
 
-var dataSample = __webpack_require__(/*! ../processor/dataSample */ "../node_modules/_echarts@4.4.0@echarts/lib/processor/dataSample.js");
+var dataSample = __webpack_require__(/*! ../processor/dataSample */ "../node_modules/_echarts@4.5.0@echarts/lib/processor/dataSample.js");
 
-__webpack_require__(/*! ../component/gridSimple */ "../node_modules/_echarts@4.4.0@echarts/lib/component/gridSimple.js");
+__webpack_require__(/*! ../component/gridSimple */ "../node_modules/_echarts@4.5.0@echarts/lib/component/gridSimple.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -26161,9 +26225,9 @@ echarts.registerProcessor(echarts.PRIORITY.PROCESSOR.STATISTIC, dataSample('line
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/line/LineSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/line/LineSeries.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/line/LineSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/line/LineSeries.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26188,13 +26252,13 @@ echarts.registerProcessor(echarts.PRIORITY.PROCESSOR.STATISTIC, dataSample('line
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var createListFromArray = __webpack_require__(/*! ../helper/createListFromArray */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListFromArray.js");
+var createListFromArray = __webpack_require__(/*! ../helper/createListFromArray */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListFromArray.js");
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -26278,9 +26342,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/line/LineView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/line/LineView.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/line/LineView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/line/LineView.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26305,35 +26369,35 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var SymbolDraw = __webpack_require__(/*! ../helper/SymbolDraw */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/SymbolDraw.js");
+var SymbolDraw = __webpack_require__(/*! ../helper/SymbolDraw */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/SymbolDraw.js");
 
-var SymbolClz = __webpack_require__(/*! ../helper/Symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Symbol.js");
+var SymbolClz = __webpack_require__(/*! ../helper/Symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Symbol.js");
 
-var lineAnimationDiff = __webpack_require__(/*! ./lineAnimationDiff */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/line/lineAnimationDiff.js");
+var lineAnimationDiff = __webpack_require__(/*! ./lineAnimationDiff */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/line/lineAnimationDiff.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
-var _poly = __webpack_require__(/*! ./poly */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/line/poly.js");
+var _poly = __webpack_require__(/*! ./poly */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/line/poly.js");
 
 var Polyline = _poly.Polyline;
 var Polygon = _poly.Polygon;
 
-var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.4.0@echarts/lib/view/Chart.js");
+var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.5.0@echarts/lib/view/Chart.js");
 
-var _helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/line/helper.js");
+var _helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/line/helper.js");
 
 var prepareDataCoordInfo = _helper.prepareDataCoordInfo;
 var getStackedOnPoint = _helper.getStackedOnPoint;
 
-var _createClipPathFromCoordSys = __webpack_require__(/*! ../helper/createClipPathFromCoordSys */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createClipPathFromCoordSys.js");
+var _createClipPathFromCoordSys = __webpack_require__(/*! ../helper/createClipPathFromCoordSys */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createClipPathFromCoordSys.js");
 
 var createGridClipPath = _createClipPathFromCoordSys.createGridClipPath;
 var createPolarClipPath = _createClipPathFromCoordSys.createPolarClipPath;
@@ -26988,9 +27052,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/line/helper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/line/helper.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/line/helper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/line/helper.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27015,11 +27079,11 @@ module.exports = _default;
 * under the License.
 */
 
-var _dataStackHelper = __webpack_require__(/*! ../../data/helper/dataStackHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataStackHelper.js");
+var _dataStackHelper = __webpack_require__(/*! ../../data/helper/dataStackHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataStackHelper.js");
 
 var isDimensionStacked = _dataStackHelper.isDimensionStacked;
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var map = _util.map;
 
@@ -27135,9 +27199,9 @@ exports.getStackedOnPoint = getStackedOnPoint;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/line/lineAnimationDiff.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/line/lineAnimationDiff.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/line/lineAnimationDiff.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/line/lineAnimationDiff.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27162,7 +27226,7 @@ exports.getStackedOnPoint = getStackedOnPoint;
 * under the License.
 */
 
-var _helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/line/helper.js");
+var _helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/line/helper.js");
 
 var prepareDataCoordInfo = _helper.prepareDataCoordInfo;
 var getStackedOnPoint = _helper.getStackedOnPoint;
@@ -27336,9 +27400,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/line/poly.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/line/poly.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/line/poly.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/line/poly.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27363,11 +27427,11 @@ module.exports = _default;
 * under the License.
 */
 
-var Path = __webpack_require__(/*! zrender/lib/graphic/Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! zrender/lib/graphic/Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
-var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
-var fixClipWithShadow = __webpack_require__(/*! zrender/lib/graphic/helper/fixClipWithShadow */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/fixClipWithShadow.js");
+var fixClipWithShadow = __webpack_require__(/*! zrender/lib/graphic/helper/fixClipWithShadow */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/fixClipWithShadow.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -27727,9 +27791,9 @@ exports.Polygon = Polygon;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/lines.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/lines.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/lines.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/lines.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27754,15 +27818,15 @@ exports.Polygon = Polygon;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./lines/LinesSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/lines/LinesSeries.js");
+__webpack_require__(/*! ./lines/LinesSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/lines/LinesSeries.js");
 
-__webpack_require__(/*! ./lines/LinesView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/lines/LinesView.js");
+__webpack_require__(/*! ./lines/LinesView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/lines/LinesView.js");
 
-var linesLayout = __webpack_require__(/*! ./lines/linesLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/lines/linesLayout.js");
+var linesLayout = __webpack_require__(/*! ./lines/linesLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/lines/linesLayout.js");
 
-var linesVisual = __webpack_require__(/*! ./lines/linesVisual */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/lines/linesVisual.js");
+var linesVisual = __webpack_require__(/*! ./lines/linesVisual */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/lines/linesVisual.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -27787,9 +27851,9 @@ echarts.registerVisual(linesVisual);
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/lines/LinesSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/lines/LinesSeries.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/lines/LinesSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/lines/LinesSeries.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27814,25 +27878,25 @@ echarts.registerVisual(linesVisual);
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.4.0@echarts/lib/data/List.js");
+var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.5.0@echarts/lib/data/List.js");
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var concatArray = _util.concatArray;
 var mergeAll = _util.mergeAll;
 var map = _util.map;
 
-var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 var encodeHTML = _format.encodeHTML;
 
-var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.4.0@echarts/lib/CoordinateSystem.js");
+var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.5.0@echarts/lib/CoordinateSystem.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -28131,9 +28195,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/lines/LinesView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/lines/LinesView.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/lines/LinesView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/lines/LinesView.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -28158,27 +28222,27 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var LineDraw = __webpack_require__(/*! ../helper/LineDraw */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/LineDraw.js");
+var LineDraw = __webpack_require__(/*! ../helper/LineDraw */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/LineDraw.js");
 
-var EffectLine = __webpack_require__(/*! ../helper/EffectLine */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/EffectLine.js");
+var EffectLine = __webpack_require__(/*! ../helper/EffectLine */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/EffectLine.js");
 
-var Line = __webpack_require__(/*! ../helper/Line */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Line.js");
+var Line = __webpack_require__(/*! ../helper/Line */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Line.js");
 
-var Polyline = __webpack_require__(/*! ../helper/Polyline */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Polyline.js");
+var Polyline = __webpack_require__(/*! ../helper/Polyline */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Polyline.js");
 
-var EffectPolyline = __webpack_require__(/*! ../helper/EffectPolyline */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/EffectPolyline.js");
+var EffectPolyline = __webpack_require__(/*! ../helper/EffectPolyline */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/EffectPolyline.js");
 
-var LargeLineDraw = __webpack_require__(/*! ../helper/LargeLineDraw */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/LargeLineDraw.js");
+var LargeLineDraw = __webpack_require__(/*! ../helper/LargeLineDraw */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/LargeLineDraw.js");
 
-var linesLayout = __webpack_require__(/*! ./linesLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/lines/linesLayout.js");
+var linesLayout = __webpack_require__(/*! ./linesLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/lines/linesLayout.js");
 
-var _createClipPathFromCoordSys = __webpack_require__(/*! ../helper/createClipPathFromCoordSys */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createClipPathFromCoordSys.js");
+var _createClipPathFromCoordSys = __webpack_require__(/*! ../helper/createClipPathFromCoordSys */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createClipPathFromCoordSys.js");
 
 var createClipPath = _createClipPathFromCoordSys.createClipPath;
 
@@ -28339,9 +28403,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/lines/linesLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/lines/linesLayout.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/lines/linesLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/lines/linesLayout.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -28366,7 +28430,7 @@ module.exports = _default;
 * under the License.
 */
 
-var createRenderPlanner = __webpack_require__(/*! ../helper/createRenderPlanner */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createRenderPlanner.js");
+var createRenderPlanner = __webpack_require__(/*! ../helper/createRenderPlanner */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createRenderPlanner.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -28467,9 +28531,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/lines/linesVisual.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/lines/linesVisual.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/lines/linesVisual.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/lines/linesVisual.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -28554,9 +28618,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/map.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/map.js":
 /*!***************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/map.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/map.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -28581,25 +28645,25 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./map/MapSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/map/MapSeries.js");
+__webpack_require__(/*! ./map/MapSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/map/MapSeries.js");
 
-__webpack_require__(/*! ./map/MapView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/map/MapView.js");
+__webpack_require__(/*! ./map/MapView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/map/MapView.js");
 
-__webpack_require__(/*! ../action/geoRoam */ "../node_modules/_echarts@4.4.0@echarts/lib/action/geoRoam.js");
+__webpack_require__(/*! ../action/geoRoam */ "../node_modules/_echarts@4.5.0@echarts/lib/action/geoRoam.js");
 
-__webpack_require__(/*! ../coord/geo/geoCreator */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoCreator.js");
+__webpack_require__(/*! ../coord/geo/geoCreator */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoCreator.js");
 
-var mapSymbolLayout = __webpack_require__(/*! ./map/mapSymbolLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/map/mapSymbolLayout.js");
+var mapSymbolLayout = __webpack_require__(/*! ./map/mapSymbolLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/map/mapSymbolLayout.js");
 
-var mapVisual = __webpack_require__(/*! ./map/mapVisual */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/map/mapVisual.js");
+var mapVisual = __webpack_require__(/*! ./map/mapVisual */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/map/mapVisual.js");
 
-var mapDataStatistic = __webpack_require__(/*! ./map/mapDataStatistic */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/map/mapDataStatistic.js");
+var mapDataStatistic = __webpack_require__(/*! ./map/mapDataStatistic */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/map/mapDataStatistic.js");
 
-var backwardCompat = __webpack_require__(/*! ./map/backwardCompat */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/map/backwardCompat.js");
+var backwardCompat = __webpack_require__(/*! ./map/backwardCompat */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/map/backwardCompat.js");
 
-var createDataSelectAction = __webpack_require__(/*! ../action/createDataSelectAction */ "../node_modules/_echarts@4.4.0@echarts/lib/action/createDataSelectAction.js");
+var createDataSelectAction = __webpack_require__(/*! ../action/createDataSelectAction */ "../node_modules/_echarts@4.5.0@echarts/lib/action/createDataSelectAction.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -28639,9 +28703,9 @@ createDataSelectAction('map', [{
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/map/MapSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/map/MapSeries.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/map/MapSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/map/MapSeries.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -28666,24 +28730,24 @@ createDataSelectAction('map', [{
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var createListSimply = __webpack_require__(/*! ../helper/createListSimply */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListSimply.js");
+var createListSimply = __webpack_require__(/*! ../helper/createListSimply */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListSimply.js");
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 var encodeHTML = _format.encodeHTML;
 var addCommas = _format.addCommas;
 
-var dataSelectableMixin = __webpack_require__(/*! ../../component/helper/selectableMixin */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/selectableMixin.js");
+var dataSelectableMixin = __webpack_require__(/*! ../../component/helper/selectableMixin */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/selectableMixin.js");
 
-var _dataProvider = __webpack_require__(/*! ../../data/helper/dataProvider */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataProvider.js");
+var _dataProvider = __webpack_require__(/*! ../../data/helper/dataProvider */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataProvider.js");
 
 var retrieveRawAttr = _dataProvider.retrieveRawAttr;
 
-var geoSourceManager = __webpack_require__(/*! ../../coord/geo/geoSourceManager */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoSourceManager.js");
+var geoSourceManager = __webpack_require__(/*! ../../coord/geo/geoSourceManager */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoSourceManager.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -28906,9 +28970,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/map/MapView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/map/MapView.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/map/MapView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/map/MapView.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -28933,13 +28997,13 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var MapDraw = __webpack_require__(/*! ../../component/helper/MapDraw */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/MapDraw.js");
+var MapDraw = __webpack_require__(/*! ../../component/helper/MapDraw */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/MapDraw.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -29143,9 +29207,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/map/backwardCompat.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/map/backwardCompat.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/map/backwardCompat.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/map/backwardCompat.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29170,7 +29234,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -29207,9 +29271,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/map/mapDataStatistic.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/map/mapDataStatistic.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/map/mapDataStatistic.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/map/mapDataStatistic.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29234,7 +29298,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -29333,9 +29397,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/map/mapSymbolLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/map/mapSymbolLayout.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/map/mapSymbolLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/map/mapSymbolLayout.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29360,7 +29424,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -29431,9 +29495,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/map/mapVisual.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/map/mapVisual.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/map/mapVisual.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/map/mapVisual.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -29493,9 +29557,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/parallel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/parallel.js":
 /*!********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/parallel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/parallel.js ***!
   \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29520,15 +29584,15 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ../component/parallel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/parallel.js");
+__webpack_require__(/*! ../component/parallel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/parallel.js");
 
-__webpack_require__(/*! ./parallel/ParallelSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/parallel/ParallelSeries.js");
+__webpack_require__(/*! ./parallel/ParallelSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/parallel/ParallelSeries.js");
 
-__webpack_require__(/*! ./parallel/ParallelView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/parallel/ParallelView.js");
+__webpack_require__(/*! ./parallel/ParallelView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/parallel/ParallelView.js");
 
-var parallelVisual = __webpack_require__(/*! ./parallel/parallelVisual */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/parallel/parallelVisual.js");
+var parallelVisual = __webpack_require__(/*! ./parallel/parallelVisual */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/parallel/parallelVisual.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -29552,9 +29616,9 @@ echarts.registerVisual(parallelVisual);
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/parallel/ParallelSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/parallel/ParallelSeries.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/parallel/ParallelSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/parallel/ParallelSeries.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29579,14 +29643,14 @@ echarts.registerVisual(parallelVisual);
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var each = _util.each;
 var createHashMap = _util.createHashMap;
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var createListFromArray = __webpack_require__(/*! ../helper/createListFromArray */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListFromArray.js");
+var createListFromArray = __webpack_require__(/*! ../helper/createListFromArray */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListFromArray.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -29695,9 +29759,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/parallel/ParallelView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/parallel/ParallelView.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/parallel/ParallelView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/parallel/ParallelView.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29722,9 +29786,9 @@ module.exports = _default;
 * under the License.
 */
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.4.0@echarts/lib/view/Chart.js");
+var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.5.0@echarts/lib/view/Chart.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -29976,9 +30040,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/parallel/parallelVisual.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/parallel/parallelVisual.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/parallel/parallelVisual.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/parallel/parallelVisual.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -30063,9 +30127,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/pictorialBar.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/pictorialBar.js":
 /*!************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/pictorialBar.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/pictorialBar.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30090,23 +30154,23 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-__webpack_require__(/*! ../coord/cartesian/Grid */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/Grid.js");
+__webpack_require__(/*! ../coord/cartesian/Grid */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/Grid.js");
 
-__webpack_require__(/*! ./bar/PictorialBarSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/PictorialBarSeries.js");
+__webpack_require__(/*! ./bar/PictorialBarSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/PictorialBarSeries.js");
 
-__webpack_require__(/*! ./bar/PictorialBarView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/bar/PictorialBarView.js");
+__webpack_require__(/*! ./bar/PictorialBarView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/bar/PictorialBarView.js");
 
-var _barGrid = __webpack_require__(/*! ../layout/barGrid */ "../node_modules/_echarts@4.4.0@echarts/lib/layout/barGrid.js");
+var _barGrid = __webpack_require__(/*! ../layout/barGrid */ "../node_modules/_echarts@4.5.0@echarts/lib/layout/barGrid.js");
 
 var layout = _barGrid.layout;
 
-var visualSymbol = __webpack_require__(/*! ../visual/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/symbol.js");
+var visualSymbol = __webpack_require__(/*! ../visual/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/symbol.js");
 
-__webpack_require__(/*! ../component/gridSimple */ "../node_modules/_echarts@4.4.0@echarts/lib/component/gridSimple.js");
+__webpack_require__(/*! ../component/gridSimple */ "../node_modules/_echarts@4.5.0@echarts/lib/component/gridSimple.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -30132,9 +30196,9 @@ echarts.registerVisual(visualSymbol('pictorialBar', 'roundRect'));
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/pie.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/pie.js":
 /*!***************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/pie.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/pie.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30159,21 +30223,21 @@ echarts.registerVisual(visualSymbol('pictorialBar', 'roundRect'));
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-__webpack_require__(/*! ./pie/PieSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/pie/PieSeries.js");
+__webpack_require__(/*! ./pie/PieSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/pie/PieSeries.js");
 
-__webpack_require__(/*! ./pie/PieView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/pie/PieView.js");
+__webpack_require__(/*! ./pie/PieView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/pie/PieView.js");
 
-var createDataSelectAction = __webpack_require__(/*! ../action/createDataSelectAction */ "../node_modules/_echarts@4.4.0@echarts/lib/action/createDataSelectAction.js");
+var createDataSelectAction = __webpack_require__(/*! ../action/createDataSelectAction */ "../node_modules/_echarts@4.5.0@echarts/lib/action/createDataSelectAction.js");
 
-var dataColor = __webpack_require__(/*! ../visual/dataColor */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/dataColor.js");
+var dataColor = __webpack_require__(/*! ../visual/dataColor */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/dataColor.js");
 
-var pieLayout = __webpack_require__(/*! ./pie/pieLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/pie/pieLayout.js");
+var pieLayout = __webpack_require__(/*! ./pie/pieLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/pie/pieLayout.js");
 
-var dataFilter = __webpack_require__(/*! ../processor/dataFilter */ "../node_modules/_echarts@4.4.0@echarts/lib/processor/dataFilter.js");
+var dataFilter = __webpack_require__(/*! ../processor/dataFilter */ "../node_modules/_echarts@4.5.0@echarts/lib/processor/dataFilter.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -30212,9 +30276,9 @@ echarts.registerProcessor(dataFilter('pie'));
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/pie/PieSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/pie/PieSeries.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/pie/PieSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/pie/PieSeries.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30239,21 +30303,21 @@ echarts.registerProcessor(dataFilter('pie'));
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var createListSimply = __webpack_require__(/*! ../helper/createListSimply */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListSimply.js");
+var createListSimply = __webpack_require__(/*! ../helper/createListSimply */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListSimply.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var getPercentWithPrecision = _number.getPercentWithPrecision;
 
-var dataSelectableMixin = __webpack_require__(/*! ../../component/helper/selectableMixin */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/selectableMixin.js");
+var dataSelectableMixin = __webpack_require__(/*! ../../component/helper/selectableMixin */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/selectableMixin.js");
 
-var _dataProvider = __webpack_require__(/*! ../../data/helper/dataProvider */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataProvider.js");
+var _dataProvider = __webpack_require__(/*! ../../data/helper/dataProvider */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataProvider.js");
 
 var retrieveRawAttr = _dataProvider.retrieveRawAttr;
 
@@ -30405,9 +30469,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/pie/PieView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/pie/PieView.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/pie/PieView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/pie/PieView.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30432,11 +30496,11 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.4.0@echarts/lib/view/Chart.js");
+var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.5.0@echarts/lib/view/Chart.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -30798,9 +30862,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/pie/labelLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/pie/labelLayout.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/pie/labelLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/pie/labelLayout.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30825,7 +30889,7 @@ module.exports = _default;
 * under the License.
 */
 
-var textContain = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/text.js");
+var textContain = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/text.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -31080,9 +31144,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/pie/pieLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/pie/pieLayout.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/pie/pieLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/pie/pieLayout.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31107,14 +31171,14 @@ module.exports = _default;
 * under the License.
 */
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 var linearMap = _number.linearMap;
 
-var labelLayout = __webpack_require__(/*! ./labelLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/pie/labelLayout.js");
+var labelLayout = __webpack_require__(/*! ./labelLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/pie/labelLayout.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -31261,9 +31325,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/radar.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/radar.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/radar.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/radar.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31288,23 +31352,23 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ../component/radar */ "../node_modules/_echarts@4.4.0@echarts/lib/component/radar.js");
+__webpack_require__(/*! ../component/radar */ "../node_modules/_echarts@4.5.0@echarts/lib/component/radar.js");
 
-__webpack_require__(/*! ./radar/RadarSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/radar/RadarSeries.js");
+__webpack_require__(/*! ./radar/RadarSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/radar/RadarSeries.js");
 
-__webpack_require__(/*! ./radar/RadarView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/radar/RadarView.js");
+__webpack_require__(/*! ./radar/RadarView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/radar/RadarView.js");
 
-var dataColor = __webpack_require__(/*! ../visual/dataColor */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/dataColor.js");
+var dataColor = __webpack_require__(/*! ../visual/dataColor */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/dataColor.js");
 
-var visualSymbol = __webpack_require__(/*! ../visual/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/symbol.js");
+var visualSymbol = __webpack_require__(/*! ../visual/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/symbol.js");
 
-var radarLayout = __webpack_require__(/*! ./radar/radarLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/radar/radarLayout.js");
+var radarLayout = __webpack_require__(/*! ./radar/radarLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/radar/radarLayout.js");
 
-var dataFilter = __webpack_require__(/*! ../processor/dataFilter */ "../node_modules/_echarts@4.4.0@echarts/lib/processor/dataFilter.js");
+var dataFilter = __webpack_require__(/*! ../processor/dataFilter */ "../node_modules/_echarts@4.5.0@echarts/lib/processor/dataFilter.js");
 
-var backwardCompat = __webpack_require__(/*! ./radar/backwardCompat */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/radar/backwardCompat.js");
+var backwardCompat = __webpack_require__(/*! ./radar/backwardCompat */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/radar/backwardCompat.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -31333,9 +31397,9 @@ echarts.registerPreprocessor(backwardCompat);
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/radar/RadarSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/radar/RadarSeries.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/radar/RadarSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/radar/RadarSeries.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31360,13 +31424,13 @@ echarts.registerPreprocessor(backwardCompat);
 * under the License.
 */
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var createListSimply = __webpack_require__(/*! ../helper/createListSimply */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListSimply.js");
+var createListSimply = __webpack_require__(/*! ../helper/createListSimply */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListSimply.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 var encodeHTML = _format.encodeHTML;
 
@@ -31442,9 +31506,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/radar/RadarView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/radar/RadarView.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/radar/RadarView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/radar/RadarView.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31469,13 +31533,13 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var symbolUtil = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js");
+var symbolUtil = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -31669,9 +31733,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/radar/backwardCompat.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/radar/backwardCompat.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/radar/backwardCompat.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/radar/backwardCompat.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31696,7 +31760,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -31757,9 +31821,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/radar/radarLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/radar/radarLayout.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/radar/radarLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/radar/radarLayout.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31784,7 +31848,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -31851,9 +31915,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31878,17 +31942,17 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./sankey/SankeySeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/SankeySeries.js");
+__webpack_require__(/*! ./sankey/SankeySeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/SankeySeries.js");
 
-__webpack_require__(/*! ./sankey/SankeyView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/SankeyView.js");
+__webpack_require__(/*! ./sankey/SankeyView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/SankeyView.js");
 
-__webpack_require__(/*! ./sankey/sankeyAction */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/sankeyAction.js");
+__webpack_require__(/*! ./sankey/sankeyAction */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/sankeyAction.js");
 
-var sankeyLayout = __webpack_require__(/*! ./sankey/sankeyLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/sankeyLayout.js");
+var sankeyLayout = __webpack_require__(/*! ./sankey/sankeyLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/sankeyLayout.js");
 
-var sankeyVisual = __webpack_require__(/*! ./sankey/sankeyVisual */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/sankeyVisual.js");
+var sankeyVisual = __webpack_require__(/*! ./sankey/sankeyVisual */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/sankeyVisual.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -31913,9 +31977,9 @@ echarts.registerVisual(sankeyVisual);
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/SankeySeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/SankeySeries.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/SankeySeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/SankeySeries.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31940,17 +32004,17 @@ echarts.registerVisual(sankeyVisual);
 * under the License.
 */
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var createGraphFromNodeEdge = __webpack_require__(/*! ../helper/createGraphFromNodeEdge */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createGraphFromNodeEdge.js");
+var createGraphFromNodeEdge = __webpack_require__(/*! ../helper/createGraphFromNodeEdge */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createGraphFromNodeEdge.js");
 
-var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 var encodeHTML = _format.encodeHTML;
 
-var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
@@ -32139,9 +32203,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/SankeyView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/SankeyView.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/SankeyView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/SankeyView.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -32166,11 +32230,11 @@ module.exports = _default;
 * under the License.
 */
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -32564,9 +32628,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/sankeyAction.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/sankeyAction.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/sankeyAction.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/sankeyAction.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -32591,9 +32655,9 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ../helper/focusNodeAdjacencyAction */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/focusNodeAdjacencyAction.js");
+__webpack_require__(/*! ../helper/focusNodeAdjacencyAction */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/focusNodeAdjacencyAction.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -32630,9 +32694,9 @@ echarts.registerAction({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/sankeyLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/sankeyLayout.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/sankeyLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/sankeyLayout.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -32657,11 +32721,11 @@ echarts.registerAction({
 * under the License.
 */
 
-var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var groupData = _model.groupData;
 
@@ -33211,9 +33275,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/sankeyVisual.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/sankeyVisual.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/sankey/sankeyVisual.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/sankey/sankeyVisual.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -33238,9 +33302,9 @@ module.exports = _default;
 * under the License.
 */
 
-var VisualMapping = __webpack_require__(/*! ../../visual/VisualMapping */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/VisualMapping.js");
+var VisualMapping = __webpack_require__(/*! ../../visual/VisualMapping */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/VisualMapping.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -33298,9 +33362,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/scatter.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/scatter.js":
 /*!*******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/scatter.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/scatter.js ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -33325,17 +33389,17 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./scatter/ScatterSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/scatter/ScatterSeries.js");
+__webpack_require__(/*! ./scatter/ScatterSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/scatter/ScatterSeries.js");
 
-__webpack_require__(/*! ./scatter/ScatterView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/scatter/ScatterView.js");
+__webpack_require__(/*! ./scatter/ScatterView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/scatter/ScatterView.js");
 
-var visualSymbol = __webpack_require__(/*! ../visual/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/symbol.js");
+var visualSymbol = __webpack_require__(/*! ../visual/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/symbol.js");
 
-var layoutPoints = __webpack_require__(/*! ../layout/points */ "../node_modules/_echarts@4.4.0@echarts/lib/layout/points.js");
+var layoutPoints = __webpack_require__(/*! ../layout/points */ "../node_modules/_echarts@4.5.0@echarts/lib/layout/points.js");
 
-__webpack_require__(/*! ../component/gridSimple */ "../node_modules/_echarts@4.4.0@echarts/lib/component/gridSimple.js");
+__webpack_require__(/*! ../component/gridSimple */ "../node_modules/_echarts@4.5.0@echarts/lib/component/gridSimple.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -33379,9 +33443,9 @@ echarts.registerLayout(layoutPoints('scatter')); // echarts.registerProcessor(fu
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/scatter/ScatterSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/scatter/ScatterSeries.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/scatter/ScatterSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/scatter/ScatterSeries.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -33406,9 +33470,9 @@ echarts.registerLayout(layoutPoints('scatter')); // echarts.registerProcessor(fu
 * under the License.
 */
 
-var createListFromArray = __webpack_require__(/*! ../helper/createListFromArray */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListFromArray.js");
+var createListFromArray = __webpack_require__(/*! ../helper/createListFromArray */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListFromArray.js");
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -33499,9 +33563,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/scatter/ScatterView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/scatter/ScatterView.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/scatter/ScatterView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/scatter/ScatterView.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -33526,13 +33590,13 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var SymbolDraw = __webpack_require__(/*! ../helper/SymbolDraw */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/SymbolDraw.js");
+var SymbolDraw = __webpack_require__(/*! ../helper/SymbolDraw */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/SymbolDraw.js");
 
-var LargeSymbolDraw = __webpack_require__(/*! ../helper/LargeSymbolDraw */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/LargeSymbolDraw.js");
+var LargeSymbolDraw = __webpack_require__(/*! ../helper/LargeSymbolDraw */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/LargeSymbolDraw.js");
 
-var pointsLayout = __webpack_require__(/*! ../../layout/points */ "../node_modules/_echarts@4.4.0@echarts/lib/layout/points.js");
+var pointsLayout = __webpack_require__(/*! ../../layout/points */ "../node_modules/_echarts@4.5.0@echarts/lib/layout/points.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -33635,9 +33699,9 @@ echarts.extendChartView({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst.js":
 /*!********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst.js ***!
   \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -33662,21 +33726,21 @@ echarts.extendChartView({
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-__webpack_require__(/*! ./sunburst/SunburstSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/SunburstSeries.js");
+__webpack_require__(/*! ./sunburst/SunburstSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/SunburstSeries.js");
 
-__webpack_require__(/*! ./sunburst/SunburstView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/SunburstView.js");
+__webpack_require__(/*! ./sunburst/SunburstView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/SunburstView.js");
 
-__webpack_require__(/*! ./sunburst/sunburstAction */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/sunburstAction.js");
+__webpack_require__(/*! ./sunburst/sunburstAction */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/sunburstAction.js");
 
-var dataColor = __webpack_require__(/*! ../visual/dataColor */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/dataColor.js");
+var dataColor = __webpack_require__(/*! ../visual/dataColor */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/dataColor.js");
 
-var sunburstLayout = __webpack_require__(/*! ./sunburst/sunburstLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/sunburstLayout.js");
+var sunburstLayout = __webpack_require__(/*! ./sunburst/sunburstLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/sunburstLayout.js");
 
-var dataFilter = __webpack_require__(/*! ../processor/dataFilter */ "../node_modules/_echarts@4.4.0@echarts/lib/processor/dataFilter.js");
+var dataFilter = __webpack_require__(/*! ../processor/dataFilter */ "../node_modules/_echarts@4.5.0@echarts/lib/processor/dataFilter.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -33702,9 +33766,9 @@ echarts.registerProcessor(zrUtil.curry(dataFilter, 'sunburst'));
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/SunburstPiece.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/SunburstPiece.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/SunburstPiece.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/SunburstPiece.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -33729,9 +33793,9 @@ echarts.registerProcessor(zrUtil.curry(dataFilter, 'sunburst'));
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -34103,9 +34167,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/SunburstSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/SunburstSeries.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/SunburstSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/SunburstSeries.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -34130,13 +34194,13 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var Tree = __webpack_require__(/*! ../../data/Tree */ "../node_modules/_echarts@4.4.0@echarts/lib/data/Tree.js");
+var Tree = __webpack_require__(/*! ../../data/Tree */ "../node_modules/_echarts@4.5.0@echarts/lib/data/Tree.js");
 
-var _treeHelper = __webpack_require__(/*! ../helper/treeHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/treeHelper.js");
+var _treeHelper = __webpack_require__(/*! ../helper/treeHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/treeHelper.js");
 
 var wrapTreePathInfo = _treeHelper.wrapTreePathInfo;
 
@@ -34320,9 +34384,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/SunburstView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/SunburstView.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/SunburstView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/SunburstView.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -34347,13 +34411,13 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.4.0@echarts/lib/view/Chart.js");
+var ChartView = __webpack_require__(/*! ../../view/Chart */ "../node_modules/_echarts@4.5.0@echarts/lib/view/Chart.js");
 
-var SunburstPiece = __webpack_require__(/*! ./SunburstPiece */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/SunburstPiece.js");
+var SunburstPiece = __webpack_require__(/*! ./SunburstPiece */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/SunburstPiece.js");
 
-var DataDiffer = __webpack_require__(/*! ../../data/DataDiffer */ "../node_modules/_echarts@4.4.0@echarts/lib/data/DataDiffer.js");
+var DataDiffer = __webpack_require__(/*! ../../data/DataDiffer */ "../node_modules/_echarts@4.5.0@echarts/lib/data/DataDiffer.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -34573,9 +34637,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/sunburstAction.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/sunburstAction.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/sunburstAction.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/sunburstAction.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -34600,9 +34664,9 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var helper = __webpack_require__(/*! ../helper/treeHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/treeHelper.js");
+var helper = __webpack_require__(/*! ../helper/treeHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/treeHelper.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -34688,9 +34752,9 @@ echarts.registerAction({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/sunburstLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/sunburstLayout.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/sunburst/sunburstLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/sunburst/sunburstLayout.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -34715,11 +34779,11 @@ echarts.registerAction({
 * under the License.
 */
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -34914,9 +34978,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver.js":
 /*!**********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver.js ***!
   \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -34941,19 +35005,19 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ../component/singleAxis */ "../node_modules/_echarts@4.4.0@echarts/lib/component/singleAxis.js");
+__webpack_require__(/*! ../component/singleAxis */ "../node_modules/_echarts@4.5.0@echarts/lib/component/singleAxis.js");
 
-__webpack_require__(/*! ./themeRiver/ThemeRiverSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver/ThemeRiverSeries.js");
+__webpack_require__(/*! ./themeRiver/ThemeRiverSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver/ThemeRiverSeries.js");
 
-__webpack_require__(/*! ./themeRiver/ThemeRiverView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver/ThemeRiverView.js");
+__webpack_require__(/*! ./themeRiver/ThemeRiverView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver/ThemeRiverView.js");
 
-var themeRiverLayout = __webpack_require__(/*! ./themeRiver/themeRiverLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver/themeRiverLayout.js");
+var themeRiverLayout = __webpack_require__(/*! ./themeRiver/themeRiverLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver/themeRiverLayout.js");
 
-var themeRiverVisual = __webpack_require__(/*! ./themeRiver/themeRiverVisual */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver/themeRiverVisual.js");
+var themeRiverVisual = __webpack_require__(/*! ./themeRiver/themeRiverVisual */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver/themeRiverVisual.js");
 
-var dataFilter = __webpack_require__(/*! ../processor/dataFilter */ "../node_modules/_echarts@4.4.0@echarts/lib/processor/dataFilter.js");
+var dataFilter = __webpack_require__(/*! ../processor/dataFilter */ "../node_modules/_echarts@4.5.0@echarts/lib/processor/dataFilter.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -34979,9 +35043,9 @@ echarts.registerProcessor(dataFilter('themeRiver'));
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver/ThemeRiverSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver/ThemeRiverSeries.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver/ThemeRiverSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver/ThemeRiverSeries.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -35006,23 +35070,23 @@ echarts.registerProcessor(dataFilter('themeRiver'));
 * under the License.
 */
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var createDimensions = __webpack_require__(/*! ../../data/helper/createDimensions */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/createDimensions.js");
+var createDimensions = __webpack_require__(/*! ../../data/helper/createDimensions */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/createDimensions.js");
 
-var _dimensionHelper = __webpack_require__(/*! ../../data/helper/dimensionHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dimensionHelper.js");
+var _dimensionHelper = __webpack_require__(/*! ../../data/helper/dimensionHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dimensionHelper.js");
 
 var getDimensionTypeByAxis = _dimensionHelper.getDimensionTypeByAxis;
 
-var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.4.0@echarts/lib/data/List.js");
+var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.5.0@echarts/lib/data/List.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var groupData = _model.groupData;
 
-var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 var encodeHTML = _format.encodeHTML;
 
@@ -35310,9 +35374,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver/ThemeRiverView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver/ThemeRiverView.js":
 /*!*************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver/ThemeRiverView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver/ThemeRiverView.js ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -35337,20 +35401,20 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var _poly = __webpack_require__(/*! ../line/poly */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/line/poly.js");
+var _poly = __webpack_require__(/*! ../line/poly */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/line/poly.js");
 
 var Polygon = _poly.Polygon;
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var bind = _util.bind;
 var extend = _util.extend;
 
-var DataDiffer = __webpack_require__(/*! ../../data/DataDiffer */ "../node_modules/_echarts@4.4.0@echarts/lib/data/DataDiffer.js");
+var DataDiffer = __webpack_require__(/*! ../../data/DataDiffer */ "../node_modules/_echarts@4.5.0@echarts/lib/data/DataDiffer.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -35507,9 +35571,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver/themeRiverLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver/themeRiverLayout.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver/themeRiverLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver/themeRiverLayout.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -35534,9 +35598,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -35691,9 +35755,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver/themeRiverVisual.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver/themeRiverVisual.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/themeRiver/themeRiverVisual.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/themeRiver/themeRiverVisual.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -35718,7 +35782,7 @@ module.exports = _default;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var createHashMap = _util.createHashMap;
 
@@ -35766,9 +35830,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree.js":
 /*!****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/tree.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/tree.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -35793,17 +35857,17 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./tree/TreeSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/TreeSeries.js");
+__webpack_require__(/*! ./tree/TreeSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/TreeSeries.js");
 
-__webpack_require__(/*! ./tree/TreeView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/TreeView.js");
+__webpack_require__(/*! ./tree/TreeView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/TreeView.js");
 
-__webpack_require__(/*! ./tree/treeAction */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/treeAction.js");
+__webpack_require__(/*! ./tree/treeAction */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/treeAction.js");
 
-var visualSymbol = __webpack_require__(/*! ../visual/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/symbol.js");
+var visualSymbol = __webpack_require__(/*! ../visual/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/symbol.js");
 
-var treeLayout = __webpack_require__(/*! ./tree/treeLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/treeLayout.js");
+var treeLayout = __webpack_require__(/*! ./tree/treeLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/treeLayout.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -35828,9 +35892,9 @@ echarts.registerLayout(treeLayout);
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/TreeSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/TreeSeries.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/TreeSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/TreeSeries.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -35855,11 +35919,11 @@ echarts.registerLayout(treeLayout);
 * under the License.
 */
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var Tree = __webpack_require__(/*! ../../data/Tree */ "../node_modules/_echarts@4.4.0@echarts/lib/data/Tree.js");
+var Tree = __webpack_require__(/*! ../../data/Tree */ "../node_modules/_echarts@4.5.0@echarts/lib/data/Tree.js");
 
-var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 var encodeHTML = _format.encodeHTML;
 
@@ -36013,9 +36077,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/TreeView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/TreeView.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/TreeView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/TreeView.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -36040,27 +36104,27 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var SymbolClz = __webpack_require__(/*! ../helper/Symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/Symbol.js");
+var SymbolClz = __webpack_require__(/*! ../helper/Symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/Symbol.js");
 
-var _layoutHelper = __webpack_require__(/*! ./layoutHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/layoutHelper.js");
+var _layoutHelper = __webpack_require__(/*! ./layoutHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/layoutHelper.js");
 
 var radialCoordinate = _layoutHelper.radialCoordinate;
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var bbox = __webpack_require__(/*! zrender/lib/core/bbox */ "../node_modules/_zrender@4.1.1@zrender/lib/core/bbox.js");
+var bbox = __webpack_require__(/*! zrender/lib/core/bbox */ "../node_modules/_zrender@4.1.2@zrender/lib/core/bbox.js");
 
-var View = __webpack_require__(/*! ../../coord/View */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/View.js");
+var View = __webpack_require__(/*! ../../coord/View */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/View.js");
 
-var roamHelper = __webpack_require__(/*! ../../component/helper/roamHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/roamHelper.js");
+var roamHelper = __webpack_require__(/*! ../../component/helper/roamHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/roamHelper.js");
 
-var RoamController = __webpack_require__(/*! ../../component/helper/RoamController */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/RoamController.js");
+var RoamController = __webpack_require__(/*! ../../component/helper/RoamController */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/RoamController.js");
 
-var _cursorHelper = __webpack_require__(/*! ../../component/helper/cursorHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/cursorHelper.js");
+var _cursorHelper = __webpack_require__(/*! ../../component/helper/cursorHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/cursorHelper.js");
 
 var onIrrelevantElement = _cursorHelper.onIrrelevantElement;
 
@@ -36399,9 +36463,11 @@ function updateNode(data, dataIndex, symbolEl, group, seriesModel, seriesScope) 
     }
 
     var textPosition = isLeft ? 'left' : 'right';
+    var rotate = seriesScope.labelModel.get('rotate');
+    var labelRotateRadian = rotate * (Math.PI / 180);
     symbolPath.setStyle({
-      textPosition: textPosition,
-      textRotation: -rad,
+      textPosition: seriesScope.labelModel.get('position') || textPosition,
+      textRotation: rotate == null ? -rad : labelRotateRadian,
       textOrigin: 'center',
       verticalAlign: 'middle'
     });
@@ -36532,9 +36598,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/layoutHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/layoutHelper.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/layoutHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/layoutHelper.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -36559,7 +36625,7 @@ module.exports = _default;
 * under the License.
 */
 
-var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -36909,9 +36975,9 @@ exports.getViewRect = getViewRect;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/traversalHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/traversalHelper.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/traversalHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/traversalHelper.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -37017,9 +37083,9 @@ exports.eachBefore = eachBefore;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/treeAction.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/treeAction.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/treeAction.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/treeAction.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -37044,9 +37110,9 @@ exports.eachBefore = eachBefore;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var _roamHelper = __webpack_require__(/*! ../../action/roamHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/action/roamHelper.js");
+var _roamHelper = __webpack_require__(/*! ../../action/roamHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/action/roamHelper.js");
 
 var updateCenterAndZoom = _roamHelper.updateCenterAndZoom;
 
@@ -37107,9 +37173,9 @@ echarts.registerAction({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/treeLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/treeLayout.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/treeLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/treeLayout.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -37134,12 +37200,12 @@ echarts.registerAction({
 * under the License.
 */
 
-var _traversalHelper = __webpack_require__(/*! ./traversalHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/traversalHelper.js");
+var _traversalHelper = __webpack_require__(/*! ./traversalHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/traversalHelper.js");
 
 var eachAfter = _traversalHelper.eachAfter;
 var eachBefore = _traversalHelper.eachBefore;
 
-var _layoutHelper = __webpack_require__(/*! ./layoutHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/tree/layoutHelper.js");
+var _layoutHelper = __webpack_require__(/*! ./layoutHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/tree/layoutHelper.js");
 
 var init = _layoutHelper.init;
 var firstWalk = _layoutHelper.firstWalk;
@@ -37274,9 +37340,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap.js":
 /*!*******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap.js ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -37301,17 +37367,17 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./treemap/TreemapSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/TreemapSeries.js");
+__webpack_require__(/*! ./treemap/TreemapSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/TreemapSeries.js");
 
-__webpack_require__(/*! ./treemap/TreemapView */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/TreemapView.js");
+__webpack_require__(/*! ./treemap/TreemapView */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/TreemapView.js");
 
-__webpack_require__(/*! ./treemap/treemapAction */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/treemapAction.js");
+__webpack_require__(/*! ./treemap/treemapAction */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/treemapAction.js");
 
-var treemapVisual = __webpack_require__(/*! ./treemap/treemapVisual */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/treemapVisual.js");
+var treemapVisual = __webpack_require__(/*! ./treemap/treemapVisual */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/treemapVisual.js");
 
-var treemapLayout = __webpack_require__(/*! ./treemap/treemapLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/treemapLayout.js");
+var treemapLayout = __webpack_require__(/*! ./treemap/treemapLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/treemapLayout.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -37336,9 +37402,9 @@ echarts.registerLayout(treemapLayout);
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/Breadcrumb.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/Breadcrumb.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/Breadcrumb.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/Breadcrumb.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -37363,13 +37429,13 @@ echarts.registerLayout(treemapLayout);
 * under the License.
 */
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _treeHelper = __webpack_require__(/*! ../helper/treeHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/treeHelper.js");
+var _treeHelper = __webpack_require__(/*! ../helper/treeHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/treeHelper.js");
 
 var wrapTreePathInfo = _treeHelper.wrapTreePathInfo;
 
@@ -37541,9 +37607,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/TreemapSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/TreemapSeries.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/TreemapSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/TreemapSeries.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -37568,20 +37634,20 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ../../model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var Tree = __webpack_require__(/*! ../../data/Tree */ "../node_modules/_echarts@4.4.0@echarts/lib/data/Tree.js");
+var Tree = __webpack_require__(/*! ../../data/Tree */ "../node_modules/_echarts@4.5.0@echarts/lib/data/Tree.js");
 
-var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 var encodeHTML = _format.encodeHTML;
 var addCommas = _format.addCommas;
 
-var _treeHelper = __webpack_require__(/*! ../helper/treeHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/treeHelper.js");
+var _treeHelper = __webpack_require__(/*! ../helper/treeHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/treeHelper.js");
 
 var wrapTreePathInfo = _treeHelper.wrapTreePathInfo;
 
@@ -37955,9 +38021,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/TreemapView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/TreemapView.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/TreemapView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/TreemapView.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -37982,27 +38048,27 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var DataDiffer = __webpack_require__(/*! ../../data/DataDiffer */ "../node_modules/_echarts@4.4.0@echarts/lib/data/DataDiffer.js");
+var DataDiffer = __webpack_require__(/*! ../../data/DataDiffer */ "../node_modules/_echarts@4.5.0@echarts/lib/data/DataDiffer.js");
 
-var helper = __webpack_require__(/*! ../helper/treeHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/treeHelper.js");
+var helper = __webpack_require__(/*! ../helper/treeHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/treeHelper.js");
 
-var Breadcrumb = __webpack_require__(/*! ./Breadcrumb */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/Breadcrumb.js");
+var Breadcrumb = __webpack_require__(/*! ./Breadcrumb */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/Breadcrumb.js");
 
-var RoamController = __webpack_require__(/*! ../../component/helper/RoamController */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/RoamController.js");
+var RoamController = __webpack_require__(/*! ../../component/helper/RoamController */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/RoamController.js");
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
-var animationUtil = __webpack_require__(/*! ../../util/animation */ "../node_modules/_echarts@4.4.0@echarts/lib/util/animation.js");
+var animationUtil = __webpack_require__(/*! ../../util/animation */ "../node_modules/_echarts@4.5.0@echarts/lib/util/animation.js");
 
-var makeStyleMapper = __webpack_require__(/*! ../../model/mixin/makeStyleMapper */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/makeStyleMapper.js");
+var makeStyleMapper = __webpack_require__(/*! ../../model/mixin/makeStyleMapper */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/makeStyleMapper.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -38864,9 +38930,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/treemapAction.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/treemapAction.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/treemapAction.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/treemapAction.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -38891,9 +38957,9 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var helper = __webpack_require__(/*! ../helper/treeHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/treeHelper.js");
+var helper = __webpack_require__(/*! ../helper/treeHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/treeHelper.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -38956,9 +39022,9 @@ echarts.registerAction({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/treemapLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/treemapLayout.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/treemapLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/treemapLayout.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -38983,18 +39049,18 @@ echarts.registerAction({
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 var MAX_SAFE_INTEGER = _number.MAX_SAFE_INTEGER;
 
-var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var helper = __webpack_require__(/*! ../helper/treeHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/treeHelper.js");
+var helper = __webpack_require__(/*! ../helper/treeHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/treeHelper.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -39536,9 +39602,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/treemapVisual.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/treemapVisual.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/chart/treemap/treemapVisual.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/chart/treemap/treemapVisual.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -39563,11 +39629,11 @@ module.exports = _default;
 * under the License.
 */
 
-var VisualMapping = __webpack_require__(/*! ../../visual/VisualMapping */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/VisualMapping.js");
+var VisualMapping = __webpack_require__(/*! ../../visual/VisualMapping */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/VisualMapping.js");
 
-var zrColor = __webpack_require__(/*! zrender/lib/tool/color */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/color.js");
+var zrColor = __webpack_require__(/*! zrender/lib/tool/color */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/color.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -39764,9 +39830,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/angleAxis.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/angleAxis.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/angleAxis.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/angleAxis.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -39791,15 +39857,15 @@ module.exports = _default;
 * under the License.
 */
 
-__webpack_require__(/*! ../coord/polar/polarCreator */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/polarCreator.js");
+__webpack_require__(/*! ../coord/polar/polarCreator */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/polarCreator.js");
 
-__webpack_require__(/*! ./axis/AngleAxisView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AngleAxisView.js");
+__webpack_require__(/*! ./axis/AngleAxisView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AngleAxisView.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis.js":
 /*!********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axis.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axis.js ***!
   \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -39824,15 +39890,15 @@ __webpack_require__(/*! ./axis/AngleAxisView */ "../node_modules/_echarts@4.4.0@
 * under the License.
 */
 
-__webpack_require__(/*! ../coord/cartesian/AxisModel */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/AxisModel.js");
+__webpack_require__(/*! ../coord/cartesian/AxisModel */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/AxisModel.js");
 
-__webpack_require__(/*! ./axis/CartesianAxisView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/CartesianAxisView.js");
+__webpack_require__(/*! ./axis/CartesianAxisView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/CartesianAxisView.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AngleAxisView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AngleAxisView.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AngleAxisView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AngleAxisView.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -39857,15 +39923,15 @@ __webpack_require__(/*! ./axis/CartesianAxisView */ "../node_modules/_echarts@4.
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var AxisView = __webpack_require__(/*! ./AxisView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisView.js");
+var AxisView = __webpack_require__(/*! ./AxisView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisView.js");
 
-var AxisBuilder = __webpack_require__(/*! ./AxisBuilder */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisBuilder.js");
+var AxisBuilder = __webpack_require__(/*! ./AxisBuilder */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisBuilder.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -39946,19 +40012,39 @@ var _default = AxisView.extend({
    * @private
    */
   _axisLine: function (angleAxisModel, polar, ticksAngles, radiusExtent) {
-    var lineStyleModel = angleAxisModel.getModel('axisLine.lineStyle');
-    var circle = new graphic.Circle({
-      shape: {
-        cx: polar.cx,
-        cy: polar.cy,
-        r: radiusExtent[getRadiusIdx(polar)]
-      },
-      style: lineStyleModel.getLineStyle(),
-      z2: 1,
-      silent: true
-    });
-    circle.style.fill = null;
-    this.group.add(circle);
+    var lineStyleModel = angleAxisModel.getModel('axisLine.lineStyle'); // extent id of the axis radius (r0 and r)
+
+    var rId = getRadiusIdx(polar);
+    var r0Id = rId ? 0 : 1;
+    var shape;
+
+    if (radiusExtent[r0Id] === 0) {
+      shape = new graphic.Circle({
+        shape: {
+          cx: polar.cx,
+          cy: polar.cy,
+          r: radiusExtent[rId]
+        },
+        style: lineStyleModel.getLineStyle(),
+        z2: 1,
+        silent: true
+      });
+    } else {
+      shape = new graphic.Ring({
+        shape: {
+          cx: polar.cx,
+          cy: polar.cy,
+          r: radiusExtent[rId],
+          r0: radiusExtent[r0Id]
+        },
+        style: lineStyleModel.getLineStyle(),
+        z2: 1,
+        silent: true
+      });
+    }
+
+    shape.style.fill = null;
+    this.group.add(shape);
   },
 
   /**
@@ -40111,9 +40197,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisBuilder.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisBuilder.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisBuilder.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisBuilder.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -40138,35 +40224,35 @@ module.exports = _default;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var retrieve = _util.retrieve;
 var defaults = _util.defaults;
 var extend = _util.extend;
 var each = _util.each;
 
-var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var isRadianAroundZero = _number.isRadianAroundZero;
 var remRadian = _number.remRadian;
 
-var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js");
+var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js");
 
 var createSymbol = _symbol.createSymbol;
 
-var matrixUtil = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrixUtil = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
-var _vector = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var _vector = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
 var v2ApplyTransform = _vector.applyTransform;
 
-var _axisHelper = __webpack_require__(/*! ../../coord/axisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisHelper.js");
+var _axisHelper = __webpack_require__(/*! ../../coord/axisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisHelper.js");
 
 var shouldShowAllLabels = _axisHelper.shouldShowAllLabels;
 
@@ -40766,9 +40852,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisView.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisView.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -40793,13 +40879,13 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var axisPointerModelHelper = __webpack_require__(/*! ../axisPointer/modelHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/modelHelper.js");
+var axisPointerModelHelper = __webpack_require__(/*! ../axisPointer/modelHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/modelHelper.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -40913,9 +40999,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/CartesianAxisView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/CartesianAxisView.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axis/CartesianAxisView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axis/CartesianAxisView.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -40940,15 +41026,15 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var AxisBuilder = __webpack_require__(/*! ./AxisBuilder */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisBuilder.js");
+var AxisBuilder = __webpack_require__(/*! ./AxisBuilder */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisBuilder.js");
 
-var AxisView = __webpack_require__(/*! ./AxisView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisView.js");
+var AxisView = __webpack_require__(/*! ./AxisView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisView.js");
 
-var cartesianAxisHelper = __webpack_require__(/*! ../../coord/cartesian/cartesianAxisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/cartesianAxisHelper.js");
+var cartesianAxisHelper = __webpack_require__(/*! ../../coord/cartesian/cartesianAxisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/cartesianAxisHelper.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -41176,9 +41262,9 @@ CartesianAxisView.extend({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/ParallelAxisView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/ParallelAxisView.js":
 /*!*************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axis/ParallelAxisView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axis/ParallelAxisView.js ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -41203,17 +41289,17 @@ CartesianAxisView.extend({
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var AxisBuilder = __webpack_require__(/*! ./AxisBuilder */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisBuilder.js");
+var AxisBuilder = __webpack_require__(/*! ./AxisBuilder */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisBuilder.js");
 
-var BrushController = __webpack_require__(/*! ../helper/BrushController */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/BrushController.js");
+var BrushController = __webpack_require__(/*! ../helper/BrushController */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/BrushController.js");
 
-var brushHelper = __webpack_require__(/*! ../helper/brushHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/brushHelper.js");
+var brushHelper = __webpack_require__(/*! ../helper/brushHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/brushHelper.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -41381,9 +41467,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/RadiusAxisView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/RadiusAxisView.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axis/RadiusAxisView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axis/RadiusAxisView.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -41408,13 +41494,13 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var AxisBuilder = __webpack_require__(/*! ./AxisBuilder */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisBuilder.js");
+var AxisBuilder = __webpack_require__(/*! ./AxisBuilder */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisBuilder.js");
 
-var AxisView = __webpack_require__(/*! ./AxisView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisView.js");
+var AxisView = __webpack_require__(/*! ./AxisView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -41568,9 +41654,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/SingleAxisView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/SingleAxisView.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axis/SingleAxisView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axis/SingleAxisView.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -41595,15 +41681,15 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var AxisBuilder = __webpack_require__(/*! ./AxisBuilder */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisBuilder.js");
+var AxisBuilder = __webpack_require__(/*! ./AxisBuilder */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisBuilder.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var singleAxisHelper = __webpack_require__(/*! ../../coord/single/singleAxisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/single/singleAxisHelper.js");
+var singleAxisHelper = __webpack_require__(/*! ../../coord/single/singleAxisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/single/singleAxisHelper.js");
 
-var AxisView = __webpack_require__(/*! ./AxisView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisView.js");
+var AxisView = __webpack_require__(/*! ./AxisView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -41713,9 +41799,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/parallelAxisAction.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/parallelAxisAction.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axis/parallelAxisAction.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axis/parallelAxisAction.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -41740,7 +41826,7 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -41794,9 +41880,9 @@ echarts.registerAction('parallelAxisExpand', function (payload, ecModel) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -41821,19 +41907,19 @@ echarts.registerAction('parallelAxisExpand', function (payload, ecModel) {
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var axisPointerModelHelper = __webpack_require__(/*! ./axisPointer/modelHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/modelHelper.js");
+var axisPointerModelHelper = __webpack_require__(/*! ./axisPointer/modelHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/modelHelper.js");
 
-var axisTrigger = __webpack_require__(/*! ./axisPointer/axisTrigger */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/axisTrigger.js");
+var axisTrigger = __webpack_require__(/*! ./axisPointer/axisTrigger */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/axisTrigger.js");
 
-__webpack_require__(/*! ./axisPointer/AxisPointerModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/AxisPointerModel.js");
+__webpack_require__(/*! ./axisPointer/AxisPointerModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/AxisPointerModel.js");
 
-__webpack_require__(/*! ./axisPointer/AxisPointerView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/AxisPointerView.js");
+__webpack_require__(/*! ./axisPointer/AxisPointerView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/AxisPointerView.js");
 
-__webpack_require__(/*! ./axisPointer/CartesianAxisPointer */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/CartesianAxisPointer.js");
+__webpack_require__(/*! ./axisPointer/CartesianAxisPointer */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/CartesianAxisPointer.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -41885,9 +41971,9 @@ echarts.registerAction({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/AxisPointerModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/AxisPointerModel.js":
 /*!********************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/AxisPointerModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/AxisPointerModel.js ***!
   \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -41912,7 +41998,7 @@ echarts.registerAction({
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -42024,9 +42110,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/AxisPointerView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/AxisPointerView.js":
 /*!*******************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/AxisPointerView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/AxisPointerView.js ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -42051,9 +42137,9 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var globalListener = __webpack_require__(/*! ./globalListener */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/globalListener.js");
+var globalListener = __webpack_require__(/*! ./globalListener */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/globalListener.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -42114,9 +42200,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/BaseAxisPointer.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/BaseAxisPointer.js":
 /*!*******************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/BaseAxisPointer.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/BaseAxisPointer.js ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -42141,19 +42227,19 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var clazzUtil = __webpack_require__(/*! ../../util/clazz */ "../node_modules/_echarts@4.4.0@echarts/lib/util/clazz.js");
+var clazzUtil = __webpack_require__(/*! ../../util/clazz */ "../node_modules/_echarts@4.5.0@echarts/lib/util/clazz.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var axisPointerModelHelper = __webpack_require__(/*! ./modelHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/modelHelper.js");
+var axisPointerModelHelper = __webpack_require__(/*! ./modelHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/modelHelper.js");
 
-var eventTool = __webpack_require__(/*! zrender/lib/core/event */ "../node_modules/_zrender@4.1.1@zrender/lib/core/event.js");
+var eventTool = __webpack_require__(/*! zrender/lib/core/event */ "../node_modules/_zrender@4.1.2@zrender/lib/core/event.js");
 
-var throttleUtil = __webpack_require__(/*! ../../util/throttle */ "../node_modules/_echarts@4.4.0@echarts/lib/util/throttle.js");
+var throttleUtil = __webpack_require__(/*! ../../util/throttle */ "../node_modules/_echarts@4.5.0@echarts/lib/util/throttle.js");
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var makeInner = _model.makeInner;
 
@@ -42651,9 +42737,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/CartesianAxisPointer.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/CartesianAxisPointer.js":
 /*!************************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/CartesianAxisPointer.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/CartesianAxisPointer.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -42678,13 +42764,13 @@ module.exports = _default;
 * under the License.
 */
 
-var BaseAxisPointer = __webpack_require__(/*! ./BaseAxisPointer */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/BaseAxisPointer.js");
+var BaseAxisPointer = __webpack_require__(/*! ./BaseAxisPointer */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/BaseAxisPointer.js");
 
-var viewHelper = __webpack_require__(/*! ./viewHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/viewHelper.js");
+var viewHelper = __webpack_require__(/*! ./viewHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/viewHelper.js");
 
-var cartesianAxisHelper = __webpack_require__(/*! ../../coord/cartesian/cartesianAxisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/cartesianAxisHelper.js");
+var cartesianAxisHelper = __webpack_require__(/*! ../../coord/cartesian/cartesianAxisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/cartesianAxisHelper.js");
 
-var AxisView = __webpack_require__(/*! ../axis/AxisView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisView.js");
+var AxisView = __webpack_require__(/*! ../axis/AxisView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -42807,9 +42893,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/PolarAxisPointer.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/PolarAxisPointer.js":
 /*!********************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/PolarAxisPointer.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/PolarAxisPointer.js ***!
   \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -42834,19 +42920,19 @@ module.exports = _default;
 * under the License.
 */
 
-var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
-var BaseAxisPointer = __webpack_require__(/*! ./BaseAxisPointer */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/BaseAxisPointer.js");
+var BaseAxisPointer = __webpack_require__(/*! ./BaseAxisPointer */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/BaseAxisPointer.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var viewHelper = __webpack_require__(/*! ./viewHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/viewHelper.js");
+var viewHelper = __webpack_require__(/*! ./viewHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/viewHelper.js");
 
-var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
-var AxisBuilder = __webpack_require__(/*! ../axis/AxisBuilder */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisBuilder.js");
+var AxisBuilder = __webpack_require__(/*! ../axis/AxisBuilder */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisBuilder.js");
 
-var AxisView = __webpack_require__(/*! ../axis/AxisView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisView.js");
+var AxisView = __webpack_require__(/*! ../axis/AxisView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -42968,9 +43054,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/SingleAxisPointer.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/SingleAxisPointer.js":
 /*!*********************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/SingleAxisPointer.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/SingleAxisPointer.js ***!
   \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -42995,13 +43081,13 @@ module.exports = _default;
 * under the License.
 */
 
-var BaseAxisPointer = __webpack_require__(/*! ./BaseAxisPointer */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/BaseAxisPointer.js");
+var BaseAxisPointer = __webpack_require__(/*! ./BaseAxisPointer */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/BaseAxisPointer.js");
 
-var viewHelper = __webpack_require__(/*! ./viewHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/viewHelper.js");
+var viewHelper = __webpack_require__(/*! ./viewHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/viewHelper.js");
 
-var singleAxisHelper = __webpack_require__(/*! ../../coord/single/singleAxisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/single/singleAxisHelper.js");
+var singleAxisHelper = __webpack_require__(/*! ../../coord/single/singleAxisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/single/singleAxisHelper.js");
 
-var AxisView = __webpack_require__(/*! ../axis/AxisView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisView.js");
+var AxisView = __webpack_require__(/*! ../axis/AxisView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -43120,9 +43206,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/axisTrigger.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/axisTrigger.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/axisTrigger.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/axisTrigger.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -43147,15 +43233,15 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var makeInner = _model.makeInner;
 
-var modelHelper = __webpack_require__(/*! ./modelHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/modelHelper.js");
+var modelHelper = __webpack_require__(/*! ./modelHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/modelHelper.js");
 
-var findPointFromSeries = __webpack_require__(/*! ./findPointFromSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/findPointFromSeries.js");
+var findPointFromSeries = __webpack_require__(/*! ./findPointFromSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/findPointFromSeries.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -43561,9 +43647,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/findPointFromSeries.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/findPointFromSeries.js":
 /*!***********************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/findPointFromSeries.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/findPointFromSeries.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -43588,9 +43674,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -43662,9 +43748,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/globalListener.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/globalListener.js":
 /*!******************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/globalListener.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/globalListener.js ***!
   \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -43689,11 +43775,11 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var makeInner = _model.makeInner;
 
@@ -43834,9 +43920,9 @@ exports.unregister = unregister;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/modelHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/modelHelper.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/modelHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/modelHelper.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -43861,9 +43947,9 @@ exports.unregister = unregister;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -44173,9 +44259,9 @@ exports.makeKey = makeKey;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/viewHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/viewHelper.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/viewHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/viewHelper.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -44200,19 +44286,19 @@ exports.makeKey = makeKey;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var textContain = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/text.js");
+var textContain = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/text.js");
 
-var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
-var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
-var axisHelper = __webpack_require__(/*! ../../coord/axisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisHelper.js");
+var axisHelper = __webpack_require__(/*! ../../coord/axisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisHelper.js");
 
-var AxisBuilder = __webpack_require__(/*! ../axis/AxisBuilder */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisBuilder.js");
+var AxisBuilder = __webpack_require__(/*! ../axis/AxisBuilder */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisBuilder.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -44446,9 +44532,9 @@ exports.makeSectorShape = makeSectorShape;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/brush.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/brush.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/brush.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/brush.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -44473,19 +44559,19 @@ exports.makeSectorShape = makeSectorShape;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var preprocessor = __webpack_require__(/*! ./brush/preprocessor */ "../node_modules/_echarts@4.4.0@echarts/lib/component/brush/preprocessor.js");
+var preprocessor = __webpack_require__(/*! ./brush/preprocessor */ "../node_modules/_echarts@4.5.0@echarts/lib/component/brush/preprocessor.js");
 
-__webpack_require__(/*! ./brush/visualEncoding */ "../node_modules/_echarts@4.4.0@echarts/lib/component/brush/visualEncoding.js");
+__webpack_require__(/*! ./brush/visualEncoding */ "../node_modules/_echarts@4.5.0@echarts/lib/component/brush/visualEncoding.js");
 
-__webpack_require__(/*! ./brush/BrushModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/brush/BrushModel.js");
+__webpack_require__(/*! ./brush/BrushModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/brush/BrushModel.js");
 
-__webpack_require__(/*! ./brush/BrushView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/brush/BrushView.js");
+__webpack_require__(/*! ./brush/BrushView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/brush/BrushView.js");
 
-__webpack_require__(/*! ./brush/brushAction */ "../node_modules/_echarts@4.4.0@echarts/lib/component/brush/brushAction.js");
+__webpack_require__(/*! ./brush/brushAction */ "../node_modules/_echarts@4.5.0@echarts/lib/component/brush/brushAction.js");
 
-__webpack_require__(/*! ./toolbox/feature/Brush */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/Brush.js");
+__webpack_require__(/*! ./toolbox/feature/Brush */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/Brush.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -44513,9 +44599,9 @@ echarts.registerPreprocessor(preprocessor);
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/brush/BrushModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/brush/BrushModel.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/brush/BrushModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/brush/BrushModel.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -44540,17 +44626,17 @@ echarts.registerPreprocessor(preprocessor);
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var visualSolution = __webpack_require__(/*! ../../visual/visualSolution */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/visualSolution.js");
+var visualSolution = __webpack_require__(/*! ../../visual/visualSolution */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/visualSolution.js");
 
-var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -44703,9 +44789,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/brush/BrushView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/brush/BrushView.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/brush/BrushView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/brush/BrushView.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -44730,11 +44816,11 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var BrushController = __webpack_require__(/*! ../helper/BrushController */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/BrushController.js");
+var BrushController = __webpack_require__(/*! ../helper/BrushController */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/BrushController.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -44831,6 +44917,12 @@ var _default = echarts.extendComponentView({
       areas: zrUtil.clone(areas),
       $from: modelId
     });
+    opt.isEnd && this.api.dispatchAction({
+      type: 'brushEnd',
+      brushId: modelId,
+      areas: zrUtil.clone(areas),
+      $from: modelId
+    });
   }
 });
 
@@ -44843,9 +44935,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/brush/brushAction.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/brush/brushAction.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/brush/brushAction.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/brush/brushAction.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -44870,7 +44962,7 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -44939,12 +45031,17 @@ echarts.registerAction({
   event: 'brushSelected',
   update: 'none'
 }, function () {});
+echarts.registerAction({
+  type: 'brushEnd',
+  event: 'brushEnd',
+  update: 'none'
+}, function () {});
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/brush/preprocessor.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/brush/preprocessor.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/brush/preprocessor.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/brush/preprocessor.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -44969,7 +45066,7 @@ echarts.registerAction({
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -45049,9 +45146,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/brush/selector.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/brush/selector.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/brush/selector.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/brush/selector.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -45076,11 +45173,11 @@ module.exports = _default;
 * under the License.
 */
 
-var polygonContain = __webpack_require__(/*! zrender/lib/contain/polygon */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/polygon.js");
+var polygonContain = __webpack_require__(/*! zrender/lib/contain/polygon */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/polygon.js");
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var _graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var _graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
 var linePolygonIntersect = _graphic.linePolygonIntersect;
 
@@ -45177,9 +45274,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/brush/visualEncoding.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/brush/visualEncoding.js":
 /*!************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/brush/visualEncoding.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/brush/visualEncoding.js ***!
   \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -45204,19 +45301,19 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var visualSolution = __webpack_require__(/*! ../../visual/visualSolution */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/visualSolution.js");
+var visualSolution = __webpack_require__(/*! ../../visual/visualSolution */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/visualSolution.js");
 
-var selector = __webpack_require__(/*! ./selector */ "../node_modules/_echarts@4.4.0@echarts/lib/component/brush/selector.js");
+var selector = __webpack_require__(/*! ./selector */ "../node_modules/_echarts@4.5.0@echarts/lib/component/brush/selector.js");
 
-var throttleUtil = __webpack_require__(/*! ../../util/throttle */ "../node_modules/_echarts@4.4.0@echarts/lib/util/throttle.js");
+var throttleUtil = __webpack_require__(/*! ../../util/throttle */ "../node_modules/_echarts@4.5.0@echarts/lib/util/throttle.js");
 
-var BrushTargetManager = __webpack_require__(/*! ../helper/BrushTargetManager */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/BrushTargetManager.js");
+var BrushTargetManager = __webpack_require__(/*! ../helper/BrushTargetManager */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/BrushTargetManager.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -45504,9 +45601,9 @@ function getBoundingRectFromMinMax(minMax) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/calendar.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/calendar.js":
 /*!************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/calendar.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/calendar.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -45531,17 +45628,17 @@ function getBoundingRectFromMinMax(minMax) {
 * under the License.
 */
 
-__webpack_require__(/*! ../coord/calendar/Calendar */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/calendar/Calendar.js");
+__webpack_require__(/*! ../coord/calendar/Calendar */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/calendar/Calendar.js");
 
-__webpack_require__(/*! ../coord/calendar/CalendarModel */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/calendar/CalendarModel.js");
+__webpack_require__(/*! ../coord/calendar/CalendarModel */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/calendar/CalendarModel.js");
 
-__webpack_require__(/*! ./calendar/CalendarView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/calendar/CalendarView.js");
+__webpack_require__(/*! ./calendar/CalendarView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/calendar/CalendarView.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/calendar/CalendarView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/calendar/CalendarView.js":
 /*!*************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/calendar/CalendarView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/calendar/CalendarView.js ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -45566,15 +45663,15 @@ __webpack_require__(/*! ./calendar/CalendarView */ "../node_modules/_echarts@4.4
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -46000,9 +46097,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom.js":
 /*!************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -46027,15 +46124,15 @@ module.exports = _default;
 * under the License.
 */
 
-__webpack_require__(/*! ./dataZoomSlider */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoomSlider.js");
+__webpack_require__(/*! ./dataZoomSlider */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoomSlider.js");
 
-__webpack_require__(/*! ./dataZoomInside */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoomInside.js");
+__webpack_require__(/*! ./dataZoomInside */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoomInside.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/AxisProxy.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/AxisProxy.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/AxisProxy.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/AxisProxy.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -46060,13 +46157,13 @@ __webpack_require__(/*! ./dataZoomInside */ "../node_modules/_echarts@4.4.0@echa
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/helper.js");
+var helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/helper.js");
 
-var sliderMove = __webpack_require__(/*! ../helper/sliderMove */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/sliderMove.js");
+var sliderMove = __webpack_require__(/*! ../helper/sliderMove */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/sliderMove.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -46561,9 +46658,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomModel.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomModel.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -46588,21 +46685,21 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
-var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
-var helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/helper.js");
+var helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/helper.js");
 
-var AxisProxy = __webpack_require__(/*! ./AxisProxy */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/AxisProxy.js");
+var AxisProxy = __webpack_require__(/*! ./AxisProxy */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/AxisProxy.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -46714,7 +46811,21 @@ var DataZoomModel = echarts.extendComponentModel({
 
     this._autoThrottle = true;
     /**
-     * 'percent' or 'value'
+     * It is `[rangeModeForMin, rangeModeForMax]`.
+     * The optional values for `rangeMode`:
+     * + `'value'` mode: the axis extent will always be determined by
+     *     `dataZoom.startValue` and `dataZoom.endValue`, despite
+     *     how data like and how `axis.min` and `axis.max` are.
+     * + `'percent'` mode: `100` represents 100% of the `[dMin, dMax]`,
+     *     where `dMin` is `axis.min` if `axis.min` specified, otherwise `data.extent[0]`,
+     *     and `dMax` is `axis.max` if `axis.max` specified, otherwise `data.extent[1]`.
+     *     Axis extent will be determined by the result of the percent of `[dMin, dMax]`.
+     *
+     * For example, when users are using dynamic data (update data periodically via `setOption`),
+     * if in `'value`' mode, the window will be kept in a fixed value range despite how
+     * data are appended, while if in `'percent'` mode, whe window range will be changed alone with
+     * the appended data (suppose `axis.min` and `axis.max` are not specified).
+     *
      * @private
      */
 
@@ -47189,9 +47300,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomView.js":
 /*!*************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomView.js ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -47216,7 +47327,7 @@ module.exports = _default;
 * under the License.
 */
 
-var ComponentView = __webpack_require__(/*! ../../view/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/view/Component.js");
+var ComponentView = __webpack_require__(/*! ../../view/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/view/Component.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -47304,9 +47415,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/InsideZoomModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/InsideZoomModel.js":
 /*!****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/InsideZoomModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/InsideZoomModel.js ***!
   \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -47331,7 +47442,7 @@ module.exports = _default;
 * under the License.
 */
 
-var DataZoomModel = __webpack_require__(/*! ./DataZoomModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomModel.js");
+var DataZoomModel = __webpack_require__(/*! ./DataZoomModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomModel.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -47376,9 +47487,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/InsideZoomView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/InsideZoomView.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/InsideZoomView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/InsideZoomView.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -47403,13 +47514,13 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var DataZoomView = __webpack_require__(/*! ./DataZoomView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomView.js");
+var DataZoomView = __webpack_require__(/*! ./DataZoomView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomView.js");
 
-var sliderMove = __webpack_require__(/*! ../helper/sliderMove */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/sliderMove.js");
+var sliderMove = __webpack_require__(/*! ../helper/sliderMove */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/sliderMove.js");
 
-var roams = __webpack_require__(/*! ./roams */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/roams.js");
+var roams = __webpack_require__(/*! ./roams */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/roams.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -47633,9 +47744,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/SelectZoomModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/SelectZoomModel.js":
 /*!****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/SelectZoomModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/SelectZoomModel.js ***!
   \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -47660,7 +47771,7 @@ module.exports = _default;
 * under the License.
 */
 
-var DataZoomModel = __webpack_require__(/*! ./DataZoomModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomModel.js");
+var DataZoomModel = __webpack_require__(/*! ./DataZoomModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomModel.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -47688,9 +47799,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/SelectZoomView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/SelectZoomView.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/SelectZoomView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/SelectZoomView.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -47715,7 +47826,7 @@ module.exports = _default;
 * under the License.
 */
 
-var DataZoomView = __webpack_require__(/*! ./DataZoomView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomView.js");
+var DataZoomView = __webpack_require__(/*! ./DataZoomView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -47743,9 +47854,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/SliderZoomModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/SliderZoomModel.js":
 /*!****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/SliderZoomModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/SliderZoomModel.js ***!
   \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -47770,7 +47881,7 @@ module.exports = _default;
 * under the License.
 */
 
-var DataZoomModel = __webpack_require__(/*! ./DataZoomModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomModel.js");
+var DataZoomModel = __webpack_require__(/*! ./DataZoomModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomModel.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -47865,9 +47976,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/SliderZoomView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/SliderZoomView.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/SliderZoomView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/SliderZoomView.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -47892,21 +48003,21 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var eventTool = __webpack_require__(/*! zrender/lib/core/event */ "../node_modules/_zrender@4.1.1@zrender/lib/core/event.js");
+var eventTool = __webpack_require__(/*! zrender/lib/core/event */ "../node_modules/_zrender@4.1.2@zrender/lib/core/event.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var throttle = __webpack_require__(/*! ../../util/throttle */ "../node_modules/_echarts@4.4.0@echarts/lib/util/throttle.js");
+var throttle = __webpack_require__(/*! ../../util/throttle */ "../node_modules/_echarts@4.5.0@echarts/lib/util/throttle.js");
 
-var DataZoomView = __webpack_require__(/*! ./DataZoomView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomView.js");
+var DataZoomView = __webpack_require__(/*! ./DataZoomView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomView.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var sliderMove = __webpack_require__(/*! ../helper/sliderMove */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/sliderMove.js");
+var sliderMove = __webpack_require__(/*! ../helper/sliderMove */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/sliderMove.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -48631,9 +48742,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/dataZoomAction.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/dataZoomAction.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/dataZoomAction.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/dataZoomAction.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -48658,11 +48769,11 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/helper.js");
+var helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/helper.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -48705,9 +48816,9 @@ echarts.registerAction('dataZoom', function (payload, ecModel) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/dataZoomProcessor.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/dataZoomProcessor.js":
 /*!******************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/dataZoomProcessor.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/dataZoomProcessor.js ***!
   \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -48732,9 +48843,9 @@ echarts.registerAction('dataZoom', function (payload, ecModel) {
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var createHashMap = _util.createHashMap;
 var each = _util.each;
@@ -48821,9 +48932,9 @@ echarts.registerProcessor({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/helper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/helper.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/helper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/helper.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -48848,9 +48959,9 @@ echarts.registerProcessor({
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -49004,9 +49115,9 @@ exports.createLinkedNodesFinder = createLinkedNodesFinder;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/history.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/history.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/history.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/history.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -49031,7 +49142,7 @@ exports.createLinkedNodesFinder = createLinkedNodesFinder;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -49159,9 +49270,9 @@ exports.count = count;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/roams.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/roams.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/roams.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/roams.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -49186,11 +49297,11 @@ exports.count = count;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var RoamController = __webpack_require__(/*! ../../component/helper/RoamController */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/RoamController.js");
+var RoamController = __webpack_require__(/*! ../../component/helper/RoamController */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/RoamController.js");
 
-var throttleUtil = __webpack_require__(/*! ../../util/throttle */ "../node_modules/_echarts@4.4.0@echarts/lib/util/throttle.js");
+var throttleUtil = __webpack_require__(/*! ../../util/throttle */ "../node_modules/_echarts@4.5.0@echarts/lib/util/throttle.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -49403,9 +49514,9 @@ exports.generateCoordId = generateCoordId;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/typeDefaulter.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/typeDefaulter.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/typeDefaulter.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/typeDefaulter.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -49430,7 +49541,7 @@ exports.generateCoordId = generateCoordId;
 * under the License.
 */
 
-var Component = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var Component = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -49457,9 +49568,9 @@ Component.registerSubTypeDefaulter('dataZoom', function () {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoomInside.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoomInside.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoomInside.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoomInside.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -49484,25 +49595,25 @@ Component.registerSubTypeDefaulter('dataZoom', function () {
 * under the License.
 */
 
-__webpack_require__(/*! ./dataZoom/typeDefaulter */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/typeDefaulter.js");
+__webpack_require__(/*! ./dataZoom/typeDefaulter */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/typeDefaulter.js");
 
-__webpack_require__(/*! ./dataZoom/DataZoomModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomModel.js");
+__webpack_require__(/*! ./dataZoom/DataZoomModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomModel.js");
 
-__webpack_require__(/*! ./dataZoom/DataZoomView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomView.js");
+__webpack_require__(/*! ./dataZoom/DataZoomView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomView.js");
 
-__webpack_require__(/*! ./dataZoom/InsideZoomModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/InsideZoomModel.js");
+__webpack_require__(/*! ./dataZoom/InsideZoomModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/InsideZoomModel.js");
 
-__webpack_require__(/*! ./dataZoom/InsideZoomView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/InsideZoomView.js");
+__webpack_require__(/*! ./dataZoom/InsideZoomView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/InsideZoomView.js");
 
-__webpack_require__(/*! ./dataZoom/dataZoomProcessor */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/dataZoomProcessor.js");
+__webpack_require__(/*! ./dataZoom/dataZoomProcessor */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/dataZoomProcessor.js");
 
-__webpack_require__(/*! ./dataZoom/dataZoomAction */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/dataZoomAction.js");
+__webpack_require__(/*! ./dataZoom/dataZoomAction */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/dataZoomAction.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoomSelect.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoomSelect.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoomSelect.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoomSelect.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -49527,25 +49638,25 @@ __webpack_require__(/*! ./dataZoom/dataZoomAction */ "../node_modules/_echarts@4
 * under the License.
 */
 
-__webpack_require__(/*! ./dataZoom/typeDefaulter */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/typeDefaulter.js");
+__webpack_require__(/*! ./dataZoom/typeDefaulter */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/typeDefaulter.js");
 
-__webpack_require__(/*! ./dataZoom/DataZoomModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomModel.js");
+__webpack_require__(/*! ./dataZoom/DataZoomModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomModel.js");
 
-__webpack_require__(/*! ./dataZoom/DataZoomView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomView.js");
+__webpack_require__(/*! ./dataZoom/DataZoomView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomView.js");
 
-__webpack_require__(/*! ./dataZoom/SelectZoomModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/SelectZoomModel.js");
+__webpack_require__(/*! ./dataZoom/SelectZoomModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/SelectZoomModel.js");
 
-__webpack_require__(/*! ./dataZoom/SelectZoomView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/SelectZoomView.js");
+__webpack_require__(/*! ./dataZoom/SelectZoomView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/SelectZoomView.js");
 
-__webpack_require__(/*! ./dataZoom/dataZoomProcessor */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/dataZoomProcessor.js");
+__webpack_require__(/*! ./dataZoom/dataZoomProcessor */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/dataZoomProcessor.js");
 
-__webpack_require__(/*! ./dataZoom/dataZoomAction */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/dataZoomAction.js");
+__webpack_require__(/*! ./dataZoom/dataZoomAction */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/dataZoomAction.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoomSlider.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoomSlider.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoomSlider.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoomSlider.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -49570,25 +49681,25 @@ __webpack_require__(/*! ./dataZoom/dataZoomAction */ "../node_modules/_echarts@4
 * under the License.
 */
 
-__webpack_require__(/*! ./dataZoom/typeDefaulter */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/typeDefaulter.js");
+__webpack_require__(/*! ./dataZoom/typeDefaulter */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/typeDefaulter.js");
 
-__webpack_require__(/*! ./dataZoom/DataZoomModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomModel.js");
+__webpack_require__(/*! ./dataZoom/DataZoomModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomModel.js");
 
-__webpack_require__(/*! ./dataZoom/DataZoomView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/DataZoomView.js");
+__webpack_require__(/*! ./dataZoom/DataZoomView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/DataZoomView.js");
 
-__webpack_require__(/*! ./dataZoom/SliderZoomModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/SliderZoomModel.js");
+__webpack_require__(/*! ./dataZoom/SliderZoomModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/SliderZoomModel.js");
 
-__webpack_require__(/*! ./dataZoom/SliderZoomView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/SliderZoomView.js");
+__webpack_require__(/*! ./dataZoom/SliderZoomView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/SliderZoomView.js");
 
-__webpack_require__(/*! ./dataZoom/dataZoomProcessor */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/dataZoomProcessor.js");
+__webpack_require__(/*! ./dataZoom/dataZoomProcessor */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/dataZoomProcessor.js");
 
-__webpack_require__(/*! ./dataZoom/dataZoomAction */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/dataZoomAction.js");
+__webpack_require__(/*! ./dataZoom/dataZoomAction */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/dataZoomAction.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataset.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataset.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/dataset.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/dataset.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -49613,15 +49724,15 @@ __webpack_require__(/*! ./dataZoom/dataZoomAction */ "../node_modules/_echarts@4
 * under the License.
 */
 
-var ComponentModel = __webpack_require__(/*! ../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var ComponentModel = __webpack_require__(/*! ../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
-var ComponentView = __webpack_require__(/*! ../view/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/view/Component.js");
+var ComponentView = __webpack_require__(/*! ../view/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/view/Component.js");
 
-var _sourceHelper = __webpack_require__(/*! ../data/helper/sourceHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/sourceHelper.js");
+var _sourceHelper = __webpack_require__(/*! ../data/helper/sourceHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/sourceHelper.js");
 
 var detectSourceFormat = _sourceHelper.detectSourceFormat;
 
-var _sourceType = __webpack_require__(/*! ../data/helper/sourceType */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/sourceType.js");
+var _sourceType = __webpack_require__(/*! ../data/helper/sourceType */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/sourceType.js");
 
 var SERIES_LAYOUT_BY_COLUMN = _sourceType.SERIES_LAYOUT_BY_COLUMN;
 
@@ -49676,9 +49787,9 @@ ComponentView.extend({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/geo.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/geo.js":
 /*!*******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/geo.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/geo.js ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -49703,17 +49814,17 @@ ComponentView.extend({
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-__webpack_require__(/*! ../coord/geo/GeoModel */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/GeoModel.js");
+__webpack_require__(/*! ../coord/geo/GeoModel */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/GeoModel.js");
 
-__webpack_require__(/*! ../coord/geo/geoCreator */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoCreator.js");
+__webpack_require__(/*! ../coord/geo/geoCreator */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoCreator.js");
 
-__webpack_require__(/*! ./geo/GeoView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/geo/GeoView.js");
+__webpack_require__(/*! ./geo/GeoView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/geo/GeoView.js");
 
-__webpack_require__(/*! ../action/geoRoam */ "../node_modules/_echarts@4.4.0@echarts/lib/action/geoRoam.js");
+__webpack_require__(/*! ../action/geoRoam */ "../node_modules/_echarts@4.5.0@echarts/lib/action/geoRoam.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -49769,9 +49880,9 @@ makeAction('unSelect', {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/geo/GeoView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/geo/GeoView.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/geo/GeoView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/geo/GeoView.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -49796,9 +49907,9 @@ makeAction('unSelect', {
 * under the License.
 */
 
-var MapDraw = __webpack_require__(/*! ../helper/MapDraw */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/MapDraw.js");
+var MapDraw = __webpack_require__(/*! ../helper/MapDraw */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/MapDraw.js");
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -49850,9 +49961,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/graphic.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/graphic.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/graphic.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/graphic.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -49877,21 +49988,21 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var modelUtil = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
-var graphicUtil = __webpack_require__(/*! ../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphicUtil = __webpack_require__(/*! ../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var layoutUtil = __webpack_require__(/*! ../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layoutUtil = __webpack_require__(/*! ../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var _number = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 
@@ -50400,9 +50511,9 @@ function setEventData(el, graphicModel, elOption) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/grid.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/grid.js":
 /*!********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/grid.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/grid.js ***!
   \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -50427,17 +50538,17 @@ function setEventData(el, graphicModel, elOption) {
 * under the License.
 */
 
-__webpack_require__(/*! ./gridSimple */ "../node_modules/_echarts@4.4.0@echarts/lib/component/gridSimple.js");
+__webpack_require__(/*! ./gridSimple */ "../node_modules/_echarts@4.5.0@echarts/lib/component/gridSimple.js");
 
-__webpack_require__(/*! ./axisPointer/CartesianAxisPointer */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/CartesianAxisPointer.js");
+__webpack_require__(/*! ./axisPointer/CartesianAxisPointer */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/CartesianAxisPointer.js");
 
-__webpack_require__(/*! ./axisPointer */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer.js");
+__webpack_require__(/*! ./axisPointer */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/gridSimple.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/gridSimple.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/gridSimple.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/gridSimple.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -50462,15 +50573,15 @@ __webpack_require__(/*! ./axisPointer */ "../node_modules/_echarts@4.4.0@echarts
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-__webpack_require__(/*! ../coord/cartesian/Grid */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/Grid.js");
+__webpack_require__(/*! ../coord/cartesian/Grid */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/Grid.js");
 
-__webpack_require__(/*! ./axis */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis.js");
+__webpack_require__(/*! ./axis */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -50517,9 +50628,9 @@ echarts.registerPreprocessor(function (option) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/BrushController.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/BrushController.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/helper/BrushController.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/helper/BrushController.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -50544,19 +50655,19 @@ echarts.registerPreprocessor(function (option) {
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Eventful = __webpack_require__(/*! zrender/lib/mixin/Eventful */ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Eventful.js");
+var Eventful = __webpack_require__(/*! zrender/lib/mixin/Eventful */ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Eventful.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var interactionMutex = __webpack_require__(/*! ./interactionMutex */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/interactionMutex.js");
+var interactionMutex = __webpack_require__(/*! ./interactionMutex */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/interactionMutex.js");
 
-var DataDiffer = __webpack_require__(/*! ../../data/DataDiffer */ "../node_modules/_echarts@4.4.0@echarts/lib/data/DataDiffer.js");
+var DataDiffer = __webpack_require__(/*! ../../data/DataDiffer */ "../node_modules/_echarts@4.5.0@echarts/lib/data/DataDiffer.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -50679,6 +50790,12 @@ function BrushController(zr) {
    */
 
   this._dragging;
+  /**
+   * @private
+   * @type {Object}
+   */
+
+  this._lastMouseMovePoint = {};
   /**
    * @private
    * @type {Array}
@@ -51283,7 +51400,7 @@ var mouseHandlers = {
     if (this._dragging) {
       // In case some browser do not support globalOut,
       // and release mose out side the browser.
-      handleDragEnd.call(this, e);
+      handleDragEnd(this, e);
     } else if (!e.target || !e.target.draggable) {
       preventDefault(e);
       var localCursorPoint = this.group.transformCoordToLocal(e.offsetX, e.offsetY);
@@ -51297,7 +51414,10 @@ var mouseHandlers = {
     }
   },
   mousemove: function (e) {
-    var localCursorPoint = this.group.transformCoordToLocal(e.offsetX, e.offsetY);
+    var lastPoint = this._lastMouseMovePoint;
+    lastPoint.x = e.offsetX;
+    lastPoint.y = e.offsetY;
+    var localCursorPoint = this.group.transformCoordToLocal(lastPoint.x, lastPoint.y);
     resetCursor(this, e, localCursorPoint);
 
     if (this._dragging) {
@@ -51306,23 +51426,42 @@ var mouseHandlers = {
       eventParams && trigger(this, eventParams);
     }
   },
-  mouseup: handleDragEnd //,
-  // FIXME
-  // in tooltip, globalout should not be triggered.
-  // globalout: handleDragEnd
-
+  mouseup: function (e) {
+    handleDragEnd(this, e);
+  },
+  globalout: function (e) {
+    handleDragEnd(this, e, true);
+  }
 };
 
-function handleDragEnd(e) {
-  if (this._dragging) {
-    preventDefault(e);
-    var localCursorPoint = this.group.transformCoordToLocal(e.offsetX, e.offsetY);
-    var eventParams = updateCoverByMouse(this, e, localCursorPoint, true);
-    this._dragging = false;
-    this._track = [];
-    this._creatingCover = null; // trigger event shoule be at final, after procedure will be nested.
+function handleDragEnd(controller, e, isGlobalOut) {
+  if (controller._dragging) {
+    // Just be worried about bring some side effect to the world
+    // out of echarts, we do not `preventDefault` for globalout.
+    !isGlobalOut && preventDefault(e);
+    var pointerX = e.offsetX;
+    var pointerY = e.offsetY;
+    var lastPoint = controller._lastMouseMovePoint;
 
-    eventParams && trigger(this, eventParams);
+    if (isGlobalOut) {
+      pointerX = lastPoint.x;
+      pointerY = lastPoint.y;
+    }
+
+    var localCursorPoint = controller.group.transformCoordToLocal(pointerX, pointerY); // FIXME
+    // Here `e` is used only in `onIrrelevantElement` finally. And it's OK
+    // that pass the `e` of `globalout` to `onIrrelevantElement`. But it is
+    // not a good design of these interfaces. However, we do not refactor
+    // these code now because the implementation of `onIrrelevantElement`
+    // need to be discussed and probably be changed in future, becuase it
+    // slows down the performance of zrender in some cases.
+
+    var eventParams = updateCoverByMouse(controller, e, localCursorPoint, true);
+    controller._dragging = false;
+    controller._track = [];
+    controller._creatingCover = null; // trigger event shoule be at final, after procedure will be nested.
+
+    eventParams && trigger(controller, eventParams);
   }
 }
 /**
@@ -51432,9 +51571,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/BrushTargetManager.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/BrushTargetManager.js":
 /*!*****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/helper/BrushTargetManager.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/helper/BrushTargetManager.js ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -51459,17 +51598,17 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
-var brushHelper = __webpack_require__(/*! ./brushHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/brushHelper.js");
+var brushHelper = __webpack_require__(/*! ./brushHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/brushHelper.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -51860,9 +51999,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/MapDraw.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/MapDraw.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/helper/MapDraw.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/helper/MapDraw.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -51887,21 +52026,21 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var RoamController = __webpack_require__(/*! ./RoamController */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/RoamController.js");
+var RoamController = __webpack_require__(/*! ./RoamController */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/RoamController.js");
 
-var roamHelper = __webpack_require__(/*! ../../component/helper/roamHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/roamHelper.js");
+var roamHelper = __webpack_require__(/*! ../../component/helper/roamHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/roamHelper.js");
 
-var _cursorHelper = __webpack_require__(/*! ../../component/helper/cursorHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/cursorHelper.js");
+var _cursorHelper = __webpack_require__(/*! ../../component/helper/cursorHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/cursorHelper.js");
 
 var onIrrelevantElement = _cursorHelper.onIrrelevantElement;
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var geoSourceManager = __webpack_require__(/*! ../../coord/geo/geoSourceManager */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoSourceManager.js");
+var geoSourceManager = __webpack_require__(/*! ../../coord/geo/geoSourceManager */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoSourceManager.js");
 
-var _component = __webpack_require__(/*! ../../util/component */ "../node_modules/_echarts@4.4.0@echarts/lib/util/component.js");
+var _component = __webpack_require__(/*! ../../util/component */ "../node_modules/_echarts@4.5.0@echarts/lib/util/component.js");
 
 var getUID = _component.getUID;
 
@@ -52311,9 +52450,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/RoamController.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/RoamController.js":
 /*!*************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/helper/RoamController.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/helper/RoamController.js ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -52338,13 +52477,13 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Eventful = __webpack_require__(/*! zrender/lib/mixin/Eventful */ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Eventful.js");
+var Eventful = __webpack_require__(/*! zrender/lib/mixin/Eventful */ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Eventful.js");
 
-var eventTool = __webpack_require__(/*! zrender/lib/core/event */ "../node_modules/_zrender@4.1.1@zrender/lib/core/event.js");
+var eventTool = __webpack_require__(/*! zrender/lib/core/event */ "../node_modules/_zrender@4.1.2@zrender/lib/core/event.js");
 
-var interactionMutex = __webpack_require__(/*! ./interactionMutex */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/interactionMutex.js");
+var interactionMutex = __webpack_require__(/*! ./interactionMutex */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/interactionMutex.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -52606,9 +52745,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/brushHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/brushHelper.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/helper/brushHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/helper/brushHelper.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -52633,13 +52772,13 @@ module.exports = _default;
 * under the License.
 */
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var _cursorHelper = __webpack_require__(/*! ./cursorHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/cursorHelper.js");
+var _cursorHelper = __webpack_require__(/*! ./cursorHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/cursorHelper.js");
 
 var onIrrelevantElement = _cursorHelper.onIrrelevantElement;
 
-var graphicUtil = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphicUtil = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -52694,9 +52833,9 @@ exports.makeRectIsTargetByCursor = makeRectIsTargetByCursor;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/cursorHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/cursorHelper.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/helper/cursorHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/helper/cursorHelper.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -52760,9 +52899,9 @@ exports.onIrrelevantElement = onIrrelevantElement;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/interactionMutex.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/interactionMutex.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/helper/interactionMutex.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/helper/interactionMutex.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -52787,7 +52926,7 @@ exports.onIrrelevantElement = onIrrelevantElement;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -52850,9 +52989,9 @@ exports.isTaken = isTaken;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/listComponent.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/listComponent.js":
 /*!************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/helper/listComponent.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/helper/listComponent.js ***!
   \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -52877,15 +53016,15 @@ exports.isTaken = isTaken;
 * under the License.
 */
 
-var _layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var _layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
 var getLayoutRect = _layout.getLayoutRect;
 var layoutBox = _layout.box;
 var positionElement = _layout.positionElement;
 
-var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -52953,9 +53092,9 @@ exports.makeBackground = makeBackground;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/roamHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/roamHelper.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/helper/roamHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/helper/roamHelper.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -53051,9 +53190,9 @@ exports.updateViewOnZoom = updateViewOnZoom;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/selectableMixin.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/selectableMixin.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/helper/selectableMixin.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/helper/selectableMixin.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -53078,7 +53217,7 @@ exports.updateViewOnZoom = updateViewOnZoom;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -53185,9 +53324,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/sliderMove.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/sliderMove.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/helper/sliderMove.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/helper/sliderMove.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -53315,9 +53454,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend.js":
 /*!**********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/legend.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/legend.js ***!
   \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -53342,17 +53481,17 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./legend/LegendModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/LegendModel.js");
+__webpack_require__(/*! ./legend/LegendModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/LegendModel.js");
 
-__webpack_require__(/*! ./legend/legendAction */ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/legendAction.js");
+__webpack_require__(/*! ./legend/legendAction */ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/legendAction.js");
 
-__webpack_require__(/*! ./legend/LegendView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/LegendView.js");
+__webpack_require__(/*! ./legend/LegendView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/LegendView.js");
 
-var legendFilter = __webpack_require__(/*! ./legend/legendFilter */ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/legendFilter.js");
+var legendFilter = __webpack_require__(/*! ./legend/legendFilter */ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/legendFilter.js");
 
-var Component = __webpack_require__(/*! ../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var Component = __webpack_require__(/*! ../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -53382,9 +53521,9 @@ Component.registerSubTypeDefaulter('legend', function () {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/LegendModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/LegendModel.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/legend/LegendModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/legend/LegendModel.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -53409,17 +53548,17 @@ Component.registerSubTypeDefaulter('legend', function () {
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var isNameSpecified = _model.isNameSpecified;
 
-var lang = __webpack_require__(/*! ../../lang */ "../node_modules/_echarts@4.4.0@echarts/lib/lang.js");
+var lang = __webpack_require__(/*! ../../lang */ "../node_modules/_echarts@4.5.0@echarts/lib/lang.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -53743,9 +53882,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/LegendView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/LegendView.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/legend/LegendView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/legend/LegendView.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -53770,25 +53909,25 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js");
+var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js");
 
 var createSymbol = _symbol.createSymbol;
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var _listComponent = __webpack_require__(/*! ../helper/listComponent */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/listComponent.js");
+var _listComponent = __webpack_require__(/*! ../helper/listComponent */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/listComponent.js");
 
 var makeBackground = _listComponent.makeBackground;
 
-var layoutUtil = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layoutUtil = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -54233,9 +54372,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/ScrollableLegendModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/ScrollableLegendModel.js":
 /*!********************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/legend/ScrollableLegendModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/legend/ScrollableLegendModel.js ***!
   \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -54260,9 +54399,9 @@ module.exports = _default;
 * under the License.
 */
 
-var LegendModel = __webpack_require__(/*! ./LegendModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/LegendModel.js");
+var LegendModel = __webpack_require__(/*! ./LegendModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/LegendModel.js");
 
-var _layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var _layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
 var mergeLayoutParam = _layout.mergeLayoutParam;
 var getLayoutParams = _layout.getLayoutParams;
@@ -54349,9 +54488,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/ScrollableLegendView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/ScrollableLegendView.js":
 /*!*******************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/legend/ScrollableLegendView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/legend/ScrollableLegendView.js ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -54376,13 +54515,13 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var layoutUtil = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layoutUtil = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var LegendView = __webpack_require__(/*! ./LegendView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/LegendView.js");
+var LegendView = __webpack_require__(/*! ./LegendView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/LegendView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -54806,9 +54945,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/legendAction.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/legendAction.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/legend/legendAction.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/legend/legendAction.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -54833,9 +54972,9 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -54931,9 +55070,9 @@ echarts.registerAction('legendUnSelect', 'legendunselected', zrUtil.curry(legend
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/legendFilter.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/legendFilter.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/legend/legendFilter.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/legend/legendFilter.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -55000,9 +55139,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/scrollableLegendAction.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/scrollableLegendAction.js":
 /*!*********************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/legend/scrollableLegendAction.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/legend/scrollableLegendAction.js ***!
   \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -55027,7 +55166,7 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -55067,9 +55206,9 @@ echarts.registerAction('legendScroll', 'legendscroll', function (payload, ecMode
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/legendScroll.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/legendScroll.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/legendScroll.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/legendScroll.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -55094,19 +55233,19 @@ echarts.registerAction('legendScroll', 'legendscroll', function (payload, ecMode
 * under the License.
 */
 
-__webpack_require__(/*! ./legend */ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend.js");
+__webpack_require__(/*! ./legend */ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend.js");
 
-__webpack_require__(/*! ./legend/ScrollableLegendModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/ScrollableLegendModel.js");
+__webpack_require__(/*! ./legend/ScrollableLegendModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/ScrollableLegendModel.js");
 
-__webpack_require__(/*! ./legend/ScrollableLegendView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/ScrollableLegendView.js");
+__webpack_require__(/*! ./legend/ScrollableLegendView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/ScrollableLegendView.js");
 
-__webpack_require__(/*! ./legend/scrollableLegendAction */ "../node_modules/_echarts@4.4.0@echarts/lib/component/legend/scrollableLegendAction.js");
+__webpack_require__(/*! ./legend/scrollableLegendAction */ "../node_modules/_echarts@4.5.0@echarts/lib/component/legend/scrollableLegendAction.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/markArea.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/markArea.js":
 /*!************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/markArea.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/markArea.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -55131,11 +55270,11 @@ __webpack_require__(/*! ./legend/scrollableLegendAction */ "../node_modules/_ech
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./marker/MarkAreaModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkAreaModel.js");
+__webpack_require__(/*! ./marker/MarkAreaModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkAreaModel.js");
 
-__webpack_require__(/*! ./marker/MarkAreaView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkAreaView.js");
+__webpack_require__(/*! ./marker/MarkAreaView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkAreaView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -55162,9 +55301,9 @@ echarts.registerPreprocessor(function (opt) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/markLine.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/markLine.js":
 /*!************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/markLine.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/markLine.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -55189,11 +55328,11 @@ echarts.registerPreprocessor(function (opt) {
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./marker/MarkLineModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkLineModel.js");
+__webpack_require__(/*! ./marker/MarkLineModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkLineModel.js");
 
-__webpack_require__(/*! ./marker/MarkLineView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkLineView.js");
+__webpack_require__(/*! ./marker/MarkLineView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkLineView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -55220,9 +55359,9 @@ echarts.registerPreprocessor(function (opt) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/markPoint.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/markPoint.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/markPoint.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/markPoint.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -55247,11 +55386,11 @@ echarts.registerPreprocessor(function (opt) {
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./marker/MarkPointModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkPointModel.js");
+__webpack_require__(/*! ./marker/MarkPointModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkPointModel.js");
 
-__webpack_require__(/*! ./marker/MarkPointView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkPointView.js");
+__webpack_require__(/*! ./marker/MarkPointView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkPointView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -55279,9 +55418,9 @@ echarts.registerPreprocessor(function (opt) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkAreaModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkAreaModel.js":
 /*!************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkAreaModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkAreaModel.js ***!
   \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -55306,7 +55445,7 @@ echarts.registerPreprocessor(function (opt) {
 * under the License.
 */
 
-var MarkerModel = __webpack_require__(/*! ./MarkerModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkerModel.js");
+var MarkerModel = __webpack_require__(/*! ./MarkerModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkerModel.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -55360,9 +55499,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkAreaView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkAreaView.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkAreaView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkAreaView.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -55387,19 +55526,19 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var colorUtil = __webpack_require__(/*! zrender/lib/tool/color */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/color.js");
+var colorUtil = __webpack_require__(/*! zrender/lib/tool/color */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/color.js");
 
-var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.4.0@echarts/lib/data/List.js");
+var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.5.0@echarts/lib/data/List.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var markerHelper = __webpack_require__(/*! ./markerHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/markerHelper.js");
+var markerHelper = __webpack_require__(/*! ./markerHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/markerHelper.js");
 
-var MarkerView = __webpack_require__(/*! ./MarkerView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkerView.js");
+var MarkerView = __webpack_require__(/*! ./MarkerView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkerView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -55689,9 +55828,9 @@ function createList(coordSys, seriesModel, maModel) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkLineModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkLineModel.js":
 /*!************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkLineModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkLineModel.js ***!
   \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -55716,7 +55855,7 @@ function createList(coordSys, seriesModel, maModel) {
 * under the License.
 */
 
-var MarkerModel = __webpack_require__(/*! ./MarkerModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkerModel.js");
+var MarkerModel = __webpack_require__(/*! ./MarkerModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkerModel.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -55771,9 +55910,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkLineView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkLineView.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkLineView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkLineView.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -55798,19 +55937,19 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.4.0@echarts/lib/data/List.js");
+var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.5.0@echarts/lib/data/List.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var markerHelper = __webpack_require__(/*! ./markerHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/markerHelper.js");
+var markerHelper = __webpack_require__(/*! ./markerHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/markerHelper.js");
 
-var LineDraw = __webpack_require__(/*! ../../chart/helper/LineDraw */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/LineDraw.js");
+var LineDraw = __webpack_require__(/*! ../../chart/helper/LineDraw */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/LineDraw.js");
 
-var MarkerView = __webpack_require__(/*! ./MarkerView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkerView.js");
+var MarkerView = __webpack_require__(/*! ./MarkerView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkerView.js");
 
-var _dataStackHelper = __webpack_require__(/*! ../../data/helper/dataStackHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataStackHelper.js");
+var _dataStackHelper = __webpack_require__(/*! ../../data/helper/dataStackHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataStackHelper.js");
 
 var getStackedDimension = _dataStackHelper.getStackedDimension;
 
@@ -56147,9 +56286,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkPointModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkPointModel.js":
 /*!*************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkPointModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkPointModel.js ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -56174,7 +56313,7 @@ module.exports = _default;
 * under the License.
 */
 
-var MarkerModel = __webpack_require__(/*! ./MarkerModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkerModel.js");
+var MarkerModel = __webpack_require__(/*! ./MarkerModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkerModel.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -56225,9 +56364,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkPointView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkPointView.js":
 /*!************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkPointView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkPointView.js ***!
   \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -56252,17 +56391,17 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var SymbolDraw = __webpack_require__(/*! ../../chart/helper/SymbolDraw */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/SymbolDraw.js");
+var SymbolDraw = __webpack_require__(/*! ../../chart/helper/SymbolDraw */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/SymbolDraw.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.4.0@echarts/lib/data/List.js");
+var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.5.0@echarts/lib/data/List.js");
 
-var markerHelper = __webpack_require__(/*! ./markerHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/markerHelper.js");
+var markerHelper = __webpack_require__(/*! ./markerHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/markerHelper.js");
 
-var MarkerView = __webpack_require__(/*! ./MarkerView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkerView.js");
+var MarkerView = __webpack_require__(/*! ./MarkerView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkerView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -56430,9 +56569,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkerModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkerModel.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkerModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkerModel.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -56457,21 +56596,21 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
-var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
-var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
-var dataFormatMixin = __webpack_require__(/*! ../../model/mixin/dataFormat */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/dataFormat.js");
+var dataFormatMixin = __webpack_require__(/*! ../../model/mixin/dataFormat */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/dataFormat.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -56613,9 +56752,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkerView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkerView.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/marker/MarkerView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/marker/MarkerView.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -56640,9 +56779,9 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -56693,9 +56832,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/marker/markerHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/marker/markerHelper.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/marker/markerHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/marker/markerHelper.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -56720,11 +56859,11 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var _dataStackHelper = __webpack_require__(/*! ../../data/helper/dataStackHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataStackHelper.js");
+var _dataStackHelper = __webpack_require__(/*! ../../data/helper/dataStackHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataStackHelper.js");
 
 var isDimensionStacked = _dataStackHelper.isDimensionStacked;
 
@@ -56954,9 +57093,9 @@ exports.numCalculate = numCalculate;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/parallel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/parallel.js":
 /*!************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/parallel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/parallel.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -56981,19 +57120,19 @@ exports.numCalculate = numCalculate;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var throttleUtil = __webpack_require__(/*! ../util/throttle */ "../node_modules/_echarts@4.4.0@echarts/lib/util/throttle.js");
+var throttleUtil = __webpack_require__(/*! ../util/throttle */ "../node_modules/_echarts@4.5.0@echarts/lib/util/throttle.js");
 
-var parallelPreprocessor = __webpack_require__(/*! ../coord/parallel/parallelPreprocessor */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/parallelPreprocessor.js");
+var parallelPreprocessor = __webpack_require__(/*! ../coord/parallel/parallelPreprocessor */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/parallelPreprocessor.js");
 
-__webpack_require__(/*! ../coord/parallel/parallelCreator */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/parallelCreator.js");
+__webpack_require__(/*! ../coord/parallel/parallelCreator */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/parallelCreator.js");
 
-__webpack_require__(/*! ../coord/parallel/ParallelModel */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/ParallelModel.js");
+__webpack_require__(/*! ../coord/parallel/ParallelModel */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/ParallelModel.js");
 
-__webpack_require__(/*! ./parallelAxis */ "../node_modules/_echarts@4.4.0@echarts/lib/component/parallelAxis.js");
+__webpack_require__(/*! ./parallelAxis */ "../node_modules/_echarts@4.5.0@echarts/lib/component/parallelAxis.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -57105,9 +57244,9 @@ echarts.registerPreprocessor(parallelPreprocessor);
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/parallelAxis.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/parallelAxis.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/parallelAxis.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/parallelAxis.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -57132,17 +57271,17 @@ echarts.registerPreprocessor(parallelPreprocessor);
 * under the License.
 */
 
-__webpack_require__(/*! ../coord/parallel/parallelCreator */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/parallelCreator.js");
+__webpack_require__(/*! ../coord/parallel/parallelCreator */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/parallelCreator.js");
 
-__webpack_require__(/*! ./axis/parallelAxisAction */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/parallelAxisAction.js");
+__webpack_require__(/*! ./axis/parallelAxisAction */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/parallelAxisAction.js");
 
-__webpack_require__(/*! ./axis/ParallelAxisView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/ParallelAxisView.js");
+__webpack_require__(/*! ./axis/ParallelAxisView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/ParallelAxisView.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/polar.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/polar.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/polar.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/polar.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -57167,21 +57306,21 @@ __webpack_require__(/*! ./axis/ParallelAxisView */ "../node_modules/_echarts@4.4
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var barPolar = __webpack_require__(/*! ../layout/barPolar */ "../node_modules/_echarts@4.4.0@echarts/lib/layout/barPolar.js");
+var barPolar = __webpack_require__(/*! ../layout/barPolar */ "../node_modules/_echarts@4.5.0@echarts/lib/layout/barPolar.js");
 
-__webpack_require__(/*! ../coord/polar/polarCreator */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/polarCreator.js");
+__webpack_require__(/*! ../coord/polar/polarCreator */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/polarCreator.js");
 
-__webpack_require__(/*! ./angleAxis */ "../node_modules/_echarts@4.4.0@echarts/lib/component/angleAxis.js");
+__webpack_require__(/*! ./angleAxis */ "../node_modules/_echarts@4.5.0@echarts/lib/component/angleAxis.js");
 
-__webpack_require__(/*! ./radiusAxis */ "../node_modules/_echarts@4.4.0@echarts/lib/component/radiusAxis.js");
+__webpack_require__(/*! ./radiusAxis */ "../node_modules/_echarts@4.5.0@echarts/lib/component/radiusAxis.js");
 
-__webpack_require__(/*! ./axisPointer */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer.js");
+__webpack_require__(/*! ./axisPointer */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer.js");
 
-__webpack_require__(/*! ./axisPointer/PolarAxisPointer */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/PolarAxisPointer.js");
+__webpack_require__(/*! ./axisPointer/PolarAxisPointer */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/PolarAxisPointer.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -57210,9 +57349,9 @@ echarts.extendComponentView({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/radar.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/radar.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/radar.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/radar.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -57237,17 +57376,17 @@ echarts.extendComponentView({
 * under the License.
 */
 
-__webpack_require__(/*! ../coord/radar/Radar */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/radar/Radar.js");
+__webpack_require__(/*! ../coord/radar/Radar */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/radar/Radar.js");
 
-__webpack_require__(/*! ../coord/radar/RadarModel */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/radar/RadarModel.js");
+__webpack_require__(/*! ../coord/radar/RadarModel */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/radar/RadarModel.js");
 
-__webpack_require__(/*! ./radar/RadarView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/radar/RadarView.js");
+__webpack_require__(/*! ./radar/RadarView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/radar/RadarView.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/radar/RadarView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/radar/RadarView.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/radar/RadarView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/radar/RadarView.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -57272,17 +57411,17 @@ __webpack_require__(/*! ./radar/RadarView */ "../node_modules/_echarts@4.4.0@ech
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var AxisBuilder = __webpack_require__(/*! ../axis/AxisBuilder */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/AxisBuilder.js");
+var AxisBuilder = __webpack_require__(/*! ../axis/AxisBuilder */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/AxisBuilder.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -57463,9 +57602,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/radiusAxis.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/radiusAxis.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/radiusAxis.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/radiusAxis.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -57490,15 +57629,15 @@ module.exports = _default;
 * under the License.
 */
 
-__webpack_require__(/*! ../coord/polar/polarCreator */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/polarCreator.js");
+__webpack_require__(/*! ../coord/polar/polarCreator */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/polarCreator.js");
 
-__webpack_require__(/*! ./axis/RadiusAxisView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/RadiusAxisView.js");
+__webpack_require__(/*! ./axis/RadiusAxisView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/RadiusAxisView.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/singleAxis.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/singleAxis.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/singleAxis.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/singleAxis.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -57523,17 +57662,17 @@ __webpack_require__(/*! ./axis/RadiusAxisView */ "../node_modules/_echarts@4.4.0
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ../coord/single/singleCreator */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/single/singleCreator.js");
+__webpack_require__(/*! ../coord/single/singleCreator */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/single/singleCreator.js");
 
-__webpack_require__(/*! ./axis/SingleAxisView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axis/SingleAxisView.js");
+__webpack_require__(/*! ./axis/SingleAxisView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axis/SingleAxisView.js");
 
-__webpack_require__(/*! ../coord/single/AxisModel */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/single/AxisModel.js");
+__webpack_require__(/*! ../coord/single/AxisModel */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/single/AxisModel.js");
 
-__webpack_require__(/*! ./axisPointer */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer.js");
+__webpack_require__(/*! ./axisPointer */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer.js");
 
-__webpack_require__(/*! ./axisPointer/SingleAxisPointer */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/SingleAxisPointer.js");
+__webpack_require__(/*! ./axisPointer/SingleAxisPointer */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/SingleAxisPointer.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -57559,9 +57698,9 @@ echarts.extendComponentView({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline.js":
 /*!************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/timeline.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/timeline.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -57586,17 +57725,17 @@ echarts.extendComponentView({
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var preprocessor = __webpack_require__(/*! ./timeline/preprocessor */ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/preprocessor.js");
+var preprocessor = __webpack_require__(/*! ./timeline/preprocessor */ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/preprocessor.js");
 
-__webpack_require__(/*! ./timeline/typeDefaulter */ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/typeDefaulter.js");
+__webpack_require__(/*! ./timeline/typeDefaulter */ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/typeDefaulter.js");
 
-__webpack_require__(/*! ./timeline/timelineAction */ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/timelineAction.js");
+__webpack_require__(/*! ./timeline/timelineAction */ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/timelineAction.js");
 
-__webpack_require__(/*! ./timeline/SliderTimelineModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/SliderTimelineModel.js");
+__webpack_require__(/*! ./timeline/SliderTimelineModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/SliderTimelineModel.js");
 
-__webpack_require__(/*! ./timeline/SliderTimelineView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/SliderTimelineView.js");
+__webpack_require__(/*! ./timeline/SliderTimelineView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/SliderTimelineView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -57624,9 +57763,9 @@ echarts.registerPreprocessor(preprocessor);
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/SliderTimelineModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/SliderTimelineModel.js":
 /*!********************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/SliderTimelineModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/SliderTimelineModel.js ***!
   \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -57651,11 +57790,11 @@ echarts.registerPreprocessor(preprocessor);
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var TimelineModel = __webpack_require__(/*! ./TimelineModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/TimelineModel.js");
+var TimelineModel = __webpack_require__(/*! ./TimelineModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/TimelineModel.js");
 
-var dataFormatMixin = __webpack_require__(/*! ../../model/mixin/dataFormat */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/dataFormat.js");
+var dataFormatMixin = __webpack_require__(/*! ../../model/mixin/dataFormat */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/dataFormat.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -57776,9 +57915,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/SliderTimelineView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/SliderTimelineView.js":
 /*!*******************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/SliderTimelineView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/SliderTimelineView.js ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -57803,29 +57942,29 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var TimelineView = __webpack_require__(/*! ./TimelineView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/TimelineView.js");
+var TimelineView = __webpack_require__(/*! ./TimelineView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/TimelineView.js");
 
-var TimelineAxis = __webpack_require__(/*! ./TimelineAxis */ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/TimelineAxis.js");
+var TimelineAxis = __webpack_require__(/*! ./TimelineAxis */ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/TimelineAxis.js");
 
-var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js");
+var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js");
 
 var createSymbol = _symbol.createSymbol;
 
-var axisHelper = __webpack_require__(/*! ../../coord/axisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisHelper.js");
+var axisHelper = __webpack_require__(/*! ../../coord/axisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisHelper.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 var encodeHTML = _format.encodeHTML;
 
@@ -58439,9 +58578,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/TimelineAxis.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/TimelineAxis.js":
 /*!*************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/TimelineAxis.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/TimelineAxis.js ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -58466,9 +58605,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Axis = __webpack_require__(/*! ../../coord/Axis */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/Axis.js");
+var Axis = __webpack_require__(/*! ../../coord/Axis */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/Axis.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -58542,9 +58681,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/TimelineModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/TimelineModel.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/TimelineModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/TimelineModel.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -58569,13 +58708,13 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
-var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.4.0@echarts/lib/data/List.js");
+var List = __webpack_require__(/*! ../../data/List */ "../node_modules/_echarts@4.5.0@echarts/lib/data/List.js");
 
-var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -58773,9 +58912,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/TimelineView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/TimelineView.js":
 /*!*************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/TimelineView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/TimelineView.js ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -58800,7 +58939,7 @@ module.exports = _default;
 * under the License.
 */
 
-var ComponentView = __webpack_require__(/*! ../../view/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/view/Component.js");
+var ComponentView = __webpack_require__(/*! ../../view/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/view/Component.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -58828,9 +58967,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/preprocessor.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/preprocessor.js":
 /*!*************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/preprocessor.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/preprocessor.js ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -58855,7 +58994,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -58962,9 +59101,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/timelineAction.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/timelineAction.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/timelineAction.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/timelineAction.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -58989,9 +59128,9 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -59046,9 +59185,9 @@ echarts.registerAction({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/typeDefaulter.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/typeDefaulter.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/timeline/typeDefaulter.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/timeline/typeDefaulter.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -59073,7 +59212,7 @@ echarts.registerAction({
 * under the License.
 */
 
-var Component = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var Component = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -59100,9 +59239,9 @@ Component.registerSubTypeDefaulter('timeline', function () {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/title.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/title.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/title.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/title.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -59127,13 +59266,13 @@ Component.registerSubTypeDefaulter('timeline', function () {
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var graphic = __webpack_require__(/*! ../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var _layout = __webpack_require__(/*! ../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var _layout = __webpack_require__(/*! ../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
 var getLayoutRect = _layout.getLayoutRect;
 
@@ -59348,9 +59487,9 @@ echarts.extendComponentView({
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -59375,25 +59514,25 @@ echarts.extendComponentView({
 * under the License.
 */
 
-__webpack_require__(/*! ./toolbox/ToolboxModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/ToolboxModel.js");
+__webpack_require__(/*! ./toolbox/ToolboxModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/ToolboxModel.js");
 
-__webpack_require__(/*! ./toolbox/ToolboxView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/ToolboxView.js");
+__webpack_require__(/*! ./toolbox/ToolboxView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/ToolboxView.js");
 
-__webpack_require__(/*! ./toolbox/feature/SaveAsImage */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/SaveAsImage.js");
+__webpack_require__(/*! ./toolbox/feature/SaveAsImage */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/SaveAsImage.js");
 
-__webpack_require__(/*! ./toolbox/feature/MagicType */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/MagicType.js");
+__webpack_require__(/*! ./toolbox/feature/MagicType */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/MagicType.js");
 
-__webpack_require__(/*! ./toolbox/feature/DataView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/DataView.js");
+__webpack_require__(/*! ./toolbox/feature/DataView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/DataView.js");
 
-__webpack_require__(/*! ./toolbox/feature/DataZoom */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/DataZoom.js");
+__webpack_require__(/*! ./toolbox/feature/DataZoom */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/DataZoom.js");
 
-__webpack_require__(/*! ./toolbox/feature/Restore */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/Restore.js");
+__webpack_require__(/*! ./toolbox/feature/Restore */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/Restore.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/ToolboxModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/ToolboxModel.js":
 /*!************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/ToolboxModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/ToolboxModel.js ***!
   \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -59418,11 +59557,11 @@ __webpack_require__(/*! ./toolbox/feature/Restore */ "../node_modules/_echarts@4
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var featureManager = __webpack_require__(/*! ./featureManager */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/featureManager.js");
+var featureManager = __webpack_require__(/*! ./featureManager */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/featureManager.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -59493,9 +59632,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/ToolboxView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/ToolboxView.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/ToolboxView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/ToolboxView.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -59520,21 +59659,21 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var textContain = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/text.js");
+var textContain = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/text.js");
 
-var featureManager = __webpack_require__(/*! ./featureManager */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/featureManager.js");
+var featureManager = __webpack_require__(/*! ./featureManager */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/featureManager.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var DataDiffer = __webpack_require__(/*! ../../data/DataDiffer */ "../node_modules/_echarts@4.4.0@echarts/lib/data/DataDiffer.js");
+var DataDiffer = __webpack_require__(/*! ../../data/DataDiffer */ "../node_modules/_echarts@4.5.0@echarts/lib/data/DataDiffer.js");
 
-var listComponentHelper = __webpack_require__(/*! ../helper/listComponent */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/listComponent.js");
+var listComponentHelper = __webpack_require__(/*! ../helper/listComponent */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/listComponent.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -59674,7 +59813,15 @@ var _default = echarts.extendComponentView({
           height: itemSize
         });
         path.setStyle(iconStyleModel.getItemStyle());
-        path.hoverStyle = iconStyleEmphasisModel.getItemStyle();
+        path.hoverStyle = iconStyleEmphasisModel.getItemStyle(); // Text position calculation
+
+        path.setStyle({
+          text: titles[iconName],
+          textAlign: iconStyleEmphasisModel.get('textAlign'),
+          textBorderRadius: iconStyleEmphasisModel.get('textBorderRadius'),
+          textPadding: iconStyleEmphasisModel.get('textPadding'),
+          textFill: null
+        });
         var tooltipModel = toolboxModel.getModel('tooltip');
 
         if (tooltipModel && tooltipModel.get('show')) {
@@ -59700,14 +59847,11 @@ var _default = echarts.extendComponentView({
           path.on('mouseover', function () {
             // Should not reuse above hoverStyle, which might be modified.
             var hoverStyle = iconStyleEmphasisModel.getItemStyle();
+            var defaultTextPosition = toolboxModel.get('orient') === 'vertical' ? toolboxModel.get('right') == null ? 'right' : 'left' : toolboxModel.get('bottom') == null ? 'bottom' : 'top';
             path.setStyle({
-              text: titles[iconName],
-              textPosition: iconStyleEmphasisModel.get('textPosition') || 'bottom',
               textFill: iconStyleEmphasisModel.get('textFill') || hoverStyle.fill || hoverStyle.stroke || '#000',
-              textAlign: iconStyleEmphasisModel.get('textAlign') || 'center',
               textBackgroundColor: iconStyleEmphasisModel.get('textBackgroundColor'),
-              textBorderRadius: iconStyleEmphasisModel.get('textBorderRadius'),
-              textPadding: iconStyleEmphasisModel.get('textPadding')
+              textPosition: iconStyleEmphasisModel.get('textPosition') || defaultTextPosition
             });
           }).on('mouseout', function () {
             path.setStyle({
@@ -59787,9 +59931,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/Brush.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/Brush.js":
 /*!*************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/Brush.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/Brush.js ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -59814,11 +59958,11 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var featureManager = __webpack_require__(/*! ../featureManager */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/featureManager.js");
+var featureManager = __webpack_require__(/*! ../featureManager */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/featureManager.js");
 
-var lang = __webpack_require__(/*! ../../../lang */ "../node_modules/_echarts@4.4.0@echarts/lib/lang.js");
+var lang = __webpack_require__(/*! ../../../lang */ "../node_modules/_echarts@4.5.0@echarts/lib/lang.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -59951,9 +60095,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/DataView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/DataView.js":
 /*!****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/DataView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/DataView.js ***!
   \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -59978,15 +60122,15 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var eventTool = __webpack_require__(/*! zrender/lib/core/event */ "../node_modules/_zrender@4.1.1@zrender/lib/core/event.js");
+var eventTool = __webpack_require__(/*! zrender/lib/core/event */ "../node_modules/_zrender@4.1.2@zrender/lib/core/event.js");
 
-var lang = __webpack_require__(/*! ../../../lang */ "../node_modules/_echarts@4.4.0@echarts/lib/lang.js");
+var lang = __webpack_require__(/*! ../../../lang */ "../node_modules/_echarts@4.5.0@echarts/lib/lang.js");
 
-var featureManager = __webpack_require__(/*! ../featureManager */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/featureManager.js");
+var featureManager = __webpack_require__(/*! ../featureManager */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/featureManager.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -60457,9 +60601,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/DataZoom.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/DataZoom.js":
 /*!****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/DataZoom.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/DataZoom.js ***!
   \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -60484,23 +60628,23 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var BrushController = __webpack_require__(/*! ../../helper/BrushController */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/BrushController.js");
+var BrushController = __webpack_require__(/*! ../../helper/BrushController */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/BrushController.js");
 
-var BrushTargetManager = __webpack_require__(/*! ../../helper/BrushTargetManager */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/BrushTargetManager.js");
+var BrushTargetManager = __webpack_require__(/*! ../../helper/BrushTargetManager */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/BrushTargetManager.js");
 
-var history = __webpack_require__(/*! ../../dataZoom/history */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/history.js");
+var history = __webpack_require__(/*! ../../dataZoom/history */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/history.js");
 
-var sliderMove = __webpack_require__(/*! ../../helper/sliderMove */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/sliderMove.js");
+var sliderMove = __webpack_require__(/*! ../../helper/sliderMove */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/sliderMove.js");
 
-var lang = __webpack_require__(/*! ../../../lang */ "../node_modules/_echarts@4.4.0@echarts/lib/lang.js");
+var lang = __webpack_require__(/*! ../../../lang */ "../node_modules/_echarts@4.5.0@echarts/lib/lang.js");
 
-var featureManager = __webpack_require__(/*! ../featureManager */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/featureManager.js");
+var featureManager = __webpack_require__(/*! ../featureManager */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/featureManager.js");
 
-__webpack_require__(/*! ../../dataZoomSelect */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoomSelect.js");
+__webpack_require__(/*! ../../dataZoomSelect */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoomSelect.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -60796,9 +60940,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/MagicType.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/MagicType.js":
 /*!*****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/MagicType.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/MagicType.js ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -60823,13 +60967,13 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var lang = __webpack_require__(/*! ../../../lang */ "../node_modules/_echarts@4.4.0@echarts/lib/lang.js");
+var lang = __webpack_require__(/*! ../../../lang */ "../node_modules/_echarts@4.5.0@echarts/lib/lang.js");
 
-var featureManager = __webpack_require__(/*! ../featureManager */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/featureManager.js");
+var featureManager = __webpack_require__(/*! ../featureManager */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/featureManager.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -61017,9 +61161,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/Restore.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/Restore.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/Restore.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/Restore.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -61044,13 +61188,13 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var history = __webpack_require__(/*! ../../dataZoom/history */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataZoom/history.js");
+var history = __webpack_require__(/*! ../../dataZoom/history */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataZoom/history.js");
 
-var lang = __webpack_require__(/*! ../../../lang */ "../node_modules/_echarts@4.4.0@echarts/lib/lang.js");
+var lang = __webpack_require__(/*! ../../../lang */ "../node_modules/_echarts@4.5.0@echarts/lib/lang.js");
 
-var featureManager = __webpack_require__(/*! ../featureManager */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/featureManager.js");
+var featureManager = __webpack_require__(/*! ../featureManager */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/featureManager.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -61108,9 +61252,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/SaveAsImage.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/SaveAsImage.js":
 /*!*******************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/feature/SaveAsImage.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/feature/SaveAsImage.js ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -61135,11 +61279,11 @@ module.exports = _default;
 * under the License.
 */
 
-var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
-var lang = __webpack_require__(/*! ../../../lang */ "../node_modules/_echarts@4.4.0@echarts/lib/lang.js");
+var lang = __webpack_require__(/*! ../../../lang */ "../node_modules/_echarts@4.5.0@echarts/lib/lang.js");
 
-var featureManager = __webpack_require__(/*! ../featureManager */ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/featureManager.js");
+var featureManager = __webpack_require__(/*! ../featureManager */ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/featureManager.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -61234,9 +61378,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/featureManager.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/featureManager.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/toolbox/featureManager.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/toolbox/featureManager.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -61294,9 +61438,9 @@ exports.get = get;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -61321,13 +61465,13 @@ exports.get = get;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./axisPointer */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer.js");
+__webpack_require__(/*! ./axisPointer */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer.js");
 
-__webpack_require__(/*! ./tooltip/TooltipModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip/TooltipModel.js");
+__webpack_require__(/*! ./tooltip/TooltipModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip/TooltipModel.js");
 
-__webpack_require__(/*! ./tooltip/TooltipView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip/TooltipView.js");
+__webpack_require__(/*! ./tooltip/TooltipView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip/TooltipView.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -61372,9 +61516,9 @@ function () {});
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip/TooltipContent.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip/TooltipContent.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip/TooltipContent.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip/TooltipContent.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -61399,15 +61543,15 @@ function () {});
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var zrColor = __webpack_require__(/*! zrender/lib/tool/color */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/color.js");
+var zrColor = __webpack_require__(/*! zrender/lib/tool/color */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/color.js");
 
-var eventUtil = __webpack_require__(/*! zrender/lib/core/event */ "../node_modules/_zrender@4.1.1@zrender/lib/core/event.js");
+var eventUtil = __webpack_require__(/*! zrender/lib/core/event */ "../node_modules/_zrender@4.1.2@zrender/lib/core/event.js");
 
-var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
-var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -61686,9 +61830,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip/TooltipModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip/TooltipModel.js":
 /*!************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip/TooltipModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip/TooltipModel.js ***!
   \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -61713,7 +61857,7 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -61817,9 +61961,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip/TooltipRichContent.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip/TooltipRichContent.js":
 /*!******************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip/TooltipRichContent.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip/TooltipRichContent.js ***!
   \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -61844,9 +61988,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Text = __webpack_require__(/*! zrender/lib/graphic/Text */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Text.js");
+var Text = __webpack_require__(/*! zrender/lib/graphic/Text */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Text.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -62031,9 +62175,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip/TooltipView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip/TooltipView.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip/TooltipView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip/TooltipView.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -62058,35 +62202,35 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
-var TooltipContent = __webpack_require__(/*! ./TooltipContent */ "../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip/TooltipContent.js");
+var TooltipContent = __webpack_require__(/*! ./TooltipContent */ "../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip/TooltipContent.js");
 
-var TooltipRichContent = __webpack_require__(/*! ./TooltipRichContent */ "../node_modules/_echarts@4.4.0@echarts/lib/component/tooltip/TooltipRichContent.js");
+var TooltipRichContent = __webpack_require__(/*! ./TooltipRichContent */ "../node_modules/_echarts@4.5.0@echarts/lib/component/tooltip/TooltipRichContent.js");
 
-var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var findPointFromSeries = __webpack_require__(/*! ../axisPointer/findPointFromSeries */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/findPointFromSeries.js");
+var findPointFromSeries = __webpack_require__(/*! ../axisPointer/findPointFromSeries */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/findPointFromSeries.js");
 
-var layoutUtil = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layoutUtil = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var globalListener = __webpack_require__(/*! ../axisPointer/globalListener */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/globalListener.js");
+var globalListener = __webpack_require__(/*! ../axisPointer/globalListener */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/globalListener.js");
 
-var axisHelper = __webpack_require__(/*! ../../coord/axisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisHelper.js");
+var axisHelper = __webpack_require__(/*! ../../coord/axisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisHelper.js");
 
-var axisPointerViewHelper = __webpack_require__(/*! ../axisPointer/viewHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/axisPointer/viewHelper.js");
+var axisPointerViewHelper = __webpack_require__(/*! ../axisPointer/viewHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/axisPointer/viewHelper.js");
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var getTooltipRenderMode = _model.getTooltipRenderMode;
 
@@ -62823,9 +62967,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -62850,15 +62994,15 @@ module.exports = _default;
 * under the License.
 */
 
-__webpack_require__(/*! ./visualMapContinuous */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMapContinuous.js");
+__webpack_require__(/*! ./visualMapContinuous */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMapContinuous.js");
 
-__webpack_require__(/*! ./visualMapPiecewise */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMapPiecewise.js");
+__webpack_require__(/*! ./visualMapPiecewise */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMapPiecewise.js");
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/ContinuousModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/ContinuousModel.js":
 /*!*****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/ContinuousModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/ContinuousModel.js ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -62883,11 +63027,11 @@ __webpack_require__(/*! ./visualMapPiecewise */ "../node_modules/_echarts@4.4.0@
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var VisualMapModel = __webpack_require__(/*! ./VisualMapModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/VisualMapModel.js");
+var VisualMapModel = __webpack_require__(/*! ./VisualMapModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/VisualMapModel.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -63140,9 +63284,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/ContinuousView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/ContinuousView.js":
 /*!****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/ContinuousView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/ContinuousView.js ***!
   \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -63167,23 +63311,23 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var LinearGradient = __webpack_require__(/*! zrender/lib/graphic/LinearGradient */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/LinearGradient.js");
+var LinearGradient = __webpack_require__(/*! zrender/lib/graphic/LinearGradient */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/LinearGradient.js");
 
-var eventTool = __webpack_require__(/*! zrender/lib/core/event */ "../node_modules/_zrender@4.1.1@zrender/lib/core/event.js");
+var eventTool = __webpack_require__(/*! zrender/lib/core/event */ "../node_modules/_zrender@4.1.2@zrender/lib/core/event.js");
 
-var VisualMapView = __webpack_require__(/*! ./VisualMapView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/VisualMapView.js");
+var VisualMapView = __webpack_require__(/*! ./VisualMapView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/VisualMapView.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var sliderMove = __webpack_require__(/*! ../helper/sliderMove */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/sliderMove.js");
+var sliderMove = __webpack_require__(/*! ../helper/sliderMove */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/sliderMove.js");
 
-var helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/helper.js");
+var helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/helper.js");
 
-var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -63946,9 +64090,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/PiecewiseModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/PiecewiseModel.js":
 /*!****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/PiecewiseModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/PiecewiseModel.js ***!
   \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -63973,19 +64117,19 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var VisualMapModel = __webpack_require__(/*! ./VisualMapModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/VisualMapModel.js");
+var VisualMapModel = __webpack_require__(/*! ./VisualMapModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/VisualMapModel.js");
 
-var VisualMapping = __webpack_require__(/*! ../../visual/VisualMapping */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/VisualMapping.js");
+var VisualMapping = __webpack_require__(/*! ../../visual/VisualMapping */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/VisualMapping.js");
 
-var visualDefault = __webpack_require__(/*! ../../visual/visualDefault */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/visualDefault.js");
+var visualDefault = __webpack_require__(/*! ../../visual/visualDefault */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/visualDefault.js");
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var reformIntervals = _number.reformIntervals;
 
@@ -64499,9 +64643,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/PiecewiseView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/PiecewiseView.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/PiecewiseView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/PiecewiseView.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -64526,19 +64670,19 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var VisualMapView = __webpack_require__(/*! ./VisualMapView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/VisualMapView.js");
+var VisualMapView = __webpack_require__(/*! ./VisualMapView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/VisualMapView.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js");
+var _symbol = __webpack_require__(/*! ../../util/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js");
 
 var createSymbol = _symbol.createSymbol;
 
-var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/helper.js");
+var helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/helper.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -64748,9 +64892,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/VisualMapModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/VisualMapModel.js":
 /*!****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/VisualMapModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/VisualMapModel.js ***!
   \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -64775,21 +64919,21 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
-var visualDefault = __webpack_require__(/*! ../../visual/visualDefault */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/visualDefault.js");
+var visualDefault = __webpack_require__(/*! ../../visual/visualDefault */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/visualDefault.js");
 
-var VisualMapping = __webpack_require__(/*! ../../visual/VisualMapping */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/VisualMapping.js");
+var VisualMapping = __webpack_require__(/*! ../../visual/VisualMapping */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/VisualMapping.js");
 
-var visualSolution = __webpack_require__(/*! ../../visual/visualSolution */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/visualSolution.js");
+var visualSolution = __webpack_require__(/*! ../../visual/visualSolution */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/visualSolution.js");
 
-var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -65301,9 +65445,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/VisualMapView.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/VisualMapView.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/VisualMapView.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/VisualMapView.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -65328,17 +65472,17 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var formatUtil = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
-var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var VisualMapping = __webpack_require__(/*! ../../visual/VisualMapping */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/VisualMapping.js");
+var VisualMapping = __webpack_require__(/*! ../../visual/VisualMapping */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/VisualMapping.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -65502,9 +65646,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/helper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/helper.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/helper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/helper.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -65529,9 +65673,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var _layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
 var getLayoutRect = _layout.getLayoutRect;
 
@@ -65611,9 +65755,9 @@ exports.makeHighDownBatch = makeHighDownBatch;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/preprocessor.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/preprocessor.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/preprocessor.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/preprocessor.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -65638,7 +65782,7 @@ exports.makeHighDownBatch = makeHighDownBatch;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -65704,9 +65848,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/typeDefaulter.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/typeDefaulter.js":
 /*!***************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/typeDefaulter.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/typeDefaulter.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -65731,7 +65875,7 @@ module.exports = _default;
 * under the License.
 */
 
-var Component = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var Component = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -65758,9 +65902,9 @@ Component.registerSubTypeDefaulter('visualMap', function (option) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/visualEncoding.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/visualEncoding.js":
 /*!****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/visualEncoding.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/visualEncoding.js ***!
   \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -65785,13 +65929,13 @@ Component.registerSubTypeDefaulter('visualMap', function (option) {
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var visualSolution = __webpack_require__(/*! ../../visual/visualSolution */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/visualSolution.js");
+var visualSolution = __webpack_require__(/*! ../../visual/visualSolution */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/visualSolution.js");
 
-var VisualMapping = __webpack_require__(/*! ../../visual/VisualMapping */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/VisualMapping.js");
+var VisualMapping = __webpack_require__(/*! ../../visual/VisualMapping */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/VisualMapping.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -65884,9 +66028,9 @@ function getColorVisual(seriesModel, visualMapModel, value, valueState) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/visualMapAction.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/visualMapAction.js":
 /*!*****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/visualMapAction.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/visualMapAction.js ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -65911,7 +66055,7 @@ function getColorVisual(seriesModel, visualMapModel, value, valueState) {
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -65948,9 +66092,9 @@ echarts.registerAction(actionInfo, function (payload, ecModel) {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMapContinuous.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMapContinuous.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/visualMapContinuous.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/visualMapContinuous.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -65975,19 +66119,19 @@ echarts.registerAction(actionInfo, function (payload, ecModel) {
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var preprocessor = __webpack_require__(/*! ./visualMap/preprocessor */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/preprocessor.js");
+var preprocessor = __webpack_require__(/*! ./visualMap/preprocessor */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/preprocessor.js");
 
-__webpack_require__(/*! ./visualMap/typeDefaulter */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/typeDefaulter.js");
+__webpack_require__(/*! ./visualMap/typeDefaulter */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/typeDefaulter.js");
 
-__webpack_require__(/*! ./visualMap/visualEncoding */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/visualEncoding.js");
+__webpack_require__(/*! ./visualMap/visualEncoding */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/visualEncoding.js");
 
-__webpack_require__(/*! ./visualMap/ContinuousModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/ContinuousModel.js");
+__webpack_require__(/*! ./visualMap/ContinuousModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/ContinuousModel.js");
 
-__webpack_require__(/*! ./visualMap/ContinuousView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/ContinuousView.js");
+__webpack_require__(/*! ./visualMap/ContinuousView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/ContinuousView.js");
 
-__webpack_require__(/*! ./visualMap/visualMapAction */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/visualMapAction.js");
+__webpack_require__(/*! ./visualMap/visualMapAction */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/visualMapAction.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -66015,9 +66159,9 @@ echarts.registerPreprocessor(preprocessor);
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMapPiecewise.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMapPiecewise.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/component/visualMapPiecewise.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/component/visualMapPiecewise.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -66042,19 +66186,19 @@ echarts.registerPreprocessor(preprocessor);
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var preprocessor = __webpack_require__(/*! ./visualMap/preprocessor */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/preprocessor.js");
+var preprocessor = __webpack_require__(/*! ./visualMap/preprocessor */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/preprocessor.js");
 
-__webpack_require__(/*! ./visualMap/typeDefaulter */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/typeDefaulter.js");
+__webpack_require__(/*! ./visualMap/typeDefaulter */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/typeDefaulter.js");
 
-__webpack_require__(/*! ./visualMap/visualEncoding */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/visualEncoding.js");
+__webpack_require__(/*! ./visualMap/visualEncoding */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/visualEncoding.js");
 
-__webpack_require__(/*! ./visualMap/PiecewiseModel */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/PiecewiseModel.js");
+__webpack_require__(/*! ./visualMap/PiecewiseModel */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/PiecewiseModel.js");
 
-__webpack_require__(/*! ./visualMap/PiecewiseView */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/PiecewiseView.js");
+__webpack_require__(/*! ./visualMap/PiecewiseView */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/PiecewiseView.js");
 
-__webpack_require__(/*! ./visualMap/visualMapAction */ "../node_modules/_echarts@4.4.0@echarts/lib/component/visualMap/visualMapAction.js");
+__webpack_require__(/*! ./visualMap/visualMapAction */ "../node_modules/_echarts@4.5.0@echarts/lib/component/visualMap/visualMapAction.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -66082,9 +66226,9 @@ echarts.registerPreprocessor(preprocessor);
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/config.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/config.js":
 /*!************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/config.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/config.js ***!
   \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -66151,9 +66295,9 @@ exports.__DEV__ = __DEV__;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/Axis.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/Axis.js":
 /*!****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/Axis.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/Axis.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -66178,17 +66322,18 @@ exports.__DEV__ = __DEV__;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var each = _util.each;
 var map = _util.map;
 
-var _number = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var linearMap = _number.linearMap;
 var getPixelPrecision = _number.getPixelPrecision;
+var round = _number.round;
 
-var _axisTickLabelBuilder = __webpack_require__(/*! ./axisTickLabelBuilder */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisTickLabelBuilder.js");
+var _axisTickLabelBuilder = __webpack_require__(/*! ./axisTickLabelBuilder */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisTickLabelBuilder.js");
 
 var createAxisTicks = _axisTickLabelBuilder.createAxisTicks;
 var createAxisLabels = _axisTickLabelBuilder.createAxisLabels;
@@ -66374,7 +66519,7 @@ Axis.prototype = {
       };
     }, this);
     var alignWithLabel = tickModel.get('alignWithLabel');
-    fixOnBandTicksCoords(this, ticksCoords, result.tickCategoryInterval, alignWithLabel, opt.clamp);
+    fixOnBandTicksCoords(this, ticksCoords, alignWithLabel, opt.clamp);
     return ticksCoords;
   },
 
@@ -66461,7 +66606,7 @@ function fixExtentWithBands(extent, nTick) {
 // case).
 
 
-function fixOnBandTicksCoords(axis, ticksCoords, tickCategoryInterval, alignWithLabel, clamp) {
+function fixOnBandTicksCoords(axis, ticksCoords, alignWithLabel, clamp) {
   var ticksLen = ticksCoords.length;
 
   if (!axis.onBand || alignWithLabel || !ticksLen) {
@@ -66470,6 +66615,7 @@ function fixOnBandTicksCoords(axis, ticksCoords, tickCategoryInterval, alignWith
 
   var axisExtent = axis.getExtent();
   var last;
+  var diffSize;
 
   if (ticksLen === 1) {
     ticksCoords[0].coord = axisExtent[0];
@@ -66477,22 +66623,20 @@ function fixOnBandTicksCoords(axis, ticksCoords, tickCategoryInterval, alignWith
       coord: axisExtent[0]
     };
   } else {
-    var shift = ticksCoords[1].coord - ticksCoords[0].coord;
+    var crossLen = ticksCoords[ticksLen - 1].tickValue - ticksCoords[0].tickValue;
+    var shift = (ticksCoords[ticksLen - 1].coord - ticksCoords[0].coord) / crossLen;
     each(ticksCoords, function (ticksItem) {
       ticksItem.coord -= shift / 2;
-      var tickCategoryInterval = tickCategoryInterval || 0; // Avoid split a single data item when odd interval.
-
-      if (tickCategoryInterval % 2 > 0) {
-        ticksItem.coord -= shift / ((tickCategoryInterval + 1) * 2);
-      }
     });
+    var dataExtent = axis.scale.getExtent();
+    diffSize = 1 + dataExtent[1] - ticksCoords[ticksLen - 1].tickValue;
     last = {
-      coord: ticksCoords[ticksLen - 1].coord + shift
+      coord: ticksCoords[ticksLen - 1].coord + shift * diffSize
     };
     ticksCoords.push(last);
   }
 
-  var inverse = axisExtent[0] > axisExtent[1];
+  var inverse = axisExtent[0] > axisExtent[1]; // Handling clamp.
 
   if (littleThan(ticksCoords[0].coord, axisExtent[0])) {
     clamp ? ticksCoords[0].coord = axisExtent[0] : ticksCoords.shift();
@@ -66515,6 +66659,10 @@ function fixOnBandTicksCoords(axis, ticksCoords, tickCategoryInterval, alignWith
   }
 
   function littleThan(a, b) {
+    // Avoid rounding error cause calculated tick coord different with extent.
+    // It may cause an extra unecessary tick added.
+    a = round(a);
+    b = round(b);
     return inverse ? a > b : a < b;
   }
 }
@@ -66524,9 +66672,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/View.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/View.js":
 /*!****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/View.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/View.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -66551,15 +66699,15 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var vector = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vector = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
-var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var Transformable = __webpack_require__(/*! zrender/lib/mixin/Transformable */ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Transformable.js");
+var Transformable = __webpack_require__(/*! zrender/lib/mixin/Transformable */ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Transformable.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -66848,9 +66996,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisDefault.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisDefault.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/axisDefault.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/axisDefault.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -66875,7 +67023,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -67049,9 +67197,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisHelper.js":
 /*!**********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/axisHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/axisHelper.js ***!
   \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -67076,31 +67224,31 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var OrdinalScale = __webpack_require__(/*! ../scale/Ordinal */ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Ordinal.js");
+var OrdinalScale = __webpack_require__(/*! ../scale/Ordinal */ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Ordinal.js");
 
-var IntervalScale = __webpack_require__(/*! ../scale/Interval */ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Interval.js");
+var IntervalScale = __webpack_require__(/*! ../scale/Interval */ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Interval.js");
 
-var Scale = __webpack_require__(/*! ../scale/Scale */ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Scale.js");
+var Scale = __webpack_require__(/*! ../scale/Scale */ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Scale.js");
 
-var numberUtil = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var _barGrid = __webpack_require__(/*! ../layout/barGrid */ "../node_modules/_echarts@4.4.0@echarts/lib/layout/barGrid.js");
+var _barGrid = __webpack_require__(/*! ../layout/barGrid */ "../node_modules/_echarts@4.5.0@echarts/lib/layout/barGrid.js");
 
 var prepareLayoutBarSeries = _barGrid.prepareLayoutBarSeries;
 var makeColumnLayout = _barGrid.makeColumnLayout;
 var retrieveColumnLayout = _barGrid.retrieveColumnLayout;
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-__webpack_require__(/*! ../scale/Time */ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Time.js");
+__webpack_require__(/*! ../scale/Time */ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Time.js");
 
-__webpack_require__(/*! ../scale/Log */ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Log.js");
+__webpack_require__(/*! ../scale/Log */ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Log.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -67488,9 +67636,9 @@ exports.shouldShowAllLabels = shouldShowAllLabels;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisModelCommonMixin.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisModelCommonMixin.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/axisModelCommonMixin.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/axisModelCommonMixin.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -67515,7 +67663,7 @@ exports.shouldShowAllLabels = shouldShowAllLabels;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -67602,9 +67750,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisModelCreator.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisModelCreator.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/axisModelCreator.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/axisModelCreator.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -67629,18 +67777,18 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var axisDefault = __webpack_require__(/*! ./axisDefault */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisDefault.js");
+var axisDefault = __webpack_require__(/*! ./axisDefault */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisDefault.js");
 
-var ComponentModel = __webpack_require__(/*! ../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var ComponentModel = __webpack_require__(/*! ../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
-var _layout = __webpack_require__(/*! ../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var _layout = __webpack_require__(/*! ../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
 var getLayoutParams = _layout.getLayoutParams;
 var mergeLayoutParam = _layout.mergeLayoutParam;
 
-var OrdinalMeta = __webpack_require__(/*! ../data/OrdinalMeta */ "../node_modules/_echarts@4.4.0@echarts/lib/data/OrdinalMeta.js");
+var OrdinalMeta = __webpack_require__(/*! ../data/OrdinalMeta */ "../node_modules/_echarts@4.5.0@echarts/lib/data/OrdinalMeta.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -67730,9 +67878,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisTickLabelBuilder.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisTickLabelBuilder.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/axisTickLabelBuilder.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/axisTickLabelBuilder.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -67757,15 +67905,15 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var textContain = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/text.js");
+var textContain = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/text.js");
 
-var _model = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var makeInner = _model.makeInner;
 
-var _axisHelper = __webpack_require__(/*! ./axisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisHelper.js");
+var _axisHelper = __webpack_require__(/*! ./axisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisHelper.js");
 
 var makeLabelFormatter = _axisHelper.makeLabelFormatter;
 var getOptionCategoryInterval = _axisHelper.getOptionCategoryInterval;
@@ -67997,20 +68145,28 @@ function calculateCategoryInterval(axis) {
   isNaN(dh) && (dh = Infinity);
   var interval = Math.max(0, Math.floor(Math.min(dw, dh)));
   var cache = inner(axis.model);
+  var axisExtent = axis.getExtent();
   var lastAutoInterval = cache.lastAutoInterval;
   var lastTickCount = cache.lastTickCount; // Use cache to keep interval stable while moving zoom window,
   // otherwise the calculated interval might jitter when the zoom
   // window size is close to the interval-changing size.
+  // For example, if all of the axis labels are `a, b, c, d, e, f, g`.
+  // The jitter will cause that sometimes the displayed labels are
+  // `a, d, g` (interval: 2) sometimes `a, c, e`(interval: 1).
 
   if (lastAutoInterval != null && lastTickCount != null && Math.abs(lastAutoInterval - interval) <= 1 && Math.abs(lastTickCount - tickCount) <= 1 // Always choose the bigger one, otherwise the critical
   // point is not the same when zooming in or zooming out.
-  && lastAutoInterval > interval) {
+  && lastAutoInterval > interval // If the axis change is caused by chart resize, the cache should not
+  // be used. Otherwise some hiden labels might not be shown again.
+  && cache.axisExtend0 === axisExtent[0] && cache.axisExtend1 === axisExtent[1]) {
     interval = lastAutoInterval;
   } // Only update cache if cache not used, otherwise the
   // changing of interval is too insensitive.
   else {
       cache.lastTickCount = tickCount;
       cache.lastAutoInterval = interval;
+      cache.axisExtend0 = axisExtent[0];
+      cache.axisExtend1 = axisExtent[1];
     }
 
   return interval;
@@ -68104,9 +68260,9 @@ exports.calculateCategoryInterval = calculateCategoryInterval;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/calendar/Calendar.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/calendar/Calendar.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/calendar/Calendar.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/calendar/Calendar.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -68131,13 +68287,13 @@ exports.calculateCategoryInterval = calculateCategoryInterval;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.4.0@echarts/lib/CoordinateSystem.js");
+var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.5.0@echarts/lib/CoordinateSystem.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -68542,9 +68698,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/calendar/CalendarModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/calendar/CalendarModel.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/calendar/CalendarModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/calendar/CalendarModel.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -68569,11 +68725,11 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
-var _layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var _layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
 var getLayoutParams = _layout.getLayoutParams;
 var sizeCalculable = _layout.sizeCalculable;
@@ -68715,9 +68871,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/calendar/prepareCustom.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/calendar/prepareCustom.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/calendar/prepareCustom.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/calendar/prepareCustom.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -68791,9 +68947,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/Axis2D.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/Axis2D.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/Axis2D.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/Axis2D.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -68818,9 +68974,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Axis = __webpack_require__(/*! ../Axis */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/Axis.js");
+var Axis = __webpack_require__(/*! ../Axis */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/Axis.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -68948,9 +69104,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/AxisModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/AxisModel.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/AxisModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/AxisModel.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -68975,13 +69131,13 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
-var axisModelCreator = __webpack_require__(/*! ../axisModelCreator */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisModelCreator.js");
+var axisModelCreator = __webpack_require__(/*! ../axisModelCreator */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisModelCreator.js");
 
-var axisModelCommonMixin = __webpack_require__(/*! ../axisModelCommonMixin */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisModelCommonMixin.js");
+var axisModelCommonMixin = __webpack_require__(/*! ../axisModelCommonMixin */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisModelCommonMixin.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -69065,9 +69221,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/Cartesian.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/Cartesian.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/Cartesian.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/Cartesian.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -69092,7 +69248,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -69214,9 +69370,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/Cartesian2D.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/Cartesian2D.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/Cartesian2D.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/Cartesian2D.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -69241,11 +69397,11 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var Cartesian = __webpack_require__(/*! ./Cartesian */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/Cartesian.js");
+var Cartesian = __webpack_require__(/*! ./Cartesian */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/Cartesian.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -69265,21 +69421,6 @@ var Cartesian = __webpack_require__(/*! ./Cartesian */ "../node_modules/_echarts
 * specific language governing permissions and limitations
 * under the License.
 */
-// A helper function to calculate extent of axis.
-function getAxisExtentWithGap(axis) {
-  var extent = axis.getGlobalExtent();
-
-  if (axis.onBand) {
-    // Remove extra 1px to avoid line miter in clipped edge
-    var halfBandWidth = axis.getBandWidth() / 2 - 1;
-    var dir = extent[1] > extent[0] ? 1 : -1;
-    extent[0] += dir * halfBandWidth;
-    extent[1] -= dir * halfBandWidth;
-  }
-
-  return extent;
-}
-
 function Cartesian2D(name) {
   Cartesian.call(this, name);
 }
@@ -69399,9 +69540,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/Grid.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/Grid.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/Grid.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/Grid.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -69426,11 +69567,11 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var isObject = _util.isObject;
 var each = _util.each;
@@ -69438,28 +69579,28 @@ var map = _util.map;
 var indexOf = _util.indexOf;
 var retrieve = _util.retrieve;
 
-var _layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var _layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
 var getLayoutRect = _layout.getLayoutRect;
 
-var _axisHelper = __webpack_require__(/*! ../../coord/axisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisHelper.js");
+var _axisHelper = __webpack_require__(/*! ../../coord/axisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisHelper.js");
 
 var createScaleByModel = _axisHelper.createScaleByModel;
 var ifAxisCrossZero = _axisHelper.ifAxisCrossZero;
 var niceScaleExtent = _axisHelper.niceScaleExtent;
 var estimateLabelUnionRect = _axisHelper.estimateLabelUnionRect;
 
-var Cartesian2D = __webpack_require__(/*! ./Cartesian2D */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/Cartesian2D.js");
+var Cartesian2D = __webpack_require__(/*! ./Cartesian2D */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/Cartesian2D.js");
 
-var Axis2D = __webpack_require__(/*! ./Axis2D */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/Axis2D.js");
+var Axis2D = __webpack_require__(/*! ./Axis2D */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/Axis2D.js");
 
-var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.4.0@echarts/lib/CoordinateSystem.js");
+var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.5.0@echarts/lib/CoordinateSystem.js");
 
-var _dataStackHelper = __webpack_require__(/*! ../../data/helper/dataStackHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataStackHelper.js");
+var _dataStackHelper = __webpack_require__(/*! ../../data/helper/dataStackHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataStackHelper.js");
 
 var getStackedDimension = _dataStackHelper.getStackedDimension;
 
-__webpack_require__(/*! ./GridModel */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/GridModel.js");
+__webpack_require__(/*! ./GridModel */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/GridModel.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -70019,9 +70160,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/GridModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/GridModel.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/GridModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/GridModel.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -70046,9 +70187,9 @@ module.exports = _default;
 * under the License.
 */
 
-__webpack_require__(/*! ./AxisModel */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/AxisModel.js");
+__webpack_require__(/*! ./AxisModel */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/AxisModel.js");
 
-var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -70101,9 +70242,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/cartesianAxisHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/cartesianAxisHelper.js":
 /*!*****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/cartesianAxisHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/cartesianAxisHelper.js ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -70128,7 +70269,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -70219,9 +70360,9 @@ exports.layout = layout;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/prepareCustom.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/prepareCustom.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/cartesian/prepareCustom.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/cartesian/prepareCustom.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -70246,7 +70387,7 @@ exports.layout = layout;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -70302,9 +70443,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/Geo.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/Geo.js":
 /*!*******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/Geo.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/Geo.js ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -70329,13 +70470,13 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var View = __webpack_require__(/*! ../View */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/View.js");
+var View = __webpack_require__(/*! ../View */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/View.js");
 
-var geoSourceManager = __webpack_require__(/*! ./geoSourceManager */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoSourceManager.js");
+var geoSourceManager = __webpack_require__(/*! ./geoSourceManager */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoSourceManager.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -70530,9 +70671,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/GeoModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/GeoModel.js":
 /*!************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/GeoModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/GeoModel.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -70557,17 +70698,17 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
-var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
-var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var selectableMixin = __webpack_require__(/*! ../../component/helper/selectableMixin */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/selectableMixin.js");
+var selectableMixin = __webpack_require__(/*! ../../component/helper/selectableMixin */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/selectableMixin.js");
 
-var geoCreator = __webpack_require__(/*! ./geoCreator */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoCreator.js");
+var geoCreator = __webpack_require__(/*! ./geoCreator */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoCreator.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -70708,9 +70849,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/Region.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/Region.js":
 /*!**********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/Region.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/Region.js ***!
   \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -70735,13 +70876,13 @@ module.exports = _default;
 * under the License.
 */
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var bbox = __webpack_require__(/*! zrender/lib/core/bbox */ "../node_modules/_zrender@4.1.1@zrender/lib/core/bbox.js");
+var bbox = __webpack_require__(/*! zrender/lib/core/bbox */ "../node_modules/_zrender@4.1.2@zrender/lib/core/bbox.js");
 
-var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
-var polygonContain = __webpack_require__(/*! zrender/lib/contain/polygon */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/polygon.js");
+var polygonContain = __webpack_require__(/*! zrender/lib/contain/polygon */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/polygon.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -70928,9 +71069,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/fix/diaoyuIsland.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/fix/diaoyuIsland.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/fix/diaoyuIsland.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/fix/diaoyuIsland.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -70992,9 +71133,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/fix/geoCoord.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/fix/geoCoord.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/fix/geoCoord.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/fix/geoCoord.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -71059,9 +71200,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/fix/nanhai.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/fix/nanhai.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/fix/nanhai.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/fix/nanhai.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -71086,9 +71227,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Region = __webpack_require__(/*! ../Region */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/Region.js");
+var Region = __webpack_require__(/*! ../Region */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/Region.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -71136,9 +71277,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/fix/textCoord.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/fix/textCoord.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/fix/textCoord.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/fix/textCoord.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -71207,9 +71348,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoCreator.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoCreator.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoCreator.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoCreator.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -71234,23 +71375,23 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Geo = __webpack_require__(/*! ./Geo */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/Geo.js");
+var Geo = __webpack_require__(/*! ./Geo */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/Geo.js");
 
-var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var geoSourceManager = __webpack_require__(/*! ./geoSourceManager */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoSourceManager.js");
+var geoSourceManager = __webpack_require__(/*! ./geoSourceManager */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoSourceManager.js");
 
-var mapDataStorage = __webpack_require__(/*! ./mapDataStorage */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/mapDataStorage.js");
+var mapDataStorage = __webpack_require__(/*! ./mapDataStorage */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/mapDataStorage.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -71450,9 +71591,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoJSONLoader.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoJSONLoader.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoJSONLoader.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoJSONLoader.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -71477,23 +71618,23 @@ module.exports = _default;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var each = _util.each;
 
-var parseGeoJson = __webpack_require__(/*! ./parseGeoJson */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/parseGeoJson.js");
+var parseGeoJson = __webpack_require__(/*! ./parseGeoJson */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/parseGeoJson.js");
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var makeInner = _model.makeInner;
 
-var fixNanhai = __webpack_require__(/*! ./fix/nanhai */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/fix/nanhai.js");
+var fixNanhai = __webpack_require__(/*! ./fix/nanhai */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/fix/nanhai.js");
 
-var fixTextCoord = __webpack_require__(/*! ./fix/textCoord */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/fix/textCoord.js");
+var fixTextCoord = __webpack_require__(/*! ./fix/textCoord */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/fix/textCoord.js");
 
-var fixGeoCoord = __webpack_require__(/*! ./fix/geoCoord */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/fix/geoCoord.js");
+var fixGeoCoord = __webpack_require__(/*! ./fix/geoCoord */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/fix/geoCoord.js");
 
-var fixDiaoyuIsland = __webpack_require__(/*! ./fix/diaoyuIsland */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/fix/diaoyuIsland.js");
+var fixDiaoyuIsland = __webpack_require__(/*! ./fix/diaoyuIsland */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/fix/diaoyuIsland.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -71538,6 +71679,7 @@ var _default = {
       throw new Error('Invalid geoJson format\n' + e.message);
     }
 
+    fixNanhai(mapName, regions);
     each(regions, function (region) {
       var regionName = region.name;
       fixTextCoord(mapName, region);
@@ -71551,7 +71693,6 @@ var _default = {
         region.transformTo(specialArea.left, specialArea.top, specialArea.width, specialArea.height);
       }
     });
-    fixNanhai(mapName, regions);
     return inner(mapRecord).parsed = {
       regions: regions,
       boundingRect: getBoundingRect(regions)
@@ -71575,9 +71716,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoSVGLoader.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoSVGLoader.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoSVGLoader.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoSVGLoader.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -71602,23 +71743,23 @@ module.exports = _default;
 * under the License.
 */
 
-var _parseSVG = __webpack_require__(/*! zrender/lib/tool/parseSVG */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/parseSVG.js");
+var _parseSVG = __webpack_require__(/*! zrender/lib/tool/parseSVG */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/parseSVG.js");
 
 var parseSVG = _parseSVG.parseSVG;
 var makeViewBoxTransform = _parseSVG.makeViewBoxTransform;
 
-var Group = __webpack_require__(/*! zrender/lib/container/Group */ "../node_modules/_zrender@4.1.1@zrender/lib/container/Group.js");
+var Group = __webpack_require__(/*! zrender/lib/container/Group */ "../node_modules/_zrender@4.1.2@zrender/lib/container/Group.js");
 
-var Rect = __webpack_require__(/*! zrender/lib/graphic/shape/Rect */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Rect.js");
+var Rect = __webpack_require__(/*! zrender/lib/graphic/shape/Rect */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Rect.js");
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var assert = _util.assert;
 var createHashMap = _util.createHashMap;
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var makeInner = _model.makeInner;
 
@@ -71753,9 +71894,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoSourceManager.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoSourceManager.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoSourceManager.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoSourceManager.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -71780,22 +71921,22 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var each = _util.each;
 var createHashMap = _util.createHashMap;
 
-var mapDataStorage = __webpack_require__(/*! ./mapDataStorage */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/mapDataStorage.js");
+var mapDataStorage = __webpack_require__(/*! ./mapDataStorage */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/mapDataStorage.js");
 
-var geoJSONLoader = __webpack_require__(/*! ./geoJSONLoader */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoJSONLoader.js");
+var geoJSONLoader = __webpack_require__(/*! ./geoJSONLoader */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoJSONLoader.js");
 
-var geoSVGLoader = __webpack_require__(/*! ./geoSVGLoader */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/geoSVGLoader.js");
+var geoSVGLoader = __webpack_require__(/*! ./geoSVGLoader */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/geoSVGLoader.js");
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -71896,9 +72037,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/mapDataStorage.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/mapDataStorage.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/mapDataStorage.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/mapDataStorage.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -71923,11 +72064,11 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var createHashMap = _util.createHashMap;
 var isString = _util.isString;
@@ -71935,7 +72076,7 @@ var isArray = _util.isArray;
 var each = _util.each;
 var assert = _util.assert;
 
-var _parseSVG = __webpack_require__(/*! zrender/lib/tool/parseSVG */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/parseSVG.js");
+var _parseSVG = __webpack_require__(/*! zrender/lib/tool/parseSVG */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/parseSVG.js");
 
 var parseXML = _parseSVG.parseXML;
 
@@ -72019,9 +72160,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/parseGeoJson.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/parseGeoJson.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/parseGeoJson.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/parseGeoJson.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -72046,9 +72187,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Region = __webpack_require__(/*! ./Region */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/Region.js");
+var Region = __webpack_require__(/*! ./Region */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/Region.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -72183,9 +72324,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/prepareCustom.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/prepareCustom.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/prepareCustom.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/prepareCustom.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -72210,7 +72351,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -72271,9 +72412,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/AxisModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/AxisModel.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/AxisModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/AxisModel.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -72298,17 +72439,17 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
-var makeStyleMapper = __webpack_require__(/*! ../../model/mixin/makeStyleMapper */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/makeStyleMapper.js");
+var makeStyleMapper = __webpack_require__(/*! ../../model/mixin/makeStyleMapper */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/makeStyleMapper.js");
 
-var axisModelCreator = __webpack_require__(/*! ../axisModelCreator */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisModelCreator.js");
+var axisModelCreator = __webpack_require__(/*! ../axisModelCreator */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisModelCreator.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var axisModelCommonMixin = __webpack_require__(/*! ../axisModelCommonMixin */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisModelCommonMixin.js");
+var axisModelCommonMixin = __webpack_require__(/*! ../axisModelCommonMixin */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisModelCommonMixin.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -72438,9 +72579,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/Parallel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/Parallel.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/Parallel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/Parallel.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -72465,21 +72606,21 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
-var layoutUtil = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layoutUtil = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var axisHelper = __webpack_require__(/*! ../../coord/axisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisHelper.js");
+var axisHelper = __webpack_require__(/*! ../../coord/axisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisHelper.js");
 
-var ParallelAxis = __webpack_require__(/*! ./ParallelAxis */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/ParallelAxis.js");
+var ParallelAxis = __webpack_require__(/*! ./ParallelAxis */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/ParallelAxis.js");
 
-var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var sliderMove = __webpack_require__(/*! ../../component/helper/sliderMove */ "../node_modules/_echarts@4.4.0@echarts/lib/component/helper/sliderMove.js");
+var sliderMove = __webpack_require__(/*! ../../component/helper/sliderMove */ "../node_modules/_echarts@4.5.0@echarts/lib/component/helper/sliderMove.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -72963,9 +73104,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/ParallelAxis.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/ParallelAxis.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/ParallelAxis.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/ParallelAxis.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -72990,9 +73131,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Axis = __webpack_require__(/*! ../Axis */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/Axis.js");
+var Axis = __webpack_require__(/*! ../Axis */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/Axis.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -73063,9 +73204,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/ParallelModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/ParallelModel.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/ParallelModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/ParallelModel.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -73090,11 +73231,11 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Component = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var Component = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
-__webpack_require__(/*! ./AxisModel */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/AxisModel.js");
+__webpack_require__(/*! ./AxisModel */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/AxisModel.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -73222,9 +73363,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/parallelCreator.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/parallelCreator.js":
 /*!************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/parallelCreator.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/parallelCreator.js ***!
   \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -73249,9 +73390,9 @@ module.exports = _default;
 * under the License.
 */
 
-var Parallel = __webpack_require__(/*! ./Parallel */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/Parallel.js");
+var Parallel = __webpack_require__(/*! ./Parallel */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/Parallel.js");
 
-var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.4.0@echarts/lib/CoordinateSystem.js");
+var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.5.0@echarts/lib/CoordinateSystem.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -73305,9 +73446,9 @@ CoordinateSystem.register('parallel', {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/parallelPreprocessor.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/parallelPreprocessor.js":
 /*!*****************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/parallel/parallelPreprocessor.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/parallel/parallelPreprocessor.js ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -73332,9 +73473,9 @@ CoordinateSystem.register('parallel', {
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -73406,9 +73547,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/AngleAxis.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/AngleAxis.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/AngleAxis.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/AngleAxis.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -73433,13 +73574,13 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var textContain = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/text.js");
+var textContain = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/text.js");
 
-var Axis = __webpack_require__(/*! ../Axis */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/Axis.js");
+var Axis = __webpack_require__(/*! ../Axis */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/Axis.js");
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var makeInner = _model.makeInner;
 
@@ -73548,9 +73689,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/AxisModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/AxisModel.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/AxisModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/AxisModel.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -73575,13 +73716,13 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
-var axisModelCreator = __webpack_require__(/*! ../axisModelCreator */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisModelCreator.js");
+var axisModelCreator = __webpack_require__(/*! ../axisModelCreator */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisModelCreator.js");
 
-var axisModelCommonMixin = __webpack_require__(/*! ../axisModelCommonMixin */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisModelCommonMixin.js");
+var axisModelCommonMixin = __webpack_require__(/*! ../axisModelCommonMixin */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisModelCommonMixin.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -73649,9 +73790,9 @@ axisModelCreator('radius', PolarAxisModel, getAxisType, polarAxisDefaultExtended
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/Polar.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/Polar.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/Polar.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/Polar.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -73676,9 +73817,9 @@ axisModelCreator('radius', PolarAxisModel, getAxisType, polarAxisDefaultExtended
 * under the License.
 */
 
-var RadiusAxis = __webpack_require__(/*! ./RadiusAxis */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/RadiusAxis.js");
+var RadiusAxis = __webpack_require__(/*! ./RadiusAxis */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/RadiusAxis.js");
 
-var AngleAxis = __webpack_require__(/*! ./AngleAxis */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/AngleAxis.js");
+var AngleAxis = __webpack_require__(/*! ./AngleAxis */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/AngleAxis.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -73951,9 +74092,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/PolarModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/PolarModel.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/PolarModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/PolarModel.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -73978,9 +74119,9 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-__webpack_require__(/*! ./AxisModel */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/AxisModel.js");
+__webpack_require__(/*! ./AxisModel */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/AxisModel.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -74035,9 +74176,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/RadiusAxis.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/RadiusAxis.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/RadiusAxis.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/RadiusAxis.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -74062,9 +74203,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Axis = __webpack_require__(/*! ../Axis */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/Axis.js");
+var Axis = __webpack_require__(/*! ../Axis */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/Axis.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -74116,9 +74257,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/polarCreator.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/polarCreator.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/polarCreator.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/polarCreator.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -74143,30 +74284,30 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Polar = __webpack_require__(/*! ./Polar */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/Polar.js");
+var Polar = __webpack_require__(/*! ./Polar */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/Polar.js");
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 
-var _axisHelper = __webpack_require__(/*! ../../coord/axisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisHelper.js");
+var _axisHelper = __webpack_require__(/*! ../../coord/axisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisHelper.js");
 
 var createScaleByModel = _axisHelper.createScaleByModel;
 var niceScaleExtent = _axisHelper.niceScaleExtent;
 
-var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.4.0@echarts/lib/CoordinateSystem.js");
+var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.5.0@echarts/lib/CoordinateSystem.js");
 
-var _dataStackHelper = __webpack_require__(/*! ../../data/helper/dataStackHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataStackHelper.js");
+var _dataStackHelper = __webpack_require__(/*! ../../data/helper/dataStackHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataStackHelper.js");
 
 var getStackedDimension = _dataStackHelper.getStackedDimension;
 
-__webpack_require__(/*! ./PolarModel */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/PolarModel.js");
+__webpack_require__(/*! ./PolarModel */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/PolarModel.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -74201,8 +74342,17 @@ function resizePolar(polar, polarModel, api) {
   polar.cy = parsePercent(center[1], height);
   var radiusAxis = polar.getRadiusAxis();
   var size = Math.min(width, height) / 2;
-  var radius = parsePercent(polarModel.get('radius'), size);
-  radiusAxis.inverse ? radiusAxis.setExtent(radius, 0) : radiusAxis.setExtent(0, radius);
+  var radius = polarModel.get('radius');
+
+  if (radius == null) {
+    radius = [0, '100%'];
+  } else if (!zrUtil.isArray(radius)) {
+    // r0 = 0
+    radius = [0, radius];
+  }
+
+  radius = [parsePercent(radius[0], size), parsePercent(radius[1], size)];
+  radiusAxis.inverse ? radiusAxis.setExtent(radius[1], radius[0]) : radiusAxis.setExtent(radius[0], radius[1]);
 }
 /**
  * Update polar
@@ -74299,9 +74449,9 @@ CoordinateSystem.register('polar', polarCreator);
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/prepareCustom.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/prepareCustom.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/polar/prepareCustom.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/polar/prepareCustom.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -74326,7 +74476,7 @@ CoordinateSystem.register('polar', polarCreator);
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -74393,9 +74543,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/radar/IndicatorAxis.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/radar/IndicatorAxis.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/radar/IndicatorAxis.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/radar/IndicatorAxis.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -74420,9 +74570,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Axis = __webpack_require__(/*! ../Axis */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/Axis.js");
+var Axis = __webpack_require__(/*! ../Axis */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/Axis.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -74474,9 +74624,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/radar/Radar.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/radar/Radar.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/radar/Radar.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/radar/Radar.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -74501,20 +74651,22 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var IndicatorAxis = __webpack_require__(/*! ./IndicatorAxis */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/radar/IndicatorAxis.js");
+var IndicatorAxis = __webpack_require__(/*! ./IndicatorAxis */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/radar/IndicatorAxis.js");
 
-var IntervalScale = __webpack_require__(/*! ../../scale/Interval */ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Interval.js");
+var IntervalScale = __webpack_require__(/*! ../../scale/Interval */ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Interval.js");
 
-var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var _axisHelper = __webpack_require__(/*! ../axisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisHelper.js");
+var _axisHelper = __webpack_require__(/*! ../axisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisHelper.js");
 
 var getScaleExtent = _axisHelper.getScaleExtent;
 var niceScaleExtent = _axisHelper.niceScaleExtent;
 
-var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.4.0@echarts/lib/CoordinateSystem.js");
+var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.5.0@echarts/lib/CoordinateSystem.js");
+
+var LogScale = __webpack_require__(/*! ../../scale/Log */ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Log.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -74545,7 +74697,7 @@ function Radar(radarModel, ecModel, api) {
   this.dimensions = [];
   this._indicatorAxes = zrUtil.map(radarModel.getIndicatorModels(), function (indicatorModel, idx) {
     var dim = 'indicator_' + idx;
-    var indicatorAxis = new IndicatorAxis(dim, new IntervalScale());
+    var indicatorAxis = new IndicatorAxis(dim, indicatorModel.get('axisType') === 'log' ? new LogScale() : new IntervalScale());
     indicatorAxis.name = indicatorModel.get('name'); // Inject model and axis
 
     indicatorAxis.model = indicatorModel;
@@ -74768,9 +74920,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/radar/RadarModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/radar/RadarModel.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/radar/RadarModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/radar/RadarModel.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -74795,15 +74947,15 @@ module.exports = _default;
 * under the License.
 */
 
-var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js");
+var echarts = __webpack_require__(/*! ../../echarts */ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var axisDefault = __webpack_require__(/*! ../axisDefault */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisDefault.js");
+var axisDefault = __webpack_require__(/*! ../axisDefault */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisDefault.js");
 
-var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var axisModelCommonMixin = __webpack_require__(/*! ../axisModelCommonMixin */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisModelCommonMixin.js");
+var axisModelCommonMixin = __webpack_require__(/*! ../axisModelCommonMixin */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisModelCommonMixin.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -74839,6 +74991,7 @@ var RadarModel = echarts.extendComponentModel({
     var scale = this.get('scale');
     var axisLine = this.get('axisLine');
     var axisTick = this.get('axisTick');
+    var axisType = this.get('axisType');
     var axisLabel = this.get('axisLabel');
     var nameTextStyle = this.get('name');
     var showName = this.get('name.show');
@@ -74868,8 +75021,9 @@ var RadarModel = echarts.extendComponentModel({
         scale: scale,
         axisLine: axisLine,
         axisTick: axisTick,
+        axisType: axisType,
         axisLabel: axisLabel,
-        // Competitable with 2 and use text
+        // Compatible with 2 and use text
         name: indicatorOpt.text,
         nameLocation: 'end',
         nameGap: nameGap,
@@ -74924,6 +75078,7 @@ var RadarModel = echarts.extendComponentModel({
     }, valueAxisDefault.axisLine),
     axisLabel: defaultsShow(valueAxisDefault.axisLabel, false),
     axisTick: defaultsShow(valueAxisDefault.axisTick, false),
+    axisType: 'interval',
     splitLine: defaultsShow(valueAxisDefault.splitLine, true),
     splitArea: defaultsShow(valueAxisDefault.splitArea, true),
     // {text, min, max}
@@ -74935,9 +75090,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/single/AxisModel.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/single/AxisModel.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/single/AxisModel.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/single/AxisModel.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -74962,13 +75117,13 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var ComponentModel = __webpack_require__(/*! ../../model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
-var axisModelCreator = __webpack_require__(/*! ../axisModelCreator */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisModelCreator.js");
+var axisModelCreator = __webpack_require__(/*! ../axisModelCreator */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisModelCreator.js");
 
-var axisModelCommonMixin = __webpack_require__(/*! ../axisModelCommonMixin */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisModelCommonMixin.js");
+var axisModelCommonMixin = __webpack_require__(/*! ../axisModelCommonMixin */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisModelCommonMixin.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -75061,9 +75216,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/single/Single.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/single/Single.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/single/Single.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/single/Single.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -75088,15 +75243,15 @@ module.exports = _default;
 * under the License.
 */
 
-var SingleAxis = __webpack_require__(/*! ./SingleAxis */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/single/SingleAxis.js");
+var SingleAxis = __webpack_require__(/*! ./SingleAxis */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/single/SingleAxis.js");
 
-var axisHelper = __webpack_require__(/*! ../axisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisHelper.js");
+var axisHelper = __webpack_require__(/*! ../axisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisHelper.js");
 
-var _layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var _layout = __webpack_require__(/*! ../../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
 var getLayoutRect = _layout.getLayoutRect;
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var each = _util.each;
 
@@ -75359,9 +75514,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/single/SingleAxis.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/single/SingleAxis.js":
 /*!*****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/single/SingleAxis.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/single/SingleAxis.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -75386,9 +75541,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Axis = __webpack_require__(/*! ../Axis */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/Axis.js");
+var Axis = __webpack_require__(/*! ../Axis */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/Axis.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -75496,9 +75651,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/single/prepareCustom.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/single/prepareCustom.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/single/prepareCustom.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/single/prepareCustom.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -75523,7 +75678,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -75575,9 +75730,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/single/singleAxisHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/single/singleAxisHelper.js":
 /*!***********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/single/singleAxisHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/single/singleAxisHelper.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -75602,7 +75757,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -75682,9 +75837,9 @@ exports.layout = layout;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/coord/single/singleCreator.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/coord/single/singleCreator.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/coord/single/singleCreator.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/coord/single/singleCreator.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -75709,9 +75864,9 @@ exports.layout = layout;
 * under the License.
 */
 
-var Single = __webpack_require__(/*! ./Single */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/single/Single.js");
+var Single = __webpack_require__(/*! ./Single */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/single/Single.js");
 
-var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.4.0@echarts/lib/CoordinateSystem.js");
+var CoordinateSystem = __webpack_require__(/*! ../../CoordinateSystem */ "../node_modules/_echarts@4.5.0@echarts/lib/CoordinateSystem.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -75772,9 +75927,9 @@ CoordinateSystem.register('single', {
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/data/DataDiffer.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/data/DataDiffer.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/data/DataDiffer.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/data/DataDiffer.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -75872,9 +76027,7 @@ DataDiffer.prototype = {
     var newDataKeyArr = [];
     var i;
     initIndexMap(oldArr, oldDataIndexMap, oldDataKeyArr, '_oldKeyGetter', this);
-    initIndexMap(newArr, newDataIndexMap, newDataKeyArr, '_newKeyGetter', this); // Travel by inverted order to make sure order consistency
-    // when duplicate keys exists (consider newDataIndex.pop() below).
-    // For performance consideration, these code below do not look neat.
+    initIndexMap(newArr, newDataIndexMap, newDataKeyArr, '_newKeyGetter', this);
 
     for (i = 0; i < oldArr.length; i++) {
       var key = oldDataKeyArr[i];
@@ -75887,7 +76040,7 @@ DataDiffer.prototype = {
 
         if (len) {
           len === 1 && (newDataIndexMap[key] = null);
-          idx = idx.unshift();
+          idx = idx.shift();
         } else {
           newDataIndexMap[key] = null;
         }
@@ -75945,9 +76098,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/data/Graph.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/data/Graph.js":
 /*!****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/data/Graph.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/data/Graph.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -75972,13 +76125,13 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _clazz = __webpack_require__(/*! ../util/clazz */ "../node_modules/_echarts@4.4.0@echarts/lib/util/clazz.js");
+var _clazz = __webpack_require__(/*! ../util/clazz */ "../node_modules/_echarts@4.5.0@echarts/lib/util/clazz.js");
 
 var enableClassCheck = _clazz.enableClassCheck;
 
@@ -76526,9 +76679,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/data/List.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/data/List.js":
 /*!***************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/data/List.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/data/List.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -76553,24 +76706,24 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Model = __webpack_require__(/*! ../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var DataDiffer = __webpack_require__(/*! ./DataDiffer */ "../node_modules/_echarts@4.4.0@echarts/lib/data/DataDiffer.js");
+var DataDiffer = __webpack_require__(/*! ./DataDiffer */ "../node_modules/_echarts@4.5.0@echarts/lib/data/DataDiffer.js");
 
-var Source = __webpack_require__(/*! ./Source */ "../node_modules/_echarts@4.4.0@echarts/lib/data/Source.js");
+var Source = __webpack_require__(/*! ./Source */ "../node_modules/_echarts@4.5.0@echarts/lib/data/Source.js");
 
-var _dataProvider = __webpack_require__(/*! ./helper/dataProvider */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataProvider.js");
+var _dataProvider = __webpack_require__(/*! ./helper/dataProvider */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataProvider.js");
 
 var defaultDimValueGetters = _dataProvider.defaultDimValueGetters;
 var DefaultDataProvider = _dataProvider.DefaultDataProvider;
 
-var _dimensionHelper = __webpack_require__(/*! ./helper/dimensionHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dimensionHelper.js");
+var _dimensionHelper = __webpack_require__(/*! ./helper/dimensionHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dimensionHelper.js");
 
 var summarizeDimensions = _dimensionHelper.summarizeDimensions;
 
@@ -77678,12 +77831,12 @@ listProto.indexOfName = function (name) {
 
 
 listProto.indexOfRawIndex = function (rawIndex) {
-  if (!this._indices) {
-    return rawIndex;
-  }
-
   if (rawIndex >= this._rawCount || rawIndex < 0) {
     return -1;
+  }
+
+  if (!this._indices) {
+    return rawIndex;
   } // Indices are ascending
 
 
@@ -78615,9 +78768,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/data/OrdinalMeta.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/data/OrdinalMeta.js":
 /*!**********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/data/OrdinalMeta.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/data/OrdinalMeta.js ***!
   \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -78642,7 +78795,7 @@ module.exports = _default;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var createHashMap = _util.createHashMap;
 var isObject = _util.isObject;
@@ -78792,9 +78945,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/data/Source.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/data/Source.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/data/Source.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/data/Source.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -78819,16 +78972,16 @@ module.exports = _default;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var createHashMap = _util.createHashMap;
 var isTypedArray = _util.isTypedArray;
 
-var _clazz = __webpack_require__(/*! ../util/clazz */ "../node_modules/_echarts@4.4.0@echarts/lib/util/clazz.js");
+var _clazz = __webpack_require__(/*! ../util/clazz */ "../node_modules/_echarts@4.5.0@echarts/lib/util/clazz.js");
 
 var enableClassCheck = _clazz.enableClassCheck;
 
-var _sourceType = __webpack_require__(/*! ./helper/sourceType */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/sourceType.js");
+var _sourceType = __webpack_require__(/*! ./helper/sourceType */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/sourceType.js");
 
 var SOURCE_FORMAT_ORIGINAL = _sourceType.SOURCE_FORMAT_ORIGINAL;
 var SERIES_LAYOUT_BY_COLUMN = _sourceType.SERIES_LAYOUT_BY_COLUMN;
@@ -78974,9 +79127,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/data/Tree.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/data/Tree.js":
 /*!***************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/data/Tree.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/data/Tree.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -79001,15 +79154,15 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Model = __webpack_require__(/*! ../model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ../model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var linkList = __webpack_require__(/*! ./helper/linkList */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/linkList.js");
+var linkList = __webpack_require__(/*! ./helper/linkList */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/linkList.js");
 
-var List = __webpack_require__(/*! ./List */ "../node_modules/_echarts@4.4.0@echarts/lib/data/List.js");
+var List = __webpack_require__(/*! ./List */ "../node_modules/_echarts@4.5.0@echarts/lib/data/List.js");
 
-var createDimensions = __webpack_require__(/*! ./helper/createDimensions */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/createDimensions.js");
+var createDimensions = __webpack_require__(/*! ./helper/createDimensions */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/createDimensions.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -79553,9 +79706,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/completeDimensions.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/completeDimensions.js":
 /*!************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/data/helper/completeDimensions.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/data/helper/completeDimensions.js ***!
   \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -79580,7 +79733,7 @@ module.exports = _default;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var createHashMap = _util.createHashMap;
 var each = _util.each;
@@ -79590,17 +79743,17 @@ var extend = _util.extend;
 var isObject = _util.isObject;
 var clone = _util.clone;
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var normalizeToArray = _model.normalizeToArray;
 
-var _sourceHelper = __webpack_require__(/*! ./sourceHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/sourceHelper.js");
+var _sourceHelper = __webpack_require__(/*! ./sourceHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/sourceHelper.js");
 
 var guessOrdinal = _sourceHelper.guessOrdinal;
 
-var Source = __webpack_require__(/*! ../Source */ "../node_modules/_echarts@4.4.0@echarts/lib/data/Source.js");
+var Source = __webpack_require__(/*! ../Source */ "../node_modules/_echarts@4.5.0@echarts/lib/data/Source.js");
 
-var _dimensionHelper = __webpack_require__(/*! ./dimensionHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dimensionHelper.js");
+var _dimensionHelper = __webpack_require__(/*! ./dimensionHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dimensionHelper.js");
 
 var OTHER_DIMENSIONS = _dimensionHelper.OTHER_DIMENSIONS;
 
@@ -79876,9 +80029,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/createDimensions.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/createDimensions.js":
 /*!**********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/data/helper/createDimensions.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/data/helper/createDimensions.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -79903,7 +80056,7 @@ module.exports = _default;
 * under the License.
 */
 
-var completeDimensions = __webpack_require__(/*! ./completeDimensions */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/completeDimensions.js");
+var completeDimensions = __webpack_require__(/*! ./completeDimensions */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/completeDimensions.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -79955,9 +80108,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataProvider.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataProvider.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataProvider.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataProvider.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -79982,11 +80135,11 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var isTypedArray = _util.isTypedArray;
 var extend = _util.extend;
@@ -79994,18 +80147,18 @@ var assert = _util.assert;
 var each = _util.each;
 var isObject = _util.isObject;
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var getDataItemValue = _model.getDataItemValue;
 var isDataItemOption = _model.isDataItemOption;
 
-var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parseDate = _number.parseDate;
 
-var Source = __webpack_require__(/*! ../Source */ "../node_modules/_echarts@4.4.0@echarts/lib/data/Source.js");
+var Source = __webpack_require__(/*! ../Source */ "../node_modules/_echarts@4.5.0@echarts/lib/data/Source.js");
 
-var _sourceType = __webpack_require__(/*! ./sourceType */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/sourceType.js");
+var _sourceType = __webpack_require__(/*! ./sourceType */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/sourceType.js");
 
 var SOURCE_FORMAT_TYPED_ARRAY = _sourceType.SOURCE_FORMAT_TYPED_ARRAY;
 var SOURCE_FORMAT_ARRAY_ROWS = _sourceType.SOURCE_FORMAT_ARRAY_ROWS;
@@ -80343,9 +80496,9 @@ exports.retrieveRawAttr = retrieveRawAttr;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataStackHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataStackHelper.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataStackHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataStackHelper.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -80370,7 +80523,7 @@ exports.retrieveRawAttr = retrieveRawAttr;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var each = _util.each;
 var isString = _util.isString;
@@ -80535,9 +80688,9 @@ exports.getStackedDimension = getStackedDimension;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dimensionHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dimensionHelper.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dimensionHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dimensionHelper.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -80562,13 +80715,13 @@ exports.getStackedDimension = getStackedDimension;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var each = _util.each;
 var createHashMap = _util.createHashMap;
 var assert = _util.assert;
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
@@ -80710,9 +80863,9 @@ exports.getDimensionTypeByAxis = getDimensionTypeByAxis;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/linkList.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/linkList.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/data/helper/linkList.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/data/helper/linkList.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -80737,7 +80890,7 @@ exports.getDimensionTypeByAxis = getDimensionTypeByAxis;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -80887,9 +81040,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/sourceHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/sourceHelper.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/data/helper/sourceHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/data/helper/sourceHelper.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -80914,20 +81067,20 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var makeInner = _model.makeInner;
 var getDataItemValue = _model.getDataItemValue;
 
-var _referHelper = __webpack_require__(/*! ../../model/referHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/model/referHelper.js");
+var _referHelper = __webpack_require__(/*! ../../model/referHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/model/referHelper.js");
 
 var getCoordSysDefineBySeries = _referHelper.getCoordSysDefineBySeries;
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var createHashMap = _util.createHashMap;
 var each = _util.each;
@@ -80940,9 +81093,9 @@ var isArrayLike = _util.isArrayLike;
 var extend = _util.extend;
 var assert = _util.assert;
 
-var Source = __webpack_require__(/*! ../Source */ "../node_modules/_echarts@4.4.0@echarts/lib/data/Source.js");
+var Source = __webpack_require__(/*! ../Source */ "../node_modules/_echarts@4.5.0@echarts/lib/data/Source.js");
 
-var _sourceType = __webpack_require__(/*! ./sourceType */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/sourceType.js");
+var _sourceType = __webpack_require__(/*! ./sourceType */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/sourceType.js");
 
 var SOURCE_FORMAT_ORIGINAL = _sourceType.SOURCE_FORMAT_ORIGINAL;
 var SOURCE_FORMAT_ARRAY_ROWS = _sourceType.SOURCE_FORMAT_ARRAY_ROWS;
@@ -81487,9 +81640,9 @@ exports.guessOrdinal = guessOrdinal;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/sourceType.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/sourceType.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/data/helper/sourceType.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/data/helper/sourceType.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -81553,9 +81706,9 @@ exports.SERIES_LAYOUT_BY_ROW = SERIES_LAYOUT_BY_ROW;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/echarts.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/echarts.js":
 /*!*************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/echarts.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/echarts.js ***!
   \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -81580,65 +81733,65 @@ exports.SERIES_LAYOUT_BY_ROW = SERIES_LAYOUT_BY_ROW;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ./config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ./config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var zrender = __webpack_require__(/*! zrender/lib/zrender */ "../node_modules/_zrender@4.1.1@zrender/lib/zrender.js");
+var zrender = __webpack_require__(/*! zrender/lib/zrender */ "../node_modules/_zrender@4.1.2@zrender/lib/zrender.js");
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var colorTool = __webpack_require__(/*! zrender/lib/tool/color */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/color.js");
+var colorTool = __webpack_require__(/*! zrender/lib/tool/color */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/color.js");
 
-var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
-var timsort = __webpack_require__(/*! zrender/lib/core/timsort */ "../node_modules/_zrender@4.1.1@zrender/lib/core/timsort.js");
+var timsort = __webpack_require__(/*! zrender/lib/core/timsort */ "../node_modules/_zrender@4.1.2@zrender/lib/core/timsort.js");
 
-var Eventful = __webpack_require__(/*! zrender/lib/mixin/Eventful */ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Eventful.js");
+var Eventful = __webpack_require__(/*! zrender/lib/mixin/Eventful */ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Eventful.js");
 
-var GlobalModel = __webpack_require__(/*! ./model/Global */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Global.js");
+var GlobalModel = __webpack_require__(/*! ./model/Global */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Global.js");
 
-var ExtensionAPI = __webpack_require__(/*! ./ExtensionAPI */ "../node_modules/_echarts@4.4.0@echarts/lib/ExtensionAPI.js");
+var ExtensionAPI = __webpack_require__(/*! ./ExtensionAPI */ "../node_modules/_echarts@4.5.0@echarts/lib/ExtensionAPI.js");
 
-var CoordinateSystemManager = __webpack_require__(/*! ./CoordinateSystem */ "../node_modules/_echarts@4.4.0@echarts/lib/CoordinateSystem.js");
+var CoordinateSystemManager = __webpack_require__(/*! ./CoordinateSystem */ "../node_modules/_echarts@4.5.0@echarts/lib/CoordinateSystem.js");
 
-var OptionManager = __webpack_require__(/*! ./model/OptionManager */ "../node_modules/_echarts@4.4.0@echarts/lib/model/OptionManager.js");
+var OptionManager = __webpack_require__(/*! ./model/OptionManager */ "../node_modules/_echarts@4.5.0@echarts/lib/model/OptionManager.js");
 
-var backwardCompat = __webpack_require__(/*! ./preprocessor/backwardCompat */ "../node_modules/_echarts@4.4.0@echarts/lib/preprocessor/backwardCompat.js");
+var backwardCompat = __webpack_require__(/*! ./preprocessor/backwardCompat */ "../node_modules/_echarts@4.5.0@echarts/lib/preprocessor/backwardCompat.js");
 
-var dataStack = __webpack_require__(/*! ./processor/dataStack */ "../node_modules/_echarts@4.4.0@echarts/lib/processor/dataStack.js");
+var dataStack = __webpack_require__(/*! ./processor/dataStack */ "../node_modules/_echarts@4.5.0@echarts/lib/processor/dataStack.js");
 
-var ComponentModel = __webpack_require__(/*! ./model/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var ComponentModel = __webpack_require__(/*! ./model/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
-var SeriesModel = __webpack_require__(/*! ./model/Series */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js");
+var SeriesModel = __webpack_require__(/*! ./model/Series */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js");
 
-var ComponentView = __webpack_require__(/*! ./view/Component */ "../node_modules/_echarts@4.4.0@echarts/lib/view/Component.js");
+var ComponentView = __webpack_require__(/*! ./view/Component */ "../node_modules/_echarts@4.5.0@echarts/lib/view/Component.js");
 
-var ChartView = __webpack_require__(/*! ./view/Chart */ "../node_modules/_echarts@4.4.0@echarts/lib/view/Chart.js");
+var ChartView = __webpack_require__(/*! ./view/Chart */ "../node_modules/_echarts@4.5.0@echarts/lib/view/Chart.js");
 
-var graphic = __webpack_require__(/*! ./util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ./util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var modelUtil = __webpack_require__(/*! ./util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ./util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
-var _throttle = __webpack_require__(/*! ./util/throttle */ "../node_modules/_echarts@4.4.0@echarts/lib/util/throttle.js");
+var _throttle = __webpack_require__(/*! ./util/throttle */ "../node_modules/_echarts@4.5.0@echarts/lib/util/throttle.js");
 
 var throttle = _throttle.throttle;
 
-var seriesColor = __webpack_require__(/*! ./visual/seriesColor */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/seriesColor.js");
+var seriesColor = __webpack_require__(/*! ./visual/seriesColor */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/seriesColor.js");
 
-var aria = __webpack_require__(/*! ./visual/aria */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/aria.js");
+var aria = __webpack_require__(/*! ./visual/aria */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/aria.js");
 
-var loadingDefault = __webpack_require__(/*! ./loading/default */ "../node_modules/_echarts@4.4.0@echarts/lib/loading/default.js");
+var loadingDefault = __webpack_require__(/*! ./loading/default */ "../node_modules/_echarts@4.5.0@echarts/lib/loading/default.js");
 
-var Scheduler = __webpack_require__(/*! ./stream/Scheduler */ "../node_modules/_echarts@4.4.0@echarts/lib/stream/Scheduler.js");
+var Scheduler = __webpack_require__(/*! ./stream/Scheduler */ "../node_modules/_echarts@4.5.0@echarts/lib/stream/Scheduler.js");
 
-var lightTheme = __webpack_require__(/*! ./theme/light */ "../node_modules/_echarts@4.4.0@echarts/lib/theme/light.js");
+var lightTheme = __webpack_require__(/*! ./theme/light */ "../node_modules/_echarts@4.5.0@echarts/lib/theme/light.js");
 
-var darkTheme = __webpack_require__(/*! ./theme/dark */ "../node_modules/_echarts@4.4.0@echarts/lib/theme/dark.js");
+var darkTheme = __webpack_require__(/*! ./theme/dark */ "../node_modules/_echarts@4.5.0@echarts/lib/theme/dark.js");
 
-__webpack_require__(/*! ./component/dataset */ "../node_modules/_echarts@4.4.0@echarts/lib/component/dataset.js");
+__webpack_require__(/*! ./component/dataset */ "../node_modules/_echarts@4.5.0@echarts/lib/component/dataset.js");
 
-var mapDataStorage = __webpack_require__(/*! ./coord/geo/mapDataStorage */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/mapDataStorage.js");
+var mapDataStorage = __webpack_require__(/*! ./coord/geo/mapDataStorage */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/mapDataStorage.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -81663,9 +81816,9 @@ var each = zrUtil.each;
 var isFunction = zrUtil.isFunction;
 var isObject = zrUtil.isObject;
 var parseClassType = ComponentModel.parseClassType;
-var version = '4.4.0';
+var version = '4.5.0';
 var dependencies = {
-  zrender: '4.1.1'
+  zrender: '4.1.2'
 };
 var TEST_FRAME_REMAIN_TIME = 1;
 var PRIORITY_PROCESSOR_FILTER = 1000;
@@ -83875,7 +84028,7 @@ exports.setCanvasCreator = setCanvasCreator;
 exports.registerMap = registerMap;
 exports.getMap = getMap;
 exports.dataTool = dataTool;
-var ___ec_export = __webpack_require__(/*! ./export */ "../node_modules/_echarts@4.4.0@echarts/lib/export.js");
+var ___ec_export = __webpack_require__(/*! ./export */ "../node_modules/_echarts@4.5.0@echarts/lib/export.js");
 (function () {
     for (var key in ___ec_export) {
         if (___ec_export.hasOwnProperty(key)) {
@@ -83886,9 +84039,9 @@ var ___ec_export = __webpack_require__(/*! ./export */ "../node_modules/_echarts
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/export.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/export.js":
 /*!************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/export.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/export.js ***!
   \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -83913,60 +84066,60 @@ var ___ec_export = __webpack_require__(/*! ./export */ "../node_modules/_echarts
 * under the License.
 */
 
-var zrender = __webpack_require__(/*! zrender/lib/zrender */ "../node_modules/_zrender@4.1.1@zrender/lib/zrender.js");
+var zrender = __webpack_require__(/*! zrender/lib/zrender */ "../node_modules/_zrender@4.1.2@zrender/lib/zrender.js");
 
 exports.zrender = zrender;
 
-var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
 exports.matrix = matrix;
 
-var vector = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vector = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
 exports.vector = vector;
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var colorTool = __webpack_require__(/*! zrender/lib/tool/color */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/color.js");
+var colorTool = __webpack_require__(/*! zrender/lib/tool/color */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/color.js");
 
 exports.color = colorTool;
 
-var graphicUtil = __webpack_require__(/*! ./util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphicUtil = __webpack_require__(/*! ./util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var numberUtil = __webpack_require__(/*! ./util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ./util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 exports.number = numberUtil;
 
-var formatUtil = __webpack_require__(/*! ./util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var formatUtil = __webpack_require__(/*! ./util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 exports.format = formatUtil;
 
-var _throttle = __webpack_require__(/*! ./util/throttle */ "../node_modules/_echarts@4.4.0@echarts/lib/util/throttle.js");
+var _throttle = __webpack_require__(/*! ./util/throttle */ "../node_modules/_echarts@4.5.0@echarts/lib/util/throttle.js");
 
 var throttle = _throttle.throttle;
 exports.throttle = _throttle.throttle;
 
-var ecHelper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.4.0@echarts/lib/helper.js");
+var ecHelper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.5.0@echarts/lib/helper.js");
 
 exports.helper = ecHelper;
 
-var parseGeoJSON = __webpack_require__(/*! ./coord/geo/parseGeoJson */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/geo/parseGeoJson.js");
+var parseGeoJSON = __webpack_require__(/*! ./coord/geo/parseGeoJson */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/geo/parseGeoJson.js");
 
 exports.parseGeoJSON = parseGeoJSON;
 
-var _List = __webpack_require__(/*! ./data/List */ "../node_modules/_echarts@4.4.0@echarts/lib/data/List.js");
+var _List = __webpack_require__(/*! ./data/List */ "../node_modules/_echarts@4.5.0@echarts/lib/data/List.js");
 
 exports.List = _List;
 
-var _Model = __webpack_require__(/*! ./model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var _Model = __webpack_require__(/*! ./model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
 exports.Model = _Model;
 
-var _Axis = __webpack_require__(/*! ./coord/Axis */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/Axis.js");
+var _Axis = __webpack_require__(/*! ./coord/Axis */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/Axis.js");
 
 exports.Axis = _Axis;
 
-var _env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var _env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
 exports.env = _env;
 
@@ -84007,9 +84160,9 @@ exports.graphic = graphic;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/helper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/helper.js":
 /*!************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/helper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/helper.js ***!
   \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -84034,36 +84187,36 @@ exports.graphic = graphic;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var createListFromArray = __webpack_require__(/*! ./chart/helper/createListFromArray */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createListFromArray.js");
+var createListFromArray = __webpack_require__(/*! ./chart/helper/createListFromArray */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createListFromArray.js");
 
-var axisHelper = __webpack_require__(/*! ./coord/axisHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisHelper.js");
+var axisHelper = __webpack_require__(/*! ./coord/axisHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisHelper.js");
 
-var axisModelCommonMixin = __webpack_require__(/*! ./coord/axisModelCommonMixin */ "../node_modules/_echarts@4.4.0@echarts/lib/coord/axisModelCommonMixin.js");
+var axisModelCommonMixin = __webpack_require__(/*! ./coord/axisModelCommonMixin */ "../node_modules/_echarts@4.5.0@echarts/lib/coord/axisModelCommonMixin.js");
 
-var Model = __webpack_require__(/*! ./model/Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ./model/Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var _layout = __webpack_require__(/*! ./util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var _layout = __webpack_require__(/*! ./util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
 var getLayoutRect = _layout.getLayoutRect;
 exports.getLayoutRect = _layout.getLayoutRect;
 
-var _dataStackHelper = __webpack_require__(/*! ./data/helper/dataStackHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataStackHelper.js");
+var _dataStackHelper = __webpack_require__(/*! ./data/helper/dataStackHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataStackHelper.js");
 
 var enableDataStack = _dataStackHelper.enableDataStack;
 var isDimensionStacked = _dataStackHelper.isDimensionStacked;
 var getStackedDimension = _dataStackHelper.getStackedDimension;
 
-var _completeDimensions = __webpack_require__(/*! ./data/helper/completeDimensions */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/completeDimensions.js");
+var _completeDimensions = __webpack_require__(/*! ./data/helper/completeDimensions */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/completeDimensions.js");
 
 exports.completeDimensions = _completeDimensions;
 
-var _createDimensions = __webpack_require__(/*! ./data/helper/createDimensions */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/createDimensions.js");
+var _createDimensions = __webpack_require__(/*! ./data/helper/createDimensions */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/createDimensions.js");
 
 exports.createDimensions = _createDimensions;
 
-var _symbol = __webpack_require__(/*! ./util/symbol */ "../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js");
+var _symbol = __webpack_require__(/*! ./util/symbol */ "../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js");
 
 exports.createSymbol = _symbol.createSymbol;
 
@@ -84159,9 +84312,9 @@ exports.mixinAxisModelCommonMethods = mixinAxisModelCommonMethods;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/lang.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/lang.js":
 /*!**********************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/lang.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/lang.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -84315,9 +84468,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/layout/barGrid.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/layout/barGrid.js":
 /*!********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/layout/barGrid.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/layout/barGrid.js ***!
   \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -84342,17 +84495,17 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _number = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 
-var _dataStackHelper = __webpack_require__(/*! ../data/helper/dataStackHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataStackHelper.js");
+var _dataStackHelper = __webpack_require__(/*! ../data/helper/dataStackHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataStackHelper.js");
 
 var isDimensionStacked = _dataStackHelper.isDimensionStacked;
 
-var createRenderPlanner = __webpack_require__(/*! ../chart/helper/createRenderPlanner */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createRenderPlanner.js");
+var createRenderPlanner = __webpack_require__(/*! ../chart/helper/createRenderPlanner */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createRenderPlanner.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -84391,6 +84544,7 @@ function getAxisKey(axis) {
  * @param {number} opt.count Positive interger.
  * @param {number} [opt.barWidth]
  * @param {number} [opt.barMaxWidth]
+ * @param {number} [opt.barMinWidth]
  * @param {number} [opt.barGap]
  * @param {number} [opt.barCategoryGap]
  * @return {Object} {width, offset, offsetCenter} If axis.type is not 'category', return undefined.
@@ -84438,23 +84592,116 @@ function prepareLayoutBarSeries(seriesType, ecModel) {
   });
   return seriesModels;
 }
+/**
+ * Map from (baseAxis.dim + '_' + baseAxis.index) to min gap of two adjacent
+ * values.
+ * This works for time axes, value axes, and log axes.
+ * For a single time axis, return value is in the form like
+ * {'x_0': [1000000]}.
+ * The value of 1000000 is in milliseconds.
+ */
+
+
+function getValueAxesMinGaps(barSeries) {
+  /**
+   * Map from axis.index to values.
+   * For a single time axis, axisValues is in the form like
+   * {'x_0': [1495555200000, 1495641600000, 1495728000000]}.
+   * Items in axisValues[x], e.g. 1495555200000, are time values of all
+   * series.
+   */
+  var axisValues = {};
+  zrUtil.each(barSeries, function (seriesModel) {
+    var cartesian = seriesModel.coordinateSystem;
+    var baseAxis = cartesian.getBaseAxis();
+
+    if (baseAxis.type !== 'time' && baseAxis.type !== 'value') {
+      return;
+    }
+
+    var data = seriesModel.getData();
+    var key = baseAxis.dim + '_' + baseAxis.index;
+    var dim = data.mapDimension(baseAxis.dim);
+
+    for (var i = 0, cnt = data.count(); i < cnt; ++i) {
+      var value = data.get(dim, i);
+
+      if (!axisValues[key]) {
+        // No previous data for the axis
+        axisValues[key] = [value];
+      } else {
+        // No value in previous series
+        axisValues[key].push(value);
+      } // Ignore duplicated time values in the same axis
+
+    }
+  });
+  var axisMinGaps = [];
+
+  for (var key in axisValues) {
+    if (axisValues.hasOwnProperty(key)) {
+      var valuesInAxis = axisValues[key];
+
+      if (valuesInAxis) {
+        // Sort axis values into ascending order to calculate gaps
+        valuesInAxis.sort(function (a, b) {
+          return a - b;
+        });
+        var min = null;
+
+        for (var j = 1; j < valuesInAxis.length; ++j) {
+          var delta = valuesInAxis[j] - valuesInAxis[j - 1];
+
+          if (delta > 0) {
+            // Ignore 0 delta because they are of the same axis value
+            min = min === null ? delta : Math.min(min, delta);
+          }
+        } // Set to null if only have one data
+
+
+        axisMinGaps[key] = min;
+      }
+    }
+  }
+
+  return axisMinGaps;
+}
 
 function makeColumnLayout(barSeries) {
+  var axisMinGaps = getValueAxesMinGaps(barSeries);
   var seriesInfoList = [];
   zrUtil.each(barSeries, function (seriesModel) {
-    var data = seriesModel.getData();
     var cartesian = seriesModel.coordinateSystem;
     var baseAxis = cartesian.getBaseAxis();
     var axisExtent = baseAxis.getExtent();
-    var bandWidth = baseAxis.type === 'category' ? baseAxis.getBandWidth() : Math.abs(axisExtent[1] - axisExtent[0]) / data.count();
+    var bandWidth;
+
+    if (baseAxis.type === 'category') {
+      bandWidth = baseAxis.getBandWidth();
+    } else if (baseAxis.type === 'value' || baseAxis.type === 'time') {
+      var key = baseAxis.dim + '_' + baseAxis.index;
+      var minGap = axisMinGaps[key];
+      var extentSpan = Math.abs(axisExtent[1] - axisExtent[0]);
+      var scale = baseAxis.scale.getExtent();
+      var scaleSpan = Math.abs(scale[1] - scale[0]);
+      bandWidth = minGap ? extentSpan / scaleSpan * minGap : extentSpan; // When there is only one data value
+    } else {
+      var data = seriesModel.getData();
+      bandWidth = Math.abs(axisExtent[1] - axisExtent[0]) / data.count();
+    }
+
     var barWidth = parsePercent(seriesModel.get('barWidth'), bandWidth);
     var barMaxWidth = parsePercent(seriesModel.get('barMaxWidth'), bandWidth);
+    var barMinWidth = parsePercent( // barMinWidth by default is 1 in cartesian. Because in value axis,
+    // the auto-calculated bar width might be less than 1.
+    seriesModel.get('barMinWidth') || 1, bandWidth);
     var barGap = seriesModel.get('barGap');
     var barCategoryGap = seriesModel.get('barCategoryGap');
     seriesInfoList.push({
       bandWidth: bandWidth,
       barWidth: barWidth,
       barMaxWidth: barMaxWidth,
+      barMinWidth: barMinWidth,
       barGap: barGap,
       barCategoryGap: barCategoryGap,
       axisKey: getAxisKey(baseAxis),
@@ -84506,6 +84753,8 @@ function doCalBarWidthAndOffset(seriesInfoList) {
 
     var barMaxWidth = seriesInfo.barMaxWidth;
     barMaxWidth && (stacks[stackId].maxWidth = barMaxWidth);
+    var barMinWidth = seriesInfo.barMinWidth;
+    barMinWidth && (stacks[stackId].minWidth = barMinWidth);
     var barGap = seriesInfo.barGap;
     barGap != null && (columnsOnAxis.gap = barGap);
     var barCategoryGap = seriesInfo.barCategoryGap;
@@ -84523,18 +84772,48 @@ function doCalBarWidthAndOffset(seriesInfoList) {
     var autoWidth = (remainedWidth - categoryGap) / (autoWidthCount + (autoWidthCount - 1) * barGapPercent);
     autoWidth = Math.max(autoWidth, 0); // Find if any auto calculated bar exceeded maxBarWidth
 
-    zrUtil.each(stacks, function (column, stack) {
+    zrUtil.each(stacks, function (column) {
       var maxWidth = column.maxWidth;
+      var minWidth = column.minWidth;
 
-      if (maxWidth && maxWidth < autoWidth) {
-        maxWidth = Math.min(maxWidth, remainedWidth);
+      if (!column.width) {
+        var finalWidth = autoWidth;
 
-        if (column.width) {
-          maxWidth = Math.min(maxWidth, column.width);
+        if (maxWidth && maxWidth < finalWidth) {
+          finalWidth = Math.min(maxWidth, remainedWidth);
+        } // `minWidth` has higher priority. `minWidth` decide that wheter the
+        // bar is able to be visible. So `minWidth` should not be restricted
+        // by `maxWidth` or `remainedWidth` (which is from `bandWidth`). In
+        // the extreme cases for `value` axis, bars are allowed to overlap
+        // with each other if `minWidth` specified.
+
+
+        if (minWidth && minWidth > finalWidth) {
+          finalWidth = minWidth;
         }
 
-        remainedWidth -= maxWidth;
-        column.width = maxWidth;
+        if (finalWidth !== autoWidth) {
+          column.width = finalWidth;
+          remainedWidth -= finalWidth;
+          autoWidthCount--;
+        }
+      } else {
+        // `barMinWidth/barMaxWidth` has higher priority than `barWidth`, as
+        // CSS does. Becuase barWidth can be a percent value, where
+        // `barMaxWidth` can be used to restrict the final width.
+        var finalWidth = column.width;
+
+        if (maxWidth) {
+          finalWidth = Math.min(finalWidth, maxWidth);
+        } // `minWidth` has higher priority, as described above
+
+
+        if (minWidth) {
+          finalWidth = Math.max(finalWidth, minWidth);
+        }
+
+        column.width = finalWidth;
+        remainedWidth -= finalWidth;
         autoWidthCount--;
       }
     }); // Recalculate width again
@@ -84762,7 +85041,7 @@ function isInLargeMode(seriesModel) {
 
 
 function getValueAxisStart(baseAxis, valueAxis, stacked) {
-  return valueAxis.toGlobalCoord(valueAxis.dataToCoord(0));
+  return valueAxis.toGlobalCoord(valueAxis.dataToCoord(valueAxis.type === 'log' ? 1 : 0));
 }
 
 exports.getLayoutOnAxis = getLayoutOnAxis;
@@ -84774,9 +85053,9 @@ exports.largeLayout = largeLayout;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/layout/barPolar.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/layout/barPolar.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/layout/barPolar.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/layout/barPolar.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -84801,13 +85080,13 @@ exports.largeLayout = largeLayout;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _number = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 
-var _dataStackHelper = __webpack_require__(/*! ../data/helper/dataStackHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataStackHelper.js");
+var _dataStackHelper = __webpack_require__(/*! ../data/helper/dataStackHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataStackHelper.js");
 
 var isDimensionStacked = _dataStackHelper.isDimensionStacked;
 
@@ -84873,6 +85152,7 @@ function barLayoutPolar(seriesType, ecModel, api) {
     var stacked = isDimensionStacked(data, valueDim
     /*, baseDim*/
     );
+    var clampLayout = baseAxis.dim !== 'radius' || !seriesModel.get('roundCap', true);
     var valueAxisStart = valueAxis.getExtent()[0];
 
     for (var idx = 0, len = data.count(); idx < len; idx++) {
@@ -84922,8 +85202,7 @@ function barLayoutPolar(seriesType, ecModel, api) {
         stacked && (lastStackCoords[stackId][baseValue][sign] = r);
       } // tangential sector
       else {
-          // angleAxis must be clamped.
-          var angleSpan = valueAxis.dataToAngle(value, true) - valueAxisStart;
+          var angleSpan = valueAxis.dataToAngle(value, clampLayout) - valueAxisStart;
           var radius = baseAxis.dataToRadius(baseValue);
 
           if (Math.abs(angleSpan) < barMinAngle) {
@@ -85072,9 +85351,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/layout/points.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/layout/points.js":
 /*!*******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/layout/points.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/layout/points.js ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -85099,13 +85378,13 @@ module.exports = _default;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var map = _util.map;
 
-var createRenderPlanner = __webpack_require__(/*! ../chart/helper/createRenderPlanner */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createRenderPlanner.js");
+var createRenderPlanner = __webpack_require__(/*! ../chart/helper/createRenderPlanner */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createRenderPlanner.js");
 
-var _dataStackHelper = __webpack_require__(/*! ../data/helper/dataStackHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataStackHelper.js");
+var _dataStackHelper = __webpack_require__(/*! ../data/helper/dataStackHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataStackHelper.js");
 
 var isDimensionStacked = _dataStackHelper.isDimensionStacked;
 
@@ -85200,9 +85479,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/loading/default.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/loading/default.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/loading/default.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/loading/default.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -85227,9 +85506,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -85341,9 +85620,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -85368,24 +85647,24 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Model = __webpack_require__(/*! ./Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ./Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var componentUtil = __webpack_require__(/*! ../util/component */ "../node_modules/_echarts@4.4.0@echarts/lib/util/component.js");
+var componentUtil = __webpack_require__(/*! ../util/component */ "../node_modules/_echarts@4.5.0@echarts/lib/util/component.js");
 
-var _clazz = __webpack_require__(/*! ../util/clazz */ "../node_modules/_echarts@4.4.0@echarts/lib/util/clazz.js");
+var _clazz = __webpack_require__(/*! ../util/clazz */ "../node_modules/_echarts@4.5.0@echarts/lib/util/clazz.js");
 
 var enableClassManagement = _clazz.enableClassManagement;
 var parseClassType = _clazz.parseClassType;
 
-var _model = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var makeInner = _model.makeInner;
 
-var layout = __webpack_require__(/*! ../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var layout = __webpack_require__(/*! ../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
-var boxLayoutMixin = __webpack_require__(/*! ./mixin/boxLayout */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/boxLayout.js");
+var boxLayoutMixin = __webpack_require__(/*! ./mixin/boxLayout */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/boxLayout.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -85595,9 +85874,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/Global.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/Global.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/Global.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/Global.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -85622,11 +85901,11 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var each = _util.each;
 var filter = _util.filter;
@@ -85642,17 +85921,17 @@ var merge = _util.merge;
 var extend = _util.extend;
 var mixin = _util.mixin;
 
-var modelUtil = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
-var Model = __webpack_require__(/*! ./Model */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js");
+var Model = __webpack_require__(/*! ./Model */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js");
 
-var ComponentModel = __webpack_require__(/*! ./Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var ComponentModel = __webpack_require__(/*! ./Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
-var globalDefault = __webpack_require__(/*! ./globalDefault */ "../node_modules/_echarts@4.4.0@echarts/lib/model/globalDefault.js");
+var globalDefault = __webpack_require__(/*! ./globalDefault */ "../node_modules/_echarts@4.5.0@echarts/lib/model/globalDefault.js");
 
-var colorPaletteMixin = __webpack_require__(/*! ./mixin/colorPalette */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/colorPalette.js");
+var colorPaletteMixin = __webpack_require__(/*! ./mixin/colorPalette */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/colorPalette.js");
 
-var _sourceHelper = __webpack_require__(/*! ../data/helper/sourceHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/sourceHelper.js");
+var _sourceHelper = __webpack_require__(/*! ../data/helper/sourceHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/sourceHelper.js");
 
 var resetSourceDefaulter = _sourceHelper.resetSourceDefaulter;
 
@@ -85826,7 +86105,7 @@ var GlobalModel = Model.extend({
         } else {
           var ComponentModelClass = ComponentModel.getClass(mainType, resultItem.keyInfo.subType, true);
 
-          if (componentModel && componentModel instanceof ComponentModelClass) {
+          if (componentModel && componentModel.constructor === ComponentModelClass) {
             componentModel.name = resultItem.keyInfo.name; // componentModel.settingTask && componentModel.settingTask.dirty();
 
             componentModel.mergeOption(newCptOption, this);
@@ -86330,9 +86609,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/Model.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/Model.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -86357,26 +86636,26 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
-var _model = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var makeInner = _model.makeInner;
 
-var _clazz = __webpack_require__(/*! ../util/clazz */ "../node_modules/_echarts@4.4.0@echarts/lib/util/clazz.js");
+var _clazz = __webpack_require__(/*! ../util/clazz */ "../node_modules/_echarts@4.5.0@echarts/lib/util/clazz.js");
 
 var enableClassExtend = _clazz.enableClassExtend;
 var enableClassCheck = _clazz.enableClassCheck;
 
-var lineStyleMixin = __webpack_require__(/*! ./mixin/lineStyle */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/lineStyle.js");
+var lineStyleMixin = __webpack_require__(/*! ./mixin/lineStyle */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/lineStyle.js");
 
-var areaStyleMixin = __webpack_require__(/*! ./mixin/areaStyle */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/areaStyle.js");
+var areaStyleMixin = __webpack_require__(/*! ./mixin/areaStyle */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/areaStyle.js");
 
-var textStyleMixin = __webpack_require__(/*! ./mixin/textStyle */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/textStyle.js");
+var textStyleMixin = __webpack_require__(/*! ./mixin/textStyle */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/textStyle.js");
 
-var itemStyleMixin = __webpack_require__(/*! ./mixin/itemStyle */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/itemStyle.js");
+var itemStyleMixin = __webpack_require__(/*! ./mixin/itemStyle */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/itemStyle.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -86578,9 +86857,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/OptionManager.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/OptionManager.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/OptionManager.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/OptionManager.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -86605,11 +86884,11 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var modelUtil = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
-var ComponentModel = __webpack_require__(/*! ./Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var ComponentModel = __webpack_require__(/*! ./Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -87041,9 +87320,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/Series.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/Series.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -87068,44 +87347,44 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
-var _format = __webpack_require__(/*! ../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var _format = __webpack_require__(/*! ../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 var formatTime = _format.formatTime;
 var encodeHTML = _format.encodeHTML;
 var addCommas = _format.addCommas;
 var getTooltipMarker = _format.getTooltipMarker;
 
-var modelUtil = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
-var ComponentModel = __webpack_require__(/*! ./Component */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Component.js");
+var ComponentModel = __webpack_require__(/*! ./Component */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Component.js");
 
-var colorPaletteMixin = __webpack_require__(/*! ./mixin/colorPalette */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/colorPalette.js");
+var colorPaletteMixin = __webpack_require__(/*! ./mixin/colorPalette */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/colorPalette.js");
 
-var dataFormatMixin = __webpack_require__(/*! ../model/mixin/dataFormat */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/dataFormat.js");
+var dataFormatMixin = __webpack_require__(/*! ../model/mixin/dataFormat */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/dataFormat.js");
 
-var _layout = __webpack_require__(/*! ../util/layout */ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js");
+var _layout = __webpack_require__(/*! ../util/layout */ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js");
 
 var getLayoutParams = _layout.getLayoutParams;
 var mergeLayoutParam = _layout.mergeLayoutParam;
 
-var _task = __webpack_require__(/*! ../stream/task */ "../node_modules/_echarts@4.4.0@echarts/lib/stream/task.js");
+var _task = __webpack_require__(/*! ../stream/task */ "../node_modules/_echarts@4.5.0@echarts/lib/stream/task.js");
 
 var createTask = _task.createTask;
 
-var _sourceHelper = __webpack_require__(/*! ../data/helper/sourceHelper */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/sourceHelper.js");
+var _sourceHelper = __webpack_require__(/*! ../data/helper/sourceHelper */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/sourceHelper.js");
 
 var prepareSource = _sourceHelper.prepareSource;
 var getSource = _sourceHelper.getSource;
 
-var _dataProvider = __webpack_require__(/*! ../data/helper/dataProvider */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataProvider.js");
+var _dataProvider = __webpack_require__(/*! ../data/helper/dataProvider */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataProvider.js");
 
 var retrieveRawValue = _dataProvider.retrieveRawValue;
 
@@ -87666,9 +87945,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/globalDefault.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/globalDefault.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/globalDefault.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/globalDefault.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -87765,9 +88044,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/areaStyle.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/areaStyle.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/areaStyle.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/areaStyle.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -87792,7 +88071,7 @@ module.exports = _default;
 * under the License.
 */
 
-var makeStyleMapper = __webpack_require__(/*! ./makeStyleMapper */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/makeStyleMapper.js");
+var makeStyleMapper = __webpack_require__(/*! ./makeStyleMapper */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/makeStyleMapper.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -87822,9 +88101,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/boxLayout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/boxLayout.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/boxLayout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/boxLayout.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -87883,9 +88162,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/colorPalette.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/colorPalette.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/colorPalette.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/colorPalette.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -87910,7 +88189,7 @@ module.exports = _default;
 * under the License.
 */
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var makeInner = _model.makeInner;
 var normalizeToArray = _model.normalizeToArray;
@@ -87994,9 +88273,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/dataFormat.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/dataFormat.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/dataFormat.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/dataFormat.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -88021,16 +88300,16 @@ module.exports = _default;
 * under the License.
 */
 
-var _dataProvider = __webpack_require__(/*! ../../data/helper/dataProvider */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataProvider.js");
+var _dataProvider = __webpack_require__(/*! ../../data/helper/dataProvider */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataProvider.js");
 
 var retrieveRawValue = _dataProvider.retrieveRawValue;
 
-var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var _format = __webpack_require__(/*! ../../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 var getTooltipMarker = _format.getTooltipMarker;
 var formatTpl = _format.formatTpl;
 
-var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var getTooltipRenderMode = _model.getTooltipRenderMode;
 
@@ -88167,9 +88446,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/itemStyle.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/itemStyle.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/itemStyle.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/itemStyle.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -88194,7 +88473,7 @@ module.exports = _default;
 * under the License.
 */
 
-var makeStyleMapper = __webpack_require__(/*! ./makeStyleMapper */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/makeStyleMapper.js");
+var makeStyleMapper = __webpack_require__(/*! ./makeStyleMapper */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/makeStyleMapper.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -88231,9 +88510,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/lineStyle.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/lineStyle.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/lineStyle.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/lineStyle.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -88258,7 +88537,7 @@ module.exports = _default;
 * under the License.
 */
 
-var makeStyleMapper = __webpack_require__(/*! ./makeStyleMapper */ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/makeStyleMapper.js");
+var makeStyleMapper = __webpack_require__(/*! ./makeStyleMapper */ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/makeStyleMapper.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -88307,9 +88586,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/makeStyleMapper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/makeStyleMapper.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/makeStyleMapper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/makeStyleMapper.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -88334,7 +88613,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -88389,9 +88668,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/textStyle.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/textStyle.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/mixin/textStyle.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/mixin/textStyle.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -88416,9 +88695,9 @@ module.exports = _default;
 * under the License.
 */
 
-var textContain = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/text.js");
+var textContain = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/text.js");
 
-var graphicUtil = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphicUtil = __webpack_require__(/*! ../../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -88470,9 +88749,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/model/referHelper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/model/referHelper.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/model/referHelper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/model/referHelper.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -88497,11 +88776,11 @@ module.exports = _default;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var createHashMap = _util.createHashMap;
 var retrieve = _util.retrieve;
@@ -88642,9 +88921,9 @@ exports.getCoordSysDefineBySeries = getCoordSysDefineBySeries;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/preprocessor/backwardCompat.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/preprocessor/backwardCompat.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/preprocessor/backwardCompat.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/preprocessor/backwardCompat.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -88669,15 +88948,15 @@ exports.getCoordSysDefineBySeries = getCoordSysDefineBySeries;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var each = _util.each;
 var isArray = _util.isArray;
 var isObject = _util.isObject;
 
-var compatStyle = __webpack_require__(/*! ./helper/compatStyle */ "../node_modules/_echarts@4.4.0@echarts/lib/preprocessor/helper/compatStyle.js");
+var compatStyle = __webpack_require__(/*! ./helper/compatStyle */ "../node_modules/_echarts@4.5.0@echarts/lib/preprocessor/helper/compatStyle.js");
 
-var _model = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var normalizeToArray = _model.normalizeToArray;
 
@@ -88796,9 +89075,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/preprocessor/helper/compatStyle.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/preprocessor/helper/compatStyle.js":
 /*!*************************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/preprocessor/helper/compatStyle.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/preprocessor/helper/compatStyle.js ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -88823,9 +89102,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -89125,9 +89404,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/processor/dataFilter.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/processor/dataFilter.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/processor/dataFilter.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/processor/dataFilter.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -89202,9 +89481,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/processor/dataSample.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/processor/dataSample.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/processor/dataSample.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/processor/dataSample.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -89343,9 +89622,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/processor/dataStack.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/processor/dataStack.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/processor/dataStack.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/processor/dataStack.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -89370,7 +89649,7 @@ module.exports = _default;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var createHashMap = _util.createHashMap;
 var each = _util.each;
@@ -89491,9 +89770,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Interval.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Interval.js":
 /*!********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/scale/Interval.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/scale/Interval.js ***!
   \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -89518,13 +89797,13 @@ module.exports = _default;
 * under the License.
 */
 
-var numberUtil = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var formatUtil = __webpack_require__(/*! ../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var formatUtil = __webpack_require__(/*! ../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
-var Scale = __webpack_require__(/*! ./Scale */ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Scale.js");
+var Scale = __webpack_require__(/*! ./Scale */ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Scale.js");
 
-var helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.4.0@echarts/lib/scale/helper.js");
+var helper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.5.0@echarts/lib/scale/helper.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -89724,9 +90003,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Log.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Log.js":
 /*!***************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/scale/Log.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/scale/Log.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -89751,13 +90030,13 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Scale = __webpack_require__(/*! ./Scale */ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Scale.js");
+var Scale = __webpack_require__(/*! ./Scale */ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Scale.js");
 
-var numberUtil = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var IntervalScale = __webpack_require__(/*! ./Interval */ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Interval.js");
+var IntervalScale = __webpack_require__(/*! ./Interval */ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Interval.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -89939,9 +90218,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Ordinal.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Ordinal.js":
 /*!*******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/scale/Ordinal.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/scale/Ordinal.js ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -89966,11 +90245,11 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Scale = __webpack_require__(/*! ./Scale */ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Scale.js");
+var Scale = __webpack_require__(/*! ./Scale */ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Scale.js");
 
-var OrdinalMeta = __webpack_require__(/*! ../data/OrdinalMeta */ "../node_modules/_echarts@4.4.0@echarts/lib/data/OrdinalMeta.js");
+var OrdinalMeta = __webpack_require__(/*! ../data/OrdinalMeta */ "../node_modules/_echarts@4.5.0@echarts/lib/data/OrdinalMeta.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -90098,9 +90377,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Scale.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Scale.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/scale/Scale.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/scale/Scale.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -90125,7 +90404,7 @@ module.exports = _default;
 * under the License.
 */
 
-var clazzUtil = __webpack_require__(/*! ../util/clazz */ "../node_modules/_echarts@4.4.0@echarts/lib/util/clazz.js");
+var clazzUtil = __webpack_require__(/*! ../util/clazz */ "../node_modules/_echarts@4.5.0@echarts/lib/util/clazz.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -90303,9 +90582,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Time.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Time.js":
 /*!****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/scale/Time.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/scale/Time.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -90330,15 +90609,15 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var numberUtil = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
-var formatUtil = __webpack_require__(/*! ../util/format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var formatUtil = __webpack_require__(/*! ../util/format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
-var scaleHelper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.4.0@echarts/lib/scale/helper.js");
+var scaleHelper = __webpack_require__(/*! ./helper */ "../node_modules/_echarts@4.5.0@echarts/lib/scale/helper.js");
 
-var IntervalScale = __webpack_require__(/*! ./Interval */ "../node_modules/_echarts@4.4.0@echarts/lib/scale/Interval.js");
+var IntervalScale = __webpack_require__(/*! ./Interval */ "../node_modules/_echarts@4.5.0@echarts/lib/scale/Interval.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -90556,9 +90835,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/scale/helper.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/scale/helper.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/scale/helper.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/scale/helper.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -90583,7 +90862,7 @@ module.exports = _default;
 * under the License.
 */
 
-var numberUtil = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -90712,9 +90991,9 @@ exports.intervalScaleGetTicks = intervalScaleGetTicks;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/stream/Scheduler.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/stream/Scheduler.js":
 /*!**********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/stream/Scheduler.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/stream/Scheduler.js ***!
   \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -90739,7 +91018,7 @@ exports.intervalScaleGetTicks = intervalScaleGetTicks;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var each = _util.each;
 var map = _util.map;
@@ -90747,19 +91026,19 @@ var isFunction = _util.isFunction;
 var createHashMap = _util.createHashMap;
 var noop = _util.noop;
 
-var _task = __webpack_require__(/*! ./task */ "../node_modules/_echarts@4.4.0@echarts/lib/stream/task.js");
+var _task = __webpack_require__(/*! ./task */ "../node_modules/_echarts@4.5.0@echarts/lib/stream/task.js");
 
 var createTask = _task.createTask;
 
-var _component = __webpack_require__(/*! ../util/component */ "../node_modules/_echarts@4.4.0@echarts/lib/util/component.js");
+var _component = __webpack_require__(/*! ../util/component */ "../node_modules/_echarts@4.5.0@echarts/lib/util/component.js");
 
 var getUID = _component.getUID;
 
-var GlobalModel = __webpack_require__(/*! ../model/Global */ "../node_modules/_echarts@4.4.0@echarts/lib/model/Global.js");
+var GlobalModel = __webpack_require__(/*! ../model/Global */ "../node_modules/_echarts@4.5.0@echarts/lib/model/Global.js");
 
-var ExtensionAPI = __webpack_require__(/*! ../ExtensionAPI */ "../node_modules/_echarts@4.4.0@echarts/lib/ExtensionAPI.js");
+var ExtensionAPI = __webpack_require__(/*! ../ExtensionAPI */ "../node_modules/_echarts@4.5.0@echarts/lib/ExtensionAPI.js");
 
-var _model = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var _model = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
 var normalizeToArray = _model.normalizeToArray;
 
@@ -91290,9 +91569,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/stream/task.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/stream/task.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/stream/task.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/stream/task.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -91317,12 +91596,12 @@ module.exports = _default;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var assert = _util.assert;
 var isArray = _util.isArray;
 
-var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
@@ -91645,9 +91924,9 @@ exports.createTask = createTask;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/theme/dark.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/theme/dark.js":
 /*!****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/theme/dark.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/theme/dark.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -91824,9 +92103,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/theme/light.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/theme/light.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/theme/light.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/theme/light.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -91878,9 +92157,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/util/animation.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/util/animation.js":
 /*!********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/util/animation.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/util/animation.js ***!
   \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -91905,7 +92184,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -92026,9 +92305,9 @@ exports.createWrap = createWrap;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/util/clazz.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/util/clazz.js":
 /*!****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/util/clazz.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/util/clazz.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -92053,11 +92332,11 @@ exports.createWrap = createWrap;
 * under the License.
 */
 
-var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.4.0@echarts/lib/config.js");
+var _config = __webpack_require__(/*! ../config */ "../node_modules/_echarts@4.5.0@echarts/lib/config.js");
 
 var __DEV__ = _config.__DEV__;
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -92317,9 +92596,9 @@ exports.setReadOnly = setReadOnly;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/util/component.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/util/component.js":
 /*!********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/util/component.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/util/component.js ***!
   \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -92344,9 +92623,9 @@ exports.setReadOnly = setReadOnly;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _clazz = __webpack_require__(/*! ./clazz */ "../node_modules/_echarts@4.4.0@echarts/lib/util/clazz.js");
+var _clazz = __webpack_require__(/*! ./clazz */ "../node_modules/_echarts@4.5.0@echarts/lib/util/clazz.js");
 
 var parseClassType = _clazz.parseClassType;
 
@@ -92546,9 +92825,9 @@ exports.enableTopologicalTravel = enableTopologicalTravel;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/util/format.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/util/format.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -92573,11 +92852,11 @@ exports.enableTopologicalTravel = enableTopologicalTravel;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var textContain = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/text.js");
+var textContain = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/text.js");
 
-var numberUtil = __webpack_require__(/*! ./number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var numberUtil = __webpack_require__(/*! ./number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -92832,9 +93111,9 @@ exports.getTextRect = getTextRect;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -92859,89 +93138,89 @@ exports.getTextRect = getTextRect;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var pathTool = __webpack_require__(/*! zrender/lib/tool/path */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/path.js");
+var pathTool = __webpack_require__(/*! zrender/lib/tool/path */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/path.js");
 
-var colorTool = __webpack_require__(/*! zrender/lib/tool/color */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/color.js");
+var colorTool = __webpack_require__(/*! zrender/lib/tool/color */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/color.js");
 
-var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrix = __webpack_require__(/*! zrender/lib/core/matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
-var vector = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vector = __webpack_require__(/*! zrender/lib/core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
-var Path = __webpack_require__(/*! zrender/lib/graphic/Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! zrender/lib/graphic/Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
-var Transformable = __webpack_require__(/*! zrender/lib/mixin/Transformable */ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Transformable.js");
+var Transformable = __webpack_require__(/*! zrender/lib/mixin/Transformable */ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Transformable.js");
 
-var ZImage = __webpack_require__(/*! zrender/lib/graphic/Image */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Image.js");
+var ZImage = __webpack_require__(/*! zrender/lib/graphic/Image */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Image.js");
 
 exports.Image = ZImage;
 
-var Group = __webpack_require__(/*! zrender/lib/container/Group */ "../node_modules/_zrender@4.1.1@zrender/lib/container/Group.js");
+var Group = __webpack_require__(/*! zrender/lib/container/Group */ "../node_modules/_zrender@4.1.2@zrender/lib/container/Group.js");
 
 exports.Group = Group;
 
-var Text = __webpack_require__(/*! zrender/lib/graphic/Text */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Text.js");
+var Text = __webpack_require__(/*! zrender/lib/graphic/Text */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Text.js");
 
 exports.Text = Text;
 
-var Circle = __webpack_require__(/*! zrender/lib/graphic/shape/Circle */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Circle.js");
+var Circle = __webpack_require__(/*! zrender/lib/graphic/shape/Circle */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Circle.js");
 
 exports.Circle = Circle;
 
-var Sector = __webpack_require__(/*! zrender/lib/graphic/shape/Sector */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Sector.js");
+var Sector = __webpack_require__(/*! zrender/lib/graphic/shape/Sector */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Sector.js");
 
 exports.Sector = Sector;
 
-var Ring = __webpack_require__(/*! zrender/lib/graphic/shape/Ring */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Ring.js");
+var Ring = __webpack_require__(/*! zrender/lib/graphic/shape/Ring */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Ring.js");
 
 exports.Ring = Ring;
 
-var Polygon = __webpack_require__(/*! zrender/lib/graphic/shape/Polygon */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Polygon.js");
+var Polygon = __webpack_require__(/*! zrender/lib/graphic/shape/Polygon */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Polygon.js");
 
 exports.Polygon = Polygon;
 
-var Polyline = __webpack_require__(/*! zrender/lib/graphic/shape/Polyline */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Polyline.js");
+var Polyline = __webpack_require__(/*! zrender/lib/graphic/shape/Polyline */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Polyline.js");
 
 exports.Polyline = Polyline;
 
-var Rect = __webpack_require__(/*! zrender/lib/graphic/shape/Rect */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Rect.js");
+var Rect = __webpack_require__(/*! zrender/lib/graphic/shape/Rect */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Rect.js");
 
 exports.Rect = Rect;
 
-var Line = __webpack_require__(/*! zrender/lib/graphic/shape/Line */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Line.js");
+var Line = __webpack_require__(/*! zrender/lib/graphic/shape/Line */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Line.js");
 
 exports.Line = Line;
 
-var BezierCurve = __webpack_require__(/*! zrender/lib/graphic/shape/BezierCurve */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/BezierCurve.js");
+var BezierCurve = __webpack_require__(/*! zrender/lib/graphic/shape/BezierCurve */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/BezierCurve.js");
 
 exports.BezierCurve = BezierCurve;
 
-var Arc = __webpack_require__(/*! zrender/lib/graphic/shape/Arc */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Arc.js");
+var Arc = __webpack_require__(/*! zrender/lib/graphic/shape/Arc */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Arc.js");
 
 exports.Arc = Arc;
 
-var CompoundPath = __webpack_require__(/*! zrender/lib/graphic/CompoundPath */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/CompoundPath.js");
+var CompoundPath = __webpack_require__(/*! zrender/lib/graphic/CompoundPath */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/CompoundPath.js");
 
 exports.CompoundPath = CompoundPath;
 
-var LinearGradient = __webpack_require__(/*! zrender/lib/graphic/LinearGradient */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/LinearGradient.js");
+var LinearGradient = __webpack_require__(/*! zrender/lib/graphic/LinearGradient */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/LinearGradient.js");
 
 exports.LinearGradient = LinearGradient;
 
-var RadialGradient = __webpack_require__(/*! zrender/lib/graphic/RadialGradient */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/RadialGradient.js");
+var RadialGradient = __webpack_require__(/*! zrender/lib/graphic/RadialGradient */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/RadialGradient.js");
 
 exports.RadialGradient = RadialGradient;
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
 exports.BoundingRect = BoundingRect;
 
-var IncrementalDisplayable = __webpack_require__(/*! zrender/lib/graphic/IncrementalDisplayable */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/IncrementalDisplayable.js");
+var IncrementalDisplayable = __webpack_require__(/*! zrender/lib/graphic/IncrementalDisplayable */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/IncrementalDisplayable.js");
 
 exports.IncrementalDisplayable = IncrementalDisplayable;
 
-var subPixelOptimizeUtil = __webpack_require__(/*! zrender/lib/graphic/helper/subPixelOptimize */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/subPixelOptimize.js");
+var subPixelOptimizeUtil = __webpack_require__(/*! zrender/lib/graphic/helper/subPixelOptimize */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/subPixelOptimize.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -94367,9 +94646,9 @@ exports.lineLineIntersect = lineLineIntersect;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/util/layout.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/util/layout.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -94394,15 +94673,15 @@ exports.lineLineIntersect = lineLineIntersect;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var _number = __webpack_require__(/*! ./number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ./number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var parsePercent = _number.parsePercent;
 
-var formatUtil = __webpack_require__(/*! ./format */ "../node_modules/_echarts@4.4.0@echarts/lib/util/format.js");
+var formatUtil = __webpack_require__(/*! ./format */ "../node_modules/_echarts@4.5.0@echarts/lib/util/format.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -94900,9 +95179,9 @@ exports.copyLayoutParams = copyLayoutParams;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js":
 /*!****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/util/model.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/util/model.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -94927,9 +95206,9 @@ exports.copyLayoutParams = copyLayoutParams;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! zrender/lib/core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -95457,9 +95736,9 @@ exports.groupData = groupData;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/util/number.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/util/number.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -95484,7 +95763,7 @@ exports.groupData = groupData;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -95867,9 +96146,32 @@ function parseDate(value) {
 function quantity(val) {
   return Math.pow(10, quantityExponent(val));
 }
+/**
+ * Exponent of the quantity of a number
+ * e.g., 1234 equals to 1.234*10^3, so quantityExponent(1234) is 3
+ *
+ * @param  {number} val non-negative value
+ * @return {number}
+ */
+
 
 function quantityExponent(val) {
-  return Math.floor(Math.log(val) / Math.LN10);
+  if (val === 0) {
+    return 0;
+  }
+
+  var exp = Math.floor(Math.log(val) / Math.LN10);
+  /**
+   * exp is expected to be the rounded-down result of the base-10 log of val.
+   * But due to the precision loss with Math.log(val), we need to restore it
+   * using 10^exp to make sure we can get val back from exp. #11249
+   */
+
+  if (val / Math.pow(10, exp) >= 10) {
+    exp++;
+  }
+
+  return exp;
 }
 /**
  * find a “nice” number approximately equal to x. Round the number if round = true,
@@ -96022,6 +96324,7 @@ exports.remRadian = remRadian;
 exports.isRadianAroundZero = isRadianAroundZero;
 exports.parseDate = parseDate;
 exports.quantity = quantity;
+exports.quantityExponent = quantityExponent;
 exports.nice = nice;
 exports.quantile = quantile;
 exports.reformIntervals = reformIntervals;
@@ -96029,9 +96332,112 @@ exports.isNumeric = isNumeric;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/util/shape/sausage.js":
+/*!************************************************************************!*\
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/util/shape/sausage.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+/*
+* Licensed to the Apache Software Foundation (ASF) under one
+* or more contributor license agreements.  See the NOTICE file
+* distributed with this work for additional information
+* regarding copyright ownership.  The ASF licenses this file
+* to you under the Apache License, Version 2.0 (the
+* "License"); you may not use this file except in compliance
+* with the License.  You may obtain a copy of the License at
+*
+*   http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing,
+* software distributed under the License is distributed on an
+* "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+* KIND, either express or implied.  See the License for the
+* specific language governing permissions and limitations
+* under the License.
+*/
+
+var _graphic = __webpack_require__(/*! ../graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
+
+var extendShape = _graphic.extendShape;
+
+/*
+* Licensed to the Apache Software Foundation (ASF) under one
+* or more contributor license agreements.  See the NOTICE file
+* distributed with this work for additional information
+* regarding copyright ownership.  The ASF licenses this file
+* to you under the Apache License, Version 2.0 (the
+* "License"); you may not use this file except in compliance
+* with the License.  You may obtain a copy of the License at
+*
+*   http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing,
+* software distributed under the License is distributed on an
+* "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+* KIND, either express or implied.  See the License for the
+* specific language governing permissions and limitations
+* under the License.
+*/
+
+/**
+ * Sausage: similar to sector, but have half circle on both sides
+ * @public
+ */
+var _default = extendShape({
+  type: 'sausage',
+  shape: {
+    cx: 0,
+    cy: 0,
+    r0: 0,
+    r: 0,
+    startAngle: 0,
+    endAngle: Math.PI * 2,
+    clockwise: true
+  },
+  buildPath: function (ctx, shape) {
+    var x = shape.cx;
+    var y = shape.cy;
+    var r0 = Math.max(shape.r0 || 0, 0);
+    var r = Math.max(shape.r, 0);
+    var dr = (r - r0) * 0.5;
+    var rCenter = r0 + dr;
+    var startAngle = shape.startAngle;
+    var endAngle = shape.endAngle;
+    var clockwise = shape.clockwise;
+    var unitStartX = Math.cos(startAngle);
+    var unitStartY = Math.sin(startAngle);
+    var unitEndX = Math.cos(endAngle);
+    var unitEndY = Math.sin(endAngle);
+    var lessThanCircle = clockwise ? endAngle - startAngle < Math.PI * 2 : startAngle - endAngle < Math.PI * 2;
+
+    if (lessThanCircle) {
+      ctx.moveTo(unitStartX * r0 + x, unitStartY * r0 + y);
+      ctx.arc(unitStartX * rCenter + x, unitStartY * rCenter + y, dr, -Math.PI + startAngle, startAngle, !clockwise);
+    }
+
+    ctx.arc(x, y, r, startAngle, endAngle, !clockwise);
+    ctx.moveTo(unitEndX * r + x, unitEndY * r + y);
+    ctx.arc(unitEndX * rCenter + x, unitEndY * rCenter + y, dr, endAngle - Math.PI * 2, endAngle - Math.PI, !clockwise);
+
+    if (r0 !== 0) {
+      ctx.arc(x, y, r0, endAngle, startAngle, clockwise);
+      ctx.moveTo(unitStartX * r0 + x, unitEndY * r0 + y);
+    }
+
+    ctx.closePath();
+  }
+});
+
+module.exports = _default;
+
+/***/ }),
+
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/util/symbol.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/util/symbol.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -96056,13 +96462,13 @@ exports.isNumeric = isNumeric;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var graphic = __webpack_require__(/*! ./graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphic = __webpack_require__(/*! ./graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! zrender/lib/core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var _text = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/text.js");
+var _text = __webpack_require__(/*! zrender/lib/contain/text */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/text.js");
 
 var calculateTextPosition = _text.calculateTextPosition;
 
@@ -96383,9 +96789,9 @@ exports.createSymbol = createSymbol;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/util/throttle.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/util/throttle.js":
 /*!*******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/util/throttle.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/util/throttle.js ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -96586,9 +96992,9 @@ exports.clear = clear;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/view/Chart.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/view/Chart.js":
 /*!****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/view/Chart.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/view/Chart.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -96613,25 +97019,25 @@ exports.clear = clear;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var each = _util.each;
 
-var Group = __webpack_require__(/*! zrender/lib/container/Group */ "../node_modules/_zrender@4.1.1@zrender/lib/container/Group.js");
+var Group = __webpack_require__(/*! zrender/lib/container/Group */ "../node_modules/_zrender@4.1.2@zrender/lib/container/Group.js");
 
-var componentUtil = __webpack_require__(/*! ../util/component */ "../node_modules/_echarts@4.4.0@echarts/lib/util/component.js");
+var componentUtil = __webpack_require__(/*! ../util/component */ "../node_modules/_echarts@4.5.0@echarts/lib/util/component.js");
 
-var clazzUtil = __webpack_require__(/*! ../util/clazz */ "../node_modules/_echarts@4.4.0@echarts/lib/util/clazz.js");
+var clazzUtil = __webpack_require__(/*! ../util/clazz */ "../node_modules/_echarts@4.5.0@echarts/lib/util/clazz.js");
 
-var modelUtil = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.4.0@echarts/lib/util/model.js");
+var modelUtil = __webpack_require__(/*! ../util/model */ "../node_modules/_echarts@4.5.0@echarts/lib/util/model.js");
 
-var graphicUtil = __webpack_require__(/*! ../util/graphic */ "../node_modules/_echarts@4.4.0@echarts/lib/util/graphic.js");
+var graphicUtil = __webpack_require__(/*! ../util/graphic */ "../node_modules/_echarts@4.5.0@echarts/lib/util/graphic.js");
 
-var _task = __webpack_require__(/*! ../stream/task */ "../node_modules/_echarts@4.4.0@echarts/lib/stream/task.js");
+var _task = __webpack_require__(/*! ../stream/task */ "../node_modules/_echarts@4.5.0@echarts/lib/stream/task.js");
 
 var createTask = _task.createTask;
 
-var createRenderPlanner = __webpack_require__(/*! ../chart/helper/createRenderPlanner */ "../node_modules/_echarts@4.4.0@echarts/lib/chart/helper/createRenderPlanner.js");
+var createRenderPlanner = __webpack_require__(/*! ../chart/helper/createRenderPlanner */ "../node_modules/_echarts@4.5.0@echarts/lib/chart/helper/createRenderPlanner.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -96882,9 +97288,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/view/Component.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/view/Component.js":
 /*!********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/view/Component.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/view/Component.js ***!
   \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -96909,11 +97315,11 @@ module.exports = _default;
 * under the License.
 */
 
-var Group = __webpack_require__(/*! zrender/lib/container/Group */ "../node_modules/_zrender@4.1.1@zrender/lib/container/Group.js");
+var Group = __webpack_require__(/*! zrender/lib/container/Group */ "../node_modules/_zrender@4.1.2@zrender/lib/container/Group.js");
 
-var componentUtil = __webpack_require__(/*! ../util/component */ "../node_modules/_echarts@4.4.0@echarts/lib/util/component.js");
+var componentUtil = __webpack_require__(/*! ../util/component */ "../node_modules/_echarts@4.5.0@echarts/lib/util/component.js");
 
-var clazzUtil = __webpack_require__(/*! ../util/clazz */ "../node_modules/_echarts@4.4.0@echarts/lib/util/clazz.js");
+var clazzUtil = __webpack_require__(/*! ../util/clazz */ "../node_modules/_echarts@4.5.0@echarts/lib/util/clazz.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -96978,9 +97384,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/visual/VisualMapping.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/visual/VisualMapping.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/visual/VisualMapping.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/visual/VisualMapping.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -97005,11 +97411,11 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var zrColor = __webpack_require__(/*! zrender/lib/tool/color */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/color.js");
+var zrColor = __webpack_require__(/*! zrender/lib/tool/color */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/color.js");
 
-var _number = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.4.0@echarts/lib/util/number.js");
+var _number = __webpack_require__(/*! ../util/number */ "../node_modules/_echarts@4.5.0@echarts/lib/util/number.js");
 
 var linearMap = _number.linearMap;
 
@@ -97600,9 +98006,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/visual/aria.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/visual/aria.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/visual/aria.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/visual/aria.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -97627,11 +98033,11 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var lang = __webpack_require__(/*! ../lang */ "../node_modules/_echarts@4.4.0@echarts/lib/lang.js");
+var lang = __webpack_require__(/*! ../lang */ "../node_modules/_echarts@4.5.0@echarts/lib/lang.js");
 
-var _dataProvider = __webpack_require__(/*! ../data/helper/dataProvider */ "../node_modules/_echarts@4.4.0@echarts/lib/data/helper/dataProvider.js");
+var _dataProvider = __webpack_require__(/*! ../data/helper/dataProvider */ "../node_modules/_echarts@4.5.0@echarts/lib/data/helper/dataProvider.js");
 
 var retrieveRawValue = _dataProvider.retrieveRawValue;
 
@@ -97783,9 +98189,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/visual/dataColor.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/visual/dataColor.js":
 /*!**********************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/visual/dataColor.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/visual/dataColor.js ***!
   \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -97810,7 +98216,7 @@ module.exports = _default;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var createHashMap = _util.createHashMap;
 
@@ -97901,9 +98307,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/visual/seriesColor.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/visual/seriesColor.js":
 /*!************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/visual/seriesColor.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/visual/seriesColor.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -97928,7 +98334,7 @@ module.exports = _default;
 * under the License.
 */
 
-var Gradient = __webpack_require__(/*! zrender/lib/graphic/Gradient */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Gradient.js");
+var Gradient = __webpack_require__(/*! zrender/lib/graphic/Gradient */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Gradient.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -97996,9 +98402,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/visual/symbol.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/visual/symbol.js":
 /*!*******************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/visual/symbol.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/visual/symbol.js ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -98023,7 +98429,7 @@ module.exports = _default;
 * under the License.
 */
 
-var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var isFunction = _util.isFunction;
 
@@ -98116,9 +98522,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/visual/visualDefault.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/visual/visualDefault.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/visual/visualDefault.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/visual/visualDefault.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -98143,7 +98549,7 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -98215,9 +98621,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_echarts@4.4.0@echarts/lib/visual/visualSolution.js":
+/***/ "../node_modules/_echarts@4.5.0@echarts/lib/visual/visualSolution.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_echarts@4.4.0@echarts/lib/visual/visualSolution.js ***!
+  !*** ../node_modules/_echarts@4.5.0@echarts/lib/visual/visualSolution.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -98242,9 +98648,9 @@ module.exports = _default;
 * under the License.
 */
 
-var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! zrender/lib/core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var VisualMapping = __webpack_require__(/*! ./VisualMapping */ "../node_modules/_echarts@4.4.0@echarts/lib/visual/VisualMapping.js");
+var VisualMapping = __webpack_require__(/*! ./VisualMapping */ "../node_modules/_echarts@4.5.0@echarts/lib/visual/VisualMapping.js");
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one
@@ -99231,22 +99637,22 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/Element.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/Element.js":
 /*!*************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/Element.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/Element.js ***!
   \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var guid = __webpack_require__(/*! ./core/guid */ "../node_modules/_zrender@4.1.1@zrender/lib/core/guid.js");
+var guid = __webpack_require__(/*! ./core/guid */ "../node_modules/_zrender@4.1.2@zrender/lib/core/guid.js");
 
-var Eventful = __webpack_require__(/*! ./mixin/Eventful */ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Eventful.js");
+var Eventful = __webpack_require__(/*! ./mixin/Eventful */ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Eventful.js");
 
-var Transformable = __webpack_require__(/*! ./mixin/Transformable */ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Transformable.js");
+var Transformable = __webpack_require__(/*! ./mixin/Transformable */ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Transformable.js");
 
-var Animatable = __webpack_require__(/*! ./mixin/Animatable */ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Animatable.js");
+var Animatable = __webpack_require__(/*! ./mixin/Animatable */ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Animatable.js");
 
-var zrUtil = __webpack_require__(/*! ./core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! ./core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /**
  * @alias module:zrender/Element
@@ -99510,24 +99916,24 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/Handler.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/Handler.js":
 /*!*************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/Handler.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/Handler.js ***!
   \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var util = __webpack_require__(/*! ./core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var util = __webpack_require__(/*! ./core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var vec2 = __webpack_require__(/*! ./core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! ./core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
-var Draggable = __webpack_require__(/*! ./mixin/Draggable */ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Draggable.js");
+var Draggable = __webpack_require__(/*! ./mixin/Draggable */ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Draggable.js");
 
-var Eventful = __webpack_require__(/*! ./mixin/Eventful */ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Eventful.js");
+var Eventful = __webpack_require__(/*! ./mixin/Eventful */ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Eventful.js");
 
-var eventTool = __webpack_require__(/*! ./core/event */ "../node_modules/_zrender@4.1.1@zrender/lib/core/event.js");
+var eventTool = __webpack_require__(/*! ./core/event */ "../node_modules/_zrender@4.1.2@zrender/lib/core/event.js");
 
-var GestureMgr = __webpack_require__(/*! ./core/GestureMgr */ "../node_modules/_zrender@4.1.1@zrender/lib/core/GestureMgr.js");
+var GestureMgr = __webpack_require__(/*! ./core/GestureMgr */ "../node_modules/_zrender@4.1.2@zrender/lib/core/GestureMgr.js");
 
 var SILENT = 'silent';
 
@@ -99878,22 +100284,22 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/Layer.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/Layer.js":
 /*!***********************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/Layer.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/Layer.js ***!
   \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var util = __webpack_require__(/*! ./core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var util = __webpack_require__(/*! ./core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _config = __webpack_require__(/*! ./config */ "../node_modules/_zrender@4.1.1@zrender/lib/config.js");
+var _config = __webpack_require__(/*! ./config */ "../node_modules/_zrender@4.1.2@zrender/lib/config.js");
 
 var devicePixelRatio = _config.devicePixelRatio;
 
-var Style = __webpack_require__(/*! ./graphic/Style */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Style.js");
+var Style = __webpack_require__(/*! ./graphic/Style */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Style.js");
 
-var Pattern = __webpack_require__(/*! ./graphic/Pattern */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Pattern.js");
+var Pattern = __webpack_require__(/*! ./graphic/Pattern */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Pattern.js");
 
 /**
  * @module zrender/Layer
@@ -100123,32 +100529,32 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/Painter.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/Painter.js":
 /*!*************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/Painter.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/Painter.js ***!
   \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _config = __webpack_require__(/*! ./config */ "../node_modules/_zrender@4.1.1@zrender/lib/config.js");
+var _config = __webpack_require__(/*! ./config */ "../node_modules/_zrender@4.1.2@zrender/lib/config.js");
 
 var devicePixelRatio = _config.devicePixelRatio;
 
-var util = __webpack_require__(/*! ./core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var util = __webpack_require__(/*! ./core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var logError = __webpack_require__(/*! ./core/log */ "../node_modules/_zrender@4.1.1@zrender/lib/core/log.js");
+var logError = __webpack_require__(/*! ./core/log */ "../node_modules/_zrender@4.1.2@zrender/lib/core/log.js");
 
-var BoundingRect = __webpack_require__(/*! ./core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! ./core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var timsort = __webpack_require__(/*! ./core/timsort */ "../node_modules/_zrender@4.1.1@zrender/lib/core/timsort.js");
+var timsort = __webpack_require__(/*! ./core/timsort */ "../node_modules/_zrender@4.1.2@zrender/lib/core/timsort.js");
 
-var Layer = __webpack_require__(/*! ./Layer */ "../node_modules/_zrender@4.1.1@zrender/lib/Layer.js");
+var Layer = __webpack_require__(/*! ./Layer */ "../node_modules/_zrender@4.1.2@zrender/lib/Layer.js");
 
-var requestAnimationFrame = __webpack_require__(/*! ./animation/requestAnimationFrame */ "../node_modules/_zrender@4.1.1@zrender/lib/animation/requestAnimationFrame.js");
+var requestAnimationFrame = __webpack_require__(/*! ./animation/requestAnimationFrame */ "../node_modules/_zrender@4.1.2@zrender/lib/animation/requestAnimationFrame.js");
 
-var Image = __webpack_require__(/*! ./graphic/Image */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Image.js");
+var Image = __webpack_require__(/*! ./graphic/Image */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Image.js");
 
-var env = __webpack_require__(/*! ./core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! ./core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
 var HOVER_LAYER_ZLEVEL = 1e5;
 var CANVAS_ZLEVEL = 314159;
@@ -100222,9 +100628,16 @@ function doClip(clipPaths, ctx) {
 }
 
 function createRoot(width, height) {
-  var domRoot = document.createElement('div'); // domRoot.onselectstart = returnFalse; // 避免页面选中的尴尬
+  var domRoot = document.createElement('div'); // domRoot.onselectstart = returnFalse; // Avoid page selected
 
-  domRoot.style.cssText = ['position:relative', 'overflow:hidden', 'width:' + width + 'px', 'height:' + height + 'px', 'padding:0', 'margin:0', 'border-width:0'].join(';') + ';';
+  domRoot.style.cssText = ['position:relative', // IOS13 safari probably has a compositing bug (z order of the canvas and the consequent
+  // dom does not act as expected) when some of the parent dom has
+  // `-webkit-overflow-scrolling: touch;` and the webpage is longer than one screen and
+  // the canvas is not at the top part of the page.
+  // Check `https://bugs.webkit.org/show_bug.cgi?id=203681` for more details. We remove
+  // this `overflow:hidden` to avoid the bug.
+  // 'overflow:hidden',
+  'width:' + width + 'px', 'height:' + height + 'px', 'padding:0', 'margin:0', 'border-width:0'].join(';') + ';';
   return domRoot;
 }
 /**
@@ -101145,20 +101558,20 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/Storage.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/Storage.js":
 /*!*************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/Storage.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/Storage.js ***!
   \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var util = __webpack_require__(/*! ./core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var util = __webpack_require__(/*! ./core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var env = __webpack_require__(/*! ./core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! ./core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
-var Group = __webpack_require__(/*! ./container/Group */ "../node_modules/_zrender@4.1.1@zrender/lib/container/Group.js");
+var Group = __webpack_require__(/*! ./container/Group */ "../node_modules/_zrender@4.1.2@zrender/lib/container/Group.js");
 
-var timsort = __webpack_require__(/*! ./core/timsort */ "../node_modules/_zrender@4.1.1@zrender/lib/core/timsort.js");
+var timsort = __webpack_require__(/*! ./core/timsort */ "../node_modules/_zrender@4.1.2@zrender/lib/core/timsort.js");
 
 // Use timsort because in most case elements are partially sorted
 // https://jsfiddle.net/pissang/jr4x7mdm/8/
@@ -101387,22 +101800,22 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/animation/Animation.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/animation/Animation.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/animation/Animation.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/animation/Animation.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var _event = __webpack_require__(/*! ../core/event */ "../node_modules/_zrender@4.1.1@zrender/lib/core/event.js");
+var _event = __webpack_require__(/*! ../core/event */ "../node_modules/_zrender@4.1.2@zrender/lib/core/event.js");
 
 var Dispatcher = _event.Dispatcher;
 
-var requestAnimationFrame = __webpack_require__(/*! ./requestAnimationFrame */ "../node_modules/_zrender@4.1.1@zrender/lib/animation/requestAnimationFrame.js");
+var requestAnimationFrame = __webpack_require__(/*! ./requestAnimationFrame */ "../node_modules/_zrender@4.1.2@zrender/lib/animation/requestAnimationFrame.js");
 
-var Animator = __webpack_require__(/*! ./Animator */ "../node_modules/_zrender@4.1.1@zrender/lib/animation/Animator.js");
+var Animator = __webpack_require__(/*! ./Animator */ "../node_modules/_zrender@4.1.2@zrender/lib/animation/Animator.js");
 
 /**
  * 动画主类, 调度和管理所有动画控制器
@@ -101644,18 +102057,18 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/animation/Animator.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/animation/Animator.js":
 /*!************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/animation/Animator.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/animation/Animator.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Clip = __webpack_require__(/*! ./Clip */ "../node_modules/_zrender@4.1.1@zrender/lib/animation/Clip.js");
+var Clip = __webpack_require__(/*! ./Clip */ "../node_modules/_zrender@4.1.2@zrender/lib/animation/Clip.js");
 
-var color = __webpack_require__(/*! ../tool/color */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/color.js");
+var color = __webpack_require__(/*! ../tool/color */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/color.js");
 
-var _util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var isArrayLike = _util.isArrayLike;
 
@@ -102298,14 +102711,14 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/animation/Clip.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/animation/Clip.js":
 /*!********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/animation/Clip.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/animation/Clip.js ***!
   \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var easingFuncs = __webpack_require__(/*! ./easing */ "../node_modules/_zrender@4.1.1@zrender/lib/animation/easing.js");
+var easingFuncs = __webpack_require__(/*! ./easing */ "../node_modules/_zrender@4.1.2@zrender/lib/animation/easing.js");
 
 /**
  * 动画主控制器
@@ -102409,9 +102822,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/animation/easing.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/animation/easing.js":
 /*!**********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/animation/easing.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/animation/easing.js ***!
   \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -102797,9 +103210,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/animation/requestAnimationFrame.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/animation/requestAnimationFrame.js":
 /*!*************************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/animation/requestAnimationFrame.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/animation/requestAnimationFrame.js ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -102813,9 +103226,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/config.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/config.js":
 /*!************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/config.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/config.js ***!
   \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -102846,14 +103259,14 @@ exports.devicePixelRatio = devicePixelRatio;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/contain/arc.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/contain/arc.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/contain/arc.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/contain/arc.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _util = __webpack_require__(/*! ./util */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/util.js");
+var _util = __webpack_require__(/*! ./util */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/util.js");
 
 var normalizeRadian = _util.normalizeRadian;
 var PI2 = Math.PI * 2;
@@ -102916,14 +103329,14 @@ exports.containStroke = containStroke;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/contain/cubic.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/contain/cubic.js":
 /*!*******************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/contain/cubic.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/contain/cubic.js ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var curve = __webpack_require__(/*! ../core/curve */ "../node_modules/_zrender@4.1.1@zrender/lib/core/curve.js");
+var curve = __webpack_require__(/*! ../core/curve */ "../node_modules/_zrender@4.1.2@zrender/lib/core/curve.js");
 
 /**
  * 三次贝塞尔曲线描边包含判断
@@ -102959,9 +103372,9 @@ exports.containStroke = containStroke;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/contain/line.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/contain/line.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/contain/line.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/contain/line.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -103008,30 +103421,30 @@ exports.containStroke = containStroke;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/contain/path.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/contain/path.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/contain/path.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/contain/path.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var PathProxy = __webpack_require__(/*! ../core/PathProxy */ "../node_modules/_zrender@4.1.1@zrender/lib/core/PathProxy.js");
+var PathProxy = __webpack_require__(/*! ../core/PathProxy */ "../node_modules/_zrender@4.1.2@zrender/lib/core/PathProxy.js");
 
-var line = __webpack_require__(/*! ./line */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/line.js");
+var line = __webpack_require__(/*! ./line */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/line.js");
 
-var cubic = __webpack_require__(/*! ./cubic */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/cubic.js");
+var cubic = __webpack_require__(/*! ./cubic */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/cubic.js");
 
-var quadratic = __webpack_require__(/*! ./quadratic */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/quadratic.js");
+var quadratic = __webpack_require__(/*! ./quadratic */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/quadratic.js");
 
-var arc = __webpack_require__(/*! ./arc */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/arc.js");
+var arc = __webpack_require__(/*! ./arc */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/arc.js");
 
-var _util = __webpack_require__(/*! ./util */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/util.js");
+var _util = __webpack_require__(/*! ./util */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/util.js");
 
 var normalizeRadian = _util.normalizeRadian;
 
-var curve = __webpack_require__(/*! ../core/curve */ "../node_modules/_zrender@4.1.1@zrender/lib/core/curve.js");
+var curve = __webpack_require__(/*! ../core/curve */ "../node_modules/_zrender@4.1.2@zrender/lib/core/curve.js");
 
-var windingLine = __webpack_require__(/*! ./windingLine */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/windingLine.js");
+var windingLine = __webpack_require__(/*! ./windingLine */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/windingLine.js");
 
 var CMD = PathProxy.CMD;
 var PI2 = Math.PI * 2;
@@ -103414,14 +103827,14 @@ exports.containStroke = containStroke;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/contain/polygon.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/contain/polygon.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/contain/polygon.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/contain/polygon.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var windingLine = __webpack_require__(/*! ./windingLine */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/windingLine.js");
+var windingLine = __webpack_require__(/*! ./windingLine */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/windingLine.js");
 
 var EPSILON = 1e-8;
 
@@ -103457,14 +103870,14 @@ exports.contain = contain;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/contain/quadratic.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/contain/quadratic.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/contain/quadratic.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/contain/quadratic.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _curve = __webpack_require__(/*! ../core/curve */ "../node_modules/_zrender@4.1.1@zrender/lib/core/curve.js");
+var _curve = __webpack_require__(/*! ../core/curve */ "../node_modules/_zrender@4.1.2@zrender/lib/core/curve.js");
 
 var quadraticProjectPoint = _curve.quadraticProjectPoint;
 
@@ -103500,18 +103913,18 @@ exports.containStroke = containStroke;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/contain/text.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/contain/text.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/contain/text.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/contain/text.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var BoundingRect = __webpack_require__(/*! ../core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! ../core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var imageHelper = __webpack_require__(/*! ../graphic/helper/image */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/image.js");
+var imageHelper = __webpack_require__(/*! ../graphic/helper/image */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/image.js");
 
-var _util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var getContext = _util.getContext;
 var extend = _util.extend;
@@ -103662,6 +104075,7 @@ function calculateTextPosition(out, style, rect) {
   var distance = style.textDistance;
   var x = rect.x;
   var y = rect.y;
+  distance = distance || 0;
   var height = rect.height;
   var width = rect.width;
   var halfHeight = height / 2;
@@ -103926,8 +104340,11 @@ methods.measureText = function (text, font) {
  * @param {string} text
  * @param {string} font
  * @param {Object} [truncate]
- * @return {Object} block: {lineHeight, lines, height, outerHeight}
+ * @return {Object} block: {lineHeight, lines, height, outerHeight, canCacheByTextString}
  *  Notice: for performance, do not calculate outerWidth util needed.
+ *  `canCacheByTextString` means the result `lines` is only determined by the input `text`.
+ *  Thus we can simply comparing the `input` text to determin whether the result changed,
+ *  without travel the result `lines`.
  */
 
 
@@ -103937,12 +104354,14 @@ function parsePlainText(text, font, padding, textLineHeight, truncate) {
   var lines = text ? text.split('\n') : [];
   var height = lines.length * lineHeight;
   var outerHeight = height;
+  var canCacheByTextString = true;
 
   if (padding) {
     outerHeight += padding[0] + padding[2];
   }
 
   if (text && truncate) {
+    canCacheByTextString = false;
     var truncOuterHeight = truncate.outerHeight;
     var truncOuterWidth = truncate.outerWidth;
 
@@ -103966,7 +104385,8 @@ function parsePlainText(text, font, padding, textLineHeight, truncate) {
     lines: lines,
     height: height,
     outerHeight: outerHeight,
-    lineHeight: lineHeight
+    lineHeight: lineHeight,
+    canCacheByTextString: canCacheByTextString
   };
 }
 /**
@@ -104222,9 +104642,9 @@ exports.makeFont = makeFont;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/contain/util.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/contain/util.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/contain/util.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/contain/util.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -104245,9 +104665,9 @@ exports.normalizeRadian = normalizeRadian;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/contain/windingLine.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/contain/windingLine.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/contain/windingLine.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/contain/windingLine.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -104278,18 +104698,18 @@ module.exports = windingLine;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/container/Group.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/container/Group.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/container/Group.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/container/Group.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Element = __webpack_require__(/*! ../Element */ "../node_modules/_zrender@4.1.1@zrender/lib/Element.js");
+var Element = __webpack_require__(/*! ../Element */ "../node_modules/_zrender@4.1.2@zrender/lib/Element.js");
 
-var BoundingRect = __webpack_require__(/*! ../core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! ../core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
 /**
  * Group是一个容器，可以插入子节点，Group的变换也会被应用到子节点上
@@ -104600,16 +105020,16 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var vec2 = __webpack_require__(/*! ./vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! ./vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
-var matrix = __webpack_require__(/*! ./matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrix = __webpack_require__(/*! ./matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
 /**
  * @module echarts/core/BoundingRect
@@ -104793,14 +105213,14 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/GestureMgr.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/GestureMgr.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/GestureMgr.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/GestureMgr.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var eventUtil = __webpack_require__(/*! ./event */ "../node_modules/_zrender@4.1.1@zrender/lib/core/event.js");
+var eventUtil = __webpack_require__(/*! ./event */ "../node_modules/_zrender@4.1.2@zrender/lib/core/event.js");
 
 /**
  * Only implements needed gestures for mobile.
@@ -104902,9 +105322,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/LRU.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/LRU.js":
 /*!**************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/LRU.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/LRU.js ***!
   \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -105114,22 +105534,22 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/PathProxy.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/PathProxy.js":
 /*!********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/PathProxy.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/PathProxy.js ***!
   \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var curve = __webpack_require__(/*! ./curve */ "../node_modules/_zrender@4.1.1@zrender/lib/core/curve.js");
+var curve = __webpack_require__(/*! ./curve */ "../node_modules/_zrender@4.1.2@zrender/lib/core/curve.js");
 
-var vec2 = __webpack_require__(/*! ./vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! ./vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
-var bbox = __webpack_require__(/*! ./bbox */ "../node_modules/_zrender@4.1.1@zrender/lib/core/bbox.js");
+var bbox = __webpack_require__(/*! ./bbox */ "../node_modules/_zrender@4.1.2@zrender/lib/core/bbox.js");
 
-var BoundingRect = __webpack_require__(/*! ./BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! ./BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var _config = __webpack_require__(/*! ../config */ "../node_modules/_zrender@4.1.1@zrender/lib/config.js");
+var _config = __webpack_require__(/*! ../config */ "../node_modules/_zrender@4.1.2@zrender/lib/config.js");
 
 var dpr = _config.devicePixelRatio;
 
@@ -105894,9 +106314,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/arrayDiff2.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/arrayDiff2.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/arrayDiff2.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/arrayDiff2.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -106102,16 +106522,16 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/bbox.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/bbox.js":
 /*!***************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/bbox.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/bbox.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var vec2 = __webpack_require__(/*! ./vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! ./vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
-var curve = __webpack_require__(/*! ./curve */ "../node_modules/_zrender@4.1.1@zrender/lib/core/curve.js");
+var curve = __webpack_require__(/*! ./curve */ "../node_modules/_zrender@4.1.2@zrender/lib/core/curve.js");
 
 /**
  * @author Yi Shen(https://github.com/pissang)
@@ -106333,14 +106753,14 @@ exports.fromArc = fromArc;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/curve.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/curve.js":
 /*!****************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/curve.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/curve.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _vector = __webpack_require__(/*! ./vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var _vector = __webpack_require__(/*! ./vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
 var v2Create = _vector.create;
 var v2DistSquare = _vector.distSquare;
@@ -106875,9 +107295,9 @@ exports.quadraticProjectPoint = quadraticProjectPoint;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js":
 /*!**************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/env.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/env.js ***!
   \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -107051,20 +107471,20 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/event.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/event.js":
 /*!****************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/event.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/event.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Eventful = __webpack_require__(/*! ../mixin/Eventful */ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Eventful.js");
+var Eventful = __webpack_require__(/*! ../mixin/Eventful */ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Eventful.js");
 
 exports.Dispatcher = Eventful;
 
-var env = __webpack_require__(/*! ./env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! ./env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
-var _fourPointsTransform = __webpack_require__(/*! ./fourPointsTransform */ "../node_modules/_zrender@4.1.1@zrender/lib/core/fourPointsTransform.js");
+var _fourPointsTransform = __webpack_require__(/*! ./fourPointsTransform */ "../node_modules/_zrender@4.1.2@zrender/lib/core/fourPointsTransform.js");
 
 var buildTransformer = _fourPointsTransform.buildTransformer;
 
@@ -107356,9 +107776,9 @@ exports.notLeftMouse = notLeftMouse;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/fourPointsTransform.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/fourPointsTransform.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/fourPointsTransform.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/fourPointsTransform.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -107458,9 +107878,9 @@ exports.buildTransformer = buildTransformer;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/guid.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/guid.js":
 /*!***************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/guid.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/guid.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -107480,14 +107900,14 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/log.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/log.js":
 /*!**************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/log.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/log.js ***!
   \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _config = __webpack_require__(/*! ../config */ "../node_modules/_zrender@4.1.1@zrender/lib/config.js");
+var _config = __webpack_require__(/*! ../config */ "../node_modules/_zrender@4.1.2@zrender/lib/config.js");
 
 var debugMode = _config.debugMode;
 
@@ -107502,9 +107922,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -107697,9 +108117,9 @@ exports.clone = clone;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/timsort.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/timsort.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/timsort.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/timsort.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -108373,9 +108793,9 @@ module.exports = sort;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js":
 /*!***************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/util.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/util.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -109123,9 +109543,9 @@ exports.noop = noop;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -109447,24 +109867,24 @@ exports.max = max;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/dom/HandlerProxy.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/dom/HandlerProxy.js":
 /*!**********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/dom/HandlerProxy.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/dom/HandlerProxy.js ***!
   \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _event = __webpack_require__(/*! ../core/event */ "../node_modules/_zrender@4.1.1@zrender/lib/core/event.js");
+var _event = __webpack_require__(/*! ../core/event */ "../node_modules/_zrender@4.1.2@zrender/lib/core/event.js");
 
 var addEventListener = _event.addEventListener;
 var removeEventListener = _event.removeEventListener;
 var normalizeEvent = _event.normalizeEvent;
 
-var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Eventful = __webpack_require__(/*! ../mixin/Eventful */ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Eventful.js");
+var Eventful = __webpack_require__(/*! ../mixin/Eventful */ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Eventful.js");
 
-var env = __webpack_require__(/*! ../core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! ../core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
 var TOUCH_CLICK_DELAY = 300;
 var mouseHandlerNames = ['click', 'dblclick', 'mousewheel', 'mouseout', 'mouseup', 'mousedown', 'mousemove', 'contextmenu'];
@@ -109559,7 +109979,7 @@ var domHandlers = {
 
     event.zrByTouch = true;
     this._lastTouchMoment = new Date();
-    this.handler.processGesture(this, event, 'start'); // In touch device, trigger `mousemove`(`mouseover`) should
+    this.handler.processGesture(event, 'start'); // In touch device, trigger `mousemove`(`mouseover`) should
     // be triggered, and must before `mousedown` triggered.
 
     domHandlers.mousemove.call(this, event);
@@ -109577,7 +109997,7 @@ var domHandlers = {
     // mouse event in upper applicatoin.
 
     event.zrByTouch = true;
-    this.handler.processGesture(this, event, 'change'); // Mouse move should always be triggered no matter whether
+    this.handler.processGesture(event, 'change'); // Mouse move should always be triggered no matter whether
     // there is gestrue event, because mouse move and pinch may
     // be used at the same time.
 
@@ -109595,7 +110015,7 @@ var domHandlers = {
     // mouse event in upper applicatoin.
 
     event.zrByTouch = true;
-    this.handler.processGesture(this, event, 'end');
+    this.handler.processGesture(event, 'end');
     domHandlers.mouseup.call(this, event); // Do not trigger `mouseout` here, in spite of `mousemove`(`mouseover`) is
     // triggered in `touchstart`. This seems to be illogical, but by this mechanism,
     // we can conveniently implement "hover style" in both PC and touch device just
@@ -109767,14 +110187,14 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/CompoundPath.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/CompoundPath.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/CompoundPath.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/CompoundPath.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Path = __webpack_require__(/*! ./Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ./Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
 // CompoundPath to improve performance
 var _default = Path.extend({
@@ -109833,23 +110253,22 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Displayable.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Displayable.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/Displayable.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/Displayable.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Style = __webpack_require__(/*! ./Style */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Style.js");
+var Style = __webpack_require__(/*! ./Style */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Style.js");
 
-var Element = __webpack_require__(/*! ../Element */ "../node_modules/_zrender@4.1.1@zrender/lib/Element.js");
+var Element = __webpack_require__(/*! ../Element */ "../node_modules/_zrender@4.1.2@zrender/lib/Element.js");
 
-var RectText = __webpack_require__(/*! ./mixin/RectText */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/mixin/RectText.js");
+var RectText = __webpack_require__(/*! ./mixin/RectText */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/mixin/RectText.js");
 
 /**
- * 可绘制的图形基类
  * Base class of all displayable graphic objects
  * @module zrender/graphic/Displayable
  */
@@ -109887,16 +110306,15 @@ Displayable.prototype = {
   type: 'displayable',
 
   /**
-   * Displayable 是否为脏，Painter 中会根据该标记判断是否需要是否需要重新绘制
-   * Dirty flag. From which painter will determine if this displayable object needs brush
+   * Dirty flag. From which painter will determine if this displayable object needs brush.
    * @name module:zrender/graphic/Displayable#__dirty
    * @type {boolean}
    */
   __dirty: true,
 
   /**
-   * 图形是否可见，为true时不绘制图形，但是仍能触发鼠标事件
-   * If ignore drawing of the displayable object. Mouse event will still be triggered
+   * Whether the displayable object is visible. when it is true, the displayable object
+   * is not drawn, but the mouse event can still trigger the object.
    * @name module:/zrender/graphic/Displayable#invisible
    * @type {boolean}
    * @default false
@@ -109918,7 +110336,7 @@ Displayable.prototype = {
   z2: 0,
 
   /**
-   * z层level，决定绘画在哪层canvas中
+   * The z level determines the displayable object can be drawn in which layer canvas.
    * @name module:/zrender/graphic/Displayable#zlevel
    * @type {number}
    * @default 0
@@ -109926,7 +110344,7 @@ Displayable.prototype = {
   zlevel: 0,
 
   /**
-   * 是否可拖拽
+   * Whether it can be dragged.
    * @name module:/zrender/graphic/Displayable#draggable
    * @type {boolean}
    * @default false
@@ -109934,7 +110352,7 @@ Displayable.prototype = {
   draggable: false,
 
   /**
-   * 是否正在拖拽
+   * Whether is it dragging.
    * @name module:/zrender/graphic/Displayable#draggable
    * @type {boolean}
    * @default false
@@ -109942,7 +110360,7 @@ Displayable.prototype = {
   dragging: false,
 
   /**
-   * 是否相应鼠标事件
+   * Whether to respond to mouse events.
    * @name module:/zrender/graphic/Displayable#silent
    * @type {boolean}
    * @default false
@@ -109991,21 +110409,20 @@ Displayable.prototype = {
   afterBrush: function (ctx) {},
 
   /**
-   * 图形绘制方法
+   * Graphic drawing method.
    * @param {CanvasRenderingContext2D} ctx
    */
   // Interface
   brush: function (ctx, prevEl) {},
 
   /**
-   * 获取最小包围盒
+   * Get the minimum bounding box.
    * @return {module:zrender/core/BoundingRect}
    */
   // Interface
   getBoundingRect: function () {},
 
   /**
-   * 判断坐标 x, y 是否在图形上
    * If displayable element contain coord x, y
    * @param  {number} x
    * @param  {number} y
@@ -110024,7 +110441,6 @@ Displayable.prototype = {
   },
 
   /**
-   * 判断坐标 x, y 是否在图形的包围盒上
    * If bounding rect of element contain coord x, y
    * @param  {number} x
    * @param  {number} y
@@ -110037,7 +110453,6 @@ Displayable.prototype = {
   },
 
   /**
-   * 标记图形元素为脏，并且在下一帧重绘
    * Mark displayable element dirty and refresh next frame
    */
   dirty: function () {
@@ -110047,11 +110462,10 @@ Displayable.prototype = {
   },
 
   /**
-   * 图形是否会触发事件
    * If displayable object binded any event
    * @return {boolean}
    */
-  // TODO, 通过 bind 绑定的事件
+  // TODO, events bound by bind
   // isSilent: function () {
   //     return !(
   //         this.hoverable || this.draggable
@@ -110126,9 +110540,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Gradient.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Gradient.js":
 /*!**********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/Gradient.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/Gradient.js ***!
   \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -110154,20 +110568,20 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Image.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Image.js":
 /*!*******************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/Image.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/Image.js ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Displayable = __webpack_require__(/*! ./Displayable */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Displayable.js");
+var Displayable = __webpack_require__(/*! ./Displayable */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Displayable.js");
 
-var BoundingRect = __webpack_require__(/*! ../core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! ../core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var imageHelper = __webpack_require__(/*! ./helper/image */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/image.js");
+var imageHelper = __webpack_require__(/*! ./helper/image */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/image.js");
 
 /**
  * @alias zrender/graphic/Image
@@ -110256,20 +110670,20 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/IncrementalDisplayable.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/IncrementalDisplayable.js":
 /*!************************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/IncrementalDisplayable.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/IncrementalDisplayable.js ***!
   \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var inherits = _util.inherits;
 
-var Displayble = __webpack_require__(/*! ./Displayable */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Displayable.js");
+var Displayble = __webpack_require__(/*! ./Displayable */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Displayable.js");
 
-var BoundingRect = __webpack_require__(/*! ../core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! ../core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
 /**
  * Displayable for incremental rendering. It will be rendered in a separate layer
@@ -110413,16 +110827,16 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/LinearGradient.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/LinearGradient.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/LinearGradient.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/LinearGradient.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Gradient = __webpack_require__(/*! ./Gradient */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Gradient.js");
+var Gradient = __webpack_require__(/*! ./Gradient */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Gradient.js");
 
 /**
  * x, y, x2, y2 are all percent from 0 to 1
@@ -110457,22 +110871,22 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Displayable = __webpack_require__(/*! ./Displayable */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Displayable.js");
+var Displayable = __webpack_require__(/*! ./Displayable */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Displayable.js");
 
-var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var PathProxy = __webpack_require__(/*! ../core/PathProxy */ "../node_modules/_zrender@4.1.1@zrender/lib/core/PathProxy.js");
+var PathProxy = __webpack_require__(/*! ../core/PathProxy */ "../node_modules/_zrender@4.1.2@zrender/lib/core/PathProxy.js");
 
-var pathContain = __webpack_require__(/*! ../contain/path */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/path.js");
+var pathContain = __webpack_require__(/*! ../contain/path */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/path.js");
 
-var Pattern = __webpack_require__(/*! ./Pattern */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Pattern.js");
+var Pattern = __webpack_require__(/*! ./Pattern */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Pattern.js");
 
 var getCanvasPattern = Pattern.prototype.getCanvasPattern;
 var abs = Math.abs;
@@ -110845,9 +111259,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Pattern.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Pattern.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/Pattern.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/Pattern.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -110870,16 +111284,16 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/RadialGradient.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/RadialGradient.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/RadialGradient.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/RadialGradient.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Gradient = __webpack_require__(/*! ./Gradient */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Gradient.js");
+var Gradient = __webpack_require__(/*! ./Gradient */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Gradient.js");
 
 /**
  * x, y, r are all percent from 0 to 1
@@ -110912,16 +111326,16 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Style.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Style.js":
 /*!*******************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/Style.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/Style.js ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var fixShadow = __webpack_require__(/*! ./helper/fixShadow */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/fixShadow.js");
+var fixShadow = __webpack_require__(/*! ./helper/fixShadow */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/fixShadow.js");
 
-var _constant = __webpack_require__(/*! ./constant */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/constant.js");
+var _constant = __webpack_require__(/*! ./constant */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/constant.js");
 
 var ContextCachedBy = _constant.ContextCachedBy;
 var STYLE_COMMON_PROPS = [['shadowBlur', 0], ['shadowOffsetX', 0], ['shadowOffsetY', 0], ['shadowColor', '#000'], ['lineCap', 'butt'], ['lineJoin', 'miter'], ['miterLimit', 10]]; // var SHADOW_PROPS = STYLE_COMMON_PROPS.slice(0, 4);
@@ -111207,23 +111621,31 @@ Style.prototype = {
 
   /**
    * Whether transform text.
-   * Only useful in Path and Image element
+   * Only available in Path and Image element,
+   * where the text is called as `RectText`.
    * @type {boolean}
    */
   transformText: false,
 
   /**
-   * Text rotate around position of Path or Image
-   * Only useful in Path and Image element and transformText is false.
+   * Text rotate around position of Path or Image.
+   * The origin of the rotation can be specified by `textOrigin`.
+   * Only available in Path and Image element,
+   * where the text is called as `RectText`.
    */
   textRotation: 0,
 
   /**
-   * Text origin of text rotation, like [10, 40].
-   * Based on x, y of rect.
-   * Useful in label rotation of circular symbol.
-   * By default, this origin is textPosition.
-   * Can be 'center'.
+   * Text origin of text rotation.
+   * Useful in the case like label rotation of circular symbol.
+   * Only available in Path and Image element, where the text is called
+   * as `RectText` and the element is called as "host element".
+   * The value can be:
+   * + If specified as a coordinate like `[10, 40]`, it is the `[x, y]`
+   * base on the left-top corner of the rect of its host element.
+   * + If specified as a string `center`, it is the center of the rect of
+   * its host element.
+   * + By default, this origin is the `textPosition`.
    * @type {string|Array.<number>}
    */
   textOrigin: null,
@@ -111391,22 +111813,22 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Text.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Text.js":
 /*!******************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/Text.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/Text.js ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Displayable = __webpack_require__(/*! ./Displayable */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Displayable.js");
+var Displayable = __webpack_require__(/*! ./Displayable */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Displayable.js");
 
-var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var textContain = __webpack_require__(/*! ../contain/text */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/text.js");
+var textContain = __webpack_require__(/*! ../contain/text */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/text.js");
 
-var textHelper = __webpack_require__(/*! ./helper/text */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/text.js");
+var textHelper = __webpack_require__(/*! ./helper/text */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/text.js");
 
-var _constant = __webpack_require__(/*! ./constant */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/constant.js");
+var _constant = __webpack_require__(/*! ./constant */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/constant.js");
 
 var ContextCachedBy = _constant.ContextCachedBy;
 
@@ -111480,9 +111902,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/constant.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/constant.js":
 /*!**********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/constant.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/constant.js ***!
   \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -111499,14 +111921,14 @@ exports.WILL_BE_RESTORED = WILL_BE_RESTORED;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/fixClipWithShadow.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/fixClipWithShadow.js":
 /*!**************************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/fixClipWithShadow.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/fixClipWithShadow.js ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var env = __webpack_require__(/*! ../../core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! ../../core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
 // Fix weird bug in some version of IE11 (like 11.0.9600.178**),
 // where exception "unexpected call to method or property access"
@@ -111565,9 +111987,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/fixShadow.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/fixShadow.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/fixShadow.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/fixShadow.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -111596,14 +112018,14 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/image.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/image.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/image.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/image.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var LRU = __webpack_require__(/*! ../../core/LRU */ "../node_modules/_zrender@4.1.1@zrender/lib/core/LRU.js");
+var LRU = __webpack_require__(/*! ../../core/LRU */ "../node_modules/_zrender@4.1.2@zrender/lib/core/LRU.js");
 
 var globalImageCache = new LRU(50);
 /**
@@ -111694,16 +112116,16 @@ exports.isImageReady = isImageReady;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/poly.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/poly.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/poly.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/poly.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var smoothSpline = __webpack_require__(/*! ./smoothSpline */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/smoothSpline.js");
+var smoothSpline = __webpack_require__(/*! ./smoothSpline */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/smoothSpline.js");
 
-var smoothBezier = __webpack_require__(/*! ./smoothBezier */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/smoothBezier.js");
+var smoothBezier = __webpack_require__(/*! ./smoothBezier */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/smoothBezier.js");
 
 function buildPath(ctx, shape, closePath) {
   var points = shape.points;
@@ -111741,9 +112163,9 @@ exports.buildPath = buildPath;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/roundRect.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/roundRect.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/roundRect.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/roundRect.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -111841,14 +112263,14 @@ exports.buildPath = buildPath;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/smoothBezier.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/smoothBezier.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/smoothBezier.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/smoothBezier.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _vector = __webpack_require__(/*! ../../core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var _vector = __webpack_require__(/*! ../../core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
 var v2Min = _vector.min;
 var v2Max = _vector.max;
@@ -111956,14 +112378,14 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/smoothSpline.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/smoothSpline.js":
 /*!*********************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/smoothSpline.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/smoothSpline.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _vector = __webpack_require__(/*! ../../core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var _vector = __webpack_require__(/*! ../../core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
 var v2Distance = _vector.distance;
 
@@ -112034,9 +112456,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/subPixelOptimize.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/subPixelOptimize.js":
 /*!*************************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/subPixelOptimize.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/subPixelOptimize.js ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -112144,14 +112566,14 @@ exports.subPixelOptimize = subPixelOptimize;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/text.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/text.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/text.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/text.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _util = __webpack_require__(/*! ../../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! ../../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var retrieve2 = _util.retrieve2;
 var retrieve3 = _util.retrieve3;
@@ -112160,15 +112582,15 @@ var normalizeCssArray = _util.normalizeCssArray;
 var isString = _util.isString;
 var isObject = _util.isObject;
 
-var textContain = __webpack_require__(/*! ../../contain/text */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/text.js");
+var textContain = __webpack_require__(/*! ../../contain/text */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/text.js");
 
-var roundRectHelper = __webpack_require__(/*! ./roundRect */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/roundRect.js");
+var roundRectHelper = __webpack_require__(/*! ./roundRect */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/roundRect.js");
 
-var imageHelper = __webpack_require__(/*! ./image */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/image.js");
+var imageHelper = __webpack_require__(/*! ./image */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/image.js");
 
-var fixShadow = __webpack_require__(/*! ./fixShadow */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/fixShadow.js");
+var fixShadow = __webpack_require__(/*! ./fixShadow */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/fixShadow.js");
 
-var _constant = __webpack_require__(/*! ../constant */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/constant.js");
+var _constant = __webpack_require__(/*! ../constant */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/constant.js");
 
 var ContextCachedBy = _constant.ContextCachedBy;
 var WILL_BE_RESTORED = _constant.WILL_BE_RESTORED;
@@ -112693,6 +113115,7 @@ function needDrawText(text, style) {
 
 exports.normalizeTextStyle = normalizeTextStyle;
 exports.renderText = renderText;
+exports.getBoxPosition = getBoxPosition;
 exports.getStroke = getStroke;
 exports.getFill = getFill;
 exports.parsePercent = parsePercent;
@@ -112700,18 +113123,18 @@ exports.needDrawText = needDrawText;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/mixin/RectText.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/mixin/RectText.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/mixin/RectText.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/mixin/RectText.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var textHelper = __webpack_require__(/*! ../helper/text */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/text.js");
+var textHelper = __webpack_require__(/*! ../helper/text */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/text.js");
 
-var BoundingRect = __webpack_require__(/*! ../../core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! ../../core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var _constant = __webpack_require__(/*! ../constant */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/constant.js");
+var _constant = __webpack_require__(/*! ../constant */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/constant.js");
 
 var WILL_BE_RESTORED = _constant.WILL_BE_RESTORED;
 
@@ -112772,14 +113195,14 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Arc.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Arc.js":
 /*!***********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Arc.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Arc.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
 /**
  * 圆弧
@@ -112817,18 +113240,18 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/BezierCurve.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/BezierCurve.js":
 /*!*******************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/BezierCurve.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/BezierCurve.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
-var vec2 = __webpack_require__(/*! ../../core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vec2 = __webpack_require__(/*! ../../core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
-var _curve = __webpack_require__(/*! ../../core/curve */ "../node_modules/_zrender@4.1.1@zrender/lib/core/curve.js");
+var _curve = __webpack_require__(/*! ../../core/curve */ "../node_modules/_zrender@4.1.2@zrender/lib/core/curve.js");
 
 var quadraticSubdivide = _curve.quadraticSubdivide;
 var cubicSubdivide = _curve.cubicSubdivide;
@@ -112940,14 +113363,14 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Circle.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Circle.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Circle.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Circle.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
 /**
  * 圆形
@@ -112982,14 +113405,14 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Ellipse.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Ellipse.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Ellipse.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Ellipse.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
 /**
  * 椭圆形状
@@ -113027,16 +113450,16 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Line.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Line.js":
 /*!************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Line.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Line.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
-var _subPixelOptimize = __webpack_require__(/*! ../helper/subPixelOptimize */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/subPixelOptimize.js");
+var _subPixelOptimize = __webpack_require__(/*! ../helper/subPixelOptimize */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/subPixelOptimize.js");
 
 var subPixelOptimizeLine = _subPixelOptimize.subPixelOptimizeLine;
 
@@ -113112,16 +113535,16 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Polygon.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Polygon.js":
 /*!***************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Polygon.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Polygon.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
-var polyHelper = __webpack_require__(/*! ../helper/poly */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/poly.js");
+var polyHelper = __webpack_require__(/*! ../helper/poly */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/poly.js");
 
 /**
  * 多边形
@@ -113143,16 +113566,16 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Polyline.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Polyline.js":
 /*!****************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Polyline.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Polyline.js ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
-var polyHelper = __webpack_require__(/*! ../helper/poly */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/poly.js");
+var polyHelper = __webpack_require__(/*! ../helper/poly */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/poly.js");
 
 /**
  * @module zrender/graphic/shape/Polyline
@@ -113177,18 +113600,18 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Rect.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Rect.js":
 /*!************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Rect.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Rect.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
-var roundRectHelper = __webpack_require__(/*! ../helper/roundRect */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/roundRect.js");
+var roundRectHelper = __webpack_require__(/*! ../helper/roundRect */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/roundRect.js");
 
-var _subPixelOptimize = __webpack_require__(/*! ../helper/subPixelOptimize */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/subPixelOptimize.js");
+var _subPixelOptimize = __webpack_require__(/*! ../helper/subPixelOptimize */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/subPixelOptimize.js");
 
 var subPixelOptimizeRect = _subPixelOptimize.subPixelOptimizeRect;
 
@@ -113249,14 +113672,14 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Ring.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Ring.js":
 /*!************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Ring.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Ring.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
 /**
  * 圆环
@@ -113285,16 +113708,16 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Sector.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Sector.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Sector.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Sector.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
-var fixClipWithShadow = __webpack_require__(/*! ../helper/fixClipWithShadow */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/fixClipWithShadow.js");
+var fixClipWithShadow = __webpack_require__(/*! ../helper/fixClipWithShadow */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/fixClipWithShadow.js");
 
 /**
  * 扇形
@@ -113339,18 +113762,18 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Animatable.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Animatable.js":
 /*!**********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/mixin/Animatable.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/mixin/Animatable.js ***!
   \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Animator = __webpack_require__(/*! ../animation/Animator */ "../node_modules/_zrender@4.1.1@zrender/lib/animation/Animator.js");
+var Animator = __webpack_require__(/*! ../animation/Animator */ "../node_modules/_zrender@4.1.2@zrender/lib/animation/Animator.js");
 
-var logError = __webpack_require__(/*! ../core/log */ "../node_modules/_zrender@4.1.1@zrender/lib/core/log.js");
+var logError = __webpack_require__(/*! ../core/log */ "../node_modules/_zrender@4.1.2@zrender/lib/core/log.js");
 
-var _util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var isString = _util.isString;
 var isFunction = _util.isFunction;
@@ -113624,9 +114047,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Draggable.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Draggable.js":
 /*!*********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/mixin/Draggable.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/mixin/Draggable.js ***!
   \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -113713,9 +114136,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Eventful.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Eventful.js":
 /*!********************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/mixin/Eventful.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/mixin/Eventful.js ***!
   \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -114092,16 +114515,16 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/mixin/Transformable.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/mixin/Transformable.js":
 /*!*************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/mixin/Transformable.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/mixin/Transformable.js ***!
   \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var matrix = __webpack_require__(/*! ../core/matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrix = __webpack_require__(/*! ../core/matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
-var vector = __webpack_require__(/*! ../core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var vector = __webpack_require__(/*! ../core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
 /**
  * 提供变换扩展
@@ -114426,36 +114849,36 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/svg/Painter.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/svg/Painter.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/svg/Painter.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/svg/Painter.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _core = __webpack_require__(/*! ./core */ "../node_modules/_zrender@4.1.1@zrender/lib/svg/core.js");
+var _core = __webpack_require__(/*! ./core */ "../node_modules/_zrender@4.1.2@zrender/lib/svg/core.js");
 
 var createElement = _core.createElement;
 
-var util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var logError = __webpack_require__(/*! ../core/log */ "../node_modules/_zrender@4.1.1@zrender/lib/core/log.js");
+var logError = __webpack_require__(/*! ../core/log */ "../node_modules/_zrender@4.1.2@zrender/lib/core/log.js");
 
-var Path = __webpack_require__(/*! ../graphic/Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../graphic/Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
-var ZImage = __webpack_require__(/*! ../graphic/Image */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Image.js");
+var ZImage = __webpack_require__(/*! ../graphic/Image */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Image.js");
 
-var ZText = __webpack_require__(/*! ../graphic/Text */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Text.js");
+var ZText = __webpack_require__(/*! ../graphic/Text */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Text.js");
 
-var arrayDiff = __webpack_require__(/*! ../core/arrayDiff2 */ "../node_modules/_zrender@4.1.1@zrender/lib/core/arrayDiff2.js");
+var arrayDiff = __webpack_require__(/*! ../core/arrayDiff2 */ "../node_modules/_zrender@4.1.2@zrender/lib/core/arrayDiff2.js");
 
-var GradientManager = __webpack_require__(/*! ./helper/GradientManager */ "../node_modules/_zrender@4.1.1@zrender/lib/svg/helper/GradientManager.js");
+var GradientManager = __webpack_require__(/*! ./helper/GradientManager */ "../node_modules/_zrender@4.1.2@zrender/lib/svg/helper/GradientManager.js");
 
-var ClippathManager = __webpack_require__(/*! ./helper/ClippathManager */ "../node_modules/_zrender@4.1.1@zrender/lib/svg/helper/ClippathManager.js");
+var ClippathManager = __webpack_require__(/*! ./helper/ClippathManager */ "../node_modules/_zrender@4.1.2@zrender/lib/svg/helper/ClippathManager.js");
 
-var ShadowManager = __webpack_require__(/*! ./helper/ShadowManager */ "../node_modules/_zrender@4.1.1@zrender/lib/svg/helper/ShadowManager.js");
+var ShadowManager = __webpack_require__(/*! ./helper/ShadowManager */ "../node_modules/_zrender@4.1.2@zrender/lib/svg/helper/ShadowManager.js");
 
-var _graphic = __webpack_require__(/*! ./graphic */ "../node_modules/_zrender@4.1.1@zrender/lib/svg/graphic.js");
+var _graphic = __webpack_require__(/*! ./graphic */ "../node_modules/_zrender@4.1.2@zrender/lib/svg/graphic.js");
 
 var svgPath = _graphic.path;
 var svgImage = _graphic.image;
@@ -114647,19 +115070,22 @@ SVGPainter.prototype = {
 
 
           insertAfter(svgRoot, textSvgElement, svgElement);
-          prevSvgElement = textSvgElement || svgElement || prevSvgElement;
-          this.gradientManager.addWithoutUpdate(svgElement, displayable);
-          this.shadowManager.addWithoutUpdate(prevSvgElement, displayable);
+          prevSvgElement = textSvgElement || svgElement || prevSvgElement; // zrender.Text only create textSvgElement.
+
+          this.gradientManager.addWithoutUpdate(svgElement || textSvgElement, displayable);
+          this.shadowManager.addWithoutUpdate(svgElement || textSvgElement, displayable);
           this.clipPathManager.markUsed(displayable);
         }
       } else if (!item.removed) {
         for (var k = 0; k < item.count; k++) {
           var displayable = newVisibleList[item.indices[k]];
-          prevSvgElement = svgElement = getTextSvgElement(displayable) || getSvgElement(displayable) || prevSvgElement;
+          prevSvgElement = getTextSvgElement(displayable) || getSvgElement(displayable) || prevSvgElement;
+          var svgElement = getSvgElement(displayable);
+          var textSvgElement = getTextSvgElement(displayable);
           this.gradientManager.markUsed(displayable);
-          this.gradientManager.addWithoutUpdate(svgElement, displayable);
+          this.gradientManager.addWithoutUpdate(svgElement || textSvgElement, displayable);
           this.shadowManager.markUsed(displayable);
-          this.shadowManager.addWithoutUpdate(svgElement, displayable);
+          this.shadowManager.addWithoutUpdate(svgElement || textSvgElement, displayable);
           this.clipPathManager.markUsed(displayable);
         }
       }
@@ -114794,9 +115220,9 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/svg/core.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/svg/core.js":
 /*!**************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/svg/core.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/svg/core.js ***!
   \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -114811,28 +115237,28 @@ exports.createElement = createElement;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/svg/graphic.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/svg/graphic.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/svg/graphic.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/svg/graphic.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _core = __webpack_require__(/*! ./core */ "../node_modules/_zrender@4.1.1@zrender/lib/svg/core.js");
+var _core = __webpack_require__(/*! ./core */ "../node_modules/_zrender@4.1.2@zrender/lib/svg/core.js");
 
 var createElement = _core.createElement;
 
-var PathProxy = __webpack_require__(/*! ../core/PathProxy */ "../node_modules/_zrender@4.1.1@zrender/lib/core/PathProxy.js");
+var PathProxy = __webpack_require__(/*! ../core/PathProxy */ "../node_modules/_zrender@4.1.2@zrender/lib/core/PathProxy.js");
 
-var BoundingRect = __webpack_require__(/*! ../core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! ../core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var matrix = __webpack_require__(/*! ../core/matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrix = __webpack_require__(/*! ../core/matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
-var textContain = __webpack_require__(/*! ../contain/text */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/text.js");
+var textContain = __webpack_require__(/*! ../contain/text */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/text.js");
 
-var textHelper = __webpack_require__(/*! ../graphic/helper/text */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/text.js");
+var textHelper = __webpack_require__(/*! ../graphic/helper/text */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/text.js");
 
-var Text = __webpack_require__(/*! ../graphic/Text */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Text.js");
+var Text = __webpack_require__(/*! ../graphic/Text */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Text.js");
 
 // TODO
 // 1. shadow
@@ -114966,15 +115392,17 @@ function pathDataToString(path) {
         var psi = data[i++];
         var clockwise = data[i++];
         var dThetaPositive = Math.abs(dTheta);
-        var isCircle = isAroundZero(dThetaPositive - PI2) && !isAroundZero(dThetaPositive);
+        var isCircle = isAroundZero(dThetaPositive - PI2) || (clockwise ? dTheta >= PI2 : -dTheta >= PI2); // Mapping to 0~2PI
+
+        var unifiedTheta = dTheta > 0 ? dTheta % PI2 : dTheta % PI2 + PI2;
         var large = false;
 
-        if (dThetaPositive >= PI2) {
+        if (isCircle) {
           large = true;
         } else if (isAroundZero(dThetaPositive)) {
           large = false;
         } else {
-          large = (dTheta > -PI && dTheta < 0 || dTheta > PI) === !!clockwise;
+          large = unifiedTheta >= PI === !!clockwise;
         }
 
         var x0 = round4(cx + rx * mathCos(theta));
@@ -115122,19 +115550,46 @@ svgImage.brush = function (el) {
 
 
 var svgText = {};
-var tmpRect = new BoundingRect();
-var tmpTextPositionResult = {};
 
-var svgTextDrawRectText = function (el, rect, textRect) {
+var _tmpTextHostRect = new BoundingRect();
+
+var _tmpTextBoxPos = {};
+var _tmpTextTransform = [];
+var TEXT_ALIGN_TO_ANCHRO = {
+  left: 'start',
+  right: 'end',
+  center: 'middle',
+  middle: 'middle'
+};
+/**
+ * @param {module:zrender/Element} el
+ * @param {Object|boolean} [hostRect] {x, y, width, height}
+ *        If set false, rect text is not used.
+ */
+
+var svgTextDrawRectText = function (el, hostRect) {
   var style = el.style;
+  var elTransform = el.transform;
+  var needTransformTextByHostEl = el instanceof Text || style.transformText;
   el.__dirty && textHelper.normalizeTextStyle(style, true);
   var text = style.text; // Convert to string
 
-  if (text == null) {
-    // Draw no text only when text is set to null, but not ''
+  text != null && (text += '');
+
+  if (!textHelper.needDrawText(text, style)) {
     return;
-  } else {
-    text += '';
+  } // render empty text for svg if no text but need draw text.
+
+
+  text == null && (text = ''); // Follow the setting in the canvas renderer, if not transform the
+  // text, transform the hostRect, by which the text is located.
+
+  if (!needTransformTextByHostEl && elTransform) {
+    _tmpTextHostRect.copy(hostRect);
+
+    _tmpTextHostRect.applyTransform(elTransform);
+
+    hostRect = _tmpTextHostRect;
   }
 
   var textSvgEl = el.__textSvgEl;
@@ -115142,170 +115597,142 @@ var svgTextDrawRectText = function (el, rect, textRect) {
   if (!textSvgEl) {
     textSvgEl = createElement('text');
     el.__textSvgEl = textSvgEl;
+  } // style.font has been normalized by `normalizeTextStyle`.
+
+
+  var textSvgElStyle = textSvgEl.style;
+  var font = style.font || textContain.DEFAULT_FONT;
+  var computedFont = textSvgEl.__computedFont;
+
+  if (font !== textSvgEl.__styleFont) {
+    textSvgElStyle.font = textSvgEl.__styleFont = font; // The computedFont might not be the orginal font if it is illegal font.
+
+    computedFont = textSvgEl.__computedFont = textSvgElStyle.font;
   }
 
-  var x;
-  var y;
-  var textPosition = style.textPosition;
-  var align = style.textAlign || 'left';
+  var textPadding = style.textPadding;
+  var textLineHeight = style.textLineHeight;
+  var contentBlock = el.__textCotentBlock;
 
-  if (typeof style.fontSize === 'number') {
-    style.fontSize += 'px';
+  if (!contentBlock || el.__dirtyText) {
+    contentBlock = el.__textCotentBlock = textContain.parsePlainText(text, computedFont, textPadding, textLineHeight, style.truncate);
   }
 
-  var font = style.font || [style.fontStyle || '', style.fontWeight || '', style.fontSize || '', style.fontFamily || ''].join(' ') || textContain.DEFAULT_FONT;
-  var verticalAlign = style.textVerticalAlign;
-  textRect = textContain.getBoundingRect(text, font, align, verticalAlign, style.textPadding, style.textLineHeight, false, style.truncate);
-  var lineHeight = textRect.lineHeight; // Text position represented by coord
+  var outerHeight = contentBlock.outerHeight;
+  var lineHeight = contentBlock.lineHeight;
+  textHelper.getBoxPosition(_tmpTextBoxPos, el, style, hostRect);
+  var baseX = _tmpTextBoxPos.baseX;
+  var baseY = _tmpTextBoxPos.baseY;
+  var textAlign = _tmpTextBoxPos.textAlign || 'left';
+  var textVerticalAlign = _tmpTextBoxPos.textVerticalAlign;
+  setTextTransform(textSvgEl, needTransformTextByHostEl, elTransform, style, hostRect, baseX, baseY);
+  var boxY = textContain.adjustTextY(baseY, outerHeight, textVerticalAlign);
+  var textX = baseX;
+  var textY = boxY; // TODO needDrawBg
 
-  if (textPosition instanceof Array) {
-    x = rect.x + textHelper.parsePercent(textPosition[0], rect.width);
-    y = rect.y + textHelper.parsePercent(textPosition[1], rect.height);
-  } else {
-    var newPos = el.calculateTextPosition ? el.calculateTextPosition(tmpTextPositionResult, style, rect) : textContain.calculateTextPosition(tmpTextPositionResult, style, rect);
-    x = newPos.x;
-    y = newPos.y;
-    verticalAlign = newPos.textVerticalAlign;
-    align = newPos.textAlign;
-  }
-
-  setVerticalAlign(textSvgEl, verticalAlign);
-
-  if (font) {
-    textSvgEl.style.font = font;
-  }
-
-  var textPadding = style.textPadding; // Make baseline top
-
-  attr(textSvgEl, 'x', x);
-  attr(textSvgEl, 'y', y);
-  bindStyle(textSvgEl, style, true, el);
-
-  if (el instanceof Text || el.style.transformText) {
-    // Transform text with element
-    setTransform(textSvgEl, el.transform);
-  } else {
-    if (el.transform) {
-      tmpRect.copy(rect);
-      tmpRect.applyTransform(el.transform);
-      rect = tmpRect;
-    } else {
-      var pos = el.transformCoordToGlobal(rect.x, rect.y);
-      rect.x = pos[0];
-      rect.y = pos[1];
-      el.transform = matrix.identity(matrix.create());
-    } // Text rotation, but no element transform
+  if (textPadding) {
+    textX = getTextXForPadding(baseX, textAlign, textPadding);
+    textY += textPadding[0];
+  } // `textBaseline` is set as 'middle'.
 
 
-    var origin = style.textOrigin;
+  textY += lineHeight / 2;
+  bindStyle(textSvgEl, style, true, el); // FIXME
+  // Add a <style> to reset all of the text font as inherit?
+  // otherwise the outer <style> may set the unexpected style.
+  // Font may affect position of each tspan elements
 
-    if (origin === 'center') {
-      x = textRect.width / 2 + x;
-      y = textRect.height / 2 + y;
-    } else if (origin) {
-      x = origin[0] + x;
-      y = origin[1] + y;
+  var canCacheByTextString = contentBlock.canCacheByTextString;
+  var tspanList = el.__tspanList || (el.__tspanList = []);
+  var tspanOriginLen = tspanList.length; // Optimize for most cases, just compare text string to determine change.
+
+  if (canCacheByTextString && el.__canCacheByTextString && el.__text === text) {
+    if (el.__dirtyText && tspanOriginLen) {
+      for (var idx = 0; idx < tspanOriginLen; ++idx) {
+        updateTextLocation(tspanList[idx], textAlign, textX, textY + idx * lineHeight);
+      }
     }
-
-    var rotate = -style.textRotation || 0;
-    var transform = matrix.create(); // Apply textRotate to element matrix
-
-    matrix.rotate(transform, transform, rotate);
-    var pos = [el.transform[4], el.transform[5]];
-    matrix.translate(transform, transform, pos);
-    setTransform(textSvgEl, transform);
-  }
-
-  var contentBlock = textContain.parsePlainText(text, font, textPadding, lineHeight, style.truncate);
-  var textLines = contentBlock.lines;
-  var nTextLines = textLines.length;
-  var textAnchor = align; // PENDING
-
-  if (textAnchor === 'left') {
-    textAnchor = 'start';
-    textPadding && (x += textPadding[3]);
-  } else if (textAnchor === 'right') {
-    textAnchor = 'end';
-    textPadding && (x -= textPadding[1]);
-  } else if (textAnchor === 'center') {
-    textAnchor = 'middle';
-    textPadding && (x += (textPadding[3] - textPadding[1]) / 2);
-  }
-
-  var dy = 0;
-
-  if (verticalAlign === 'bottom') {
-    dy = -textRect.height + lineHeight;
-    textPadding && (dy -= textPadding[2]);
-  } else if (verticalAlign === 'middle') {
-    dy = (-textRect.height + lineHeight) / 2;
-    textPadding && (y += (textPadding[0] - textPadding[2]) / 2);
   } else {
-    textPadding && (dy += textPadding[0]);
-  } // Font may affect position of each tspan elements
+    el.__text = text;
+    el.__canCacheByTextString = canCacheByTextString;
+    var textLines = contentBlock.lines;
+    var nTextLines = textLines.length;
+    var idx = 0;
 
-
-  if (el.__text !== text || el.__textFont !== font) {
-    var tspanList = el.__tspanList || [];
-    el.__tspanList = tspanList;
-
-    for (var i = 0; i < nTextLines; i++) {
+    for (; idx < nTextLines; idx++) {
       // Using cached tspan elements
-      var tspan = tspanList[i];
+      var tspan = tspanList[idx];
+      var singleLineText = textLines[idx];
 
       if (!tspan) {
-        tspan = tspanList[i] = createElement('tspan');
+        tspan = tspanList[idx] = createElement('tspan');
         textSvgEl.appendChild(tspan);
-        setVerticalAlign(tspan, verticalAlign);
-        attr(tspan, 'text-anchor', textAnchor);
-      } else {
+        tspan.appendChild(document.createTextNode(singleLineText));
+      } else if (tspan.__zrText !== singleLineText) {
         tspan.innerHTML = '';
+        tspan.appendChild(document.createTextNode(singleLineText));
       }
 
-      attr(tspan, 'x', x);
-      attr(tspan, 'y', y + i * lineHeight + dy);
-      tspan.appendChild(document.createTextNode(textLines[i]));
-    } // Remove unsed tspan elements
+      updateTextLocation(tspan, textAlign, textX, textY + idx * lineHeight);
+    } // Remove unused tspan elements
 
 
-    for (; i < tspanList.length; i++) {
-      textSvgEl.removeChild(tspanList[i]);
-    }
-
-    tspanList.length = nTextLines;
-    el.__text = text;
-    el.__textFont = font;
-  } else if (el.__tspanList.length) {
-    // Update span x and y
-    var len = el.__tspanList.length;
-
-    for (var i = 0; i < len; ++i) {
-      var tspan = el.__tspanList[i];
-
-      if (tspan) {
-        attr(tspan, 'x', x);
-        attr(tspan, 'y', y + i * lineHeight + dy);
+    if (tspanOriginLen > nTextLines) {
+      for (; idx < tspanOriginLen; idx++) {
+        textSvgEl.removeChild(tspanList[idx]);
       }
+
+      tspanList.length = nTextLines;
     }
   }
 };
 
-function setVerticalAlign(textSvgEl, verticalAlign) {
-  switch (verticalAlign) {
-    case 'middle':
-      attr(textSvgEl, 'dominant-baseline', 'middle');
-      attr(textSvgEl, 'alignment-baseline', 'middle');
-      break;
+function setTextTransform(textSvgEl, needTransformTextByHostEl, elTransform, style, hostRect, baseX, baseY) {
+  matrix.identity(_tmpTextTransform);
 
-    case 'bottom':
-      attr(textSvgEl, 'dominant-baseline', 'ideographic');
-      attr(textSvgEl, 'alignment-baseline', 'ideographic');
-      break;
+  if (needTransformTextByHostEl && elTransform) {
+    matrix.copy(_tmpTextTransform, elTransform);
+  } // textRotation only apply in RectText.
 
-    default:
-      attr(textSvgEl, 'dominant-baseline', 'hanging');
-      attr(textSvgEl, 'alignment-baseline', 'hanging');
-  }
+
+  var textRotation = style.textRotation;
+
+  if (hostRect && textRotation) {
+    var origin = style.textOrigin;
+
+    if (origin === 'center') {
+      baseX = hostRect.width / 2 + hostRect.x;
+      baseY = hostRect.height / 2 + hostRect.y;
+    } else if (origin) {
+      baseX = origin[0] + hostRect.x;
+      baseY = origin[1] + hostRect.y;
+    }
+
+    _tmpTextTransform[4] -= baseX;
+    _tmpTextTransform[5] -= baseY; // Positive: anticlockwise
+
+    matrix.rotate(_tmpTextTransform, _tmpTextTransform, textRotation);
+    _tmpTextTransform[4] += baseX;
+    _tmpTextTransform[5] += baseY;
+  } // See the definition in `Style.js#textOrigin`, the default
+  // origin is from the result of `getBoxPosition`.
+
+
+  setTransform(textSvgEl, _tmpTextTransform);
+} // FIXME merge the same code with `helper/text.js#getTextXForPadding`;
+
+
+function getTextXForPadding(x, textAlign, textPadding) {
+  return textAlign === 'right' ? x - textPadding[1] : textAlign === 'center' ? x + textPadding[3] / 2 - textPadding[1] / 2 : x + textPadding[3];
+}
+
+function updateTextLocation(tspan, textAlign, x, y) {
+  // Consider different font display differently in vertial align, we always
+  // set vertialAlign as 'middle', and use 'y' to locate text vertically.
+  attr(tspan, 'dominant-baseline', 'middle');
+  attr(tspan, 'text-anchor', TEXT_ALIGN_TO_ANCHRO[textAlign]);
+  attr(tspan, 'x', x);
+  attr(tspan, 'y', y);
 }
 
 svgText.drawRectText = svgTextDrawRectText;
@@ -115314,14 +115741,7 @@ svgText.brush = function (el) {
   var style = el.style;
 
   if (style.text != null) {
-    // 强制设置 textPosition
-    style.textPosition = [0, 0];
-    svgTextDrawRectText(el, {
-      x: style.x || 0,
-      y: style.y || 0,
-      width: 0,
-      height: 0
-    }, el.getBoundingRect());
+    svgTextDrawRectText(el, false);
   }
 };
 
@@ -115331,18 +115751,18 @@ exports.text = svgText;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/svg/helper/ClippathManager.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/svg/helper/ClippathManager.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/svg/helper/ClippathManager.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/svg/helper/ClippathManager.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Definable = __webpack_require__(/*! ./Definable */ "../node_modules/_zrender@4.1.1@zrender/lib/svg/helper/Definable.js");
+var Definable = __webpack_require__(/*! ./Definable */ "../node_modules/_zrender@4.1.2@zrender/lib/svg/helper/Definable.js");
 
-var zrUtil = __webpack_require__(/*! ../../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! ../../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var matrix = __webpack_require__(/*! ../../core/matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrix = __webpack_require__(/*! ../../core/matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
 /**
  * @file Manages SVG clipPath elements.
@@ -115497,26 +115917,26 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/svg/helper/Definable.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/svg/helper/Definable.js":
 /*!**************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/svg/helper/Definable.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/svg/helper/Definable.js ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _core = __webpack_require__(/*! ../core */ "../node_modules/_zrender@4.1.1@zrender/lib/svg/core.js");
+var _core = __webpack_require__(/*! ../core */ "../node_modules/_zrender@4.1.2@zrender/lib/svg/core.js");
 
 var createElement = _core.createElement;
 
-var zrUtil = __webpack_require__(/*! ../../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! ../../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Path = __webpack_require__(/*! ../../graphic/Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../../graphic/Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
-var ZImage = __webpack_require__(/*! ../../graphic/Image */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Image.js");
+var ZImage = __webpack_require__(/*! ../../graphic/Image */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Image.js");
 
-var ZText = __webpack_require__(/*! ../../graphic/Text */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Text.js");
+var ZText = __webpack_require__(/*! ../../graphic/Text */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Text.js");
 
-var _graphic = __webpack_require__(/*! ../graphic */ "../node_modules/_zrender@4.1.1@zrender/lib/svg/graphic.js");
+var _graphic = __webpack_require__(/*! ../graphic */ "../node_modules/_zrender@4.1.2@zrender/lib/svg/graphic.js");
 
 var svgPath = _graphic.path;
 var svgImage = _graphic.image;
@@ -115773,20 +116193,20 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/svg/helper/GradientManager.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/svg/helper/GradientManager.js":
 /*!********************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/svg/helper/GradientManager.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/svg/helper/GradientManager.js ***!
   \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Definable = __webpack_require__(/*! ./Definable */ "../node_modules/_zrender@4.1.1@zrender/lib/svg/helper/Definable.js");
+var Definable = __webpack_require__(/*! ./Definable */ "../node_modules/_zrender@4.1.2@zrender/lib/svg/helper/Definable.js");
 
-var zrUtil = __webpack_require__(/*! ../../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! ../../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var logError = __webpack_require__(/*! ../../core/log */ "../node_modules/_zrender@4.1.1@zrender/lib/core/log.js");
+var logError = __webpack_require__(/*! ../../core/log */ "../node_modules/_zrender@4.1.2@zrender/lib/core/log.js");
 
-var colorTool = __webpack_require__(/*! ../../tool/color */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/color.js");
+var colorTool = __webpack_require__(/*! ../../tool/color */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/color.js");
 
 /**
  * @file Manages SVG gradient elements.
@@ -115991,16 +116411,16 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/svg/helper/ShadowManager.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/svg/helper/ShadowManager.js":
 /*!******************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/svg/helper/ShadowManager.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/svg/helper/ShadowManager.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Definable = __webpack_require__(/*! ./Definable */ "../node_modules/_zrender@4.1.1@zrender/lib/svg/helper/Definable.js");
+var Definable = __webpack_require__(/*! ./Definable */ "../node_modules/_zrender@4.1.2@zrender/lib/svg/helper/Definable.js");
 
-var zrUtil = __webpack_require__(/*! ../../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! ../../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 /**
  * @file Manages SVG shadow elements.
@@ -116030,16 +116450,15 @@ zrUtil.inherits(ShadowManager, Definable);
 
 ShadowManager.prototype.addWithoutUpdate = function (svgElement, displayable) {
   if (displayable && hasShadow(displayable.style)) {
-    var style = displayable.style; // Create dom in <defs> if not exists
-
+    // Create dom in <defs> if not exists
     var dom;
 
-    if (style._shadowDom) {
+    if (displayable._shadowDom) {
       // Gradient exists
-      dom = style._shadowDom;
+      dom = displayable._shadowDom;
       var defs = this.getDefs(true);
 
-      if (!defs.contains(style._shadowDom)) {
+      if (!defs.contains(displayable._shadowDom)) {
         // _shadowDom is no longer in defs, recreate
         this.addDom(dom);
       }
@@ -116062,15 +116481,14 @@ ShadowManager.prototype.addWithoutUpdate = function (svgElement, displayable) {
 
 
 ShadowManager.prototype.add = function (displayable) {
-  var dom = this.createElement('filter');
-  var style = displayable.style; // Set dom id with shadow id, since each shadow instance
+  var dom = this.createElement('filter'); // Set dom id with shadow id, since each shadow instance
   // will have no more than one dom element.
   // id may exists before for those dirty elements, in which case
   // id should remain the same, and other attributes should be
   // updated.
 
-  style._shadowDomId = style._shadowDomId || this.nextId++;
-  dom.setAttribute('id', 'zr' + this._zrId + '-shadow-' + style._shadowDomId);
+  displayable._shadowDomId = displayable._shadowDomId || this.nextId++;
+  dom.setAttribute('id', 'zr' + this._zrId + '-shadow-' + displayable._shadowDomId);
   this.updateDom(displayable, dom);
   this.addDom(dom);
   return dom;
@@ -116087,12 +116505,12 @@ ShadowManager.prototype.update = function (svgElement, displayable) {
 
   if (hasShadow(style)) {
     var that = this;
-    Definable.prototype.update.call(this, displayable, function (style) {
-      that.updateDom(displayable, style._shadowDom);
+    Definable.prototype.update.call(this, displayable, function () {
+      that.updateDom(displayable, displayable._shadowDom);
     });
   } else {
     // Remove shadow
-    this.remove(svgElement, style);
+    this.remove(svgElement, displayable);
   }
 };
 /**
@@ -116100,9 +116518,9 @@ ShadowManager.prototype.update = function (svgElement, displayable) {
  */
 
 
-ShadowManager.prototype.remove = function (svgElement, style) {
-  if (style._shadowDomId != null) {
-    this.removeDom(style);
+ShadowManager.prototype.remove = function (svgElement, displayable) {
+  if (displayable._shadowDomId != null) {
+    this.removeDom(svgElement);
     svgElement.style.filter = '';
   }
 };
@@ -116165,7 +116583,7 @@ ShadowManager.prototype.updateDom = function (displayable, dom) {
   dom.appendChild(domChild); // Store dom element in shadow, to avoid creating multiple
   // dom instances for the same shadow element
 
-  style._shadowDom = dom;
+  displayable._shadowDom = dom;
 };
 /**
  * Mark a single shadow to be used
@@ -116175,10 +116593,8 @@ ShadowManager.prototype.updateDom = function (displayable, dom) {
 
 
 ShadowManager.prototype.markUsed = function (displayable) {
-  var style = displayable.style;
-
-  if (style && style._shadowDom) {
-    Definable.prototype.markUsed.call(this, style._shadowDom);
+  if (displayable._shadowDom) {
+    Definable.prototype.markUsed.call(this, displayable._shadowDom);
   }
 };
 
@@ -116192,33 +116608,33 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/svg/svg.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/svg/svg.js":
 /*!*************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/svg/svg.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/svg/svg.js ***!
   \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./graphic */ "../node_modules/_zrender@4.1.1@zrender/lib/svg/graphic.js");
+__webpack_require__(/*! ./graphic */ "../node_modules/_zrender@4.1.2@zrender/lib/svg/graphic.js");
 
-var _zrender = __webpack_require__(/*! ../zrender */ "../node_modules/_zrender@4.1.1@zrender/lib/zrender.js");
+var _zrender = __webpack_require__(/*! ../zrender */ "../node_modules/_zrender@4.1.2@zrender/lib/zrender.js");
 
 var registerPainter = _zrender.registerPainter;
 
-var Painter = __webpack_require__(/*! ./Painter */ "../node_modules/_zrender@4.1.1@zrender/lib/svg/Painter.js");
+var Painter = __webpack_require__(/*! ./Painter */ "../node_modules/_zrender@4.1.2@zrender/lib/svg/Painter.js");
 
 registerPainter('svg', Painter);
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/tool/color.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/tool/color.js":
 /*!****************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/tool/color.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/tool/color.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var LRU = __webpack_require__(/*! ../core/LRU */ "../node_modules/_zrender@4.1.1@zrender/lib/core/LRU.js");
+var LRU = __webpack_require__(/*! ../core/LRU */ "../node_modules/_zrender@4.1.2@zrender/lib/core/LRU.js");
 
 var kCSSColorTable = {
   'transparent': [0, 0, 0, 0],
@@ -116848,44 +117264,44 @@ exports.stringify = stringify;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/tool/parseSVG.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/tool/parseSVG.js":
 /*!*******************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/tool/parseSVG.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/tool/parseSVG.js ***!
   \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Group = __webpack_require__(/*! ../container/Group */ "../node_modules/_zrender@4.1.1@zrender/lib/container/Group.js");
+var Group = __webpack_require__(/*! ../container/Group */ "../node_modules/_zrender@4.1.2@zrender/lib/container/Group.js");
 
-var ZImage = __webpack_require__(/*! ../graphic/Image */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Image.js");
+var ZImage = __webpack_require__(/*! ../graphic/Image */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Image.js");
 
-var Text = __webpack_require__(/*! ../graphic/Text */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Text.js");
+var Text = __webpack_require__(/*! ../graphic/Text */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Text.js");
 
-var Circle = __webpack_require__(/*! ../graphic/shape/Circle */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Circle.js");
+var Circle = __webpack_require__(/*! ../graphic/shape/Circle */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Circle.js");
 
-var Rect = __webpack_require__(/*! ../graphic/shape/Rect */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Rect.js");
+var Rect = __webpack_require__(/*! ../graphic/shape/Rect */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Rect.js");
 
-var Ellipse = __webpack_require__(/*! ../graphic/shape/Ellipse */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Ellipse.js");
+var Ellipse = __webpack_require__(/*! ../graphic/shape/Ellipse */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Ellipse.js");
 
-var Line = __webpack_require__(/*! ../graphic/shape/Line */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Line.js");
+var Line = __webpack_require__(/*! ../graphic/shape/Line */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Line.js");
 
-var Path = __webpack_require__(/*! ../graphic/Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../graphic/Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
-var Polygon = __webpack_require__(/*! ../graphic/shape/Polygon */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Polygon.js");
+var Polygon = __webpack_require__(/*! ../graphic/shape/Polygon */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Polygon.js");
 
-var Polyline = __webpack_require__(/*! ../graphic/shape/Polyline */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/shape/Polyline.js");
+var Polyline = __webpack_require__(/*! ../graphic/shape/Polyline */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/shape/Polyline.js");
 
-var LinearGradient = __webpack_require__(/*! ../graphic/LinearGradient */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/LinearGradient.js");
+var LinearGradient = __webpack_require__(/*! ../graphic/LinearGradient */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/LinearGradient.js");
 
-var Style = __webpack_require__(/*! ../graphic/Style */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Style.js");
+var Style = __webpack_require__(/*! ../graphic/Style */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Style.js");
 
-var matrix = __webpack_require__(/*! ../core/matrix */ "../node_modules/_zrender@4.1.1@zrender/lib/core/matrix.js");
+var matrix = __webpack_require__(/*! ../core/matrix */ "../node_modules/_zrender@4.1.2@zrender/lib/core/matrix.js");
 
-var _path = __webpack_require__(/*! ./path */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/path.js");
+var _path = __webpack_require__(/*! ./path */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/path.js");
 
 var createFromString = _path.createFromString;
 
-var _util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var isString = _util.isString;
 var extend = _util.extend;
@@ -117550,18 +117966,18 @@ exports.parseSVG = parseSVG;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/tool/path.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/tool/path.js":
 /*!***************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/tool/path.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/tool/path.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Path = __webpack_require__(/*! ../graphic/Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../graphic/Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
-var PathProxy = __webpack_require__(/*! ../core/PathProxy */ "../node_modules/_zrender@4.1.1@zrender/lib/core/PathProxy.js");
+var PathProxy = __webpack_require__(/*! ../core/PathProxy */ "../node_modules/_zrender@4.1.2@zrender/lib/core/PathProxy.js");
 
-var transformPath = __webpack_require__(/*! ./transformPath */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/transformPath.js");
+var transformPath = __webpack_require__(/*! ./transformPath */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/transformPath.js");
 
 // command chars
 // var cc = [
@@ -118000,16 +118416,16 @@ exports.mergePath = mergePath;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/tool/transformPath.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/tool/transformPath.js":
 /*!************************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/tool/transformPath.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/tool/transformPath.js ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var PathProxy = __webpack_require__(/*! ../core/PathProxy */ "../node_modules/_zrender@4.1.1@zrender/lib/core/PathProxy.js");
+var PathProxy = __webpack_require__(/*! ../core/PathProxy */ "../node_modules/_zrender@4.1.2@zrender/lib/core/PathProxy.js");
 
-var _vector = __webpack_require__(/*! ../core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var _vector = __webpack_require__(/*! ../core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
 var v2ApplyTransform = _vector.applyTransform;
 var CMD = PathProxy.CMD;
@@ -118110,18 +118526,18 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/vml/Painter.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/vml/Painter.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/vml/Painter.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/vml/Painter.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var logError = __webpack_require__(/*! ../core/log */ "../node_modules/_zrender@4.1.1@zrender/lib/core/log.js");
+var logError = __webpack_require__(/*! ../core/log */ "../node_modules/_zrender@4.1.2@zrender/lib/core/log.js");
 
-var vmlCore = __webpack_require__(/*! ./core */ "../node_modules/_zrender@4.1.1@zrender/lib/vml/core.js");
+var vmlCore = __webpack_require__(/*! ./core */ "../node_modules/_zrender@4.1.2@zrender/lib/vml/core.js");
 
-var _util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var _util = __webpack_require__(/*! ../core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
 var each = _util.each;
 
@@ -118295,14 +118711,14 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/vml/core.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/vml/core.js":
 /*!**************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/vml/core.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/vml/core.js ***!
   \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var env = __webpack_require__(/*! ../core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! ../core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
 var urn = 'urn:schemas-microsoft-com:vml';
 var win = typeof window === 'undefined' ? null : window;
@@ -118353,42 +118769,42 @@ exports.initVML = initVML;
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/vml/graphic.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/vml/graphic.js":
 /*!*****************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/vml/graphic.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/vml/graphic.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var env = __webpack_require__(/*! ../core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! ../core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
-var _vector = __webpack_require__(/*! ../core/vector */ "../node_modules/_zrender@4.1.1@zrender/lib/core/vector.js");
+var _vector = __webpack_require__(/*! ../core/vector */ "../node_modules/_zrender@4.1.2@zrender/lib/core/vector.js");
 
 var applyTransform = _vector.applyTransform;
 
-var BoundingRect = __webpack_require__(/*! ../core/BoundingRect */ "../node_modules/_zrender@4.1.1@zrender/lib/core/BoundingRect.js");
+var BoundingRect = __webpack_require__(/*! ../core/BoundingRect */ "../node_modules/_zrender@4.1.2@zrender/lib/core/BoundingRect.js");
 
-var colorTool = __webpack_require__(/*! ../tool/color */ "../node_modules/_zrender@4.1.1@zrender/lib/tool/color.js");
+var colorTool = __webpack_require__(/*! ../tool/color */ "../node_modules/_zrender@4.1.2@zrender/lib/tool/color.js");
 
-var textContain = __webpack_require__(/*! ../contain/text */ "../node_modules/_zrender@4.1.1@zrender/lib/contain/text.js");
+var textContain = __webpack_require__(/*! ../contain/text */ "../node_modules/_zrender@4.1.2@zrender/lib/contain/text.js");
 
-var textHelper = __webpack_require__(/*! ../graphic/helper/text */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/helper/text.js");
+var textHelper = __webpack_require__(/*! ../graphic/helper/text */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/helper/text.js");
 
-var RectText = __webpack_require__(/*! ../graphic/mixin/RectText */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/mixin/RectText.js");
+var RectText = __webpack_require__(/*! ../graphic/mixin/RectText */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/mixin/RectText.js");
 
-var Displayable = __webpack_require__(/*! ../graphic/Displayable */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Displayable.js");
+var Displayable = __webpack_require__(/*! ../graphic/Displayable */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Displayable.js");
 
-var ZImage = __webpack_require__(/*! ../graphic/Image */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Image.js");
+var ZImage = __webpack_require__(/*! ../graphic/Image */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Image.js");
 
-var Text = __webpack_require__(/*! ../graphic/Text */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Text.js");
+var Text = __webpack_require__(/*! ../graphic/Text */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Text.js");
 
-var Path = __webpack_require__(/*! ../graphic/Path */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Path.js");
+var Path = __webpack_require__(/*! ../graphic/Path */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Path.js");
 
-var PathProxy = __webpack_require__(/*! ../core/PathProxy */ "../node_modules/_zrender@4.1.1@zrender/lib/core/PathProxy.js");
+var PathProxy = __webpack_require__(/*! ../core/PathProxy */ "../node_modules/_zrender@4.1.2@zrender/lib/core/PathProxy.js");
 
-var Gradient = __webpack_require__(/*! ../graphic/Gradient */ "../node_modules/_zrender@4.1.1@zrender/lib/graphic/Gradient.js");
+var Gradient = __webpack_require__(/*! ../graphic/Gradient */ "../node_modules/_zrender@4.1.2@zrender/lib/graphic/Gradient.js");
 
-var vmlCore = __webpack_require__(/*! ./core */ "../node_modules/_zrender@4.1.1@zrender/lib/vml/core.js");
+var vmlCore = __webpack_require__(/*! ./core */ "../node_modules/_zrender@4.1.2@zrender/lib/vml/core.js");
 
 // http://www.w3.org/TR/NOTE-VML
 // TODO Use proxy like svg instead of overwrite brush methods
@@ -118439,21 +118855,10 @@ if (!env.canvasSupported) {
     return (parseFloat(zlevel) || 0) * ZLEVEL_BASE + (parseFloat(z) || 0) * Z_BASE + z2;
   };
 
-  var parsePercent = function (value, maxValue) {
-    if (typeof value === 'string') {
-      if (value.lastIndexOf('%') >= 0) {
-        return parseFloat(value) / 100 * maxValue;
-      }
-
-      return parseFloat(value);
-    }
-
-    return value;
-  };
+  var parsePercent = textHelper.parsePercent;
   /***************************************************
    * PATH
    **************************************************/
-
 
   var setColorAndOpacity = function (el, color, opacity) {
     var colorArr = colorTool.parse(color);
@@ -119377,47 +119782,47 @@ if (!env.canvasSupported) {
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/vml/vml.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/vml/vml.js":
 /*!*************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/vml/vml.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/vml/vml.js ***!
   \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./graphic */ "../node_modules/_zrender@4.1.1@zrender/lib/vml/graphic.js");
+__webpack_require__(/*! ./graphic */ "../node_modules/_zrender@4.1.2@zrender/lib/vml/graphic.js");
 
-var _zrender = __webpack_require__(/*! ../zrender */ "../node_modules/_zrender@4.1.1@zrender/lib/zrender.js");
+var _zrender = __webpack_require__(/*! ../zrender */ "../node_modules/_zrender@4.1.2@zrender/lib/zrender.js");
 
 var registerPainter = _zrender.registerPainter;
 
-var Painter = __webpack_require__(/*! ./Painter */ "../node_modules/_zrender@4.1.1@zrender/lib/vml/Painter.js");
+var Painter = __webpack_require__(/*! ./Painter */ "../node_modules/_zrender@4.1.2@zrender/lib/vml/Painter.js");
 
 registerPainter('vml', Painter);
 
 /***/ }),
 
-/***/ "../node_modules/_zrender@4.1.1@zrender/lib/zrender.js":
+/***/ "../node_modules/_zrender@4.1.2@zrender/lib/zrender.js":
 /*!*************************************************************!*\
-  !*** ../node_modules/_zrender@4.1.1@zrender/lib/zrender.js ***!
+  !*** ../node_modules/_zrender@4.1.2@zrender/lib/zrender.js ***!
   \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var guid = __webpack_require__(/*! ./core/guid */ "../node_modules/_zrender@4.1.1@zrender/lib/core/guid.js");
+var guid = __webpack_require__(/*! ./core/guid */ "../node_modules/_zrender@4.1.2@zrender/lib/core/guid.js");
 
-var env = __webpack_require__(/*! ./core/env */ "../node_modules/_zrender@4.1.1@zrender/lib/core/env.js");
+var env = __webpack_require__(/*! ./core/env */ "../node_modules/_zrender@4.1.2@zrender/lib/core/env.js");
 
-var zrUtil = __webpack_require__(/*! ./core/util */ "../node_modules/_zrender@4.1.1@zrender/lib/core/util.js");
+var zrUtil = __webpack_require__(/*! ./core/util */ "../node_modules/_zrender@4.1.2@zrender/lib/core/util.js");
 
-var Handler = __webpack_require__(/*! ./Handler */ "../node_modules/_zrender@4.1.1@zrender/lib/Handler.js");
+var Handler = __webpack_require__(/*! ./Handler */ "../node_modules/_zrender@4.1.2@zrender/lib/Handler.js");
 
-var Storage = __webpack_require__(/*! ./Storage */ "../node_modules/_zrender@4.1.1@zrender/lib/Storage.js");
+var Storage = __webpack_require__(/*! ./Storage */ "../node_modules/_zrender@4.1.2@zrender/lib/Storage.js");
 
-var Painter = __webpack_require__(/*! ./Painter */ "../node_modules/_zrender@4.1.1@zrender/lib/Painter.js");
+var Painter = __webpack_require__(/*! ./Painter */ "../node_modules/_zrender@4.1.2@zrender/lib/Painter.js");
 
-var Animation = __webpack_require__(/*! ./animation/Animation */ "../node_modules/_zrender@4.1.1@zrender/lib/animation/Animation.js");
+var Animation = __webpack_require__(/*! ./animation/Animation */ "../node_modules/_zrender@4.1.2@zrender/lib/animation/Animation.js");
 
-var HandlerProxy = __webpack_require__(/*! ./dom/HandlerProxy */ "../node_modules/_zrender@4.1.1@zrender/lib/dom/HandlerProxy.js");
+var HandlerProxy = __webpack_require__(/*! ./dom/HandlerProxy */ "../node_modules/_zrender@4.1.2@zrender/lib/dom/HandlerProxy.js");
 
 /*!
 * ZRender, a high performance 2d drawing library.
@@ -119438,7 +119843,7 @@ var instances = {}; // ZRender实例map索引
  * @type {string}
  */
 
-var version = '4.1.1';
+var version = '4.1.2';
 /**
  * Initializing a zrender instance
  * @param {HTMLElement} dom
@@ -119967,7 +120372,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ "lodash");
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var echarts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! echarts */ "../node_modules/_echarts@4.4.0@echarts/index.js");
+/* harmony import */ var echarts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! echarts */ "../node_modules/_echarts@4.5.0@echarts/index.js");
 /* harmony import */ var echarts__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(echarts__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var echarts_wordcloud__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! echarts-wordcloud */ "../node_modules/_echarts-wordcloud@1.1.3@echarts-wordcloud/index.js");
 /* harmony import */ var echarts_wordcloud__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(echarts_wordcloud__WEBPACK_IMPORTED_MODULE_4__);

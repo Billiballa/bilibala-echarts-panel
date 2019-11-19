@@ -20,7 +20,6 @@ export class SimpleEditor extends PureComponent<PanelEditorProps<SimpleOptions>>
   }
 
   componentDidMount() {
-    console.log(this);
     this.cm = CodeMirror.fromTextArea(this.editorRef.current, {
       theme: 'darcula',
       mode: 'javascript',

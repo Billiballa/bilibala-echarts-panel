@@ -1,9 +1,7 @@
-import { PanelData } from '@grafana/ui';
-
-export function getOption(data: PanelData): echarts.EChartOption {
-  const series = data.series.map((s: any) => {
-    const sData = s.fields.find((f: any) => f.type === 'number').values.buffer;
-    const sTime = s.fields.find((f: any) => f.type === 'time').values.buffer;
+const getOption = `function (data) {
+  const series = data.series.map((s) => {
+    const sData = s.fields.find((f) => f.type === 'number').values.buffer;
+    const sTime = s.fields.find((f) => f.type === 'time').values.buffer;
 
     return {
       name: s.name,
@@ -15,7 +13,7 @@ export function getOption(data: PanelData): echarts.EChartOption {
       lineStyle: {
         width: 1,
       },
-      data: sData.map((d: any, i: number) => [sTime[i], d.toFixed(2)]),
+      data: sData.map((d, i) => [sTime[i], d.toFixed(2)]),
     };
   });
 
@@ -43,7 +41,7 @@ export function getOption(data: PanelData): echarts.EChartOption {
     legend: {
       left: '0',
       bottom: '0',
-      data: data.series.map((s: any) => s.name),
+      data: data.series.map((s) => s.name),
       textStyle: {
         color: 'rgba(128, 128, 128, .9)',
       },
@@ -70,14 +68,14 @@ export function getOption(data: PanelData): echarts.EChartOption {
     },
     series,
   };
-}
+}`;
 
 export interface SimpleOptions {
   getOption: string;
 }
 
 const funcBodyReg = /{\n([\S\s]*)\n}/;
-const matchResult = String(getOption).match(funcBodyReg);
+const matchResult = getOption.match(funcBodyReg);
 const funcBody = matchResult ? matchResult[1] : '';
 
 export const defaults: SimpleOptions = {

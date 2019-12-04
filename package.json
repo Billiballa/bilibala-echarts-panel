@@ -11,9 +11,9 @@
   "author": "Bilibala",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@grafana/data": "latest",
-    "@grafana/toolkit": "latest",
-    "@grafana/ui": "latest",
+    "@grafana/data": "next",
+    "@grafana/toolkit": "next",
+    "@grafana/ui": "next",
     "@types/codemirror": "^0.0.79",
     "@types/echarts": "^4.4.1",
     "@types/lodash": "^4.14.144"

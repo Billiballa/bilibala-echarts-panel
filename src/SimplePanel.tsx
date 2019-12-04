@@ -1,10 +1,11 @@
 import React, { PureComponent, RefObject } from 'react';
+import { PanelProps } from '@grafana/data';
+import { SimpleOptions } from 'types';
+
 import { debounce } from 'lodash';
 import echarts from 'echarts';
 import 'echarts-wordcloud';
 import 'echarts-liquidfill';
-import { PanelProps } from '@grafana/ui';
-import { SimpleOptions } from 'types';
 
 interface Props extends PanelProps<SimpleOptions> {}
 

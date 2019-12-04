@@ -1,5 +1,6 @@
 import React, { PureComponent, RefObject } from 'react';
-import { PanelEditorProps, PanelOptionsGroup } from '@grafana/ui';
+import { PanelOptionsGroup } from '@grafana/ui';
+import { PanelEditorProps } from '@grafana/data';
 import CodeMirror from 'codemirror';
 import 'codemirror/mode/javascript/javascript';
 import 'codemirror/lib/codemirror.css';

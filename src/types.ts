@@ -1,4 +1,4 @@
-const getOption = `function (data) {
+const getOption = `function (data, theme, echartsInstance) {
   const series = data.series.map((s) => {
     const sData = s.fields.find((f) => f.type === 'number').values.buffer;
     const sTime = s.fields.find((f) => f.type === 'time').values.buffer;
@@ -35,6 +35,7 @@ const getOption = `function (data) {
   };
 
   return {
+    backgroundColor: 'transparent',
     tooltip: {
       trigger: 'axis',
     },

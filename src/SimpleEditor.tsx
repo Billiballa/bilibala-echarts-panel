@@ -42,11 +42,11 @@ export class SimpleEditor extends PureComponent<PanelEditorProps<SimpleOptions>>
   }
 
   render() {
-    const funcStart = 'function (data) {';
+    const funcStart = 'function (data, theme, echartsInstance) {';
     const funcEnd = '}';
     return (
       <PanelOptionsGroup title="Echarts Option">
-        <p style={{ opacity: '0.5' }}>// This function should return the options called by echarts.setOption</p>
+        <p style={{ opacity: '0.75' }}>// return options called by echarts or just use echartsInstance.setOption(...)</p>
         <h5>{funcStart}</h5>
         <textarea ref={this.editorRef} value={this.props.options.getOption} />
         <h5>{funcEnd}</h5>

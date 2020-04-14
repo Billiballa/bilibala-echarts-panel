@@ -1,13 +1,15 @@
 {
   "name": "grafana-echarts",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Echarts panel for grafana",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
     "dev": "grafana-toolkit plugin:dev",
-    "watch": "grafana-toolkit plugin:dev --watch"
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "docker": "docker run -d -p 3000:3000 -v \"$(pwd)\":/var/lib/grafana/plugins/grafana-echarts --name=grafana grafana/grafana"
   },
+  "repository": "github:Billiballa/grafana-echarts",
   "author": "Bilibala",
   "license": "Apache-2.0",
   "devDependencies": {
@@ -21,8 +23,15 @@
   "dependencies": {
     "codemirror": "^5.49.2",
     "echarts": "^4.4.0",
+    "echarts-gl": "^1.1.1",
     "echarts-liquidfill": "^2.0.5",
     "echarts-wordcloud": "^1.1.3",
     "lodash": "^4.17.15"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.9.0"
+  },
+  "engines": {
+    "node": ">=12 <13"
   }
 }

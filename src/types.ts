@@ -70,15 +70,16 @@ const getOption = `function (data, theme, echartsInstance) {
     series,
   };
 }`;
-
-export interface SimpleOptions {
-  getOption: string;
-}
-
 const funcBodyReg = /{\n([\S\s]*)\n}/;
 const matchResult = getOption.match(funcBodyReg);
 const funcBody = matchResult ? matchResult[1] : '';
 
+export interface SimpleOptions {
+  followTheme: boolean,
+  getOption: string;
+}
+
 export const defaults: SimpleOptions = {
+  followTheme: false,
   getOption: funcBody,
 };

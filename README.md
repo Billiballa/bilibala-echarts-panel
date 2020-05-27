@@ -1,6 +1,6 @@
 # Grafana Echarts Panel
 
-Echarts panel for grafana 6+, coding with react.
+Echarts panel for grafana 6+ & 7+, coding with react.
 
 Code editor is attached in the edit panel to configure the option of echarts.
 
@@ -17,20 +17,25 @@ Support [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud), [echar
 
 This plugin build with [@grafana/toolkit](https://www.npmjs.com/package/@grafana/toolkit).
 
-To work with this plugin run:
+1. Install dependencies
+```BASH
+yarn install
 ```
+2. Build plugin in development mode or run in watch mode
+```BASH
 yarn dev
 ```
-
 or
-```
+```BASH
 yarn watch
 ```
-
-This will run linting tools and apply prettier fix.
-
-
-To build the plugin run:
-```
+3. Build plugin in production mode
+```BASH
 yarn build
 ```
+
+## Learn more
+- [Build a panel plugin tutorial](https://grafana.com/tutorials/build-a-panel-plugin)
+- [Grafana documentation](https://grafana.com/docs/)
+- [Grafana Tutorials](https://grafana.com/tutorials/) - Grafana Tutorials are step-by-step guides that help you make the most of Grafana
+- [Grafana UI Library](https://developers.grafana.com/ui) - UI components to help you build interfaces using Grafana Design System

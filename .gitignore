@@ -27,3 +27,6 @@ artifacts/
 work/
 ci/
 e2e-results/
+
+# Editors
+.idea

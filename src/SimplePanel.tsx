@@ -1,10 +1,10 @@
-import React, { PureComponent, RefObject } from 'react';
-import { PanelProps, GrafanaTheme } from '@grafana/data';
-import { SimpleOptions } from 'types';
-import { withTheme } from '@grafana/ui';
-
+import React, { useRef, useState, useEffect } from 'react';
+import { PanelProps } from '@grafana/data';
+import { stylesFactory, useTheme } from '@grafana/ui';
 import { debounce } from 'lodash';
 import echarts from 'echarts';
+import { css, cx } from 'emotion';
+import { SimpleOptions } from 'types';
 
 // just comment it if don't need it
 import 'echarts-wordcloud';
@@ -18,37 +18,33 @@ maps.keys().map((m: string) => {
   if (matched) {
     echarts.registerMap(matched[1], maps(m));
   } else {
-    console.error("Can't register map: JSON file Should be named according to the following rules: /([0-9a-zA-Z_]*).json/.");
+    console.warn("Can't register map: JSON file Should be named according to the following rules: /([0-9a-zA-Z_]*).json/.");
   }
 });
 
-interface Props extends PanelProps<SimpleOptions> {
-  theme: GrafanaTheme;
-}
+const getStyles = stylesFactory(() => ({
+  wrapper: css`
+    position: relative;
+  `,
+}));
 
-export interface PartialSimplePanel {
-  echartRef: RefObject<HTMLElement> | any;
-  chart: echarts.ECharts;
-  getOption: Function;
-}
+interface Props extends PanelProps<SimpleOptions> { }
 
-export class PartialSimplePanel extends PureComponent<Props> {
-  constructor(props: any) {
-    super(props);
-    this.echartRef = React.createRef();
-  }
+export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) => {
+  const theme = useTheme();
+  const styles = getStyles();
+  const echartRef = useRef<HTMLDivElement>(null);
+  const [chart, setChart] = useState<echarts.ECharts>();
 
-  resetOption = debounce(
-    async isGenGetOption => {
+  const resetOption = debounce(
+    () => {
+      if (!chart) { return; }
       try {
-        if (isGenGetOption) {
-          this.getOption = new Function('data, theme, echartsInstance', this.props.options.getOption);
-        }
-        this.chart.clear();
-        const options = this.getOption(this.props.data, this.props.theme, this.chart);
-        options && this.chart.setOption(options);
+        chart.clear();
+        let getOption = new Function('data, theme, echartsInstance', options.getOption);
+        chart.setOption(getOption(data, theme, chart));
       } catch (err) {
-        console.log('Editor content error!');
+        console.error('Editor content error!');
         throw err;
       }
     },
@@ -56,25 +52,37 @@ export class PartialSimplePanel extends PureComponent<Props> {
     { leading: true }
   );
 
-  componentDidMount() {
-    this.chart = echarts.init(this.echartRef.current, this.props.theme.type);
-    this.resetOption(true);
-  }
+  useEffect(() => {
+    if (echartRef.current) {
+      chart?.clear();
+      chart?.dispose();
+      setChart(echarts.init(echartRef.current, options.followTheme ? theme.type : undefined));
+    }
 
-  componentDidUpdate(preProps: any) {
-    this.chart.resize();
-    const isGenGetOption = preProps.options.getOption !== this.props.options.getOption;
-    this.resetOption(isGenGetOption);
-  }
+    return () => {
+      chart?.clear();
+      chart?.dispose();
+    };
+  }, [echartRef.current, options.followTheme]);
 
-  componentWillUnmount() {
-    this.chart.dispose();
-  }
+  useEffect(() => {
+    chart?.resize();
+  }, [width, height]);
 
-  render() {
-    const { width, height } = this.props;
-    return <div ref={this.echartRef} style={{ position: 'relative', width, height }}></div>;
-  }
+  useEffect(() => {
+    chart && resetOption();
+  }, [chart, options.getOption, data]);
+
+  return (
+    <div
+      ref={echartRef}
+      className={cx(
+        styles.wrapper,
+        css`
+        width: ${width}px;
+        height: ${height}px;
+      `
+      )}
+    />
+  );
 }
-
-export const SimplePanel = withTheme(PartialSimplePanel);

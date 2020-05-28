@@ -42,7 +42,8 @@ export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) =
       try {
         chart.clear();
         let getOption = new Function('data, theme, echartsInstance', options.getOption);
-        chart.setOption(getOption(data, theme, chart));
+        const o = getOption(data, theme, chart)
+        o && chart.setOption(o);
       } catch (err) {
         console.error('Editor content error!');
         throw err;

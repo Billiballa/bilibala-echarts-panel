@@ -4,7 +4,7 @@ import { stylesFactory, useTheme } from '@grafana/ui';
 import { debounce } from 'lodash';
 import echarts from 'echarts';
 import { css, cx } from 'emotion';
-import { SimpleOptions } from 'types';
+import { SimpleOptions, funcParams } from 'types';
 
 // just comment it if don't need it
 import 'echarts-wordcloud';
@@ -41,12 +41,11 @@ export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) =
       if (!chart) { return; }
       try {
         chart.clear();
-        let getOption = new Function('data, theme, echartsInstance', options.getOption);
-        const o = getOption(data, theme, chart)
+        let getOption = new Function(funcParams, options.getOption);
+        const o = getOption(data, theme, chart, echarts);
         o && chart.setOption(o);
       } catch (err) {
-        console.error('Editor content error!');
-        throw err;
+        console.error('Editor content error!', err);
       }
     },
     150,

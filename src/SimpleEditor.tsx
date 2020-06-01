@@ -6,7 +6,7 @@ import CodeMirror from 'codemirror';
 import 'codemirror/mode/javascript/javascript';
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/darcula.css';
-import { SimpleOptions } from './types';
+import { SimpleOptions, funcParams } from './types';
 import MyField from './components/MyField';
 import './style.css';
 
@@ -58,8 +58,6 @@ export class SimpleEditor extends PureComponent<PanelEditorProps<SimpleOptions>>
   };
 
   render() {
-    const funcStart = 'function (data, theme, echartsInstance) {';
-    const funcEnd = '}';
     const FieldEl = Field || MyField;
     return (
       <>
@@ -68,9 +66,9 @@ export class SimpleEditor extends PureComponent<PanelEditorProps<SimpleOptions>>
         </FieldEl>
         <FieldEl label="Echarts Option" description="Return options called by echarts or just use echartsInstance.setOption(...).">
           <>
-            <span className={this.styles.span}>{funcStart}</span>
+            <span className={this.styles.span}>{`function (${funcParams}) {`}</span>
             <textarea ref={this.editorRef} value={this.props.options.getOption} />
-            <span className={this.styles.span}>{funcEnd}</span>
+            <span className={this.styles.span}>{`}`}</span>
           </>
         </FieldEl>
       </>

@@ -1,6 +1,6 @@
 {
   "name": "bilibala-grafana-echarts",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Echarts panel for grafana",
   "scripts": {
     "build": "grafana-toolkit plugin:build",

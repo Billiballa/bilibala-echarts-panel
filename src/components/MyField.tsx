@@ -1,8 +1,7 @@
 import React from 'react';
-import { stylesFactory } from '@grafana/ui';
 import { css } from 'emotion';
 
-const getStyles = stylesFactory(() => ({
+const getStyles = () => ({
   wrapper: css`
     display: flex;
     flex-direction: column;
@@ -28,7 +27,7 @@ const getStyles = stylesFactory(() => ({
     font-weight: 400;
     color: rgb(123, 128, 135);
   `,
-}));
+});
 
 interface PropsType {
   label?: React.ReactNode;

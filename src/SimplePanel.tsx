@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { PanelProps } from '@grafana/data';
-import { stylesFactory, useTheme } from '@grafana/ui';
+import { PanelProps, GrafanaTheme } from '@grafana/data';
+import { withTheme } from '@grafana/ui';
 import { debounce } from 'lodash';
 import echarts from 'echarts';
 import { css, cx } from 'emotion';
@@ -22,16 +22,17 @@ maps.keys().map((m: string) => {
   }
 });
 
-const getStyles = stylesFactory(() => ({
+const getStyles = () => ({
   wrapper: css`
     position: relative;
   `,
-}));
+});
 
-interface Props extends PanelProps<SimpleOptions> { }
+interface Props extends PanelProps<SimpleOptions> {
+  theme: GrafanaTheme;
+}
 
-export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) => {
-  const theme = useTheme();
+const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, theme }) => {
   const styles = getStyles();
   const echartRef = useRef<HTMLDivElement>(null);
   const [chart, setChart] = useState<echarts.ECharts>();
@@ -86,3 +87,5 @@ export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) =
     />
   );
 }
+
+export const SimplePanel = withTheme(PartialSimplePanel);

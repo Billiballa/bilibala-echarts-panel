@@ -1,5 +1,5 @@
 import React, { PureComponent, RefObject } from 'react';
-import { stylesFactory, Field, Switch } from '@grafana/ui';
+import { Field, Switch } from '@grafana/ui';
 import { PanelEditorProps } from '@grafana/data';
 import { css } from 'emotion';
 import CodeMirror from 'codemirror';
@@ -10,13 +10,13 @@ import { SimpleOptions, funcParams } from './types';
 import MyField from './components/MyField';
 import './style.css';
 
-const getStyles = stylesFactory(() => ({
+const getStyles = () => ({
   span: css`
     padding: 2px;
     opacity: .6;
     font-size: 12px;
   `,
-}));
+});
 
 export interface SimpleEditor {
   editorRef: RefObject<HTMLElement> | any;

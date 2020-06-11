@@ -40,6 +40,7 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
   const resetOption = debounce(
     () => {
       if (!chart) { return; }
+      if (data.state && data.state !== "Done") { return; }
       try {
         chart.clear();
         let getOption = new Function(funcParams, options.getOption);

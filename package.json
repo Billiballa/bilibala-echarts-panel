@@ -7,8 +7,10 @@
     "test": "grafana-toolkit plugin:test",
     "dev": "grafana-toolkit plugin:dev",
     "watch": "grafana-toolkit plugin:dev --watch",
-    "docker": "docker run -d --rm -p 3000:3000 -v %cd%:/var/lib/grafana/plugins/grafana-echarts --name=grafana grafana/grafana",
-    "docker:6": "docker run -d --rm -p 3001:3000 -v %cd%:/var/lib/grafana/plugins/grafana-echarts --name=grafana6 grafana/grafana:6.3.0"
+    "win:docker": "docker run -d --rm -p 3000:3000 -v %cd%:/var/lib/grafana/plugins/grafana-echarts --name=grafana grafana/grafana",
+    "win:docker:6": "docker run -d --rm -p 3001:3000 -v %cd%:/var/lib/grafana/plugins/grafana-echarts --name=grafana6 grafana/grafana:6.3.0",
+    "linux:docker": "docker run -d --rm -p 3000:3000 -v $(cd $(dirname $0);pwd):/var/lib/grafana/plugins/grafana-echarts --name=grafana grafana/grafana",
+    "linux:docker:6": "docker run -d --rm -p 3001:3000 -v $(cd $(dirname $0);pwd):/var/lib/grafana/plugins/grafana-echarts --name=grafana6 grafana/grafana:6.3.0"
   },
   "repository": "github:Billiballa/grafana-echarts",
   "author": "Bilibala",

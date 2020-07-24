@@ -5,6 +5,7 @@ import { debounce } from 'lodash';
 import echarts from 'echarts';
 import { css, cx } from 'emotion';
 import { SimpleOptions, funcParams } from 'types';
+import * as R from 'ramda';
 
 // just comment it if don't need it
 import 'echarts-wordcloud';
@@ -44,7 +45,7 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
       try {
         chart.clear();
         let getOption = new Function(funcParams, options.getOption);
-        const o = getOption(data, theme, chart, echarts);
+        const o = getOption(data, theme, chart, echarts, R);
         o && chart.setOption(o);
       } catch (err) {
         console.error('Editor content error!', err);

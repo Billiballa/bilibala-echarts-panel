@@ -21,10 +21,11 @@
     "@grafana/data": "7.0.0",
     "@grafana/toolkit": "7.0.0",
     "@grafana/ui": "7.0.0",
-    "emotion": "10.0.27",
     "@types/codemirror": "^0.0.95",
     "@types/echarts": "^4.6.0",
-    "@types/lodash": "^4.14.152"
+    "@types/lodash": "^4.14.152",
+    "@types/ramda": "^0.27.11",
+    "emotion": "10.0.27"
   },
   "dependencies": {
     "codemirror": "^5.54.0",
@@ -32,7 +33,8 @@
     "echarts-gl": "^1.1.1",
     "echarts-liquidfill": "^2.0.5",
     "echarts-wordcloud": "^1.1.3",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "ramda": "^0.27.0"
   },
   "resolutions": {
     "@babel/preset-env": "7.9.0"

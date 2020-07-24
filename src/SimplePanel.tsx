@@ -19,7 +19,9 @@ maps.keys().map((m: string) => {
   if (matched) {
     echarts.registerMap(matched[1], maps(m));
   } else {
-    console.warn("Can't register map: JSON file Should be named according to the following rules: /([0-9a-zA-Z_]*).json/.");
+    console.warn(
+      "Can't register map: JSON file Should be named according to the following rules: /([0-9a-zA-Z_]*).json/."
+    );
   }
 });
 
@@ -40,8 +42,12 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
 
   const resetOption = debounce(
     () => {
-      if (!chart) { return; }
-      if (data.state && data.state !== "Done") { return; }
+      if (!chart) {
+        return;
+      }
+      if (data.state && data.state !== 'Done') {
+        return;
+      }
       try {
         chart.clear();
         let getOption = new Function(funcParams, options.getOption);
@@ -82,12 +88,12 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
       className={cx(
         styles.wrapper,
         css`
-        width: ${width}px;
-        height: ${height}px;
-      `
+          width: ${width}px;
+          height: ${height}px;
+        `
       )}
     />
   );
-}
+};
 
 export const SimplePanel = withTheme(PartialSimplePanel);

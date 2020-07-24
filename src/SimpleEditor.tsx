@@ -35,7 +35,7 @@ import './style.css';
 const getStyles = () => ({
   span: css`
     padding: 2px;
-    opacity: .6;
+    opacity: 0.6;
     font-size: 12px;
   `,
 });
@@ -60,7 +60,7 @@ export class SimpleEditor extends PureComponent<PanelEditorProps<SimpleOptions>>
 
       theme: 'seti',
       mode: 'javascript',
-      keyMap: "sublime",
+      keyMap: 'sublime',
 
       tabSize: 2,
       smartIndent: true,
@@ -97,16 +97,26 @@ export class SimpleEditor extends PureComponent<PanelEditorProps<SimpleOptions>>
 
   onChange(e: React.FormEvent<HTMLInputElement>) {
     this.props.onOptionsChange({ ...this.props.options, followTheme: (e.target as HTMLInputElement).checked });
-  };
+  }
 
   render() {
     const FieldEl = Field || MyField;
     return (
       <>
-        <FieldEl label="Follow Grafana Theme" description="Use default theme or follow theme of grafana (light or dark).">
-          <Switch checked={this.props.options.followTheme} value={this.props.options.followTheme} onChange={(e) => this.onChange(e)} />
+        <FieldEl
+          label="Follow Grafana Theme"
+          description="Use default theme or follow theme of grafana (light or dark)."
+        >
+          <Switch
+            checked={this.props.options.followTheme}
+            value={this.props.options.followTheme}
+            onChange={e => this.onChange(e)}
+          />
         </FieldEl>
-        <FieldEl label="Echarts Option" description="Return options called by echarts or just use echartsInstance.setOption(...).">
+        <FieldEl
+          label="Echarts Option"
+          description="Return options called by echarts or just use echartsInstance.setOption(...)."
+        >
           <>
             <span className={this.styles.span}>{`function (${funcParams}) {`}</span>
             <textarea ref={this.editorRef} value={this.props.options.getOption} />

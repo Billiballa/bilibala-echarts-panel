@@ -1,4 +1,4 @@
-export const funcParams = 'data, theme, echartsInstance, echarts';
+export const funcParams = 'data, theme, echartsInstance, echarts, R';
 
 const funcBody = `const series = data.series.map((s) => {
   const sData = s.fields.find((f) => f.type === 'number').values.buffer;
@@ -79,7 +79,7 @@ return {
 // const funcBody = matchResult ? matchResult[1] : '';
 
 export interface SimpleOptions {
-  followTheme: boolean,
+  followTheme: boolean;
   getOption: string;
 }
 

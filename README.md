@@ -2,7 +2,7 @@
 
 Echarts panel for grafana 6+ & 7+, coding with react.
 
-Code editor is attached in the edit panel to configure the option of echarts.
+Code editor is attached in the edit panel to configure the option of [Apache ECharts (incubating)](https://github.com/apache/incubator-echarts).
 
 Support [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud), [echarts-liquidfill](https://github.com/ecomfe/echarts-liquidfill) and [echarts-gl](https://github.com/ecomfe/echarts-gl).
 

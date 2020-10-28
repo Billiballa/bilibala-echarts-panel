@@ -2,7 +2,7 @@
 
 Echarts panel for grafana 6+ & 7+, coding with react.
 
-Code editor is attached in the edit panel to configure the option of echarts.
+Code editor is attached in the edit panel to configure the option of [Apache ECharts (incubating)](https://github.com/apache/incubator-echarts).
 
 Support [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud), [echarts-liquidfill](https://github.com/ecomfe/echarts-liquidfill) and [echarts-gl](https://github.com/ecomfe/echarts-gl).
 
@@ -14,6 +14,19 @@ Support [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud), [echar
 2. Restart grafana.
 
 (Map support: Add YourMap.json to **src/map** and run ``yarn build``, panel will auto register it(``echarts.registerMap('YourMap', {...}))``).
+
+## Tips
+
+1. Echarts option in the edit panel will execute when the data from grafana is refreshed, so you should avoid side effects or ensure that the side effects of the last execution can be cleared.
+```
+function (data, theme, echartsInstance, echarts) {
+  echartsInstance.off('click') // clear side effects
+  echartsInstance.on('click', () => {
+    console.log('Click!');
+  })
+  return {...}
+}
+```
 
 ## Custom
 

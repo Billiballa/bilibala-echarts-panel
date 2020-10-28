@@ -18,11 +18,23 @@ maps.keys().map((m: string) => {
   if (matched) {
     echarts.registerMap(matched[1], maps(m));
   } else {
-    console.warn("Can't register map: JSON file Should be named according to the following rules: /([0-9a-zA-Z_]*).json/.");
+    console.warn(
+      "Can't register map: JSON file Should be named according to the following rules: /([0-9a-zA-Z_]*).json/."
+    );
   }
 });
 
 const getStyles = () => ({
+  tips: css`
+    padding: 0 10%;
+    height: 100%;
+    background: rgba(128, 128, 128, 0.1);
+    overflow: auto;
+  `,
+  tipsTitle: css`
+    margin: 48px 0 32px;
+    text-align: center;
+  `,
   wrapper: css`
     position: relative;
   `,
@@ -36,18 +48,25 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
   const styles = getStyles();
   const echartRef = useRef<HTMLDivElement>(null);
   const [chart, setChart] = useState<echarts.ECharts>();
+  const [tips, setTips] = useState<Error | undefined>();
 
   const resetOption = debounce(
     () => {
-      if (!chart) { return; }
-      if (data.state && data.state !== "Done") { return; }
+      if (!chart) {
+        return;
+      }
+      if (data.state && data.state !== 'Done') {
+        return;
+      }
       try {
+        setTips(undefined);
         chart.clear();
         let getOption = new Function(funcParams, options.getOption);
         const o = getOption(data, theme, chart, echarts);
         o && chart.setOption(o);
       } catch (err) {
         console.error('Editor content error!', err);
+        setTips(err);
       }
     },
     150,
@@ -65,28 +84,41 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
       chart?.clear();
       chart?.dispose();
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [echartRef.current, options.followTheme]);
 
   useEffect(() => {
     chart?.resize();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [width, height]);
 
   useEffect(() => {
     chart && resetOption();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chart, options.getOption, data]);
 
   return (
-    <div
-      ref={echartRef}
-      className={cx(
-        styles.wrapper,
-        css`
-        width: ${width}px;
-        height: ${height}px;
-      `
+    <>
+      {tips && (
+        <div className={styles.tips}>
+          <h5 className={styles.tipsTitle}>Editor content error!</h5>
+          {(tips.stack || tips.message).split('\n').map(s => (
+            <p>{s}</p>
+          ))}
+        </div>
       )}
-    />
+      <div
+        ref={echartRef}
+        className={cx(
+          styles.wrapper,
+          css`
+            width: ${width}px;
+            height: ${height}px;
+          `
+        )}
+      />
+    </>
   );
-}
+};
 
 export const SimplePanel = withTheme(PartialSimplePanel);

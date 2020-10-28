@@ -79,7 +79,7 @@ return {
 // const funcBody = matchResult ? matchResult[1] : '';
 
 export interface SimpleOptions {
-  followTheme: boolean,
+  followTheme: boolean;
   getOption: string;
 }
 

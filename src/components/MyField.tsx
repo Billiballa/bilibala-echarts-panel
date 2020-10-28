@@ -48,6 +48,6 @@ const MyField: React.FC<PropsType> = ({ label, description, children }) => {
       <div>{children}</div>
     </div>
   );
-}
+};
 
 export default MyField;

@@ -8,7 +8,8 @@
     "dev": "grafana-toolkit plugin:dev",
     "watch": "grafana-toolkit plugin:dev --watch",
     "docker": "docker run -d --rm -p 3000:3000 -v \"$(pwd)\":/var/lib/grafana/plugins/grafana-echarts --name=grafana grafana/grafana",
-    "docker:6": "docker run -d --rm -p 3001:3000 -v \"$(pwd)\":/var/lib/grafana/plugins/grafana-echarts --name=grafana6 grafana/grafana:6.3.0"
+    "docker:6": "docker run -d --rm -p 3001:3000 -v \"$(pwd)\":/var/lib/grafana/plugins/grafana-echarts --name=grafana6 grafana/grafana:6.3.0",
+    "zip": "zip grafana-echarts.src.zip . -r -x \"node_modules/*\" -x \".git/*\""
   },
   "repository": "github:Billiballa/grafana-echarts",
   "author": "Bilibala",

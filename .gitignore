@@ -30,3 +30,5 @@ e2e-results/
 
 # Editors
 .idea
+
+*.zip

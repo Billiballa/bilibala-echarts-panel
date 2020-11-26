@@ -5,7 +5,7 @@
   "info": {
     "description": "Echarts panel for grafana",
     "author": {
-      "name": "Bilibala",
+      "name": "bilibala",
       "url": "https://github.com/Billiballa"
     },
     "keywords": [
@@ -18,18 +18,24 @@
     "links": [
       {
         "name": "Website",
-        "url": "https://github.com/Billiballa/grafana-echarts"
+        "url": "https://github.com/Billiballa/bilibala-echarts-panel"
       },
       {
         "name": "License",
-        "url": "https://github.com/Billiballa/grafana-echarts/blob/master/LICENSE"
+        "url": "https://github.com/Billiballa/bilibala-echarts-panel/blob/master/LICENSE"
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      {
+        "name": "screenshot",
+        "path": "https://github.com/Billiballa/bilibala-echarts-panel/blob/master/doc/screenshot.png"
+      }
+    ],
     "version": "%VERSION%",
     "updated": "%TODAY%"
   },
   "dependencies": {
+    "grafanaDependency": ">=6.3.0",
     "grafanaVersion": "6.3.x",
     "plugins": []
   }

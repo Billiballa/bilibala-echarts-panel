@@ -1,19 +1,23 @@
 # Grafana Echarts Panel
 
-Echarts panel for grafana 6+ & 7+, coding with react.
+![release](https://img.shields.io/github/v/release/Billiballa/bilibala-echarts-panel)
+![issues](https://img.shields.io/github/issues-closed/Billiballa/bilibala-echarts-panel)
+![stars](https://img.shields.io/github/stars/Billiballa/bilibala-echarts-panel?style=social)
+
+Echarts panel for grafana 6.3+ & 7.0+, coding with react.
 
 Code editor is attached in the edit panel to configure the option of [Apache ECharts (incubating)](https://github.com/apache/incubator-echarts).
 
 Support [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud), [echarts-liquidfill](https://github.com/ecomfe/echarts-liquidfill) and [echarts-gl](https://github.com/ecomfe/echarts-gl).
 
-![image](https://github.com/Billiballa/grafana-echarts/blob/master/doc/screenshot.png)
+![screenshot](https://github.com/Billiballa/bilibala-echarts-panel/raw/master/doc/screenshot.png)
 
 ## How Use
 
-1. Clone this repo to "/grafana_path/data/plugins".
-2. Restart grafana.
-
-(Map support: Add YourMap.json to **src/map** and run ``yarn build``, panel will auto register it(``echarts.registerMap('YourMap', {...}))``).
+1. Download the packaged [plugin](https://github.com/Billiballa/bilibala-echarts-panel/releases).
+2. Or clone this repo and run ``yarn build``.
+3. Move folder to "/grafana_path/data/plugins".
+3. Restart grafana.
 
 ## Tips
 
@@ -27,10 +31,12 @@ function (data, theme, echartsInstance, echarts) {
   return {...}
 }
 ```
+2. Add Map: clone repo, add YourMap.json to **src/map** and run ``yarn build``, panel will auto register it(``echarts.registerMap('YourMap', {...}))``.
 
 ## Custom
 
 This plugin build with [@grafana/toolkit](https://www.npmjs.com/package/@grafana/toolkit).
+For more information about panels, refer to the documentation on [Panels](https://grafana.com/docs/grafana/latest/features/panels/panels/)
 
 1. Install dependencies
 ```BASH

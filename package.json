@@ -1,6 +1,6 @@
 {
-  "name": "bilibala-grafana-echarts",
-  "version": "2.2.3",
+  "name": "bilibala-echarts-panel",
+  "version": "2.2.4",
   "description": "Echarts panel for grafana",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
@@ -9,26 +9,28 @@
     "watch": "grafana-toolkit plugin:dev --watch",
     "docker": "docker run -d --rm -p 3000:3000 -v \"$(pwd)\":/var/lib/grafana/plugins/grafana-echarts --name=grafana grafana/grafana",
     "docker:6": "docker run -d --rm -p 3001:3000 -v \"$(pwd)\":/var/lib/grafana/plugins/grafana-echarts --name=grafana6 grafana/grafana:6.3.0",
-    "zip": "zip grafana-echarts.src.zip . -r -x \"node_modules/*\" -x \".git/*\""
+    "zip": "cp -R dist/ \"$npm_package_name\" && zip \"$npm_package_name\"-\"$npm_package_version\".zip \"$npm_package_name\" -r -m -x \"node_modules/*\" -x \".git/*\"",
+    "md5": "md5 -r \"$npm_package_name\"-\"$npm_package_version\".zip>\"$npm_package_name\"-\"$npm_package_version\".zip.md5",
+    "compress": "rm \"$npm_package_name\"* || true && npm run zip && npm run md5"
   },
-  "repository": "github:Billiballa/grafana-echarts",
-  "author": "Bilibala",
+  "repository": "github:Billiballa/bilibala-echarts-panel",
+  "author": "bilibala",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Billiballa/grafana-echarts/issues",
+    "url": "https://github.com/Billiballa/bilibala-echarts-panel/issues",
     "email": "wangqianxiang@outlook.com"
   },
   "devDependencies": {
-    "@grafana/data": "^7.0.0",
-    "@grafana/toolkit": "^7.0.0",
-    "@grafana/ui": "^7.0.0",
-    "emotion": "10.0.27",
-    "@types/codemirror": "^0.0.98",
-    "@types/echarts": "^4.9.0",
-    "@types/lodash": "^4.14.162"
+    "@grafana/data": "^7.3.0",
+    "@grafana/toolkit": "^7.3.0",
+    "@grafana/ui": "^7.3.0",
+    "@types/codemirror": "^0.0.100",
+    "@types/echarts": "^4.9.2",
+    "@types/lodash": "^4.14.165",
+    "emotion": "10.0.27"
   },
   "dependencies": {
-    "codemirror": "^5.58.2",
+    "codemirror": "^5.58.3",
     "echarts": "^4.9.0",
     "echarts-gl": "^1.1.1",
     "echarts-liquidfill": "^2.0.6",

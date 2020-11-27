@@ -10,7 +10,7 @@ Code editor is attached in the edit panel to configure the option of [Apache ECh
 
 Support [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud), [echarts-liquidfill](https://github.com/ecomfe/echarts-liquidfill) and [echarts-gl](https://github.com/ecomfe/echarts-gl).
 
-![screenshot](https://github.com/Billiballa/bilibala-echarts-panel/raw/master/doc/screenshot.png)
+![screenshot](https://github.com/Billiballa/bilibala-echarts-panel/raw/master/src/img/screenshot.png)
 
 ## How Use
 

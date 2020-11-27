@@ -28,7 +28,7 @@
     "screenshots": [
       {
         "name": "screenshot",
-        "path": "https://github.com/Billiballa/bilibala-echarts-panel/blob/master/doc/screenshot.png"
+        "path": "img/screenshot.png"
       }
     ],
     "version": "%VERSION%",

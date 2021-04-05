@@ -80,10 +80,12 @@ return {
 
 export interface SimpleOptions {
   followTheme: boolean;
+  resetChart: boolean;
   getOption: string;
 }
 
 export const defaults: SimpleOptions = {
   followTheme: false,
+  resetChart: false,
   getOption: funcBody,
 };

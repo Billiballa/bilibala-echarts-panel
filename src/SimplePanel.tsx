@@ -60,7 +60,9 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
       }
       try {
         setTips(undefined);
-        chart.clear();
+        if (options.resetChart) {
+          chart.clear();
+        }
         let getOption = new Function(funcParams, options.getOption);
         const o = getOption(data, theme, chart, echarts);
         o && chart.setOption(o);

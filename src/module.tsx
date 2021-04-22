@@ -22,6 +22,12 @@ if (!PanelPlugin) {
         description: 'Use default theme or follow theme of grafana (light or dark).',
         defaultValue: defaults.followTheme,
       })
+      .addBooleanSwitch({
+        path: 'resetChart',
+        name: 'Reset Chart',
+        description: 'If enabled, resets the chart on panel refresh.',
+        defaultValue: defaults.resetChart,
+      })
       .addCustomEditor({
         id: 'getOption',
         path: 'getOption',

@@ -1,4 +1,4 @@
-export const funcParams = 'data, theme, echartsInstance, echarts';
+export const funcParams = 'data, theme, echartsInstance, echarts, ecStat';
 
 const funcBody = `const series = data.series.map((s) => {
   const sData = s.fields.find((f) => f.type === 'number').values.buffer;
@@ -80,10 +80,12 @@ return {
 
 export interface SimpleOptions {
   followTheme: boolean;
+  resetChart: boolean;
   getOption: string;
 }
 
 export const defaults: SimpleOptions = {
   followTheme: false,
+  resetChart: false,
   getOption: funcBody,
 };

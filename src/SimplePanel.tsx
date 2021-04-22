@@ -3,6 +3,7 @@ import { PanelProps, GrafanaTheme } from '@grafana/data';
 import { withTheme } from '@grafana/ui';
 import { debounce } from 'lodash';
 import echarts from 'echarts';
+import ecStat from 'echarts-stat';
 import { css, cx } from 'emotion';
 import { SimpleOptions, funcParams } from 'types';
 
@@ -60,9 +61,11 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
       }
       try {
         setTips(undefined);
-        chart.clear();
+        if (options.resetChart) {
+          chart.clear();
+        }
         let getOption = new Function(funcParams, options.getOption);
-        const o = getOption(data, theme, chart, echarts);
+        const o = getOption(data, theme, chart, echarts, ecStat);
         o && chart.setOption(o);
       } catch (err) {
         console.error('Editor content error!', err);

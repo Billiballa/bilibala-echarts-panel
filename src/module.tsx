@@ -14,7 +14,7 @@ if (!PanelPlugin) {
   plugin = new OldPanelPlugin<SimpleOptions>(SimplePanel).setDefaults(defaults).setEditor(SimpleEditor);
 } else {
   // Grafana V7
-  plugin = new PanelPlugin<SimpleOptions>(SimplePanel).setPanelOptions(builder => {
+  plugin = new PanelPlugin<SimpleOptions>(SimplePanel).setPanelOptions((builder) => {
     return builder
       .addBooleanSwitch({
         path: 'followTheme',

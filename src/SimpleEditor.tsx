@@ -22,14 +22,14 @@ export class SimpleEditor extends PureComponent<PanelEditorProps<SimpleOptions>>
             css=""
             checked={this.props.options.followTheme}
             value={this.props.options.followTheme}
-            onChange={e => this.onChange('followTheme', (e.target as HTMLInputElement).checked)}
+            onChange={(e) => this.onChange('followTheme', (e.target as HTMLInputElement).checked)}
           />
         </FieldEl>
         <FieldEl
           label="Echarts Option"
           description="Return options called by echarts or just use echartsInstance.setOption(...)."
         >
-          <FieldCMEditor value={this.props.options.getOption} onChange={v => this.onChange('getOption', v)} />
+          <FieldCMEditor value={this.props.options.getOption} onChange={(v) => this.onChange('getOption', v)} />
         </FieldEl>
       </>
     );

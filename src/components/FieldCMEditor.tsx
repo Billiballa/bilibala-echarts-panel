@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 // import { StandardEditorProps } from '@grafana/data';
-import { css } from 'emotion';
+import { css } from '@emotion/css';
 import { funcParams } from '../types';
 import CodeMirror from 'codemirror';
 

@@ -1,10 +1,12 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { PanelProps, GrafanaTheme } from '@grafana/data';
+import { PanelProps, GrafanaTheme} from '@grafana/data';
 import { withTheme } from '@grafana/ui';
 import { debounce } from 'lodash';
 import echarts from 'echarts';
 import { css, cx } from 'emotion';
 import { SimpleOptions, funcParams } from 'types';
+import {getLocationSrv} from "@grafana/runtime";
+import { UrlQueryMap as _ } from "@grafana/data";
 
 // just comment it if don't need it
 import 'echarts-wordcloud';
@@ -62,7 +64,7 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
         setTips(undefined);
         chart.clear();
         let getOption = new Function(funcParams, options.getOption);
-        const o = getOption(data, theme, chart, echarts);
+        const o = getOption(data, theme, chart, echarts, getLocationSrv);
         o && chart.setOption(o);
       } catch (err) {
         console.error('Editor content error!', err);

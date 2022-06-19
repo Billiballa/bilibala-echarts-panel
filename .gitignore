@@ -7,8 +7,6 @@ yarn-error.log*
 
 node_modules/
 
-.DS_Store
-
 # Runtime data
 pids
 *.pid
@@ -28,8 +26,6 @@ work/
 ci/
 e2e-results/
 
-# Editors
+# Editor
 .idea
-
-*.zip
-*.md5
+.DS_Store

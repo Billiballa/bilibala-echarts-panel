@@ -1,43 +1,40 @@
 {
-  "name": "bilibala-echarts-panel",
-  "version": "2.2.4",
-  "description": "Echarts panel for grafana",
-  "scripts": {
-    "build": "grafana-toolkit plugin:build",
-    "test": "grafana-toolkit plugin:test",
-    "dev": "grafana-toolkit plugin:dev",
-    "watch": "grafana-toolkit plugin:dev --watch",
-    "docker": "docker run -d --rm -p 3000:3000 -v \"$(pwd)\":/var/lib/grafana/plugins/grafana-echarts --name=grafana grafana/grafana",
-    "docker:6": "docker run -d --rm -p 3001:3000 -v \"$(pwd)\":/var/lib/grafana/plugins/grafana-echarts --name=grafana6 grafana/grafana:6.3.0",
-    "zip": "cp -R dist/ \"$npm_package_name\" && zip \"$npm_package_name\"-\"$npm_package_version\".zip \"$npm_package_name\" -r -m -x \"node_modules/*\" -x \".git/*\"",
-    "md5": "md5 -r \"$npm_package_name\"-\"$npm_package_version\".zip>\"$npm_package_name\"-\"$npm_package_version\".zip.md5",
-    "compress": "rm \"$npm_package_name\"* || true && npm run zip && npm run md5"
-  },
-  "repository": "github:Billiballa/bilibala-echarts-panel",
-  "author": "bilibala",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/Billiballa/bilibala-echarts-panel/issues",
-    "email": "wangqianxiang@outlook.com"
-  },
+  "author": "Volkov Labs",
+  "description": "Echarts panel for Grafana",
   "devDependencies": {
-    "@grafana/data": "^7.3.0",
-    "@grafana/toolkit": "^7.3.0",
-    "@grafana/ui": "^7.3.0",
-    "@types/codemirror": "^0.0.100",
+    "@grafana/data": "^9.0.0",
+    "@grafana/toolkit": "^9.0.0",
+    "@grafana/ui": "^9.0.0",
+    "@types/codemirror": "^5.60.5",
     "@types/echarts": "^4.9.2",
+    "@types/enzyme": "^3.10.12",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/lodash": "^4.14.165",
-    "emotion": "10.0.27"
-  },
-  "dependencies": {
-    "codemirror": "^5.58.3",
-    "echarts": "^4.9.0",
-    "echarts-gl": "^1.1.1",
-    "echarts-liquidfill": "^2.0.6",
-    "echarts-wordcloud": "^1.1.3",
+    "codemirror": "^6.0.0",
+    "echarts": "^5.3.3",
+    "echarts-gl": "^2.0.9",
+    "echarts-liquidfill": "^3.1.0",
+    "echarts-wordcloud": "^2.0.0",
+    "emotion": "11.0.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
     "lodash": "^4.17.20"
   },
   "engines": {
-    "node": ">=12 <13"
-  }
+    "node": ">=16"
+  },
+  "license": "Apache-2.0",
+  "name": "volkovlabs-echarts-panel",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build --coverage",
+    "dev": "grafana-toolkit plugin:dev",
+    "format": "prettier --write \"**\"",
+    "sign": "grafana-toolkit plugin:sign --rootUrls http://localhost:3000/",
+    "start": "docker-compose pull && docker-compose up",
+    "stop": "docker-compose down",
+    "test": "grafana-toolkit plugin:test",
+    "upgrade": "yarn upgrade --latest",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "version": "1.0.0"
 }

@@ -1,8 +1,13 @@
 # Grafana Echarts Panel
 
-![release](https://img.shields.io/github/v/release/Billiballa/bilibala-echarts-panel)
-![issues](https://img.shields.io/github/issues-closed/Billiballa/bilibala-echarts-panel)
-![stars](https://img.shields.io/github/stars/Billiballa/bilibala-echarts-panel?style=social)
+[![Grafana 9](https://img.shields.io/badge/Grafana-9-orange)](https://www.grafana.com)
+![CI](https://github.com/volkovlabs/volkovlabs-echarts-panel/workflows/CI/badge.svg)
+[![codecov](https://codecov.io/gh/VolkovLabs/volkovlabs-echarts-panel/branch/main/graph/badge.svg?token=0m6f0ktUar)](https://codecov.io/gh/VolkovLabs/volkovlabs-echarts-panel)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/VolkovLabs/volkovlabs-echarts-panel.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/VolkovLabs/volkovlabs-echarts-panel/context:javascript)
+
+## Introduction
+
+The ABC Panel is a template to create a new panel plugin for Grafana.
 
 Echarts panel for grafana 6.3+ & 7.0+, coding with react.
 
@@ -12,14 +17,11 @@ Support [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud), [echar
 
 ![screenshot](https://github.com/Billiballa/bilibala-echarts-panel/raw/master/src/img/screenshot.png)
 
-## How Use
+### Requirements
 
-1. Download the packaged [plugin](https://github.com/Billiballa/bilibala-echarts-panel/releases).
-2. Or clone this repo and run ``yarn build``.
-3. Move folder to "/grafana_path/data/plugins".
-3. Restart grafana.
+- Grafana 8.5+, Grafana 9.0+ is required.
 
-## Tips
+## Getting Started
 
 1. Echarts option in the edit panel will execute when the data from grafana is refreshed, so you should avoid side effects or ensure that the side effects of the last execution can be cleared.
 ```
@@ -33,30 +35,24 @@ function (data, theme, echartsInstance, echarts) {
 ```
 2. Add Map: clone repo, add YourMap.json to **src/map** and run ``yarn build``, panel will auto register it(``echarts.registerMap('YourMap', {...}))``.
 
-## Custom
 
-This plugin build with [@grafana/toolkit](https://www.npmjs.com/package/@grafana/toolkit).
-For more information about panels, refer to the documentation on [Panels](https://grafana.com/docs/grafana/latest/features/panels/panels/)
+## Features
 
-1. Install dependencies
-```BASH
-yarn install
-```
-2. Build plugin in development mode or run in watch mode
-```BASH
-yarn dev
-```
-or
-```BASH
-yarn watch
-```
-3. Build plugin in production mode
-```BASH
-yarn build
-```
+- Support Echarts
 
-## Learn more
-- [Build a panel plugin tutorial](https://grafana.com/tutorials/build-a-panel-plugin)
-- [Grafana documentation](https://grafana.com/docs/)
-- [Grafana Tutorials](https://grafana.com/tutorials/) - Grafana Tutorials are step-by-step guides that help you make the most of Grafana
-- [Grafana UI Library](https://developers.grafana.com/ui) - UI components to help you build interfaces using Grafana Design System
+## Feedback
+
+We love to hear from users, developers, and the whole community interested in this plugin. These are various ways to get in touch with us:
+
+- Ask a question, request a new feature, and file a bug with [GitHub issues](https://github.com/volkovlabs/volkovlabs-echarts-panel/issues/new/choose).
+- Star the repository to show your support.
+
+## Contributing
+
+- Fork the repository.
+- Find an issue to work on and submit a pull request.
+- Could not find an issue? Look for documentation, bugs, typos, and missing features.
+
+## License
+
+- Apache License Version 2.0, see [LICENSE](https://github.com/volkovlabs/volkovlabs-echarts-panel/blob/main/LICENSE).

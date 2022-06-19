@@ -1,29 +1,22 @@
-import React, { useEffect, useRef } from 'react';
-// import { StandardEditorProps } from '@grafana/data';
-import { css } from 'emotion';
-import { funcParams } from '../types';
-import CodeMirror from 'codemirror';
-
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/seti.css';
-
 import 'codemirror/mode/javascript/javascript';
-
 import 'codemirror/addon/display/autorefresh';
-
 import 'codemirror/addon/fold/foldgutter.css';
 import 'codemirror/addon/fold/foldcode.js';
 import 'codemirror/addon/fold/foldgutter.js';
 import 'codemirror/addon/fold/brace-fold.js';
 import 'codemirror/addon/fold/comment-fold.js';
-
 import 'codemirror/addon/edit/matchbrackets.js';
 import 'codemirror/addon/edit/closebrackets.js';
-
 import 'codemirror/addon/selection/active-line.js';
 import 'codemirror/keymap/sublime.js';
-
 import 'codemirror/addon/comment/comment.js';
+import CodeMirror from 'codemirror';
+import React, { useEffect, useRef } from 'react';
+// import { StandardEditorProps } from '@grafana/data';
+import { css } from '@emotion/css';
+import { funcParams } from '../types';
 
 // import 'codemirror/addon/hint/show-hint.css';
 // import 'codemirror/addon/hint/show-hint.js';

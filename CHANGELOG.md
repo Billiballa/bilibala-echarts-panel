@@ -1,7 +1,7 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
+## 1.0.0 (IN PROGRESS)
 
-## v1.0.0
+### Features / Enhancements
 
-Initial Release
+- Initial Release based on the bilibala-echarts-panel 2.2.4

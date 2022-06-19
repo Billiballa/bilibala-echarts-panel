@@ -1,11 +1,11 @@
+import './style.css';
+import { PanelPlugin } from '@grafana/data';
 // @ts-ignore
 import { PanelPlugin as OldPanelPlugin } from '@grafana/ui';
-import { PanelPlugin } from '@grafana/data';
-import { SimpleOptions, defaults } from './types';
-import { SimplePanel } from './SimplePanel';
-import { SimpleEditor } from './SimpleEditor';
 import { FieldCMEditor } from './components/FieldCMEditor';
-import './style.css';
+import { SimpleEditor } from './SimpleEditor';
+import { SimplePanel } from './SimplePanel';
+import { defaults, SimpleOptions } from './types';
 
 let plugin;
 
@@ -14,7 +14,7 @@ if (!PanelPlugin) {
   plugin = new OldPanelPlugin<SimpleOptions>(SimplePanel).setDefaults(defaults).setEditor(SimpleEditor);
 } else {
   // Grafana V7
-  plugin = new PanelPlugin<SimpleOptions>(SimplePanel).setPanelOptions(builder => {
+  plugin = new PanelPlugin<SimpleOptions>(SimplePanel).setPanelOptions((builder) => {
     return builder
       .addBooleanSwitch({
         path: 'followTheme',

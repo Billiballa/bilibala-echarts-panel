@@ -1,28 +1,13 @@
-import React, { useRef, useState, useEffect } from 'react';
-import { PanelProps, GrafanaTheme } from '@grafana/data';
-import { withTheme } from '@grafana/ui';
-import { debounce } from 'lodash';
-import echarts from 'echarts';
-import { css, cx } from 'emotion';
-import { SimpleOptions, funcParams } from 'types';
-
-// just comment it if don't need it
 import 'echarts-wordcloud';
 import 'echarts-liquidfill';
 import 'echarts-gl';
-
-// auto register map
-const maps = (require as any).context('./map', false, /\.json/);
-maps.keys().map((m: string) => {
-  const matched = m.match(/\.\/([0-9a-zA-Z_]*)\.json/);
-  if (matched) {
-    echarts.registerMap(matched[1], maps(m));
-  } else {
-    console.warn(
-      "Can't register map: JSON file Should be named according to the following rules: /([0-9a-zA-Z_]*).json/."
-    );
-  }
-});
+import * as echarts from 'echarts';
+import { debounce } from 'lodash';
+import React, { useEffect, useRef, useState } from 'react';
+import { funcParams, SimpleOptions } from 'types';
+import { css, cx } from '@emotion/css';
+import { GrafanaTheme, PanelProps } from '@grafana/data';
+import { withTheme } from '@grafana/ui';
 
 const getStyles = () => ({
   tips: css`
@@ -66,7 +51,7 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
         o && chart.setOption(o);
       } catch (err) {
         console.error('Editor content error!', err);
-        setTips(err);
+        setTips(err as any);
       }
     },
     150,
@@ -102,8 +87,8 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
       {tips && (
         <div className={styles.tips}>
           <h5 className={styles.tipsTitle}>Editor content error!</h5>
-          {(tips.stack || tips.message).split('\n').map(s => (
-            <p>{s}</p>
+          {(tips.stack || tips.message).split('\n').map((s) => (
+            <p key={s}>{s}</p>
           ))}
         </div>
       )}

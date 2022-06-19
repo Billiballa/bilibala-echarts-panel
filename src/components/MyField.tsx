@@ -1,5 +1,5 @@
 import React from 'react';
-import { css } from 'emotion';
+import { css } from '@emotion/css';
 
 const getStyles = () => ({
   wrapper: css`
@@ -32,6 +32,7 @@ const getStyles = () => ({
 interface PropsType {
   label?: React.ReactNode;
   description?: string;
+  children: any;
 }
 
 const MyField: React.FC<PropsType> = ({ label, description, children }) => {

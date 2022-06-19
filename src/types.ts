@@ -71,19 +71,26 @@ return {
   series,
 };`;
 
-// const getOption = `function (${funcParams}) {
-//   ${funcBody}
-// }`
-// const funcBodyReg = /{\n([\S\s]*)\n}/;
-// const matchResult = getOption.match(funcBodyReg);
-// const funcBody = matchResult ? matchResult[1] : '';
-
-export interface SimpleOptions {
+/**
+ * Options
+ */
+export interface PanelOptions {
+  /**
+   * Follow Theme
+   *
+   * @type {boolean}
+   */
   followTheme: boolean;
+
+  /**
+   * Options
+   *
+   * @type {string}
+   */
   getOption: string;
 }
 
-export const defaults: SimpleOptions = {
+export const defaults: PanelOptions = {
   followTheme: false,
   getOption: funcBody,
 };

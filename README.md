@@ -7,13 +7,7 @@
 
 ## Introduction
 
-The ABC Panel is a template to create a new panel plugin for Grafana.
-
-Echarts panel for grafana 6.3+ & 7.0+, coding with react.
-
-Code editor is attached in the edit panel to configure the option of [Apache ECharts (incubating)](https://github.com/apache/incubator-echarts).
-
-Support [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud), [echarts-liquidfill](https://github.com/ecomfe/echarts-liquidfill) and [echarts-gl](https://github.com/ecomfe/echarts-gl).
+The Echarts Panel is a plugin for Grafana that supports Apache ECharts, an Open Source JavaScript Visualization Library.
 
 ![screenshot](https://github.com/Billiballa/bilibala-echarts-panel/raw/master/src/img/screenshot.png)
 
@@ -24,6 +18,7 @@ Support [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud), [echar
 ## Getting Started
 
 1. Echarts option in the edit panel will execute when the data from grafana is refreshed, so you should avoid side effects or ensure that the side effects of the last execution can be cleared.
+
 ```
 function (data, theme, echartsInstance, echarts) {
   echartsInstance.off('click') // clear side effects
@@ -33,12 +28,13 @@ function (data, theme, echartsInstance, echarts) {
   return {...}
 }
 ```
-2. Add Map: clone repo, add YourMap.json to **src/map** and run ``yarn build``, panel will auto register it(``echarts.registerMap('YourMap', {...}))``.
 
+2. Add Map: clone repo, add YourMap.json to **src/map** and run `yarn build`, panel will auto register it(`echarts.registerMap('YourMap', {...}))`.
 
 ## Features
 
-- Support Echarts
+- Code editor is attached in the edit panel to configure the option of [Apache ECharts (incubating)](https://github.com/apache/incubator-echarts).
+- Supports [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud), [echarts-liquidfill](https://github.com/ecomfe/echarts-liquidfill) and [echarts-gl](https://github.com/ecomfe/echarts-gl).
 
 ## Feedback
 

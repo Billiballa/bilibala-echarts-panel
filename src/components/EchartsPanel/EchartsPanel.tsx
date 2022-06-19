@@ -1,10 +1,10 @@
-import 'echarts-wordcloud';
-import 'echarts-liquidfill';
-import 'echarts-gl';
+//import 'echarts-wordcloud';
+//import 'echarts-liquidfill';
+//import 'echarts-gl';
 import * as echarts from 'echarts';
 import { debounce } from 'lodash';
 import React, { useEffect, useRef, useState } from 'react';
-import { funcParams, SimpleOptions } from 'types';
+import { funcParams, PanelOptions } from 'types';
 import { css, cx } from '@emotion/css';
 import { GrafanaTheme, PanelProps } from '@grafana/data';
 import { withTheme } from '@grafana/ui';
@@ -25,7 +25,7 @@ const getStyles = () => ({
   `,
 });
 
-interface Props extends PanelProps<SimpleOptions> {
+interface Props extends PanelProps<PanelOptions> {
   theme: GrafanaTheme;
 }
 
@@ -106,4 +106,4 @@ const PartialSimplePanel: React.FC<Props> = ({ options, data, width, height, the
   );
 };
 
-export const SimplePanel = withTheme(PartialSimplePanel);
+export const EchartsPanel = withTheme(PartialSimplePanel);
